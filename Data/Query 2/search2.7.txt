@@ -1,0 +1,50 @@
+url | http://khanhxnguyen.com/deep-learning-2-thach-thuc/
+title | Deep learning (2): thách thức
+content | Hôm nay mình sẽ bàn một tí về những thách thức khi học deep learning, và cũng tản mạn luôn về cách học machine learning nói chung thông qua việc kể về kinh nghiệm bản thân. Sở dĩ mình cứ đi vòng vòng mãi mà vẫn chưa đi vào chuyên môn là vì không phải ai cũng có đủ điều kiện để làm về deep learning. Mình sẽ nói sơ lược về các điều kiện này để các bạn chuẩn bị trước nhé.
+
+1. Thay đổi nhận thức:
+
+Đến trước hè năm ngoái, mình chưa bao giờ thực sự động vào deep learning. Chủ yếu là tư tưởng hồi đó của mình còn khá cứng nhắc, biết cái gì là phải biết tường tận. Sau đó mình nhận ra rằng có thể “vừa làm deep learning, và vừa không làm deep learning”. Phần lớn mọi người đều sử dụng model deep learning, tuy nhiên không phải để nghiên cứu về chúng mà để phục vụ cho những nghiên cứu khác. Số người thật sự hiểu về deep learning chỉ là thiểu sổ so với những người train neural network hằng ngày. Mình cũng ngại học deep learning vì nó quá hot, nên mình sợ lúc ra trường rồi nó sẽ không còn hot nữa.
+
+Năm ngoái, mình có vinh hạnh được ngồi “tán gẫu” với ông Dan Jurasky trong vòng nửa tiếng. Ai làm NLP thì cũng đều biết vị giáo sư Stanford nổi tiếng này, và cuốn sách giáo khoa NLP của ông ấy (viết cùng với trùm Chris Manning). Những giáo sư nổi tiếng như ông này thì thường hay đi khắp các trường đại học để thuyết giảng và gặp gỡ các học sinh PhD. Cuối buổi nói chuyện, mình có hỏi với ông ấy là nên làm về đề tài gì. Ông ấy nói rất nhanh: “Deep learning! nếu em không nghiên cứu về deep learning thì chí ít nên viết một paper có sử dụng deep learning“. Mình hỏi tại sao thì ông ấy nói là “Deep learning là một trong những thành tựu trong thời đại này. Nếu em không biết về nó thì em sẽ cảm thấy mình chưa từng sống qua thời đại này vậy“.
+
+Nghe vậy, mình bắt tay vào học deep learning. Dù có vẻ là do dòng đời xô đẩy nhưng thực sự là do mình thấy deep learning chính là tương lai.
+
+2. Chuẩn bị:
+
+Muốn làm deep learning thật thụ thì  theo mình biết có 2 phương án: dùng GPU hoặc là dùng distributed system. GPU thì thích hợp với nghiên cứu cá nhân hoặc nhóm nỏ vì nó nhỏ gọn dễ setup, còn disitributed system thường được dùng trong các công ty lớn. Trong hệ thống disitributed system của Google, việc một lần gọi một lần cả trăm máy tính chạy cùng một lúc là chuyện bình thường. Ở các trường đại học nghiên cứu về deep learning thì đều có trang bị lab có sẵn GPU.
+
+Lúc ấy, lab mình chưa có GPU nên mình quyết định mua riêng một cái ở nhà xài luôn. Mình mất khoảng 1700 USD mua một dàn máy tính để bàn có GPU dạng xịn để đầu tư cho deep learning. Riêng con GPU GTX 1080 8GB thì đã tốn khoảng 700 USD (loại Titan X thì còn mắc hơn, khoảng 1000 USD). Mình xin lưu ý là mình không phải giàu có gì và thực sự đây là số tiền rất lớn, mình không khuyên các bạn làm theo (mình chẳng biết PhD nào tự mua GPU như mình cả). Mình chỉ muốn nói về giá của một bộ máy tính hoàn chỉnh dành cho deep learning để các bạn tham khảo.
+
+Deep learning còn cần bạn chuẩn bị yếu tố về tinh thần nữa. Huấn luyện các model deep learning mất rất nhiều thời gian nên bạn phải cực kì kiên nhẫn và làm việc khoa học. Mình nhớ là 2 năm trước thôi, huấn luyện một model deep learning để dịch thuật đã mất… 1 tuần lễ rồi. Mình vô cùng khâm phục những làm deep learning thời ấy. Mình nói nửa đùa nửa thật là PhD hơn nhau ở chỗ người ta nghĩ xem nên làm việc gì trong lúc đợi model huấn luyện xong.
+
+Qua đó ta rút ra được muốn làm deep learning cần 4 yếu tố: học tốt, chịu đầu tư, kiên nhẫn và có tổ chức. Học tốt để có thể xin được vào được một lab tốt, một công ty tốt có trang thiết bị đầy đủ. Hoặc là chịu đầu tư bỏ ra một số vốn để mua GPU. Nếu không có GPU, thì vẫn có thể làm deep learning trên CPU được nhưng phải rất rất kiên nhẫn. CPU có thể cầm cự được với mục đích học tập, nhưng về lâu về dài bạn phải tính đến GPU. Thậm chí khi có GPU rồi vẫn phải rất kiên nhẫn. Không phải các bạn cứ bấm nút là model sẽ chạy ra tốt ngay, phải lặp lại thí nghiệm để tinh chỉnh rất nhiều lần. Thế nên cần có tinh thần thép và biết làm nhiều việc cùng một lúc.
+
+Có một ý nhỏ (nhưng vô cùng quan trọng nên mình sẽ bôi đậm) nữa là các bạn nên tập dùng Ubuntu và học ngôn ngữ Python. Hãy rời bỏ Windows!
+
+3. Xác định mục tiêu:
+
+Để tiết kiệm thời gian học, bạn nên xác định trước mục đích sử dụng deep learning của mình. Ở đây, mình nói về 2 dạng mục đích sử dụng tiêu biểu.
+
+a. Ứng dụng: mục tiêu là sử dụng deep learning để mang lại kết quả cho một nghiên cứu hoặc sản phẩm khác. Các bạn chủ yếu làm việc với các thư viện, package, tool, xem chúng như những chiếc hộp đen (black-box) và lập trình thông qua API cho sẵn. Tuy nhiên, đừng xem chúng như là những chiếc hộp đen. Hãy nghĩ đến những thứ bạn có thể làm với những chiếc hộp này?
+
+Thứ nhất, các bạn có thể tinh chỉnh hyperparameter (learning rate, số lượng hidden layer, dropout, …) và xử lý trước dữ liệu vào (pre-process input). Đừng xem thường, những việc đơn giản này thật sự lại mang tính quyết định xem model có hoạt động tốt hay không. Vì thế, các bạn phải nắm vững lý thuyết để có thể điều chỉnh hyperparameter tùy theo hành vi của model. Ví dụ, biết được dạng model đang xài có dễ overfit, nó có thật sự overfit, nếu overfit thì phải làm sao?
+
+Thứ hai, các bạn có quyền lựa chọn giữa các model. Bắt buộc các bạn phải có kiến thức cơ bản về từng loại model để lựa chọn model phù hợp với dữ liệu và bài toán. Các bạn phải biết từng model này tốt vào việc gì, không tốt vào việc gì.
+
+Tóm lại, kiến thức của bạn sẽ được phục vụ vào việc hack hơn là build. Đối với trường hợp này, nên chắc lọc lấy những nguyên lý cơ bản có độ bao quát cao, tránh sa đà vào tiểu tiết toán học, đừng quá tin vào lý thuyết mà hãy đi sâu vào thực hành khám phá.
+
+b. Nghiên cứu: mục đích của các bạn thường là để cải tiến (improve) một loại model. Vì thế, tất nhiên là các bạn phải hiểu model đang làm gì, và phải hiểu rất kỹ, rất tường tận. Để làm được điều này, các bạn phải kết hợp song song giữa lý thuyết và thực hành. Mình nhấn mạnh chữ thực hành vì hầu như ai cũng tự nhận thức được việc đọc nhiều sách vở, paper, làu thông công thức model. Tuy nhiên, các bạn cũng phải làm việc với code sơ khai để hiểu được model một cách chính xác. Đọc paper rất hạn chế vì các bạn đang có được góc nhìn của người viết. Thí nghiệm trong paper cũng chỉ trên vài tập dữ liệu, và con số thì thường rất tích cực. Có khi tự thay chạy thử mới ngả ngửa ra rằng model này không tốt với bài toán của mình, hoặc là tốt nhưng chạy vô cùng lâu. Mình cũng khuyến khích là một lần trong đời các bạn nên tự code lấy các model deep learning để cảm nhận được nó. Mình học được rất nhiều qua việc tự code. Tuy nhiên, đó là khi các bạn có thời gian mà thôi chứ đừng dùng hết năm tháng chỉ để ngồi debug.
+
+Ta thấy là với hai mục tiêu thì mình đều đề cao vai trò của thực hành. Lý thuyết deep learning thật sự là không quá khó để nắm vững cơ bản, nhưng mà chuyện làm cho các model hoạt động theo ý muốn cần nhiều kinh nghiệm. Chỉ có thực hành nhiều mới cho bạn kinh nghiệm mà thôi.
+
+4. Cách đọc paper:
+
+Đọc paper hiệu quả là kỹ năng tối quan trọng, nhất là đối với những bạn muốn nghiên cứu. Mục đích tối thượng của mình khi viết mấy bài tutorials này không phải để dạy tất cả về machine learning, mà chủ yếu là để các bạn về lâu về dài đọc được paper mà thôi.
+
+Paper thường rất khó hiểu và mà lại có quá nhiều. Vậy làm sao để đọc được hiệu quả?
+
+Thực ra đọc paper cũng như là đọc sách, làm bài tập, luyện thi mà thôi. Bạn nào có kinh nghiệm đi thi quốc gia thì sẽ nhận thấy là tình cảnh của mình cũng vẫn như trước mà thôi. Hồi trước, có quá nhiều bài tập không biết nên làm bài nào, bỏ bài nào. Giờ cũng vậy. Mình từng có luận bài một lần về chuyện chọn bài tập để làm. Trong đó có một nguyên lý là “làm 1 bài mà như làm 10 bài” nói về chuyện tổng quát hóa kiến thức. Ở đây cũng thế, điều quan trọng nhất khi đọc được paper là hiểu được ý tưởng tổng quát. Ý tưởng là linh hồn của paper, là bài học mà các bạn có thể đem vào áp dụng cho bản thân. Paper nào mà ý tưởng càng tổng quát và dễ áp dụng thì giá trị càng cao. Cho nên khi đọc paper, bạn dò tìm ý tưởng và tránh xa vào tiểu tiết trừ khi cần thiết. Nếu đọc xong một paper mà tất cả những gì bạn nhớ chỉ là về công thức toán chi li mà không thấy được bức tranh lớn hơn thì bạn thất bại. Có bạn hỏi mình rằng anh ơi, đọc paper deep learning có cần đọc mấy phần tính đạo hàm hay để xem người ta tính có đúng hay không. Xin trả lời là không nên. Tác giả viết phần tính đạo hàm vào hoặc là để trang trí theo lệ hoặc là để minh họa giải thích cho hành vi nào đó của model. Nếu rơi vào trường hợp sau bạn nên đọc đoạn giải thích đó, rồi nhìn vào công thức toán để đối chiếu. Còn khi bạn code, với công cụ bây giờ thì đạo hàm được tính tự động hết rồi, công thức đạo hàm sai cũng không ảnh hưởng đến bạn. Khi chấm paper là người ta chấm ý tưởng, trình bày và kết quả, chứ không phải là chuyện sai một dấu trừ cộng là gạch bỏ.
+
+Ý tưởng chính của paper thường được trình bày ở phần “abstract” và “introduction”. Khi vào một paper, các bạn đọc ngay ở phần abstract xem paper này đang giải quyết bài toán gì, kết quả ra sao. Mình lấy ví dụ từ paper scheduled sampling (Bengio et al., 2015). 
+boolean | true 

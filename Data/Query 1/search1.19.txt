@@ -1,0 +1,134 @@
+url | http://www.fundstart.vn/du-an/rich-anchor-fd0c48d6-2ca5-4eff-91da-f90d26072d6f
+title | Rich Anchor
+content | 1. Rich Anchor – Phương thức tối ưu hóa cách thức tiếp cận khách hàng của bạn
+
+Dự án Rich Anchor xây dựng để phục vụ nhu cầu phân phối content (theo ngữ nghĩa) tới đúng đối tượng người dùng (gọi là Recommender System, hay Recommender). Dự án chúng tôi phục vụ chủ yếu nhu cầu của hai đối tượng khách hàng sau:
+
+a. Các website/app content miễn phí tạo doanh thu bằng quảng cáo chưa cá nhân hóa được content/quảng cáo tới từng user. Facebook đang làm việc này tốt hơn và mang lại giá trị cao hơn cho phía đặt quảng cáo, lấy đi khách hàng của các website đó.
+Rich Anchor cung cấp công nghệ cá nhân hóa nội dung và quảng cáo tới các user cho website, tăng time on site, nâng cao giá trị quảng cáo.
+
+b. Các website/app/publisher content trả phí chưa phân phối được content phù hợp của họ đến user đầu cuối. Hiện tại các hệ thống này chủ yếu quảng bá content của mình chủ yếu qua kênh facebook với chi phí cao.
+
+Rich Anchor cung cấp công nghệ phân phối content tới đúng đối tượng và user phù hợp, làm tăng độ kết dính của users với hệ thống và giảm chi phí quảng bá content trên các kênh như Facebook.
+
+2. Tại sao bạn nên sử dụng sản phẩm của chúng tôi?
+
+a. Sản phẩm của chúng tôi tạo thêm giá trị cho khách hàng.
+
+Recommender giúp website/app có khả năng remarketing, phân phối được content tới đúng user và đúng thời điểm, users ở lại website lâu hơn và mang lại giá trị nhiều hơn cho website/app.
+
+b. Sản phẩm của chúng tôi là kết quả của nghiên cứu chuyên sâu trong nhiều năm và tập trung vào định hướng nhỏ (hiện tại là content tiếng Việt), kì vọng tạo được giá trị cao hơn so với các hệ thống toàn cầu.
+
+c. Rich Anchor khảo sát và nhận thấy những khách hàng nhắm tới đang thật sự cần chúng tôi. 90% người sử dụng internet Việt Nam truy cập tới các website tin tức và ecommerce trong catalog chúng tôi có.
+
+100% website đều không có chức năng gợi ý theo lịch sử và sở thích của từng user. Chúng tôi khảo sát điều này với 100 website ngẫu nhiên.
+100% các website được hỏi muốn có chức năng gợi ý sản phẩm theo lịch sử hành vi người dùng. Chúng tôi thực hiện khảo sát này với 30 chủ website.
+
+
+Chức năng của Rich Anchor
+
+3. Các mốc gọi vốn đi kèm với các phần thưởng tương ứng:
+
+a. Chi tiết về các phần quà dành tặng người ủng hộ:
+
+Recommendation: lượt trả content cá nhân hóa cho user.
+Đối với “Kết quả phân lớp văn bản Anh/Việt cho bất cứ nội dung nào có độ dài tối đa 1000 từ”: Người góp vốn được chỉ định loại catalog từ 01 website có lớn hơn 1 triệu người dùng / tháng, theo số liệu trang: similarweb.com .
+Đối với “Kết quả của công nghệ tạo catalog tự động”: Người góp vốn được chỉ định loại catalog từ 01 website có lớn hơn 1 triệu người dùng / tháng, theo similarweb.com. Hoặc, Rich Anchor phân catalog theo lĩnh vực của nội dung đầu vào.
+Dữ liệu website ở các danh sách phần thưởng thống kê trên 10 triệu người dùng, năm 2015.
+b. Thời hạn trao quà tặng:
+
++ Đối với danh sách 30.000 website và dữ liệu mô tả website: chúng tôi sẽ gửi trong vòng 01 tháng sau khi chiến dịch gọi vốn kết thúc.
+
++ Đối với các quà tặng còn lại, chúng tôi sẽ bắt đầu chuyển tới trong vòng 03 tháng kể từ thời điểm chiến dịch được xác nhận thành công và thực hiện việc chuyển tiền góp vốn cho dự án.
+
+c. Quà tặng tương ứng với các mức vốn mục tiêu thành công:
+
+Cán mốc 75% số vốn mục tiêu: Đạt được mốc này trở lên, dù gọi vốn thành công hay thất bại, chúng tôi vẫn tặng quà tới những người góp vốn đã tin tưởng chúng tôi. Cụ thể:
+Đối với người góp vốn từ 200.000 VNĐ trở lên: Danh sách hơn 30.000 website về tin tức và ecommerce (đã phân loại), sắp xếp theo độ phổ biến, kèm số liệu đo cụ thể, dẫn nguồn về số đo.
+Đối với người góp vốn từ 500.000 VNĐ trở lên: Danh sách hơn 30.000 website về tin tức và ecommerce (đã phân loại), sắp xếp theo độ phổ biến, kèm số liệu đo cụ thể, dẫn nguồn về số đo; kèm với dữ liệu mô tả về từng website (dữ liệu content/keyword mô tả chức năng của website).
+Cán mốc 125% số vốn mục tiêu: Chúng tôi sẽ tặng cho tất cả người góp vốn Danh sách hơn 30.000 website về tin tức và ecommerce (đã phân loại), sắp xếp theo độ phổ biến, kèm số liệu đo cụ thể, dẫn nguồn về số đo.
+Cán mốc 150% số vốn mục tiêu: Chúng tôi sẽ tặng cho tất cả người góp vốn Danh sách hơn 30.000 website về tin tức và ecommerce (đã phân loại), sắp xếp theo độ phổ biến, kèm số liệu đo cụ thể, dẫn nguồn về số đo; kèm với dữ liệu mô tả về từng website (dữ liệu content/keyword mô tả chức năng của website).
+Ngoài ra, nếu vượt mốc 125% số vốn mục tiêu trở lên: Chúng tôi tặng thêm đối với:
+Người góp vốn 2.000.000 VNĐ (hai triệu đồng) trở lên: tặng thêm số lượt recommendation tương ứng với mức góp vốn này.
+Người góp vốn 3.000.000 VNĐ (ba triệu đồng) trở lên: tặng thêm 02 lần số lượt recommendation tương ứng với mức góp vốn này.
+Người góp vốn 4.000.000 VNĐ (bốn triệu đồng) trở lên: tặng thêm 03 lần số lượt recommendation tương ứng với mức góp vốn này.
+
+
+
+
+Kế hoạch triển khai dự án
+
+1. Các giai đoạn thực hiện:
+
+a. Tháng 6-8/2015: Thử nghiệm hệ thống miễn phí trên các website: chuyendohanquoc.vn, vbuzz.vn. Kênh truyền hình internet VP9. Hàng tuần: 300 users, 1.000 lượt trả recommendations.
+
+b. Tháng 9/2015: Gây được vốn hoạt động trong 18 tháng (xin được giữ bí mật về các chi tiết theo thỏa thuận đầu tư).
+
+c. Tháng 11/2015: Tích hợp Recommender cho báo/tạp chí điện tử của Alezaa, phiên bản mobile app. Hàng tuần: 3.000 users, 15.000 lượt trả recommendations.
+
+d. Tháng 2/2016: Tích hợp Recommender cho báo/tạp chí điện tử của Alezaa, phiên bản web. Hàng tuần: 15.000 users, 50.000 lượt trả recommendations.
+
+e. Tháng 2-4/2016: Tích hợp Recommender chéo cho ebook/emagazine từ hệ thống website EVA.VN sang hệ READ.ALEZAA.COM. Hàng tuần: 4.000 users, 15.000 lượt trả recommendations.
+
+f. Tháng 4/2016: Tiếp cận khách hàng là các startup có nhu cầu phân lớp dữ liệu: Vimp.co, Money Lover (mobile appp).
+
+2. Các kết quả đạt được.
+
+a. Đối với recommendation trên App Alezaa:
+
+13% tỉ lệ chọn ebook/emagazine trong recommendation
+20% user chọn đọc/sử dụng ebook/emagazine từ recommendation
+95% tổng lượng ebook/emagazine được phân phối tới users
+15% lượng ebook/emagazine user sử dụng đến từ recommendations
+b. Đối với widget quảng cáo sách/báo điện tử của Alezaa trên EVA.VN:
+
+CTR trung bình đạt 0.11%, quảng cáo thông thường đặt cùng vị trí 0.03% - 0.05% trên web.
+
+Đồ thị tăng trưởng theo users:
+
+
+
+Đồ thị tăng trưởng theo traffic recommendations:
+
+
+
+3. Các giai đoạn triển khai tiếp theo:
+
+Chúng tôi cần kêu gọi vốn hỗ trợ để xây dựng kênh bán hàng dịch vụ đám mây (cloud service) cung cấp các công nghệ chúng tôi đang sở hữu tới các khách hàng có nhu cầu. Đi kèm là hoạt động quảng bá cho kênh này.
+
+a. Nâng cấp hạ tầng server để phục vụ phát triển hệ thống web và đám mây.
+
+b. Tuyển dụng kỹ sư phát triển hệ thống dịch vụ web và đám mây.
+
+c. Chi phí quảng bá dịch vụ đám mây.
+
+4. Tiềm năng của dự án:
+
+Đây chính là những lý do khiến chúng tôi tin vào tiềm năng lớn của dự án đang thực hiện.
+
+a. Thị trường: Các công ty - tổ chức cung cấp dịch vụ thông tin và internet đang buộc phải chuyển sang mô hình data-driven marketing. Nhu cầu phân tích và phân phối dữ liệu tới đúng nơi, đúng user, đúng thời điểm sẽ bùng phát một cách tất yếu. Dịch vụ B2B dạng này, các doanh nghiệp lớn nước ngoài chưa khai thác hết. ở Việt Nam và khu vực mới xuất hiện nhu cầu, chưa hình thành thị trường. Tại khu vực ĐNA và Việt Nam: hiện tại mới ở mức nhu cầu, thị trường chưa được hình thành và khai thác bởi các tổ chức bản địa. Riêng thị trường website Việt Nam có 30.000 website tin tức và e-commerce, chỉ một số ít website e-commerce tự xây dựng hoặc mua dịch vụ Recommender (lazada, muachung...).
+
+b. Cạnh tranh: Với lợi thế nghiên cứu chuyên sâu trong nhiều năm ở lĩnh vực hẹp là content recommender, chúng tôi có công nghệ khó sao chép và hiện tại chưa xuất hiện đối thủ cạnh tranh trong nước và khu vực. Các nghiệp đoàn lớn trong lĩnh vực này chưa khai thác hết thị trường của họ, chúng tôi có cơ hội và thời gian khai thác và chiếm thị phần trong nước và khu vực.
+
+c. Giá trị: Giá trị hiện tại chúng tôi mang lại cho khách hàng, ví dụ số đo hàng tuần từ ứng dụng đọc sách/báo điện tử Alezaa:
+
+- 13% tỉ lệ chọn ebook/emagazine trong recommendation
+
+- 20% user chọn đọc/sử dụng ebook/emagazine từ recommendation
+
+- 95% tổng lượng ebook/emagazine được phân phối tới users
+
+- 15% lượng ebook/emagazine user sử dụng đến từ recommendations
+
+Các giá trị đã được ghi nhận qua các hệ thống sử dụng recommender trên thế giới:
+
+d. Nhóm phát triển:
+
+Tiềm năng lớn nhất của dự án chính là con người. Nhóm phát triển gồm bạn bè và đồng nghiệp lâu năm và gắn bó với dự án. Blog công nghệ của chúng tôi thường xuyên chia sẻ công nghệ cùng cộng đồng và mong nhận được các nhận xét và đóng góp để cải thiện sản phẩm nhiều hơn. Ghé thăm blog của chúng tôi tại https://blog.richanchor.com/
+
+Sử dụng nguồn vốn
+
+Ghi chú: Cột (Tổng số) = (Số lượng) x (Chi phí đơn vị / tháng) x (Số tháng)
+
+Đừng quên theo dõi FundStart và cập nhật thông tin về chiến dịch gọi vốn vốn cộng đồng của Rich Anchor bạn nhé!
+boolean | false

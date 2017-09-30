@@ -1,0 +1,59 @@
+url | https://tech.fpt.com.vn/deep-learning-hieu-sao-cho-dung-phan-1/
+title | Deep Learning – Hiểu sao cho đúng? – Phần 1
+content | Deep learning là một thuật ngữ khá mới, mặc dù nó đã tồn tại trước cả khi tìm kiếm online xuất hiện. Với những thành công đáng kinh ngạc trong một số lĩnh vực khác nhau, deep learning là quá trình áp dụng công nghệ deep neural network, là kiến trúc mạng thần kinh với nhiều lớp ẩn để giải quyết vấn đề.
+
+Deep learning là một quá trình, giống như data mining (khai thác dữ liệu), trong đó sử dụng deep neural network architecture có loại hình cụ thể của các thuật toán machine learning.
+Deep learning đã có một bộ sưu tập thành tích rất ấn tượng.
+Deep learning không phải là thuốc chữa bách bệnh – nó không phải là giải pháp cho tất cả các vấn đề.
+
+Nó không phải là thuật toán tổng thể trong truyền thuyết – deep learning sẽ không thay thế tất cả các thuật toán machine learning và kỹ thuật khoa học dữ liệu, hoặc ít nhất là nó vẫn chưa được chứng minh như vậy.
+
+Trong khi những bước tiến lớn gần đây đã được thực hiện trong tất cả các phân loại vấn đề, đặc biệt là computer vision và NLP – xử lý ngôn ngữ tự nhiên, cũng như học tăng cường (reinforcement learning) và các lĩnh vực khác thì deep learning lại không mở rộng để giải quyết những vấn đề siêu phức tạp như “giải quyết hòa bình thế giới”.
+
+Deep learning và AI không đồng nghĩa với nhau
+
+Deep learning có thể cung cấp data science với số lượng khủng dưới dạng process và tool để giải quyết vấn đề, và khi quan sát tại đây, deep learning là một yếu tố rất có giá trị cho các data science landscape.
+Như bức ảnh mô tả bên trên cho thấy deep learning là để khai thác dữ liệu vì (deep) neural networks là để machine learning (process vs architecture). Ngoài ra có thể nhìn thấy là một thực tế là deep neural networks có liên quan nhiều đến contemporary AI, đến mức cả 2 đều được gắn chặt để tương tự nhau (tuy nhiên chúng lại không giống nhau, và AI có nhiều thuật toán và kỹ thuật khác nhau qua neural networks). Cũng lưu ý là các kết nối deep learning/deep neural networks và computer vision, xử lý ngôn ngữ tự nhiên và các mô hình sản sinh khác đặc biệt quan trọng cho những bước tiến lớn thực hiện trong thời gian qua trong các lĩnh vực này, được kiến tạo bởi deep learning processes và công nghệ neural network.
+Vì vậy, với điều này, chúng ta hãy cùng tìm hiểu một số thuật ngữ liên quan đến deep learning, tập trung vào định nghĩa ngắn gọn nhưng không vô nghĩa.
+
+1. Deep learning
+Theo định nghĩa trên, deep learning là quá trình áp dụng công nghệ deep neural network để giải quyết vấn đề. Deep neural network là neural networks với một layer minimum ẩn (xem dưới đây). Giống như data mining, deep learning dùng để chỉ một process, trong đó sử dụng deep neural network architectures gồm các loại hình cụ thể của các thuật toán machine learning.
+
+2. Artificial Neural Networks (ANNs) – Mạng lưới thần kinh nhân tạo
+
+Machine learning architecture lấy cảm hứng từ bộ não sinh học của con người (cụ thể là nơ-ron) và deep learning cũng đang tiếp tục. Thực tế, chỉ riêng artificial neural networks đã có mặt từ rất lâu và đã có thể xử lý nhiều vấn đề lịch sử. Tuy nhiên, với sự cạnh tranh gần đây, các architetcure của mạng nơ-ron đã được phát minh, bao gồm các lớp nơ-ron ẩn (hidden neurons), trên lớp input và output đơn giản), và điều này làm tăng độ phức tạp lên cũng như cung cấp đầy đủ các công cụ xử lý vấn đề cực kỳ mạnh mẽ.
+
+ANNs thực sự thay đổi cấu trúc đáng kể, và do đó không có định nghĩa chính xác nào cho mạng nơ-ron. Có hai đặc tính tổng quát nhất của mọi ANNs là sở hữu bộ adaptive weight và khả năng xấp xỉ hóa các hàm phi tuyến tính của input vào neurons.
+
+3. Thần kinh sinh học (Biology Neuron)
+
+Mối quan hệ giữa mạng thần kinh nhân tạo và sinh học thường được hiểu là rất nhiều điểm chung. Nhiều tài liệu cho rằng ANNs, dù cách này hay các khác, là bản sao gần như chính xác hoạt động não người (hoặc các não sinh học khác). Điều này rõ ràng là không chính xác, mặc dù những mạng nơ ron nhân tạo trước đây đều được lấy cảm hứng từ não sinh học. Mối quan hệ về mặt lý thuyết giữa chúng không thể xác định (tuyệt đối) hơn sự so sánh giữa sự sắp đặt và chức năng của các nguyên tử và hệ mặt trời. Điều này có nghĩa, ANN thực sự giúp chúng ta hiểu hơn về hoạt động của mạng thần kinh sinh học ở mức rất cao, nếu chỉ đơn thuần hiểu động lực của ANNs..
+
+ 
+
+Cấu tạo chính của thần kinh con người mà chúng ta cần quan tâm:
+
+Nucleus – nhân tế bào chứa các thông tin về gen (i.e. DNA)
+
+Cell body – tế bào sinh dưỡng xử lý input activations (tín hiệu vào) đầu vào và chuyển chúng thành output activations (tín hiệu ra)
+
+Dendrites – nhánh nhận tín hiệu từ các nơ ron khác
+
+Axons – sợi thần kinh, chịu trách nhiệm chuyển tín hiệu đến các nơ ron
+
+Axon endings, cùng với các nhánh cục bộ, tạo ra synapses giữa các nơ ron.
+
+bio-neuron
+
+Hóa chất được gọi là neurotransmitters (dẫn truyền thần kinh) sau đó sẽ khuếch tán qua khe synap giữa axon ending và một dendrite lân cận, tạo thành một neurotransmission. Các hoạt động chủ yếu của tế bào thần kinh là một activation chảy vào nơ-ron thông qua một dendrite, được xử lý, và sau đó được truyền lại cho axon, thông qua axon ending của nó, nơi nó đi qua khe synap, và chạm đến một số nhánh nhận nơ-ron, nơi mà quá trình này được lặp đi lặp lại.
+
+4. Perceptron
+
+Perceptron là một thuật toán kinh điển dùng để phân loại hai khái niệm, nó giống như một đường thẳng tuyến tính cắt ngang phân chia các tập điểm.
+
+Perceptron lấy inputs và trọng số liên quan (đại diện cho độ quan trọng của input), gộp chúng lại để tạo ra output, để dùng cho việc classification. Perceptrons đã được biết đến khá lâu với các implementation từ 1950.
+
+5. Multilayer Perceptron (MLP)
+
+Một multilayer perceptron (MLP) là việc implemnet nhiều layers perceptrons được kết nối liền kề nhau, tạo thành một bộ điều khiển (feedforward) thần kinh đơn giản. Mạng Feedforward là một mạng gồm một hay nhiều lớp nơron, trong đó các dây dẫn tín hiệu chỉ truyền theo một chiều từ input qua các lớp, cho đến output. MLP này giúp ích trong những hàm phi tuyến tính mà perceptron đơn không thể thực hiện.
+boolean | true  

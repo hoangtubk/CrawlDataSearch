@@ -1,0 +1,41 @@
+url | https://prezi.com/hxafmhauqk0h/khai-pha-du-lieu/
+title | Khai phá dữ liệu
+content | Transcript of Khai phá dữ liệu
+Tổng quan về khai phá dữ liệu
+Khái Niệm
+Một số công nghệ thường áp dụng trong data mining:
++Mạng trí tuệ nhân tạo (Artificial neural networks): Đây là mô hình mà hệ thống có thể tự học thông qua đào tạo với tập dữ liệu ban đầu, từ đó suy đoán ra các tập kết quả từ tập dữ liệu mà nó khai thác.
+Nền tảng tính toán bao gồm hệ thống Hadoop Cluster, Datawarehouse và các application server. Hệ thống Hadoop ứng dụng để giải các bài toán đòi hỏi phải xử lý song song trên một khối lượng dữ liệu cực lớn (hàng TB data và chục tỷ bản ghi), hệ thống DW ứng dụng để tính toán nhanh các dữ liệu nằm ở các khoảng thời gian ngắn, lượng bản ghi tính toán khoảng dưới 1 tỷ, và cần tính nhanh. Nền tảng này kết hợp với thành phần thứ ba dưới đây để giải các bài toán phân tích về hành vi người dùng, target, re-targeting sản phẩm đúng đối tượng, xây dựng hệ thống recommendation v.v..
+
+Các giải thuật/thuật toán để khai thác dữ liệu. (Data mining Algorithms)
+1. Thu thập, bóc tách, chuẩn hóa dữ liệu và nhập dữ liệu vào hệ thống kho dữ liệu (Datawarehouse).
+2. Lưu trữ và quản lý dữ liệu dưới dạng đa chiều.
+3. Đưa ra các cơ chế truy xuất cho các ứng dụng phân tích dữ liệu .
+4. Sử dụng các phần mềm phân tích để tính toán.
+5. Kết xuất dữ liệu dưới dạng dễ hiểu, như biểu đồ hoặc dạng report.
+
+Data mining bao gồm các bước sau:
+Các thành phần cơ bản của Data mining:
+Khai thác dữ liệu
++Data mining là một quá trình trích xuất thông tin có mối quan hệ hoặc có mối tương quan nhất định từ một kho dữ liệu lớn (cực lớn) nhằm mục đích dự đoán các xu thế, các hành vi trong tương lai, hoặc tìm kiếm những tập thông tin hữu ích mà bình thường không thể nhận diện được. 
++Ứng dụng của nó rất đa dạng và rộng tới, từ marketing, chống gian lận, giảm giá thành sản xuất, tăng doanh thu, phân tích hành vi sử dung người dùng internet để target đúng nhu cầu, đúng đối tượng hay ứng dụng hỗ trợ ra quyết định, nghiên cứu khoa học đến việc chống khủng bố v.v..
++Công nghệ data mining là kết quả của quá trình lâu dài nghiên cứu và phát triển sản phẩm. Quá trình này bắt đầu từ khi những dữ liệu đầu tiên lưu vào máy tính, tiếp đến là quá trình cải tiến, nâng câp cách thức truy xuất dữ liệu và dần dần cho phép người dùng có thể duyệt dữ liệu theo thời gian thực. Kết quả của quá trình này cho phép truy xuất các nguồn dữ liệu quá khứ, tính toán và định vị lại việc truyền tải, cung cấp thông tin cho hiện tại, tương lai hay đưa ra các dự đoán tình huống có thể sắp diễn ra.
++Có ba kỹ thuật cơ bản nhưng
+rất tổng quát và đầy đủ trong
+công nghệ data mining:
+Thu thập dữ liệu lớn. (Massive data collective).
+Nền tảng sức mạnh tính toán. Đây chính là hạ tầng bao gồm cả phần cứng và phần mềm lõi. (Powerful computing)
+
++Cây quyết định (Decisions Trees): Một tập các decisions biểu diễn dưới dạng cây, các decisions này tạo ra các luật cho việc phân loại tập dữ liệu. Nôm na là, nếu tập thông tin A thõa mãn các luật B thì quyết định C.
++Giải thuật di truyền (Generic Algorithms): Kỹ thuật này sử dụng trong các quá trình phối hợp, biến đổi, chọn lọc tự nhiên kế thừa từ khái niệm tiến hóa.
+Phương pháp ông hàng xóm gần nhất (Nearest neighbor method): Đây là kỹ thuật phân loại từng bản ghi/thông tin trong tập dữ liệu dựa trên sự kết hợp của k records có độ giống nhau nhất trong tập dữ liệu quá khứ.
+Nguyên tắc suy diễn (Rule induction): Kỹ thuật bóc tác dữ liệu dựa trên nguyên tắc Nếu-Thì từ các tập dữ liệu thống kê.
+Hạ tầng công nghệ:
++Các bài toán data mining hầu hết là các bài toán xử lý lượng dữ liệu lớn, và phân tích phức tạp. Điều đó đòi hỏi phải có hạ tầng đủ lớn và có khả năng mở rộng mềm dẻo, linh hoạt (scale out) phù hợp với sự tăng trưởng của dữ liệu.
+Mô hình hệ thống thông thường được xây dựng trên cơ sở phân tán, cho phép lưu trữ và tính toán song song, khả năng chịu lỗi cao.
++Kích cỡ không gian lưu trữ dữ liệu tính bằng TB, băng thông giữa các node là Gb, tùy thuộc vào độ phức tạp của các công thức tính toán mà đòi hỏi hệ thống phải có lượng RAM đủ lớn, single CPU hay multi CPU v.v…
+Hệ thống thu thập dữ liệu phải có khả năng chịu tải cao và đảm bảo tính sẵn sang cao (High available), tốc độ xử lý nhanh (High performance).
+Kết Luận
++Ngày nay, việc xây dựng ra một sản phẩm (đặc biệt là sản phẩm internet) ngày càng trở nên đơn giản hóa, tuy vậy để tồn tại, phát triển và mở rộng cần có những tính năng thông minh hỗ trợ cho người dùng đơn giản hóa việc truy xuất, đúng thông tin họ cần… Tất cả điều này đều cần đến nền tảng data mining bên dưới.
++Các công nghệ data mining thực ra không mới, nó đã hình thành cách đây hơn 20 năm, từ khi các công nghệ điện toán xử lý song song phát triển. Tuy nhiên việc ứng dụng nó và các hệ thống web là điều còn khá mới mẻ, đặc biệt là các sản phẩm trực tuyến ở Việt nam chúng ta, hầu như chưa trang web nào ứng dụng thực sự các công nghệ data mining, lý do là quy mô chưa đủ lớn, lượng dữ liệu cần phân tích còn nhỏ và hẹp
+boolean | false

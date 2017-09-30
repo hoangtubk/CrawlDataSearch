@@ -1,0 +1,76 @@
+url | http://tech.3si.vn/2016/04/04/ml-giai-thich-10-thuat-ngu-chinh-trong-machine-learning/
+title | [ML] GIẢI THÍCH 10 THUẬT NGỮ CHÍNH TRONG MACHINE LEARNING
+content | Nếu các bạn mới tiếp xúc với Machine Learning và ứng dụng của nó vào đời sống, bạn sẽ bị choáng ngợp bởi rất nhiều thuật ngữ khó được dùng trong toán học, khoa học nghiên cứu. Dưới đây tôi sẽ giải thích một cách dễ hiểu nhất về 10 thuật ngữ hay được dùng nhiều nhất.
+
+
+Machine Learning (Học máy)
+
+Một nhánh của ngành khoa học máy tính (CS) và trí tuệ nhân tạo (AI) mà tập trung vào việc thiết kế hệ thống mà có thể tự học, ra quyết định và dự đoán tương lại dựa vào data. Machine learning cho phép máy tính có thể xử lý và quyết định hướng xử lý dữ liệu thay vì bị lập trình để thực hiện 1 số nhiệm vụ nhất định nào đó. Chương trình Machine Learning cũng được thiết kế để học và tăng cường dần dần sự hiểu biết qua các quá trình xử lý data. Machine Learning trở thành cái rốn của rất nhiều công nhệ hiện đại trong các năm gần đây, như là xe tự lái, thị giác máy tính và hệ thống nhận dạng tiếng nói.
+
+Supervised Learning (Học có giám sát)
+
+Khi chương trình được huấn luyện dựa trên các dataset đã được định nghĩa sắn. Dựa vào các data này, chương trình có thể đưa ra các quyết định chính xác khi được cung cấp các data mới.
+
+Là kỹ thuật học sử dụng cho các bài toán phân lớp (Classification)
+
+Ví dụ: Cho một công-ten-nơ chứa đầy hoa quả. Nhiệm vụ phải chia số quả này thành các nhóm đúng với loại quả đó. (xoài ra xoài, cam ra cam, táo ra táo,…)
+
+Để thực hiện được bài toán trên, trước tiên cần phải có 2 điều kiện:
+
+Điều kiện 1: phải biết trước số nhãn lớp cần phân loại, tức là phải biết trong công-ten-nơ đó có những loại quả gì. Giả sử có 5 loại quả là xoài, cam, táo, ổi, đào (5 loại nhãn lớp).
+Điều kiện 2: phải có tập đặc trưng của mỗi loại quả, ví dụ các đặc trưng là: hình dáng, màu sắc, trọng lượng, độ cứng mềm, v.v… Tập đặc trưng này có được thông qua học một tập dữ liệu huấn luyện (chính là các công-ten-nơ của các chuyến hàng trước đó)
+Khi thực hiện phân loại các loại quả trong công-ten-nơ đang xét, dựa vào đặc trưng của các loại quả (điều kiện 2), quả sẽ được đưa vào 1 trong 5 nhóm đã biết (điều kiện 1).
+
+Unsupervised Learning (Học không có giám sát)
+
+Khi chương trình được cung cấp cho 1 dataset, nó có thể tự động tìm kiếm các khuân mẫu (pattern) và mối quan hệ của chúng trong dataset đó.
+
+Là kỹ thuật học sử dụng cho các bài toán phân cụm, gom cụm (Clustering)
+
+Để thực hiện được bài toán trên, cần phải có tập đặc trưng của mỗi loại quả. Tập đặc trưng này có được cũng thông qua học một tập dữ liệu huấn luyện (như điều kiện 2 của Học có giám sát).
+
+Điểm khác của Học không giám sát so với Học có giám sát là: trước khi phân cụm, không biết trong công-ten-nơ đang xét có bao nhiêu loại quả và đó là những loại quả gì.
+
+Khi thực hiện phân cụm, dựa vào đặc trưng của mỗi loại quả, sẽ đưa quả đang xét vào nhóm (cụm) có đặc trưng tương đồng với nó nhất. Khi đó, 2 quả bất kỳ ở cùng cụm sẽ tương đồng nhau, 2 quả khác cụm sẽ khác biệt nhau.
+
+Classification (Phân lớp, phân loại)
+
+Một nhánh nhỏ của Supervised Learning, Classification là việc sử dụng input là một tập các mẫu dữ liệu huấn luyện, với một nhãn phân lớp cho mỗi mẫu dữ liệu. Output là mô hình (bộ phân lớp) dựa trên tập huấn luyện và những nhãn phân lớp . Hệ thống Classification để dự đoán những nhãn phân lớp cho các bộ dữ liệu/mẫu mới.
+
+Classification bao gồm các vấn đề sẽ đòi hỏi kết quả nằm trong một tập các giá trị rời rạc (discrete). Thường để trả lời câu hỏi có hay không (email có phải spam không,  ngày mai có mưa không…) hay bệnh nhân mắc phải ung thư type 1, type 2 hay không mắc…
+
+ Regression (Hồi quy)
+
+Trong regression, giá trị cần thu được sẽ là liên tục (continuous – các giá trị lớn bé liền nhau). Ví dụ: lượng mưa ngày mai là bao nhiêu milimet, giá cổ phiếu là bao nhiêu …
+Một vấn đề thuộc regression có thể dễ dàng chuyển về classification, ví dụ thay vì hỏi giá cổ phiếu là bao nhiêu, ta đổi câu hỏi thành “giá cổ phiếu tăng hay giảm”.
+
+Decision Trees (Cây quyết định)
+
+Cây quyết định là công cụ hỗ trợ việc đưa ra quyết định mà sử dụng biểu đồ dạng cây. Cây quyết định cũng có tác dụng mô tả trực quan một thuật toán.
+
+Ví dụ:
+
+
+
+Cây quyết định mô tả người sống sót trên tàu Titanic (“sibsp” là số lương vợ chồng hoặc anh chị em ruột). Nguồn: http://en.wikipedia.org/wiki/Decision_tree_learning
+Generative Model (mô hình sinh mẫu)
+
+Trong xác xuất và thông kê, 1 mô hình sinh mẫu (Generative Model) là mô hình được sử dụng để tạo ra giá trị của data khi một vào parameter bị ẩn đi.
+
+Trong học máy thì các mô hình dự trên hàm phân bố xác suất liên hợp thường gọi là mô hình sinh mẫu (generative model), nhưng cũng có một số mô hình áp dụng cho các vẫn đề liên quan đến xác suất điều kiện thì gọi là mô hình phân biệt (discriminative model). Cái sau hay được dùng cho các kiểu suy diễn đặc biệt hơn như bài toán phân lớp, bài toán phân hạng, v.v.
+
+Nói 1 cách khác, khi bạn mô hình hóa p(x,y) để tạo ra những dự đoán (mà có thể convert thành p(x|y) bằng việc sử dụng định luât Bayes), sẽ có khả năng tạo ra các cặp (x,y) mà được sử dụng rộng rãi trong Unsupervised Learning. Ví dụ về Generative Model: Naive Bayes, Latent Dirichlet Allocation và Gaussian Mixture Model.
+
+Deep Learning
+
+Đây là 1 chủ đề khá Hot trong những năm gần đây, Deep Learning là một ngành của Machine Learning mà sử dụng Mạng Neuron nhân tạo (Artificial Neural Networks ) để tạo ra các mô hình.  Nó thuật toán dựa trên một số ý tưởng từ não bộ tới việc tiếp thu nhiều tầng biểu đạt, cả cụ thể lẫn trừu tượng, qua đó làm rõ nghĩa của các loại dữ liệu. Deep Learning được ứng dụng trong nhận diện hình ảnh, nhận diện giọng nói, xử lý ngôn ngữ tự nhiên.
+
+Neural Networks hay Artificial Neural Networks
+
+ 
+
+
+Một mạng Neural đơn giản. Nguồn: http://en.wikipedia.org/wiki/Artificial_neural_network
+
+Theo nghĩa sinh học, mạng Neural là một tập hợp các dây thần kinh kết nối với nhau. Trong Deep learning,  Neural networks để chỉ mạng Neural nhân tạo, cấu thành từ các lớp Neural. Deep Learning được xây dựng trên cơ sở 1 mạng lưới các Neural nhân tạo, tổ chức thành từng lớp (Layer). Kết quả của mỗi lớp lại biểu diễn các thuộc tính (features) của lớp cao hơn (lớp phía sau).
+boolean | false

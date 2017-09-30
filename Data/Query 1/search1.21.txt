@@ -1,0 +1,38 @@
+url | http://103.7.40.205:89/d6/vi-VN/news2/TTLV-Xay-dung-he-thong-kiem-soat-doc-lap-de-quan-ly-cac-chi-dan-dia-ly-cua-Viet-Nam-5-856-13291
+title | TTLV: Xây dựng hệ thống kiểm soát độc lập để quản lý các chỉ dẫn địa lý của Việt Nam
+content | THÔNG TIN VỀ LUẬN VĂN THẠC SĨ
+1. Họ và tên học viên: Nguyễn Thị Phương Thảo          
+2. Giới tính: Nữ
+3. Ngày sinh: 18/11/1984
+4. Nơi sinh: Hà Tĩnh
+5. Quyết định công nhận học viên số: 2998/2013/QĐ-XHNV-SĐH ngày 30/12/2013 của Hiệu trưởng Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội
+6. Các thay đổi trong quá trình đào tạo: không
+7. Tên đề tài luận văn: Xây dựng hệ thống kiểm soát độc lập để quản lý các chỉ dẫn địa lý của Việt Nam
+8. Chuyên ngành: Quản lý khoa học và công nghệ                      Mã số: 60.34.04.12
+9. Cán bộ hướng dẫn khoa học: Tiến sỹ Lê Thị Thu Hà, Đại học Ngoại thương Hà Nội
+10. Tóm tắt các kết quả của luận văn:
+Tiếp cận từ lý thuyết về thể chế được đưa ra bởi Douglass C. North và lý thuyết hệ thống được đưa ra bởi Nobert Winner (1948) và Bertalanffy L.v. (1969), Luận văn tiến hành khảo sát và đánh giá hoạt động quản lý và kiểm soát các chỉ dẫn địa lý ở Việt Nam, từ đó chỉ ra rằng hiệu quả thực thi hệ thống bảo hộ CDĐL nói chung và việc kiểm soát CDĐL ở Việt Nam không chỉ phụ thuộc vào khung khổ pháp lý mà còn phụ thuộc rất nhiều vào yếu tố kinh tế, văn hóa, xã hội và chính trị. Trên cơ sở nghiên cứu các mô hình quản lý và kiểm soát chỉ dẫn địa lý của Liên minh châu Âu, Luận văn đưa ra các giải pháp phù hợp nhằm triển khai hệ thống kiểm soát chỉ dẫn địa lý ở Việt Nam và đề xuất một số kiến nghị cho việc hoạch định chính sách nhằm cải thiện hơn nữa việc quản lý chỉ dẫn địa lý của Việt Nam.
+11. Khả năng ứng dụng trong  thực tiễn:
+Các đề xuất về chính sách quản lý và kiểm soát chỉ dẫn địa lý không chỉ cải thiện hiệu quả thực thi bảo hộ chỉ dẫn địa lý mà còn giúp gia tăng giá trị các sản phẩm chỉ dẫn địa lý của Việt Nam, đáp ứng các yêu cầu của thị trường quốc tế khi hội nhập.
+12. Những hướng nghiên cứu tiếp theo:
+13. Các công trình đã công bố có liên quan đến luận văn:
+- “Kiểm soát chỉ dẫn địa lý theo quy định của Cộng đồng chung châu Âu và những thách thức đối với Việt Nam khi thực thi Hiệp định thương mại tự do VN-EU”, Tạp chí Khoa học phát triển nông thôn Việt Nam ISSN 1859-4700, số 21/2015;
+- “Kiểm soát chỉ dẫn địa lý của Việt Nam trong bối cảnh thực thi Hiệp định thương mại tư do Việt Nam – EU: nghiên cứu trường hợp nước mắm Phú Quốc”, Kỷ yếu hội thảo Cơ hội và thách thức về sở hữu trí tuệ khi Việt Nam tham gia thương mại quốc tế, Đại học Khoa học Xã hội và Nhân văn, 12/2015.
+ 
+INFORMATION ON MASTER’S THESIS
+1. Full name:  Nguyen Thi Phuong Thao                    2. Sex: Female
+3. Date of birth: 18th November 1984                         4. Place of birth: Ha Tinh
+5. Admission decision number 2998/2013/QÐ-XHNV-SÐH dated on 30th December 2013 by President of University of Social Science and Humanities (a member of Vietnam National University).
+6. Changes in academic process: None.
+7. Official thesis title: “Building independent control system to manage Vietnamese geographical indication”
+8. Major: Science and technology management.         Code: 60.34.04.12
+9. Supervisors: Doc. Le Thi Thu Ha, Ha Noi Foreign Trade University
+10. Summary of the findings of the thesis:
+Based on Institution theory of Douglass C.North and System theory of Nobert Winner (1948) và Bertalanffy L.v. (1969), the thesis carried out a survey of Vietnamese geographical indication management and control activities, evaluated effect of Vietnamese geographical indication management and control. Therefore,   the thesis explores effect of enforcement of geographical indication protected and control in Vietnam does not only depend on legal framework but also legal, economic, political, social, and cultural institutions. Based on geographical indication management and control model of European Union, thesis proposed appropriate solutions to develop geographical indication system in Vietnam and recommendation to policymaker in order to improve efficiency of geographical indication management of Vietnam.
+11. Practical applicability, if any:
+Proposals of geographical indication management and control policy not only improve effect of implementation of geographical indication protected but also enhance value of Vietnamese geographical indication products and meet requirements of international market in context of intergration.
+12. Further research directions, if any:
+13. Thesis-related publications:
+- “Control geographical indications under European Committee regulation and challenges for Vietnam in VN-EU FTA enforcement”, Vietnam Journal of Science for Rural Development No.21/2015;
+- “Control geographical indications of Vietnam in context of implementing FTA VN-EU: case study Phu Quoc extract of fish”, “Opportunities and challenges in intellectual property when Vietnam engaged in international trade” Seminar, Social Science and Humanities University, 12/2015.
+boolean | false

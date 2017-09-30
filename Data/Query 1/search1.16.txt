@@ -1,0 +1,17 @@
+url | https://vi.eventbu.com/ho-chi-minh-city/hcm-h-th-ng-recommendation-g-i-y-dung-y-user-nh-th-nao/5130078
+title | HCM - Hệ thống Recommendation - Gợi ý đúng ý user như thế nào? | VNG Corporation | Thứ tư, 16. Tháng tám 2017
+content | Hệ thống khuyến nghị (Recommendation Systems) là một tính năng phổ biến của hầu hết các trang Web và ứng dụng di động hiện nay. Những doanh nghiệp lớn như Netflix, Amazon, Google, Facebook và Twitter đều đã triển khai hệ thống này nhằm lọc ra những nội dung phù hợp nhất với user như gợi ý danh sách sản phẩm, gợi ý kết bạn, gợi ý công việc tuyển dụng...
+
+-Nhìn chung, khả năng truy cập, tiếp nhận dữ liệu, phân tích và sử dụng những dữ liệu đó để tổ chức hoạt động kinh doanh, cá nhân hóa trải nghiệm mua sắm, từ đó đẩy mạnh doanh số bán hàng, triển khai các chiến dịch Marketing, Sales và cung cấp thêm giá trị cho người dùng chính là tương tai của mọi lĩnh vực ngành nghề.
+
+-Trong Recommendation Systems, ngoài 2 hướng tiếp cận quen thuộc hiện nay là Content-based Filtering (Lọc dựa trên nội dung) và Collaborative Filtering (Lọc dựa trên cộng tác), nhiều kĩ sư còn không ngừng tìm cách để cải tiến hệ thống khuyến nghị của mình, đơn cử như việc trang tin danh tiếng New York Times mô hình hoá nội dung bài viết và sở thích của người đọc theo các chủ đề, sau đó điều chỉnh dựa trên thói quen của user (reading patterns).
+
+-Với buổi chia sẻ HỆ THỐNG RECOMMENDATION - GỢI Ý ĐÚNG Ý USER NHƯ THẾ NÀO?, diễn giả sẽ giúp bạn xây dựng được 1 hệ thống khuyến nghị tối ưu, mang đến những trải nghiệm thú vị hơn cho user từ các cách tiếp cận truyền thống lẫn những bài học kinh nghiệm thực tế mà diễn giả đúc kết được.
+
+HOTLINE/ LIÊN HỆ HỢP TÁC:
+- event@applancer.net (Event team) | 08 6273 3497
+
+Lưu ý: Chúng tôi sẽ hoàn lại tiền nếu không đủ tối thiểu 20 người tham dự.
+
+=== Sự kiện được tổ chức bởi TopDev - Giải pháp tuyển dụng ngành IT ===
+boolean | true

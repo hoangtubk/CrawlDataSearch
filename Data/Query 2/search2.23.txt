@@ -1,0 +1,39 @@
+url | http://niviki.com/2017/08/andrew-ng-lam-lai-khoa-deep-learning-moi-ban-da-hoc-chua/
+title | ANDREW NG ‘TUNG’ KHÓA HỌC DEEP LEARNING MỚI, BẠN ĐÃ THỬ CHƯA?
+content | Andrew Ng là ai?
+Andrew Ng rất nổi tiếng trong giới trí truệ nhân tạo, là giáo sư dạy tại trường Standford cũng đồng thời là sáng lập của trang dạy học nổi tiếng là Coursera.
+
+Năm 2011, Andrew Ng cho ra mắt một khóa học về Machine Learning, đây có thể coi là một trong những khóa học đầu tiên về Machine Learning thời điểm đó. Link khóa học đó ở đây
+Bạn thấy không, nước ngoài luôn đi trước chúng ta cả chục bước, hãy nhớ lại xem, năm 2011 bạn đang làm cái khỉ gì, trong khi đó thế giới bắt đầu phát triển mạnh mẽ Machine Learning rồi.
+
+Tính đến thời điểm này, khóa Machine Learning của Andrew đã có gần 2 triệu người theo học trên toàn cầu.
+
+Đi khắp các diễn đàn, hỏi tất cả các tiền bối câu: ‘Anh ơi mới học Machine Learning nên học gì?’, bảo đảm 96% mọi người sẽ giới thiệu khóa học này.
+
+Deeplearning.ai
+Đúng 6 năm sau khóa học đầu, Andrew cho ra đời khóa học Deep Learning mới toanh cũng như dự án DeepLearning.ai.
+
+Ông cho rằng AI is the new electricity. AI sẽ thay đổi toàn bộ thế giới như những gì điện đã làm được. Mình xin trích nguyên văn câu nói của ông:
+
+I hope we can build an AI-powered society that gives everyone affordable healthcare, provides every child a personalized education, makes inexpensive self-driving cars available to all, and provides meaningful work for every man and woman. An AI-powered society that improves every person’s life.
+
+Bạn thấy đó, theo Andrew thì AI sẽ giúp ích rất nhiều cho cuộc sống của con người từ giáo dục, phương tiện đi lại, sức khỏe, công việc.
+
+Bộ khóa học mới: Deep Learning Specialization
+Thiệt ra, mình cũng không tìm hiểu gì nhiều về Deep Learning, cũng chỉ đọc qua loa vài bài định nghĩa, xem vài video thôi. Nhưng mình thấy hay nên giới thiệu cho mọi người, ai rảnh rỗi không biết học gì thì có thể học.
+
+Bộ Specialization mới gồm 5 khóa nhỏ sau:
+
+Neural Networks and Deep Learning
+Improving Deep Neural Networks: Hyperparameter tuning, Regularization, and Optimization
+Structuring Machine Learning Projects
+Convolutional Neural Networks
+Sequence Models
+Không như khóa cũ dạy demo code bằng Matlab, khóa mới này 100% Python. Ngoài ra làm bài tập (  assignment  ) trực tiếp trên Coursera luôn.
+À, ngoài ra, bạn có thể xin financial aid trên Coursera để lấy chứng chỉ khè bạn bè, làm đẹp CV cũng được.
+
+Kết
+Thực ra, mình cũng mua 2 khóa học về AI trên Udemy rồi, nhưng mà lười quá không học. Bạn nào thích kiểu code thấy ngay sản phẩm như lập trình mobile, web thì học AI có vẻ không thích lắm. Nên cân nhắc thời gian học nhé, nếu đã học thì đừng bỏ cuộc giữa chừng. Chúc bạn học tốt, có gì chia sẻ với mọi người nhé
+
+Xem thêm:
+boolean | true

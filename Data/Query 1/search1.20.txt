@@ -1,0 +1,30 @@
+url | https://www.soict.org/old2/index.php/thong-bao/tuyen-dung/1073-vng-090117
+title | ZALO(VNG) Hồ Chí Minh cần tuyển gấp vị trí DATA SCIENTIST
+content | Ra mắt vào 12/2012, Zalo ban đầu được biết đến như một ứng dụng liên lạc trên di động với khả năng đảm bảo kết nối ổn định, nhanh chóng. Hiện tại, sản phẩm này đã mở rộng phạm vi dịch vụ, hướng đến các nhu cầu đời sống thiết yếu của con người như làm việc, đi lại, ăn uống, sức khỏe, điện nước… Đặc biệt, Zalo hiện đang được ứng dụng trong hoạt động của nhiều cơ quan nhà nước.
+Song song với việc tập trung phục vụ tập khách hàng trong nước, Zalo cũng phát hành phiên bản thử nghiệm tại thị trường Myanmar với hy vọng tiếp tục viết nên câu chuyện lãng mạn về giấc mơ Việt ở xứ người
+Đón thành viên thứ 50 triệu vào tháng 4, Zalo tiếp tục đà tăng trưởng ổn định và cán mốc 60 triệu người dùng trong tháng 9/2016.
+Trong số 60 triệu người dùng của Zalo, có khoảng 32 triệu người sử dụng thường xuyên mỗi tháng
+Trong 2017 Zalo dự kiến sẽ cho ra đời những sản phẩm mới, tính năng mới phục vụ người dùng. Do vậy Zalo Group cần tuyển gấp DATA SCIENTIST
+Mô tả công việc:
+-  Nghiên cứu phân tích dữ liệu
+-  Xây dựng mô hình máy học, khai thác dữ liệu cho Zalo
+-  Xây dựng hệ thống recommendation, prediction tăng doanh thu, lợi nhuận
+-  Phát triển các tính năng sản phẩm mới
+Yêu cầu:
+-  Từ 22 đến 30 tuổi, tốt nghiệp Đại Học/ Thạc sĩ/ Tiến sĩ ngành Khoa học máy tính, Khai thác dữ liệu, Máy học (Machine Learning), Thống kê
+-  Kỹ năng phân tích, thống kê, tư duy logic tốt
+-  Sử dụng thành thạo các ngôn ngữ thao tác dữ liệu (ví dụ SQL) và phân tích thống kê (ví dụ, R hay Python)…
+-  Có ít nhất một năm kinh nghiệm làm việc ở vị trí tương đương, ưu tiên có kinh nghiệm làm việc
+-  Có kinh nghiệm làm việc với những hệ thống dữ liệu lớn.
+-  Nhiệt tình, sáng tạo và có khả năng chịu được áp lực cao trong công việc
+-  Kỹ năng thuyết phục và tạo động lực cho các thành viên dự án
+-  Chăm chỉ, cẩn thận, kiên trì và có trách nhiệm cao trong công việc
+Quyền lợi:
+-  Lương HẤP DẪN lên tới 2000$ ( Min 600$)
+-  Thu nhập lên đến 17 tháng lương/năm
+-  Phụ cấp cơm trưa
+-  Chế độ khen thưởng, phúc lợi đa dạng & rõ ràng: thưởng  tháng lương 13, thưởng dự án, thưởng có thành tích xuất sắc, thưởng nghỉ mát, đài thọ outing, chế độ tập luyện TDTT, Thưởng giới thiệu ứng viên.
+-  Môi trường làm việc thân thiện, chuyên nghiệp
+-  Cơ hội đào tạo, phát triển và thăng tiến
+-  Các chế độ theo Luật lao động hiện hành và các phúc lợi theo quy định của Công ty
+boolean | false

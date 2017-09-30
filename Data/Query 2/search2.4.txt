@@ -1,0 +1,25 @@
+url | https://machinelearningcoban.com/
+title | Machine Learning cơ bản
+content | Bài 33: Các phương pháp đánh giá một hệ thống phân lớp (Phần 1/2) Aug 31, 2017
+Classification
+Các phương pháp đánh giá hiệu năng của một mô hình phân lớp. Xem tiếp »
+Bài 32: Naive Bayes Classifier Aug 8, 2017
+Probability Classification
+Một phương pháp đơn giản nhưng hiệu quả trong các bài toán phân loại văn bản. Một ví dụ về lọc email spam cũng được cho ở cuối bài viết. Xem tiếp »
+PhD life 1: Quá trình viết và nhận xét các bài báo khoa học Aug 5, 2017
+Khi học PhD, nhiệm vụ chính của chúng tôi là viết papers. Ngoài ra, chúng tôi có thể phải làm một nhiệm vụ là review các paper được viết bởi các tác giả khác. Tôi xin chia sẽ những câu chuyện liên quan trong quá trình làm việc của tôi. Xem tiếp »
+Bài 31: Maximum Likelihood và Maximum A Posteriori estimation Jul 17, 2017
+Probability
+Hai phương pháp quan trọng giúp đánh giá các tham số của các mô hình thống kê. Xem tiếp »
+Con đường học Toán của tôi Jul 10, 2017
+Gần đây có một bạn độc giả tự nhận mình là loyal reader của blog, hỏi tôi về cách tôi học Đại Số, Giải Tích, và Tối Ưu. Tôi không thực sự có thể trả lời câu hỏi này trong một vài câu trao đổi qua lại. Một phần vì tôi chưa tự tóm tắt lại 'phương pháp' của tôi, một phần vì đó là cả một câu chuyện dài, bắt đầu từ gần 20 năm trước, hoặc hơn. Xem tiếp »
+Bài 30: Ôn tập Xác Suất cho Machine Learning Jul 9, 2017
+Probability
+Ôn tập lại về Xác Suất và các Phân phối thường dùng. Joint probability, Marginal probability, Conditional Probability, Independence, Expectation, Bayes' rule. Xem tiếp »
+Quick Note 2: Transfer Learning cho bài toán phân loại ảnh Jul 2, 2017
+Feature-engineering Classification DeepLearning Quick-Notes
+Ghi chú nhanh về việc sử dụng các pretrained models cho bài toán phân loại ảnh. Phương pháp này được gọi là Transfer Learning. Xem tiếp »
+Bài 29: Linear Discriminant Analysis Jun 30, 2017
+Dimensionality-reduction Classification
+PCA là phương pháp giảm chiều dữ liệu sao cho lượng thông tin về dữ liệu, thể hiện ở tổng phương sai, được giữ lại là nhiều nhất. Tuy nhiên, trong nhiều trường hợp, ta không cần giữ lại lượng thông tin lớn nhất mà chỉ cần giữ lại thông tin cần thiết cho riêng bài toán. LDA sẽ phù hợp hơn với các bài toán classification. Xem tiếp »
+boolean | true 

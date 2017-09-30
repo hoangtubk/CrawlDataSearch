@@ -1,0 +1,51 @@
+url | https://linagora.vn/nen-tang-mo-hinh-kinh-doanh-cua-tuong-lai/
+title | Nền tảng – mô hình kinh doanh của tương lai
+content | Khái niệm “nền tảng” (platform) đã và đang nổi lên trong những năm gần đây như một minh chứng cho sức mạnh của cách mạng số đang diễn ra (digital transformation) trong các doanh nghiệp. Nền tảng đã và đang trở thành trụ cột chính của hệ sinh thái CNTT của các doanh nghiệp.
+Vậy nền tảng là gì?
+
+Nói một cách đơn giản, nền tảng là một mô hình cắm-và-chạy (plug-and-play) cho phép nhiều đối tượng (VD: khách hàng, nhà sản xuất) kết nối và tương tác với nhau thông qua dịch vụ và ứng dụng trên nền tảng, qua đó tạo nên giá trị cho các bên.
+
+Nền tảng bao gồm hai khía cạnh: mô hình kinh doanh khi triển khai nền tảng và các thành phần công nghệ xây dựng nên nền tảng, với những đặc điểm cụ thể sau:
+
+– Nền tảng là một mô hình kinh doanh dựa trên công nghệ.
+
+– Tạo điều kiện trao đổi giữa nhiều nhóm người dùng- ví dụ như người dùng cuối và người sản xuất – những người không nhất thiết phải biết nhau.
+
+– Giá trị tỷ lệ thuận với kích thước của cộng đồng. Có hiệu ứng mạng. Nền tảng kỹ thuật số không đáng giá nếu không có cộng đồng của nó.
+
+– Nền tảng là một nơi trao đổi đáng tin cậy : các điều khoản và điều kiện chung chung rõ ràng về sở hữu trí tuệ và quyền sở hữu dữ liệu, tạo điều kiện để người tiêu dùng và các nhà cung cấp tin tưởng lẫn nhau trong mạng lưới nhờ các cơ chế ghi điểm (scoring mechanism).
+
+– Có kết nối mở thông qua các API để chia sẻ dữ liệu với các nhà phát triển bên thứ ba nhằm tạo ra các dịch vụ mới và mở rộng hệ sinh thái nền tảng.
+
+– Có thể phục vụ được lượng lớn người dùng mà không ảnh hưởng đến chất lượng hoạt động của nền tảng.
+
+– Cung cấp trải nghiệm người dùng hấp dẫn: dễ sử dụng, không có nhu cầu đào tạo, tự phục vụ.
+
+– Cung cấp mô hình kinh doanh sáng tạo dựa trên giá trị tức thời (immediate value).
+
+Nền tảng mang đến những lợi ích gì cho doanh nghiệp ?
+
+Trong thời đại kỹ thuật số, việc sử dụng nền tảng đã cho phép thực hiện các mô hình kinh doanh mới với hiệu suất cao. Như trong khảo sát dưới đây, , không cần phải là một công ty chuyên về CNTT để tận hưởng được những lợi ích của nền tảng.
+ụ thể, các doanh nghiệp lớn nhỏ trong tất cả các lĩnh vực đều có thể hưởng từ nền tảng những lợi ích sau:
+
+– Tiếp cận các thị trường thương mại giao dịch điện tử lớn
+
+– Tham gia đồng sáng tạo, đồng phát triển các sản phẩm mới
+
+– Tạo ra những mô hình kinh doanh độc đáo
+
+Sức mạnh của mô hình kinh doanh đã được chứng minh trong trong bảng xếp hạng  những doanh nghiệp lớn nhất trong lĩnh vực Internet năm 1995 và năm 2015, khi những doanh nghiệp mới trong lĩnh vực Internet bứt phá và vượt lên cả những doanh nghiệp về công nghệ lâu đời nhờ sử dụng nền tảng.
+Trong danh sách doanh nghiệp có mặt năm 1995, chỉ có Apple vẫn trụ lại trong danh sách này vào năm 2015 nhờ chiến lược phát triển nền tảng và hệ sinh thái xoay quanh thư viện nhạc iTunes. Một nhận xét nữa đó là tất cả các công ty công nghệ dẫn đầu khác vào năm 2015 đều xuất phát từ một mồ hình theo kiểu nền tảng.
+
+Cơ chế thị trường hai bên đã tạo nên những lợi thế của mô hình kinh doanh dựa trên nền tảng
+
+Về vấn đề này, nhà kinh tế học người Pháp, đã đoạt giải Nobel Kinh tế năm 2014, ông Jean Tirole, trong một bài nghiên cứu năm 2002 đã tiết lộ những yếu tố chính tạo nên lợi thế của những mô hình kinh tế dựa trên các thị trường hai bên (two-sided markets).
+
+Cụ thể, đặc trưng của một thị trường hai bên được xây dựng dựa trên một nền tảng là sự tồn tại của hai nhóm người dùng (hoặc nhiều hơn nếu là  nền tảng đa diện): người tiêu dùng sản phẩm và dịch vụ đưa ra bởi nền tảng, và người đóng góp tạo nên giá trị nền tảng.
+
+Trong một thị trường như vậy, mức độ tham gia của nhóm người dùng ở một bên sẽ ảnh hưởng đến khả năng tham gia của nhóm người dùng phía bên kia.
+
+Do đó, để có thể thu hút được nhiều người dùng hơn nữa, một số nền tảng sẽ cung cấp dịch vụ miễn phí cho một bên của thị trường. Thông thường, việc cung cấp dịch vụ miễn phí có thể bị coi như một hành vi bán phá giá nhằm tẩy chay  đối thủ, dẫn đến vi phạm luật về cạnh tranh lành mạnh. Tuy nhiên, trên thị trường hai bên, cách phân tích này sẽ không được áp dụng vì mô hình của hai nhóm khách hàng được nhìn nhận  một cách tổng thể. Điều đó cho phép việc lãi được tạo ra bên này được dùng để  bù trừ lỗ cho bên kia. Dịch vụ phá giá sẽ  tạo nhiều khách hàng một bên làm tăng thu hút của thị trường với bên kia. Ví dụ: trong trường hợp của các trang báo miễn phí, chi phí sản xuất và phân phối sẽ được bù đắp bởi thu nhập nhận được từ các nhà quảng cáo.
+
+Mô hình thị trường hai bên là một chủ đề quan trọng đối với các tổ chức, doanh nghiệp mong muốn tăng trưởng lớn nhất có thể dựa trên những đòn bẩy sau đấy :
+boolean | false

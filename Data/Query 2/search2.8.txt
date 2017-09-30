@@ -1,0 +1,66 @@
+url | http://khanhxnguyen.com/category/machine-learning-co-ban/
+title | Deep learning (4): deep learning hoạt động ra sao?
+content | Feedback xin gửi về page Machine Learners hoặc group Machine Learners. Lưu ý: bài viết có thể chưa cập nhật phiên bản mới nhất, đọc phiên bản cập nhật tại đây. Bài viết hôm nay sẽ: Giới thiệu các ứng dụng thường gặp của deep learning Mô tả cách thức huấn luyện ...
+
+Read More
+March 07, 2017
+
+Deep learning (3): PyTorch và MNIST
+  Chào các bạn, hôm nay chúng ta sẽ nghiên cứu cấu trúc một chương trình deep learning cơ bản. Nếu khi thực hành có khó khăn, các bạn comment vào dưới bài viết hoặc vào group machine learners để được hỗ trợ. 0. PyTorch: Đầu tiên, chúng ta cần chọn một nền tảng deep ...
+
+Read More
+February 28, 2017
+
+Deep learning (2): thách thức
+Hôm nay mình sẽ bàn một tí về những thách thức khi học deep learning, và cũng tản mạn luôn về cách học machine learning nói chung thông qua việc kể về kinh nghiệm bản thân. Sở dĩ mình cứ đi vòng vòng mãi mà vẫn chưa đi vào chuyên môn là vì không phải ai cũng có đủ điều kiện ...
+
+Tags: deep learning, how to read paper, machine learning, tips
+Read More
+February 22, 2017
+
+Deep learning (1): góc nhìn giáo dục
+Xin chào các bạn, hôm nay mình có thời gian nên quyết định bắt đầu series deep learning như đã hứa hẹn cả năm. Deep learning hiện đang là công nghệ machine learning hot nhất hiện giờ, kể cả trong giảng đường nghiên cứu hoặc trong các công ty trên thị trường. Các công ty bá ...
+
+Tags: deep learning, machine learning, neural network
+Read More
+July 19, 2016
+
+Machine learning 101 (5): Hàm mất mát, mảnh ghép cuối cùng
+Xin chào các bạn! Ta lại tiếp tục câu chuyện về machine learning. Ở các bài viết trước, ta đã bỏ rất nhiều công sức để xây dựng được một công thức tổng quát để tìm ra một model từ một tập dữ liệu. Đó hàm mục tiêu của Regularized Loss Minimization (RLM): $$ w = ...
+
+Tags: logistic regression, loss function, machine learning, objective function, perceptron, supervised learning, support vector machines, svm
+Read More
+June 19, 2016
+
+Machine Learning (4): Overfitting (phần 2)
+Xin chào các bạn, hôm nay chúng ta sẽ hoàn tất những hiểu biết về overfitting và đưa ra một thuật toán supervised learning hiệu quả hơn ERM để chống lại overfitting. Nhưng trước khi đó ta cùng ôn lại những gì đã học ở bài viết trước bằng một số câu hỏi ngắn như sau: Q1: ...
+
+Tags: big data, bình thường hóa tham số, dừng sớm, machine learning, overfitting, regularization, supervised learning, tập phát triển, thuật toán
+Read More
+June 11, 2016
+
+Machine Learning 101 (3): Overfitting (phần 1)
+Xin chào các bạn, chúng ta lại trở lại với machine learning. Trước khi bắt đầu, mình xin thú nhận là trong bài viết trước, nhằm mục đích đơn giản hóa vấn đề, mình đã phát biểu như sau: Cụ thể hơn, sau khi định nghĩa được hàm mục tiêu, supervised learning có thể ...
+
+Tags: early stopping, machine learning, overfitting, risk minimization, supervised learning, tutorials
+Read More
+May 21, 2016
+
+Machine Learning 101 (2): 2 góc nhìn về Supervised Learning
+Mình có suy nghĩ về việc viết một bài hướng dẫn tương tự như bên lập trình. Tuy nhiên, mình lại thấy rằng đưa ra một loạt các paper và sách vở cũng không hiệu quả bằng việc tự mình giải thích chúng, bởi vì, không giống như với lập trình, tài liệu về Machine Learning ...
+
+Tags: căn bản, function approximation, hàm mất mát, hàm mục tiêu, học máy, loss function, machine learning, máy học, objective function, optimization, supervised learning, tối ưu hàm số, tutorials, ước lượng hàm số
+Read More
+February 05, 2016
+
+Những vấn đề cơ bản về mạng neuron
+Đây là tài liệu được viết bởi mình và bạn Phạm Hy Hiếu về những vấn đề cơ bản nhất của mạng neuron. Mong là tài liệu này sẽ có ích với những bạn muốn bắt đầu tự học về mạng neuron nhưng lại gặp khó khăn với việc đọc hiểu các tài liệu nước ngoài. Tác ...
+
+Tags: beginner, computer vision, fundamental, machine learning, natural language processing, neural network, speech recognition, tutorial
+Read More
+August 09, 2015
+
+Machine Learning 101 (1): Làm quen
+(Tựa bài cũ là "Tôi đã học Machine Learning như thế nào?" Mình quyết định đổi tên thành "Machine Learning 101" cho ngắn gọn dễ nhớ, và cũng dễ bắt mắt anh Google hơn) Xin chào, mình là khanhptnk. Mình là một người đang học và nghiên cứu về Machine Learning. Lĩnh vực mình chuyên ...
+
+boolean | true 

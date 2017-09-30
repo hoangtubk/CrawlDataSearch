@@ -1,0 +1,13 @@
+url | https://sachviet.edu.vn/threads/chon-loc-thong-tin-dua-tren-noi-dung-ung-dung-xay-dung-he-thong-goi-y-tin-tuc-theo-nhu-cau.57532/
+title | Chọn Lọc Thông Tin Dựa Trên Nội Dung Ứng Dụng Xây Dựng Hệ Thống Gợi Ý Tin Tức Theo Nhu Cầu
+content | Chọn Lọc Thông Tin Dựa Trên Nội Dung Ứng Dụng Xây Dựng Hệ Thống Gợi Ý Tin Tức Theo Nhu Cầu Người Dùng​
+Nghiên cứu liên quan về thu thập thông tin (Information Retrieval), lọc thông tin (Information Filtering), tìm hiểu về các hệ thống gợi ý (Recommendation Systems) cũng như những đặc tính riêng, cần biết của tin tức so với các dạng thông tin khác. Mô tả quá trình tôi ứng dụng hướng tiếp cận chọn lọc thông tin dựa trên nội dung vào thực tế, thông qua hệ thống gợi ý tin tức tiếng Việt xenoNews. Trình bày các thử nghiệm nhằm đánh giá hiệu quả hoạt động tổng thể của hệ thống gợi ý dựa trên nội dung, với thành phần then chốt là hồ sơ người dùng kết hợp, đề xuất hướng nghiên cứu để hoàn thiện hệ thống trong tương lai. Chương đầu tiên sẽ bắt đầu từ việc giải thích lý do, động lực thực hiện đề tài luận văn này. Nội dung của chương xoay quanh trình bày bối cảnh và sự cần thiết của một Hệ thống gợi ý tin tức tiếng Việt, mô tả các nội dung nghiên cứu trong luận văn, cùng với sơ lược các kết quả đã đạt được.
+Luận văn thạc sĩ Công nghệ thông tin
+Chuyên ngành Hệ thống thông tin
+Người hướng dẫn khoa học: TS. Nguyễn Thị Hòa
+Tác giả: Nguyễn Thạc Huy
+Số trang: 66
+Kiểu file: PDF
+Ngôn ngữ: Tiếng Việt
+Đại học Quốc gia Hà Nội 2013
+boolean | true

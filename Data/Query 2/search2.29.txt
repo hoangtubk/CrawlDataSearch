@@ -1,0 +1,54 @@
+url | https://www.linkedin.com/pulse/m%C3%A1y-h%E1%BB%8Dc-machine-learning-v%C3%A0-c%C3%A1c-m%E1%BB%91c-ph%C3%A1t-tri%E1%BB%83n-minh-giang-paul-
+title | MÁY HỌC HAY HỌC MÁY (MACHINE LEARNING) VÀ CÁC MỐC PHÁT TRIỂN
+content | Máy học (machine learning) là một phần của trí tuệ nhân tạo trong đó các thuật toán máy tính được sử dụng để tự học từ dữ liệu và thông tin. Trong machine learning, máy tính không cần phải được lập trình một cách rõ ràng mà có thể tự thay đổi và cải thiện các thuật toán của mình.
+
+Theo wiki: machine learning là một lĩnh vực của trí tuệ nhân tạo liên quan đến việc nghiên cứu và xây dựng các kĩ thuật cho phép các hệ thống "học" tự động từ dữ liệu để giải quyết những vấn đề cụ thể. Ví dụ như các máy có thể "học" cách phân loại thư điện tử xem có phải thư rác (spam) hay không và tự động xếp thư vào thư mục tương ứng. Thế nhưng machine learning đã đi xa hơn những khái niệm ban đầu rất nhiều. (ND)
+
+Ngày nay, các thuật toán machine learning cho phép máy tính giao tiếp với con người, tự lái xe, viết và đăng các bản tin về các trận thi đấu thể thao, hay thậm chí tìm kiếm kẻ tình nghi khủng bố. Chắc chắn rằng học máy sẽ tác động mạnh mẽ lên hầu hết các ngành và các công việc của mỗi ngành. Đó là lý do tại sao mọi nhà quản lý cần phải có hiểu biết tối thiểu về machine learning và sự tiến hoá của nó.
+
+Trong bài này tôi đưa ra một lược sử thời gian xác định nguồn gốc machine learning cũng như các mốc thời gian quan trọng nhất.
+
+1950 – Alan Turing tạo ra phép thử Turing (Turing Test) để xác định xem một máy tính có trí thông minh thực sự hay không. Để vượt qua các phép thử, máy tính phải có khả năng đánh lừa một người tin rằng nó cũng là con người.
+
+1952 – Arthur Samuel đã viết chương trình máy học đầu tiên. Chương trình này là trò cờ đam, và máy tính IBM càng chơi càng tiến bộ, học được các nước đi tạo lập nên chiến lược để chiến thắng và tích hợp các nước đi đó vào chương trình của mình.
+
+1957 – Frank Rosenblatt thiết kế hệ thần kinh (neural network) đầu tiên cho máy tính (gọi là “perceptron”) mô phỏng các quá trình tư duy của não người.
+
+1967 – Thuật toán “điểm lân cận gần nhất” (nearest neighbor) được viết ra cho phép các máy tính bắt đầu sử dụng dạng mẫu nhận thức rất cơ bản. Thuật toán này có thể được sử dụng để vẽ một tuyến đường cho nhân viên bán hàng lưu động, bắt đầu từ một thành phố ngẫu nhiên nhưng đảm bảo họ tới tất cả các thành phố trong một chuyến đi ngắn.
+
+1979 – Sinh viên Đại học Standford phát minh ra xe “Standford Cart” có thể tự xác định được vật cản trong phòng.
+
+1981 – Gerald Dejong giới thiệu khái niệm Học qua giải thích (Explanation Based Learning – EBL), trong đó một máy tính phân tích dữ liệu huấn luyện và tạo ra một quy tắc chung mà nó có thể làm theo bằng cách loại bỏ các dữ liệu không quan trọng.
+
+1985 – Terry Sejnowski phát minh ra NetTalk, học cách phát âm các giống như một đứa trẻ.
+
+1990s – Các nghiên cứu về marchine learning chuyển từ cách tiếp cận hướng-kiến-​​thức sang cách tiếp cận hướng-dữ-liệu. Các nhà khoa học bắt đầu tạo các chương trình cho máy tính để phân tích một lượng lớn dữ liệu và rút ra kết luận – hay “học” – từ các kết quả.
+
+1997 – Máy tính Deep Blue của IBM đánh bại nhà vô địch cờ vua thế giới.
+
+2006 – Geoffrey Hinton tạo ra thuật ngữ “học sâu” (deep learning) để giải thích các thuật toán mới cho phép các máy tính “nhìn thấy” và phân biệt các đối tượng và văn bản trong hình ảnh và video.
+
+2010 – Máy Microsoft Kinect có thể theo dõi 20 tính năng của con người ở tốc độ 30 lần mỗi giây, cho phép mọi người tương tác với máy tính thông qua các động tác và cử chỉ.
+
+2011 – Máy IBM Watson đánh bại các đối thủ con người tại Jeopardy.
+
+2011 – Google Brain được phát triển, và hệ thần kinh sâu (deep neural network) của nó có thể học để phát hiện và phân loại các đối tượng bằng với khả năng của một chú mèo.
+
+2012 – X Lab của Google phát triển một thuật toán machine learning có khả năng tự duyệt video YouTube để xác định các video có chứa hình ảnh mèo.
+
+2014 – Facebook phát triển DeepFace, một thuật toán phần mềm có thể nhận diện hoặc xác minh các cá nhân trong các bức ảnh ở mức độ ngang với con người.
+
+2015 – Amazon ra mắt nền tảng machine learning riêng của mình.
+
+2015 – Microsoft tạo ra bộ công cụ máy học được phân bổ (Distributed Machine Learning Toolkit), cho phép phân bổ hiệu quả machine learning trên nhiều máy tính.
+
+2015 – Hơn 3.000 nhà nghiên cứu về AI và Robotics, được Stephen Hawking, Elon Musk và Steve Wozniak (và nhiều người khác) hậu thuẫn, đã ký một bức thư ngỏ cảnh báo nguy cơ của vũ khí tự hành có thể lựa chọn và nhắm vào các mục tiêu mà không cần sự can thiệp của con người.
+
+2016 – Thuật toán trí tuệ nhân tạo (artificial intelligence algorithm) của Google đã đánh bại một cầu thủ chuyên nghiệp trong trò cờ Go của Trung Quốc, vốn được coi là trò cờ phức tạp nhất thế giới và khó hơn cờ vua gấp nhiều lần. Thuật toán AlphaGo do Google DeepMind phát triển đã giành chiến thắng năm trên năm trận đấu Go.
+
+Vậy liệu chúng ta đã tiến gần tới trí tuệ nhân tạo chưa? Một số nhà khoa học cho rằng đó thực ra là một câu hỏi sai.
+
+Họ tin rằng một máy tính sẽ không bao giờ “nghĩ” theo cách của bộ não con người, và việc so sánh các phân tích tính toán và thuật toán của một máy tính với mưu cao kế sâu của trí óc con người cũng giống như so sánh trái táo với trái cam vậy.
+
+Dù thế nào, khả năng nhìn, hiểu và tương tác với thế giới xung quanh của máy tính đang phát triển với một tốc độ đáng kể. Và khi lượng dữ liệu mà chúng ta tạo ra tiếp tục phát triển theo cấp số nhân thì khả năng xử lý và phân tích của máy tính cũng sẽ tăng lên tương ứng.
+boolean | false

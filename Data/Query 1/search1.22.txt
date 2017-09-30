@@ -1,0 +1,108 @@
+url | http://qpsolutions.vn/newsdetail.asp?newsID=10429&cat1id=7&cat2id=18&title=an-toan-nguoi-benh-trao-doi-thong-tin-giua-cac-nhan-vien
+title | An toàn người bệnh: Trao đổi thông tin giữa các nhân viên
+content | Trong một đánh giá của Joint Commission về việc tích hơn 3000 nguyên nhân gốc rễ được thực hiện từ năm 1995 đến năm 2006 tại các bệnh viện chăm sóc sức khỏe đã được chứng nhận thì thấy rằng hơn 65% nguyên nhân là các tai nạn bất ngờ không lường trước, một phần nào đó là do trao đổi thông tin.
+Chương trình sẽ giúp cải thiện việc trao đổi thông tin giữa các nhân viên liên quan đến việc chăm sóc bệnh nhân bằng cách đưa ra cho bạn một nguồn thông tin ngắn gọn để thực hiện:
+- Trao đổi thông tin khi bàn giao
+- Các chỉ định miệng
+- Các từ viết tắt
+ 
+Trao đổi thông tin khi bàn giao: 
+ 
+Thông qua National Patient safety Goal 2E, Join Commission đòi hỏi các bệnh viện thực hiện việc chuyển giao thông tin bằng văn bản một cách nhất quán với phương pháp chủ động tương tác chứ không một chiều với các thông tin chính xác rõ ràng và đầy đủ như sau:
+- Việc chăm sóc bệnh nhân, điều trị và dịch vụ
+- Tình trạng hiện tại của bệnh nhân
+- Bất cứ thay đổi nào về trình trạng hiện tại hoặc sắp tới (có thể tiên đoán trước) của bệnh nhân
+ 
+Để việc chuyển giao thông tin được thực hiện tốt phải phân định rõ một khoảng thời gian nhất định cho nhiệm vụ quan trọng này, đồng thời cũng tạo cơ hội việc hỏi và trả lời các câu hỏi. Cố gắng sắp xếp để quá trình chuyển giao thông tin không bị gián đoạn để giảm thiểu khả năng thông tin không được chuyển giao được hoặc bị bỏ sót
+ 
+Việc chuyển giao thông tin không tốt khi bàn giao bệnh nhân sẽ đặt bệnh nhân vào trình trạng rủi ro, cụ thể trong những thời điểm bàn giao như sau:
+- Điều dưỡng hoặc bác sĩ chuyển toàn bộ trách nhiệm cho nhau đối với bệnh nhân
+- Bác sĩ chuyển giao trách nhiệm trực cho nhau
+ví dụ: Tua trực các bác sĩ cần bàn giao bệnh nhân: trình trạng bệnh nặng nhẹ, sử dụng thuốc, ...
+- Bàn giao trách nhiệm tạm thời khi nhân viên rời khỏi nơi làm việc trong một khoảng thời gian ngắn
+- Bác sĩ gây mê báo cáo cho khoa chăm sóc sau gây mê hoặc cho lầu trại
+- Chuyển tiếp trong mức độ chăm sóc (ví dụ: từ khoa cấp cứu sang khoa săn sóc đặc biệt)
+- Chuyển bệnh nhân sang một cơ sở điều trị y tế khác (ví dụ: đến bệnh viện khác hay chuyển sang điều trị ngoại trú, điều trị hành vi, chăm sóc tại nhà, bệnh viện hay cơ sở dành cho những bệnh nhân cần chăm sóc lâu dài
+- Báo cáo viết hay ghi âm khi bàn giao, không cho phép việc hỏi lại
+ 
+Việc chuẩn hóa sẽ tạo điều kiện để huấn luyện cho nhân viên cách làm việc theo quy trình và đảm bảo việc thực hiện nhất quán trong toàn bộ bệnh viện. Khi chuẩn hóa công việc này cần lưu ý những chi tiết sau:
+- Trong trường hợp nào thì chuyển giao thông tin bằng văn bản
+- Ai phải có mặt hoặc tham gia vào việc chuyển giao thông tin
+- Những thông tin nào nên được bàn giao chẳng hạn như các chi tiết sau:
++ Chẩn đoán và trình trạng hiện tại của bệnh nhân
++ Những thay đổi gần đây về trình trạng của bệnh nhân hay điều trị
++ Nên thay đổi vấn đề trong thời gian tới trong việc chăm sóc tiếp theo
++ Bệnh nhân đang dùng những loại thuốc gì
++ Những phòng ban hay quy định có liên quan
++ Những lưu ý đặc biệt cho nhân viên kế tiếp chăm sóc bệnh nhân
++ Trình trạng bệnh nhân và chỉ thị kèm theo
+- Các cơ hội để hỏi và trả lời câu hỏi
+- Khi nào thì sử dụng những kỹ thuật cụ thể như Nhắc lại hay Tình huống - thông tin cơ bản - đánh giá - đề nghị (Situation – Background – Assessment – Recommendation - SBAR) để biết thêm thông tin xem bảng minh họa bên dưới
+- Những thông tin in ra giấy hay điện tử nào có sẵn
+ 
+Dùng kỹ thuật SBAR
+SBAR là từ viết tắt của:
++ Situation (Tình huống): điều gì xảy ra cho bệnh nhân
++ Background (thông tin cơ bản): nền tảng lâm sàng hay bối cảnh là gì?
++ Assessment (Đánh giá): Tôi nghĩ vấn đề rắc rối là gì
++ Recommendation (đề nghị): tôi nên làm gì để sửa chữa vấn đề:
+ 
+Một ví dụ về kỹ thuật SBAR:
+- Tình huống : Bs Smith, Tôi là susan kỹ thuật viên trị liệu hô hấp
+- Ông Jones đang bị suy hô hấp nặng
+- Thông tin cơ bản: Ông Jones là bệnh nhân 65 tuổi với bệnh phổi tắc nghẽn mãn tính, tình trạng bệnh nhân đang đi xuống và nay đang xấu đi nghiêm trọng
+- Đánh giá: tiếng thở của bệnh nhân bị yếu bên phải. Tôi nghĩ bệnh nhân bị tràn khí màng phổi bên phải
+- Đề nghị: tôi nghĩ bệnh nhân cần chụp xquang ngực..
+ 
+CÁC CHỈ ĐỊNH MIỆNG
+ 
+Có những rủi ro nhất định trong quá trình đưa và nhận thông tin miệng. Người nhận chỉ định miệng có thể nghe nhầm, hiểu lầm hay dịch sai chỉ định vì:
+- Phát âm khác nhau, giọng nói khác nhau, tiếng địa phương khác nhau
+- Tiếng ồn hay âm nhạc ở xung quanh
+- Tiếng nói nghe không rõ vì người nói đang mang khẩu trang phòng mổ hay vì dùng điện thoại di động
+- Các thuật ngữ lạ
+- Tên thuốc phát âm giống nhau
+- Sự gián đoạn đường truyền và sự mất tập trung
+ 
+Với việc ra chỉ định miệng, người đưa ra chỉ định có khuynh hướng cho rằng người nhận đã hiểu ý nghĩa và mục đích của chỉ định và đã viết xuống một cách chính xác. Ngay cả khi chỉ định đã được hiểu đúng thì sai sót có thể xảy ra khi viết và hồ sơ bệnh án hay khi được gửi đến Khoa dược. Các lời khuyên được cung cấp giúp bạn cải thiện việc trao đổi thông tin khi ra chỉ định miệng.
+ 
+Khuyến khích sử dụng chỉ định viết. Một lỗi chỉ dịnh miệng có thể tạo ra một rắc rối lớn cho cả bệnh nhân và bệnh viện. Sai lầm về liều lượng thuốc, sai vị trí, sai bệnh nhân và sai thủ thuật có thể gây ra bởi một lỗi hiểu sai đơn giản của chỉ định miệng. Bệnh viện của bạn nên tránh dùng chỉ định miệng bất cứ khi nào có thể, đặc biệt khi người cho chỉ định đang ở trong bệnh viện và hồ sơ bệnh nhân có sẵn. Một vài cách để bệnh viện của bạn có thể tổ chức hợp lý quy trình chỉ định viết như sau:
+- Dùng tờ chỉ định in sẵn, cho phép nhân viên có thể đánh dấu vào những ô thích hợp với yêu cầu của chỉ định
+- Dùng máy fax để gửi chỉ định viết từ những địa điểm bên ngoài bệnh viện chẳng hạn như văn phòng bác sĩ hay từ các phòng khám
+- Xem xét việc dùng email như là một cách nhanh chóng để trao đổi thông tin viết với Khoa dược
+- Dùng máy vi tính xách tay hay các trạm truy cập nhanh kết hợp với việc vi tính hóa việc ra chỉ định viết trên hệ thống để thiết lập tự động một quy trình chỉ định viết
+ 
+Tạo ra một quy trình chỉ định miệng tiêu chuẩn hóa. Khi chỉ định miệng là việc không thể tránh được, Joint Commission đã có một số yêu cầu nhất định để thực hiện việc này. National Patient Goal 2A yêu cầu các bệnh viện thực hiện quy trình ra và nhận chỉ định miệng qua điện thoại phải đọc lại toàn bộ chỉ định bởi người nhận chỉ định cho người ra chỉ định... Mục đích này phải được thực hiện cho toàn bộ chỉ định miệng, không chỉ áp dụng những chỉ định liên quan đến thuốc. Tóm lại, các bước của quy trình đọc lại bao gồm những nội dung sau:
+- Nghe chỉ định
+- Viết chỉ định xuống
+- Đọc lại chỉ định
+- Xác nhận rằng chỉ định đã được nhận một cách chính xác trong một số trường hợp cụ thể, như ở trong phòng mổ hay trong phòng cấp cứu, quy trình này có thể là một thử thách, tuy nhiên bệnh viện của bạn có thể tuân thủ bằng cách có một điều dưỡng phụ vòng ngoài hay kỹ thuật viên gây mê thực hiện việc viết chỉ định và đọc lại cho người ra chỉ định. Người ra chỉ định có thể căn cứ vào đó để xác nhận chỉ định. Để làm rõ hơn, người thực hiện các thủ tục hành chính cho chỉ định này có thể đọc to lên trước khi tiến hành làm thủ tục và nhận được sự xác nhận miệng của người ra chỉ định.
+- Các mục sau là một vài đề nghị cho việc cải thiện quy trình ra chỉ định miệng và đảm bảo sự an toàn trong việc này:
++ Người nhận chỉ định về thuốc nên nhắc lại tên thuốc và liều lượng chỉ định cho người ra chỉ định và yêu cầu hay chủ động đưa ra sự đánh vần cho đúng với tên thuốc và liều, dùng cách giúp đánh vần như “chữ B trong bóng”, “chữ M trong Mary” đánh vần tất cả các số, vì dụ số 16 nên nói rằng “một sáu” để tránh nhầm với số 60
++ Tránh dùng từ tắt, chẳng hạn: “1 tab tid” nên nói rằng “Dùng/cho một viên ba lần một ngày”
++ Bất cứ khi nào có thể, có thêm một người thứ 2 nghe chỉ định miệng qua điện thoại để xác nhận sự xác định. Điều này đặc biệt quan trọng khi người nhận chỉ định miệng không có kinh nghiệm thực hiện quy trình
++ Nếu có thể thì ghi chỉ định miệng trực tiếp vào một tờ chỉ định trong hồ sơ bệnh nhân. Việc ghi lại một thông tin trong tờ giấy sang hồ sơ bệnh án có thể tạo ra một cơ hội cho sai sót.
++ Trong tất cả các chỉ định phải có các thông tin sau: tên bệnh nhân, tuổi và cân nặng cũng như tên của người ra chỉ định, số điện thoại người ra chỉ định và tên của người viết chỉ định xuống
++ Viết mục đích của chỉ định thuốc trong tờ chỉ định (trừ khi người chỉ định cho rằng sự tiết lộ là không thích hợp) tờ chỉ định cũng nên bao gồm tên thuốc, liều dùng, nồng độ, tần số sử dụng, đường dùng, số lượng và dùng trong bao lâu. Những chi tiết này có thể giúp dược sĩ kiểm tra chỉ định về liều dùng thích hợp và độ dài thời gian sử dụng, đồng thời có thể tìm ra việc có khả năng cho thuốc trùng lắp từ các bác sĩ khác. Điều này cũng giúp giảm thiểu khả năng rắc rối về các loại thuốc nhìn giống nhau hoặc đọc giống nhau và quy định của bệnh viện, người ra chỉ định phải xác nhận, ký và ghi ngày chỉ định vào tờ chỉ định trong một khoảng thời gian nhất định nào đó. (Ví dụ trong vòng 24h chỉ định)
++ Nếu có thể thì dược sĩ nghe chỉ định miệng về thuốc và ghi lại chỉ định này vào hồ sơ bệnh nhân
++ Giới hạn việc ra chỉ định các loại thuốc công thức để tránh khả năng nhầm lẫn với các loại thuốc ít quen thuộc hơn
++ Giới hạn số người được cho phép cho và nhận chỉ định qua điện thoại và phải chắc chắn rằng họ nắm rõ và thường xuyên áp dụng các hướng dẫn của bệnh viện. Điều này có thể ngăn chặn chỉ định giả qua điện thoại vì những người hay nhận chỉ định thường nhận ra giọng nói của những người được phép ra chỉ định.
++ Để đảm bảo tính nhất quán của quy trình ra chỉ định miệng, bệnh viện của bạn nên xây dựng các chính sách và quy trình mô tả các giới hạn và những điều cấm trong việc ra chỉ định miệng cũng như khi nào có thể áp dụng, ai có thể ra chỉ định miệng và ai người nhận chỉ định và những chỉ định này được gửi đi và lưu trữ như thế nào
+ 
+Kéo bác sĩ vào cuộc. Cố gắng lấy được sự xác nhận, ghi ngày tháng và chữ ký vào chỉ định miệng của bác sĩ ra chỉ định là một điều khó khăn đối với bệnh viện, nhất là trong phòng cấp cứu. Bác sĩ không ký chỉ định miệng sẽ tạo ra một rắc rối là không có tài liệu nào chứng tỏ rằng bác sĩ chịu trách nhiệm đối với chỉ định miệng. Khi chỉ định miệng là cần thiết, có một vài gợi ý để lấy được chữ ký của bác sĩ như sau:
++ Để tờ bướm tại khu vực điều hành của điều dưỡng, đưa ra những điểm chính của chính sách chỉ định miệng
++ Có một nhân viên thư ký nhắc từng bác sĩ rằng họ phải ký chỉ định miệng của họ
++ Đánh dấu chỉ định miệng và như vậy có thể kiểm tra chữ ký của bác sĩ. Nếu chữ ký là cần thiết, phải có một nhân viên được phân công làm việc trực tiếp với bác sĩ để lấy được chữ ký của bác sĩ trước khi lưu trữ hồ sơ bệnh nhân.
+ 
+CÁC TỪ VIẾT TẮT
+ 
+Việc viết tắt tiết kiệm thời gian, công sức và thường được sử dụng như là một sự tiện lợi trong việc tạo hồ sơ y khoa. 
+ 
+Viết tắt thường đọc sai hay hiểu sai. Kết quả là bệnh nhân phải gánh hậu quả và thậm chí có thể tử vong. Vì lý do này, tổ chức Joint Commission đã đưa ra danh sách các từ viết tắt bị cấm hoàn toàn, các từ viết tắt có nguy cơ gây rủi ro cao, các từ được cấu tạo bằng những chữ đầu của một nhóm từ, các biểu tượng và tập trung tất cả lại thành một danh sách tổng hợp gọi là “Danh sách những từ không được phép sử dụng”. 
+ 
+Joint Commission cũng đưa ra danh sách đề nghị các từ viết tắt, những từ được cấu tạo bằng những chữ đầu của một nhóm từ và biểu tượng không nên được sử dụng. 
+ 
+Để có thêm thông tin về những lỗi viết tắt thường gặp, các hậu quả có thể gây ra bởi việc dùng các cách viết tắt này và các giải pháp bạn có thể thực hiện để tránh lỗi này.
+ 
+Mọi người có thể cập nhật các bảng này dưới dạng file Word trong kho tài liệu câu lạc bộ.
+boolean | false

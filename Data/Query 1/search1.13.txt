@@ -1,0 +1,115 @@
+url | https://techtalk.vn/xay-dung-he-thong-goi-y.html
+title | Xây dựng hệ thống “Gợi ý…”
+content | Giới thiệu
+
+Hệ thống, hay là chức năng gợi ý – mình cũng chả biết nói làm sao nữa. Đại loại là như vầy nè. Các bác sử dụng Facebook nó sẽ gợi ý kết bạn cho các bác. Đảm bảo lúc này các bác đang nghĩ “mẹ thằng facebook này ăn gì khôn thế, sao biết mình quen thằng này mà giới thiệu ta “. Hay như ngay dưới bài viết này, các bác sẽ thấy mục bài viết có liên quan, cái này máy tính nó tự tìm đó, không phải random mà cũng không phải em phải tự tìm bài liên quan chèn vào dưới cho các bác đâu , lười lắm.
+
+Đấy là hệ thống gợi ý (Suggest system/service) hay đại loại vậy. Về ứng dụng thực tế thì rất là cao rồi, nó có thể gợi ý cho các bác nên xem film gì, gợi ý cho khách hàng xem có muốn mua sản phầm này không,… Mới đầu em nhìn thấy thì nghĩ rằng “mấy cái này chắc khó lắm, mấy thằng to to đầu trâu mặt ngựa mới làm được thôi “. Thực ra thì nó cũng không khó đến như vậy đâu, nên hôm nay mình sẽ hướng dẫn xây dựng một hệ thống gợi ý đơn giản.
+
+P/S: Thực tế là mình vừa đọc tại liệu vừa viết lại cho các bác đấy, chứ em cũng chưa xây dựng thành công đâu .
+Dự án (Project)
+
+Mình sẽ bắt đầu với bước khó nhất nhé – đặt tên dự án . Sau một hồi đắn đo, uống hết ly cafe của bố mình pha thì mình quyết định đặt tên project này là Professor x.
+
+Cốt truyện
+
+Cốt truyện là giáo xư x, đang trên con đường tập hợp các dị nhân (x-men) lại để tạo đội đi quẩy . Tuy nhiên thì mỗi thằng có một tích cách khác nhau như Wolverine chỉ thích chơi với Jean (Phoenix) thôi, bác X và cả Mangeto thì đều muốn “tâm sự” với Mystique (em xinh đẹp bữa trước mình giới thiệu trong bài Startup xem film gì đấy),… Công việc của chúng ta là sắp xếp các dị nhân đấy vào ở với nhau, tuy nhiên kinh tế thì khó khăn, đất ở Q7 mắc quá nên bác X chỉ thuê được nhà bé bé thôi. Người thì ít mà đít thì đông . Phải làm sao đây???
+Bác X quyết định sẽ xắp xếp các dị nhân có thể “hợp hợp” nhau lại ở chung với nhau. Và bạn là người bác X nhờ vả. Nếu các bác xếp sida thì nó đánh nhau banh trường thì coi như thế giới diệt vòng. Vận mệnh nằm trong tay các bác đấy
+
+Suit Up and Save the world!
+
+Ngôn ngữ
+
+rong dự án này thì mình sẽ sử dụng ngôn ngữ Nodejs, framework Express nhé, có thể có tí Coffeescript nữa cho tỉnh táo các bác ạ. Đương nhiên là không thể thiếu bộ đôi HTML, CSS rồi.
+Quản lý dự án thì đương nhiên là dùng git rồi, cho khỏi phải hối hận
+
+Tạo lập dự án
+
+Open CMDER. Tạo folder projectx
+Vậy là xong phần thiết lập cơ bản.
+
+Ý tưởng
+
+Đâu tiên phải xem ý tưởng mình gợi ý phòng cho giao sư như thế nào đã. Với hệ thống gợi ý như thế này, thì đâu tiên phải xem những thằng nào giống giống nhau đã.
+
+Ví dụ
+
+Giáo sư X thích Mystique và bác Sói.
+Jean Gray cũng thích Mystique và Sói, ngoài ra, còn cặp với Scott nữa
+
+Theo như tính chất bắc cầu thì… tính cách của giáo sư X và Jean Gray là khá giống nhau nên suy ra Giáo sư X cũng khá thích anh Scott đấy
+
+Ví dụ 2
+
+Việc gợi ý này cũng khá giống hệ thống gợi ý kết bạn trên facebook
+
+Bạn và thằng A có khá nhiều bạn chung. Nên facebook sẽ suy nghĩ chắc mấy thằng thằng A quen thì có lẽ bạn cũng quen. Tuy nhiên hệ thống gợi ý của nó cũng có nhiều yếu tố tác động khác như nơi ở, tuổi tác, giới tính,… nữa.
+
+Vậy ý tưởng cho hệ thống gợi ý mình muốn nói là: Nó sẽ tìm xem những thằng nào có hành vi, tính cách giống bạn nhất, sau đó sẽ lấy sự khác biệt giữa 2 người rồi gợi ý cho bạn.
+
+Thuật toán
+
+Có ý tưởng rồi, bây giờ phải truyền đạt cho máy tính đã, nó không khôn tới mức bạn nói lại ý tưởng là nó hiểu được đâu . Vì vậy phải hiện thực lại mô hình của chúng ta cho máy tính hiểu. Em có học môn này trên trường được gọi là Mô hình hóa toán học, thực sự thì em đi học, qua môn cũng chưa thấm nhuần được tí kiến thức nào cả.
+
+Ta sẽ nói đến toán tập hợp (Sets) nhé. Cái này học từ lớp 6 rồi.
+
+Gọi tập hợp những người hợp tính với người thứ 1 là U1, người thứ 2 là U2
+
+Ví dụ
+
+Người thứ 1 là Bác X. Suy ra U1 = {mystique, sói}
+Người thứ 2 là Jean. Suy ra U2 = {mystique, sói, scott}
+
+Với kiến thức lớp 6, ta có:
+
+Những người cả U1 và U2 đều thích sẽ là U1 ∩ U2
+
+Tất cả những người cả 2 đều thích sẽ là U1 ∪ U2
+
+Ví dụ
+
+U1 ∩ U2 = {mystique, sói}
+U1 ∪ U2 = {mystique, sói, scott}
+
+Từ đó ta có công thức tính xem mức độ giống nhau của U1 và U2 sẽ là
+
+|U1 ∩ U2| / |U1 ∪ U2|
+
+Nhìn công thức trên thì nó sẽ chạy từ 0 đến 1. Nếu giá trị là 1 thì U1 và U2 hoàn toàn có sở thích giống nhau. Ngược lại nếu giá trị bằng 0 thì chắc… 2 thằng này không thể chung sống với nhau được . BTW, công thức này được biết tới với tên gọi là “coefficient de communauté” của bác Paul Jaccard, không phải của em đâu.
+
+Ví dụ
+
+*Mức độ thích nhau của Bác X và Jean sẽ là: 2 / 3 = 0.6666666666666666666666666666666666666666666666666666…
+
+Tới đây chắc các bác cũng hình dung chúng ta sẽ có công thức gợi ý áp dùng cho bác X là
+
+U2 \ U1 = {scott} (Phép trừ 2 tập hợp đấy các bác)
+
+Theo em thì vậy đã Ok rồi. Chũng ta sẽ gợi ý tất cả những người hợp với Thanh niên X nào đấy theo công thức trên và sắp xếp theo mức độ giống nhau giữa 2 người.
+
+Tuy nhiên, trong bài viết mình tham khảo nó có cách tính mức độ Thanh niên X nào đây có thích Thanh niên K nào không theo công thức
+
+P(X, K) = Z / M
+
+Trong đó P(X, K) là công thức tính mức điểm Thanh niên X có thích Thanh niên K. Z là tổng điểm giống nhau của X với tất cả mọi người trong đội X-Men cũng “thả tim” thằng K. M là tổng số người thích K trong đội X-Men. Và tất nhiên, giá trị của P(X, K) cũng chạy từ 0 tới 1.
+
+Ví dụ
+
+Tính xem Bác X có hợp với Scott không bằng công thức trên
+Giả sự có thêm một nhân vật nữa là Storm có U3 = {sói, scott}
+Mức độ giống nhau giữa Bác X và Storm sẽ là
+
+|U1 ∩ U3| / |U1 ∪ U3| = 1/3 = 0,333333333…
+
+Và trong ba nhân vật xét đến ở đây có 2 người thích Scott. Nên M = 2
+
+P(bác X, scott) = (0,333 + 0, 666) / 2 = 0.5
+
+Em đã nói ở phần 1 là mình vừa đọc tài liệu, vừa xây dựng thử và vừa viết bài cho các bác nên em không biết là cách của bài viết em tham khảo hay cách mà em nhìn thấy được, cái nào tốt hơn . Nên em sẽ xây dựng theo cả 2 cách đến cuối cùng để xem cái nào tốt hơn nhé!
+
+Link tham khảo: https://www.toptal.com/algorithms/predicting-likes-inside-a-simple-recommendation-engine
+
+Kết luận
+
+Nếu đã hiểu thuật toán thì các bạn muốn xây dựng trên ngôn ngữ nào cũng được nên nếu các học ngôn ngữ khác thì thử làm theo thuật toán này xem sao nhé. Cùng xây dựng thử xem kết quá có giống em không.
+boolean | false

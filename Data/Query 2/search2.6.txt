@@ -1,0 +1,8 @@
+url | https://ongxuanhong.wordpress.com/category/kien-thuc/deep-learning/
+title | TensorFlow – thư viện code Deep Learning
+content | Bài viết này không nhằm vào hướng dẫn lập trình TensorFlow. Lý do, các bạn có thể tìm thấy nhiều source code hướng dẫn khác nhau trên internet, tự cài đặt và lập trình dễ dàng. Nếu các bạn đã có kiến thức cơ bản về Neural Network thì việc nắm bắt công nghệ này cũng sẽ đơn giản hơn rất nhiều.
+
+Thông thường, ta sẽ đi theo flow nghiên cứu sau: vào trang https://www.tensorflow.org/ để xem qua bài giới thiệu chung chung, sau đó tiến hành cài đặt, cài đặt thất bại do conflict thư viện, cài đặt thành công, đọc source code, cài đặt thuật toán từ các tutorial, hiểu sơ sơ, bắt đầu hoang mang do có quá nhiều bài viết cần đọc và cài đặt -> mất hết cảm hứng.
+
+Do đó, mình sẽ hướng các bạn đi theo một tiếp cận khác. Đầu tiên, ta sẽ lấy cảm hứng nghiên cứu thông qua các ứng dụng ngoài thực tế, người thật việc thật của TensorFlow. Tiếp đến, ta sẽ xem mọi người đánh giá như thế nào về mã nguồn này, có đáng để ta tiếp tục nghiên cứu không. Sau cùng, ta sẽ bắt tay vào tiến hành cài đặt và ứng dụng công nghệ cùng với các tài liệu tham khảo chất lượng đã thu thập được.
+boolean | true 

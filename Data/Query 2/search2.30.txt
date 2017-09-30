@@ -1,0 +1,26 @@
+url | http://vietphd.org/threads/hoc-bong-han-quoc-deep-learning-machine-learning.11173/
+title | Học bổng Hàn Quốc (Deep Learning, Machine Learning)
+content | Hiện tại GS mình đang cần tuyển một SV Việt Nam để theo học chương trình Tiến sĩ cho kỳ học mùa xuân 2018.
+Một số thông tin cơ bản:
+1. Lab: Artificial Inteilligence Lab, Kyunghee University. Publication: http://dblp.uni-trier.de/pers/hd/c/Chung:TaeChoong
+2. Topic: Artificial Intelligence, Machine Learning, Deep Reinforcement Learning, Robotics
+3. Điều kiện học tập, sinh hoạt, chế độ lương bổng
+- Học phí: Free
+- Sinh hoạt phí: 1.000.000 krw/month
+- Bên cạnh việc nghiên cứu còn có thể tham gia nhiều hoạt động phong trào (như bóng đá, cầu lông, bóng bàn, ...) với chi hội sinh viên VN tại Kyunghee (hơn 70 người). Group: https://www.facebook.com/groups/vnkhu/
+4. Giáo sư thân thiện, không tạo áp lực nghiên cứu, chỉ cần đáp ứng đủ yêu cầu của khoa là có thể tốt nghiệp.
+5. Có một số alumni hiện đang công tác tại các viện/trường tại EU/England và có thể định hướng và giúp đỡ việc nghiên cứu.
+6. Điều kiện:
+- Đã hoặc sắp tốt nghiệp chương trình thạc sĩ (trước tháng 3/2018)
+- Chuyên ngành Computer Science, Computer Engineering, IT
+- GPA: 7.5/10
+- Tiếng Anh: đã có certificate với high score (TOEIC > 750, TOEFL > 550)
+- Ưu tiên ứng viên đã có publication.
+- Uư tiên tốt nghiệp tại những trường top ở VN (Bách Khoa, Tự nhiên, CNTT, ...)
+
+Bạn nào quan tâm xin gửi hồ sơ tới Lê Phạm Tuyên, địa chỉ email: tuyenkhu@gmail.com
+Hồ sơ bao gồm: CV viết bằng tiếng Anh, bảng điểm, english certificates (chưa cần công chứng), publication.
+
+Thân,
+Le Pham Tuyen"
+boolean | false

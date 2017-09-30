@@ -1,0 +1,33 @@
+url | https://www.techsignin.com/cong-nghe/tri-tue-nhan-tao-may-hoc-deep-learning/
+title | Sự khác biệt giữa trí tuệ nhân tạo, máy học và Deep Learning
+content | Trí tuệ nhân tạo (Artificial intelligence – AI) là trí tuệ được biểu diễn bởi bất cứ một hệ thống nhân tạo nào. Nó là tương lai, là khoa học viễn tưởng, và là một phần trong cuộc sống hàng ngày của chúng ta.
+
+Ví dụ như việc huyền thoại cờ vây thế giới Lee Se-dol, đến từ Hàn Quốc, đã bị máy tính AlphaGo của Google đánh bại. Điều này đánh dấu một bước tiến đáng kể trong lĩnh vực trí tuệ nhân tạo.
+
+Sự khác biệt giữa trí tuệ nhân tạo, máy học và Deep Learning
+Một trong những ví dụ sớm nhất của trí tuệ nhân tạo là trò chơi King me: chương trình máy tính đầu tiên biết chơi cờ vua, khuấy động một làn sóng trong thập niên 1950. Nó được viết khi máy tính đầu tiên được phát minh.
+
+AI có tất cả các giác quan (thậm chí có thể nhiều hơn) như những gì chúng ta làm. Khi các hệ thống máy tính được nối lại với nhau, chúng có thể giải quyết những khó khăn. Và quan trọng nhất là khi áp dụng đúng thuật toán, người ta có thể “dạy học” cho máy tính.
+
+Máy học (Machine learning) – Một cách tiếp cận đến trí tuệ nhân tạo
+
+Machine learning là sử dụng các thuật toán để phân tích dữ liệu, học hỏi từ nó, để từ đó thực hiện một hành động hay các dự đoán về điều gì đó trên thế giới. Vì vậy, thay vì dùng lập trình một phần mềm lập đi lặp lại  với một tập các hướng dẫn nhiệm vụ cụ thể, máy được “đào tạo” bởi một lượng lớn dữ liệu và thuật toán để nó học hỏi xem làm thế nào để thực hiện nhiệm vụ.
+
+Sự khác biệt giữa trí tuệ nhân tạo, máy học và Deep Learning
+Công nghệ máy học (Machine Learning) được Google áp dụng cho việc lọc spam trên dịch vụ Gmail
+Máy học có thể đem lại nhiều ứng dụng như gợi ý phim của Netflix, khả năng nhận diện khuôn mặt của Facebook và khả năng lựa chọn đối tượng phù hợp của các phần mềm hẹn hò.
+
+Deep learning: Một kỹ thuật bổ sung cho máy học
+
+Herding cats: Picking images of cats out of YouTube videos was one of the first breakthrough demonstrations of deep learning, a subset of AI and machine learning. 
+
+Deep learning đã và đang là một chủ đề AI được bàn luận rất sôi nổi. Đây là một thuật toán dựa trên ý tưởng từ bộ não của con người tới việc tiếp thu nhiều tầng biểu đạt. Nó đã thúc đẩy tiến bộ trong các lĩnh vực đa dạng như nhận thức, dịch tự động, nhận diện giọng nói….
+
+Deep Learning có một tương lai đầy hứa hẹn với việc ứng dụng vào điều khiển xe tự lái hay robot quản gia. Mặc dù các sản phẩm này còn nhiều hạn chế, nhưng những gì chúng thực hiện được thực sự rất khó tưởng tượng nổi ở thời điểm vài năm trước đây.
+
+Ngày nay, máy móc sau khi được huấn luyện sẽ có thể nhận dạng hình ảnh và xác định các đối tượng trong ảnh, cũng như hiểu được nội dung trong bức ảnh đó. Từ cách nhận biết mèo, đến nhận biết các chỉ số trong bệnh ung thư máu và khối u trong Chụp cộng hưởng từ (MRI).
+
+Deep learning nói riêng và trí tuệ nhân tạo nói chung thực sự có nhiều ứng dụng rất tuyệt vời như: xe tự lái, y tế dự phòng tốt, thậm chí cả đề xuất trong phim ảnh.
+
+Có lẽ còn phải chờ khá lâu nữa những hệ thống AI “có tri giác” mới thực sự xuất hiện, nhưng những gì các công ty lớn như Google, Facebook, IBM đang làm hiện nay cũng tương tự với việc đặt những viên gạch đầu tiên mở ra một kỹ nguyên mới cho trí tuệ nhân tạo.
+boolean | true

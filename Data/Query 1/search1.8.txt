@@ -1,0 +1,10 @@
+url | https://rpubs.com/chidungkt/196317
+title | Tài liệu nghiên cứu của Google trong việc xây dựng Youtube Recommendations
+content | Chia sẻ cho các bạn tài liệu nghiên cứu của Google trong việc xây dựng hệ thống Recommendation cho mạng xã hội Youtube.
+
+Tên tài liệu: Deep Neural Network for Youtube Recommendations
+Tác giả: Paul Covington, Jay Adams, Emre Sargin.
+Từ khoá: recommender systems; deep learning, scalability.
+Link tài liệu: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf
+Dành cho các bạn muốn tìm hiểu cách hoạt động của chức năng Gợi Ý (Recommendation) của Youtube.
+boolean | true

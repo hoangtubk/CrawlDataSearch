@@ -1,0 +1,48 @@
+url | https://viblo.asia/p/neural-networks-and-deep-learning-part-2-perceptron-pxvKokOyKLd
+title | Neural Networks and Deep Learning - Part 2: Perceptron
+content | Chào các bạn!
+Sau thời gian nghỉ tết, chúng ta bắt đầu quay lại với những bộn bề công việc và học tập. Đầu năm mới, mình chúc các bạn vui vẻ, làm việc và học tập hiệu quả hơn năm trước. Để khởi đầu cho năm nay, tôi sẽ tiếp tục series bài viết về Neural Networks. Trong bài biết trước, chắc hẳn các bạn đã có những hiểu biết tổng quan nhất về mạng Neural nhân tạo là gì? nó được ứng dụng trong các bài toán như thế nào. Hôm nay, tôi sẽ giới thiệu với các bạn một mạng Neural được sử dụng khá phổ biến đó là: mạng Neural một lớp hay còn gọi là "perceptron"
+
+Giới thiệu
+Perceptron được phát triển vào những năm 1950, 1960 bởi nhà khoa học Frank Rosen Blatt, nó được lấy cảm hứng từ nghiên cứu của Warrres McCulloch và Walter Pitts. Ngày nay nó trở lên phổ biến trong việc sử dụng các model khác nhau của Neural nhân tạo
+
+Cấu trúc mạng Perceptron
+Perceptron nhận nhiều giá trị input binary và chỉ cho ra một kết quả đầu ra (output) duy nhất.
+
+Ví dụ bên trên, chúng ta có 3 giá trị đầu vào là x1, x2, và x3. Trên thực tế, bạn có thể cung cấp cho perceptron nhiều hoặc ít giá trị vào.
+
+Mỗi input tương ứng là một thuộc tính của dữ liệu. Ví dụ ta có thể thay thế x1, x2, x3 bằng các giá trị đầu vào xinh xắn , hát hay, nổi tiếng
+Đầu ra (output) Là kết quả của mạng Perceptron, đầu ra tương ứng khi nhận vào các đầu vào inputs. Với mô hình ví dụ trên, Perceptron chỉ có một đầu ra duy nhất: ca sĩ
+Các trọng số (weights) ứng với từng đầu vào
+Đây là thành phần quan trọng của mạng Perceptron nói chung và mạng neural nhân tạo nói riêng. Nó thể hiện mức độ quan trọng của từng input trong việc hình thành output. Quá trình học của mạng Perceptron cũng chính là quá trình thay đổi các trọng số sao cho thu được đầu ra gần với mong đợi nhất.
+Bộ cộng
+Tính tổng trọng số của tất cả các input được đưa vào. Hàm tổng được tính như sau:
+
+Hàm chuyển đổi (Transfer function)
+Hàm tổng (Summation Function) của một Neuron cho biết khả năng kích hoạt (Activation) của neuron đó còn gọi là kích hoạt bên trong (internal activation). Mối quan hệ giữa Internal Activation và kết quả (output) được thể hiện bằng hàm chuyển đổi (Transfer Function)
+Việc lựa chọn Transfer Function có tác động lớn đến kết quả của ANN. Hàm chuyển đổi phi tuyến được sử dụng phổ biến trong ANN là sigmoid (logical activation) function
+
+Áp dụng cho bài toán và quá trình huấn luyện cho mạng neural một lớp Perceptron:
+i. Đối với bài toán dự đoán quan điểm của người dùng, dữ liệu từ dạng thô là các bình luận sẽ được tiền xử lý qua các công cụ Tokenizer và Word-segmentation. Sau đó với một danh sách các đặc trưng (F={f­­0­, f1­,…,fk}) đã được xây dựng bằng cách sử dụng một số phương pháp trích chọn đặc trưng như Stopword remover, tính độ tương quan giữa tần suất của từ và nhãn,… thì từ bình luận ban đầu ta sẽ thu được một vector X có k chiều với các chiều được tính theo công thức sau:
+
+
+ii. Việc huấn luyện mạng Perceptron thực chất là quá trình thay đổi các trọng số của mạng (weights) để có được kết quả mong muốn.
+Quá trình huấn luyện mạng Perceptron được em thực hiện theo phương pháp Online-learning, nghĩa là các trọng số của mạng (weights) được cập nhật ngay lập tức sau khi một input pattern được đưa vào mạng. Với mỗi một đầu vào là một vector X k chiều như ở trên, trọng số của mạng Perceptron được cập nhật theo các bước sau:
+Xét các cặp huấn luyện (Xi, si):
+
+Tính đầu ra thực tế
+
+Cập nhật từng trọng số
+
+Sau khi duyệt tất cả tập huấn luyện ta tính được tổng lỗi trung bình
+
+Lặp lại quá trình cho đến khi tổng lỗi trung bình nhỏ hơn e, lưu lại giá trị của các trọng số ta thu được mô hình học máy theo Perceptrons.
+iii. Sau khi đã có giá trị của các trọng số. Việc tính điểm của các bình luận mới được thực hiện theo các bước tương tự như khi tiến hành huấn luyện:
+
+Chuẩn hóa bình luận sử dụng Tokenizer và Word-segmentation
+Với mỗi bình luận, tính điểm theo công thức
+
+Kết luận
+Bài viết trên tôi đã giới thiệu tổng quan nhất về mô hình học máy thống kê - Mạng neural nhân tạo một lớp Perceptron. Hy vọng các bạn có thể hiểu được cấu trúc cơ bản của một thuật toán học máy, đặc biệt là các kiến thức liên quan đến Neural Network và Deep learning. Có thể áp dụng vào quá trình huấn luyện cho bài toán phân tích quan điểm người dùng và hiểu sâu hơn và các hướng đi trong xử lý ngôn ngữ tự nhiên.
+
+boolean | true

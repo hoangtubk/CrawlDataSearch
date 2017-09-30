@@ -1,0 +1,38 @@
+url | http://www.ddth.com/showthread.php/1343976-L%E1%BB%99-tr%C3%ACnh-h%E1%BB%8Dc-Machine-Learning-Deep-Learning-t%E1%BB%AB-%C4%91%E1%BA%A7u-cho-c%C3%A1c-b%E1%BA%A1n-L%E1%BA%ADp-Tr%C3%ACnh-Vi%C3%AAn
+title | Lộ trình học Machine Learning/ Deep Learning từ đầu cho các bạn Lập Trình Viên
+content | 1. Giới thiệu
+Đây là kế hoạch dài hơi cho sự nghiệp học tập Machine Learning / Deep Learning của mình.
+Mình hiện là Lập Trình Viên mobile (Android, iOS, Blackberry) với 6 năm kinh nghiệm và không có bằng cấp Thạc sĩ, Tiến sĩ gì về Computer Science.
+
+
+Mục đích chính của mình là tìm 1 cách học Machine Learning / Deep Learning thật hiệu quả cho các bạn không có kinh nghiệm nghiên cứu khoa học. Cách học này sẽ tập trung vào việc thực hành các ứng dụng của ML/DL trước, sau đó mới đi dần dần vào lý thuyết, toán học sau .
+2. Tại sao lại theo cách này?
+Các bạn có thế tìm kiếm nhanh trên google về cách học Machine learning, và nhận thấy ngay việc phải học Toán: xác xuất thống kê, đại số tuyến tính, giải tích .... đầu tiên.
+Ngoài ra việc nghiên cứu khoa học ở mức độ Thạc sĩ, Tiến sĩ là điều cần thiết khi muốn tìm hiểu sâu.
+
+Cũng như các bạn, mình gặp khá nhiều rắc rối trong việc này.
+- Có nên bỏ làm để đi học Thạc sĩ, Tiến sĩ?
+- Ở Viêt Nam có học được ngành này không?
+
+Có 2 loại Machine learning:
+
+* Machine Learning thực hành: Liên quan truy vấn cơ sở dữ liệu, làm sạch dự liệu, viết script để chuyển đổi data và gắn kết thuật toán với các thư viện để giải quyết vấn đề.
+
+* Machine Learning lý thuyết: Liên quan tới toán học, lý thuyết, nghiên cứu khoa học. 
+
+Theo mình cách học tốt nhất dành cho các bạn chưa có căn bản về nghiên cứu là tập trung vào thực hành: "thực hành - tìm hiểu - thực hành", có nghĩa là đầu tiên các bạn sẽ làm quen với 1 vài bài toán và thực hành các giải pháp của bài toán đó, để làm quen với hướng xử lý và 1 vài thuật ngữ về ML/DL. Sau đó mới có thể học lý thuyết trong sách. Cứ thế lặp lại thì các bạn có thể nắm dc rõ về bản chất của ML/DL. Như vậy sẽ dễ tiếp cận hơn việc đọc sách khô khan.
+
+3. Cụ thể học như thế nào?
+
+Mình đã tạo ra roadmap rất chi tiết trên Github và hiện tại đang có hơn 10 nghìn bạn đang cùng xây dựng và học cùng mình.
+
+https://github.com/ZuzooVn/machine-l...ware-engineers
+
+Hiện tại roadmap này đang đứng trending top 1 trên Github và là Github số 1 năm 2016 theo đánh giá của tạp chí SD Times
+
+Các bạn có góp ý gì có thể comment trên Github hoặc ngay tại thread này.
+
+Mong rằng con đường tiếp cận Machine Learning, Deep Learning, Artificial Intelligence đỡ chông gai hơn với tất cả mọi người.
+
+Read more: http://www.ddth.com/showthread.php/1343976-L%E1%BB%99-tr%C3%ACnh-h%E1%BB%8Dc-Machine-Learning-Deep-Learning-t%E1%BB%AB-%C4%91%E1%BA%A7u-cho-c%C3%A1c-b%E1%BA%A1n-L%E1%BA%ADp-Tr%C3%ACnh-Vi%C3%AAn?s=e01c752fe025ee90f6c14eb0ec4bfa9d#ixzz4sNwgLZj1
+boolean | true

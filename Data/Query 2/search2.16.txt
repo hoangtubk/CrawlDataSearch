@@ -1,0 +1,78 @@
+url | https://blog.chappiebot.com/l%C3%ADnh-m%E1%BB%9Bi-deep-learning-62e6abf81739?gi=a29cb9b65a2f
+title | Lính mới & Deep Learning
+content | Hành trình tiến đến Deep Learning và câu chuyện tìm ra các model ứng dụng tối ưu.
+Khởi đầu
+Thật khó có thể hình dung được cách đây 1 vài năm chúng ta có thể nghĩ rằng AI đang trở thành một lĩnh vực nở rộ. Chúng ta đang ở tiệm cận của quy mô dữ liệu và tự động hoá ở mức cực đại và chắc có lẽ AI là thứ mà rất nhiều các nhà lớn, nhà đầu tư, các công ty và nhóm khởi nghiệp đang tìm cách tham gia.
+Ngày 9 tháng 1, 2007
+Gần 10 năm trước, chiến iPhone đầu tiên được giới thiệu bởi Steve Jobs, cuộc cách mạng di dộng diễn ra ngay sau đó với sự bùng nổ đến chóng mặt. Ít ai để ý rằng Steve Jobs đã không muốn cho bất cứ ai phát triển ứng dụng (apps) cho nó, bởi theo ông thì chỉ những gì ông kiểm soát được trong một thể thống nhất mới tạo nên một thiết bị tuyệt vời. Ông đã chần chừ, nhưng không quá lâu và App Store ra đời vào ngày 7 tháng 10, 2008 (một năm rưỡi sau). Và đến giờ App Store đã có hơn 2 triệu apps với tổng hơn 50 tỷ USD doanh thu đo đếm được từ IAP của Apple.
+Và một câu hỏi lớn đặt ra là đây có phải là đỉnh của sự phát triển mô hình ứng dụng di động hay chưa? Mặc dù có tới 2 triệu apps nhưng thực sự chỉ có một nhóm rất nhỏ các app phổ biến, và ngày càng nhiều nhà lớn chi phối các app quan trọng, hay bản thân Apple cũng như Google đều nắm những app lớn như Video Call, Messaging, Mail, Calendar, Music, Mobile Cloud Storage…
+Hố đen mới từ Messaging
+Chúng ta chứng kiến thương vụ đình đám ông chủ Facebook mua lại WhatsApp với giá 19 tỷ USD và biết Facebook trở thành nhà lớn chi phối quá bán thị trường các ứng dụng tin nhắn di động. Bộ đôi WhatsApp Facebook Messenger đã có 1 tỷ người dùng active mỗi tháng, và có hơn 60 tỷ tin nhắn mỗi ngày. Những con số thật đáng kinh ngạc.
+Hố đen mới được hình thành, nó hút nhiều nguồn lực xoay quanh câu hỏi “Messaging sẽ biến đổi ra sao và các mô hình kinh doanh trên đó?”
+Tại hội nghị F8, 4/2016, Facebook công bố Messenger Platform và trình diễn các ứng dụng Chatbots đầu tiên về ecommerce và publishing. Không phải Facebook là nhà đầu tiên giới thiệu nền tảng cho chatbots, trước đó có Telegram, Slack, Wechat…, thế nhưng sự áp đảo có tính chi phối của môi trường Messenger + WhatsApp đã tạo nên một cú hích lớn và thực sự là một hố đen bắt đầu thu hút anh tài vào đây.
+Khởi đầu cho Chatbots
+Ý tưởng Chatbots không mới, những năm 80 đã có nhiều ứng dụng mang tính chất trình diễn, một số đề tài khoa học xoay quanh câu hỏi “Liệu chúng ta có thể tạo ra cỗ máy giao tiếp giống người không?” Rất nhiều paper và các nhà khoa học đã cố gắng đi tìm lời giải.
+Đến nay, việc tạo ra cỗ máy “có khả năng trừu tượng và ý thức được mình đang tồn tại" dường như bế tắc.
+Andrew Ng’s view: “Most of the value of deep learning today is in relatively narrow domains where you can get a lot of data. Here’s one example of something it cannot do: have a meaningful conversation. There are demos, and if you cherry-pick the conversation, it looks like it’s having a meaningful conversation, but if you actually try it yourself, it quickly goes off the rails.”
+Vậy phải chăng chatbots khó chinh phục người dùng? Họ có thể chat với bạn bè mỗi ngày, mọi lúc mọi nơi, còn chatbots có lẽ quá ngô nghê và máy móc để thuyết phục họ quay lại?
+Machine Learning (ML) vs Deep Learning (DL)
+Câu trả lời cho thế hệ Chatbots mới nằm ở ML và DL. Một thế hệ mới có khả năng duy trì và phát triển hội thoại (context & developing conversation). Một thế hệ có khả năng được huấn luyện (train) và tìm ra được những giá trị trong khối dữ liệu lớn và mang đến cho từng người dùng.
+ML được bắt đầu bằng ý tưởng sử dụng các thuật toán thống kê trong đó xác suất tiền nghiệm tác động đến kết quả hậu nghiệm, ví dụ bạn có thể ứng dụng Suy luận Bayes để tính xác suất hậu nghiệm.
+Machine learning is the subfield of computer science that “gives computers the ability to learn without being explicitly programmed” (Arthur Samuel, 1959).
+Machine Learning có quan hệ rất gần và thường có bao gồm với tính máy dựa trên thống kê (computational statistics), vì vậy đại số tuyến tính (Linear Algebra) được vận dụng rất nhiều trong ML. Ứng dụng của ML chủ yếu tập trung nhiều vào việc tiên đoán (prediction) dựa vào việc huấn luyện bởi các tập mẫu (datasets), các tập này được các chuyên gia lựa chọn các đặc trưng (features engineering).
+
+Nguồn Sklearn Classifier Comparison http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+Bạn có thể dùng các thuật toán dạng học có giám sát (supervised) cho các bài toán phân loại dữ liệu. Ưu điểm của supervised là độ chính xác cao nếu có tập train tốt, các nhãn được định sẵn. Trong trường hợp tập train chưa gán nhãn trước bạn có thể dùng học không giám sát (unsupervised).
+Trong ứng dụng thực tế, nếu bạn có một toà soạn hoặc một trang cập nhật nội dung thường xuyên, bạn có thể ứng supervised để train cho tập mẫu theo chủ đề, từ đó có thể tiên đoán cho các bài viết mới, độ chính xác có thể lên tới 97 đến 98%.
+Độ chính xác của các giải thuật ML này bị chi phối lớn bởi việc định nghĩa các đặc trưng (features). Ví dụ, để đoán xem tên một người là nam hay nữ, bạn có thể dựa vào tên đệm, tên hay thậm chí là chữ cái đầu và cuối. Trong xử lý văn bản thì bước tiền xử lý như tokenization, tính tf-idf, kbest có tác động lớn đến độ chính xác (accuracy).
+Như vậy rõ ràng ML cổ điển có một giới hạn lớn đó là phụ thuộc rất nhiều features engineering, điều đó cần rất nhiều kinh nghiệm của các chuyên gia ML.
+Deep Learning và cuộc chơi của dữ liệu siêu lớn
+Deep Learning là một thuật toán dựa trên một số ý tưởng từ não bộ tới việc tiếp thu nhiều tầng biểu đạt, cả cụ thể lẫn trừu tượng, qua đó làm rõ nghĩa của các loại dữ liệu. Deep Learning được ứng dụng trong nhận diện hình ảnh, nhận diện giọng nói, xử lý ngôn ngữ tự nhiên. (Phát biểu khá trừu tượng, trên Google khi bạn gõ từ khoá “Deep Learning là gì").
+Để diễn giải, bạn có thể xem cách Andrew Ng biểu đạt bằng đồ thị dưới đây:
+
+Nguồn http://cs229.stanford.edu/materials/CS229-DeepLearning.pdf
+Có thể hiểu Deep Learning là những phương thức có tính trí tuệ nhân tạo mới nhằm đạt được hiệu suất và độ chính xác cao hơn khi tăng khối lượng dữ liệu.
+Việc xây dựng các mạng neural như CNN, RNN hay cả các mạng lai ghép nhằm giải quyết bài toán giảm tối đa sự phụ thuộc vào quá trình chọn features nói ở phần trên. Bạn có thể tưởng tượng bây giờ để nhận diện giọng nói hay chữ viết, bạn không cần phải tiền xử lý nhiều và phải định nghĩa các đặc trưng nhận diện, bạn chỉ cần đưa vào gần như là dữ liệu thô (raw input) vào mạng neural để xử lý. Bản thân của các mạng này vẫn sử dụng các thuật toán thống kê, có thể nói đây là một kiểu học vẹt ở quy mô siêu lớn, càng nhiều dữ liệu, độ chính xác càng cao.
+Trên phương diện kinh doanh, việc hiểu rõ Machine Learning và Deep Learning có ý nghĩa rất lớn trong việc lựa chọn và mức độ ứng dụng thực tế, Chatbots là một ứng dụng điển hình, không phải cứ nói ứng dụng ML/DL/AI là được, bạn cần tỉnh táo và hiểu đầy đủ trước khi dồn nguồn lực cho những thứ có thể vắt kiệt sức bạn trước khi bạn đến đích.
+Thách thức của Chatbots
+Chatbots đang là một xu hướng lớn, được các nhà lớn, giới đầu tư và nhiều startups nhảy vào, rất nhiều anh chị em tinh hoa bước vào chung sức giải. Khoảng thời gian gần 1 năm qua, đã có rất nhiều chatbots ra đời, nhưng tựu chung đều ở mức cơ bản, hiểu nôm na là gõ từ khoá a thì làm việc A, bí quá sẽ tìm kiếm theo cụm từ. Một số thì xài thủ thuật để trong hao hao giống người. Tuy nhiên, không thể phủ nhận rằng bot sau ngon hơn bot trước, từng bước nhiều nhà lớn và tổ chức đầu tư nghiêm túc vào lĩnh vực này.
+Thách thức của Chatbots gồm:
+Context & Developing Conversation: Được hiểu là làm sao người dùng giao tiếp với máy mà ko máy móc quá, duy trì các cuộc hội thoại đủ nghĩa và hữu ích, không đơn thuần là mệnh lệnh đơn. Ví dụ khi bạn nói 1 câu ngắn “Tớ muốn tìm khách sạn”, bot cần phát triển hội thoại thêm như “Bạn muốn tìm khách sạn ở đâu, hay phòng đơn hay đôi, có wifi hay ăn sáng miễn phí không…. Hội thoại thì đa dạng, không phải là một kịch bản theo thứ tự 123. Hiện nay NLP, NLU là các công nghệ có thể áp dụng nhưng chưa rõ ràng, đòi hỏi việc nghiên cứu thêm.
+Training: Nói đến huấn luyện, có lẽ đây là đặc trưng rất quan trọng của loài người, con người nếu được huấn luyện, được dạy và có khả năng học thì sẽ tiến bộ, làm được nhiều việc phức tạp và đạt kết quả cao hơn. Hiện nay với Chatbots có thể được huấn luyện từ dữ liệu doanh nghiệp, từ lịch sử chat của người dùng, và nhiệm vụ tìm cách nối giữa dữ liệu doanh nghiệp với người dùng sao cho đạt hiệu quả kinh doanh tốt nhất: khách hàng quay lại thường xuyên, bán được nhiều hàng hơn…
+Performance & Scale Out: Chatbots đòi hỏi xử lý trên từng truy vấn theo ngữ cảnh người dùng nên việc tối ưu truy vấn đòi hỏi một kiến trúc tốt và có khả năng mở rộng được.
+Hiện nay, chưa có các mô hình, platform, engine đủ rõ ràng để ứng dụng quy mô, các nhà lớn cũng chưa có câu trả lời. Amazon Skills, IBM Watson, Microsoft Bot Framework, Google Actions with API.AI, Facebook Wit.AI và rất nhiều startups khác đưa ra giải pháp, và ngày một tốt hơn. Nếu bạn phát triển bot lúc này, đồng nghĩa bạn sẽ theo hướng nghiên cứu và thí nghiệm hơn là thương mại hoá. Tuy nhiên nếu bạn chờ thì dường như rất khó cho bạn cạnh tranh khi nhiều đơn vị khác đã đi trước bạn.
+deeplearningbook.org
+Những gì tớ nói ở trên cũng để đi đến đây, dự án cùng nhau học Deep Learning :)
+The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.
+The deep learning textbook can now be pre-ordered on Amazon. Pre-orders should ship on December 16, 2016.
+Nội dung
+Part I: Applied Math and Machine Learning Basics
+2 Linear Algebra
+3 Probability and Information Theory
+4 Numerical Computation
+5 Machine Learning Basics
+Part II: Modern Practical Deep Networks
+6 Deep Feedforward Networks
+7 Regularization for Deep Learning
+8 Optimization for Training Deep Models
+9 Convolutional Networks
+10 Sequence Modeling: Recurrent and Recursive Nets
+11 Practical Methodology
+12 Applications
+Part III: Deep Learning Research
+13 Linear Factor Models
+14 Autoencoders
+15 Representation Learning
+16 Structured Probabilistic Models for Deep Learning
+17 Monte Carlo Methods
+18 Confronting the Partition Function
+19 Approximate Inference
+20 Deep Generative Models
+Đây là một cuốn textbook (sách giáo khoa) mà team tớ lựa chọn để anh em cùng học và chia sẻ. Mục tiêu là hiểu rõ về Deep Learning và ứng dụng nó một cách hiệu quả vào thực tế.
+Mô hình học:
+Học viên truy cập vào tài liệu deeplearningbook này trên Google Docs, tại đây người học sẽ để lại các note/comment.
+Nhóm tớ sẽ follow up, đưa ra các điểm chính, các ý tưởng, source code (lưu trên github) cụ thể từ các giải thuật nhắc đến trong textbook này.
+Học viên có thể mời các chuyên gia về Deep Learning vào thảo luận hoặc trả lời các thắc mắc, nhóm tớ sẽ tích cực mời các anh chị về Deep Learning tham gia.
+Đây là dự án phi lợi nhuận và tất cả mọi người đều có thể tham gia dựa vào các quy tắc ứng xử do nhóm đặt ra.
+Khai giảng khoá học vào 23pm 20/10/2016, bây giờ bạn có thể đăng ký tham gia bằng cách request quyền truy cập tại đây.
+boolean | true

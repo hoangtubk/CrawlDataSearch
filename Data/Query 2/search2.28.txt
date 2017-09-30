@@ -1,0 +1,42 @@
+url | https://apusvietnam.com/toi-da-den-voi-machine-learning-nhu-the-nao/
+title | Tôi đã đến với Machine Learning như thế nào?
+content | Tôi đã đến với Machine Learning như thế nào, và một phần nguyên do tôi viết blog này.
+
+Tôi vốn có xuất thân từ Toán với 5 năm liền thi toán Quốc gia (cả cho học sinh cấp 3 và sinh viên đại học). Đầu năm thứ ba đại học (2009), thấy các bạn khác đã bắt đầu xin vào các lab trong khoa để làm nghiên cứu, tôi và mấy cậu bạn thân đi hỏi các thầy cô trong khoa và đều nhận được câu trả lời là: Nếu học tốt toán thì nên theo Xử lý ảnh. Chúng tôi tìm và được một thầy giao cho đề tài Nhận dạng biển số xe bằng SVM. Không biết một chút gì về tối ưu và Machine Learning, chúng tôi đã bỏ cuộc sau gần một năm vật lộn để hiểu thuật toán SVM (mà cuối cùng vẫn không hiểu, và sử dụng K-nearest neighbors với độ chính xác rất thấp).
+
+Sau đó, chúng tôi mỗi người một hướng khác nhau, tôi được một thầy làm về Hệ thống nhúng và Tính toán khả cấu hình (Embedded System and Reconfigurable Computing) nhận vào lab cuối năm 2010. Thầy rất tốt, hướng dẫn sinh viên rất tận tình (tôi khó có thể được đi học tiếp nếu không có sự giúp đỡ của thầy). Tôi chuyển hướng sang làm FPGA và cố gắng hướng đến các ứng dụng có Xử lý ảnh, video – mặc dù vẫn không biết tại sao mình thích xử lý ảnh sau bao nhiêu lần thất bại ở project kia. Đề tài tốt nghiệp đại học năm 2012 của tôi là thiết kế một IP Camera trên FPGA. Tôi và một cậu bạn vất vả mấy tháng trời mà mới có kết quả tạm chấp nhận được lúc tốt nghiệp. Chúng tôi thường tới thư viện Tạ Quang Bửu (lab tôi ở đó) lúc 8h sáng và về nhà lúc 10h tối. Mùa hè năm ấy rất nóng và KTX thường xuyên mất nước. Hai ba ngày không tắm rửa là chuyện thường. Nhưng đó là chuyện nhỏ, chuyện lớn và tôi làm cháy vài cái mạch, khi sắp đến ngày bảo vệ mà vẫn chưa có kết quả gì, trong khi bạn cùng lớp đã viết xong luận văn cách đó mấy tuần.
+
+Cuối cùng, tất nhiên chúng tôi thành công (thì tôi mới tốt nghiệp được). Tôi có làm thêm một vài đề tài khác với thầy về FPGA, cũng thành công nhưng tôi gần như không rút ra được nhiều kinh nghiệm trong những đề tài đó. Mỗi khi bắt đầu một đề tài mới, tôi lại gặp khó khăn y như những lần trước.
+
+Tôi nhận ra rằng tôi không khéo léo và không có duyên với những thứ tỉ mỉ như thiết kế mạch điện.
+
+Cả 5 năm đại học tôi cố gắng tìm lại chính mình như hồi cấp ba. Tôi không làm được việc đó.
+
+Tôi không sợ khó, không sợ khổ, chỉ sợ nhất phải làm những thứ không đúng đam mê. Tôi đã làm nhiều thứ, và cũng thành công ở nhiều thứ. Nhưng tôi chỉ hứng thú với những thứ khi làm nhiều thì kinh nghiệm của mình tăng lên, mình có thể tự tin hơn khi nói chuyện với những người trong nghề.
+
+Tôi cũng nhận ra rằng tôi chỉ đam mê với những thứ tôi biết rõ nguyên do!
+
+Lúc đó thứ duy nhất tôi có thể nghĩ ra là Xử lý ảnh, ít nhất là vì nó có nhiều toán. Tôi cố gắng apply đi học về ngành Xử lý ảnh, lúc đấy vẫn chưa thật rõ về Machine Learning. Nếu ở lại Việt Nam và đi làm ngay, tôi biết chắc chắn rằng tôi sẽ khó thành công! Thật may mắn, tôi được thầy hiện giờ nhận (thầy duy nhất trả lời tích cực trong rất nhiều thầy tôi gửi email, và Penn State cũng là trường duy nhất nhận tôi).
+
+Trong kỳ đầu ở đây, cuối năm 2013, tôi phải học ba lớp: Linear Algebra, Probabilities and Random Processes, và 1 lớp tiếng Anh. Tôi cũng phải tập trung ôn tập cho kỳ thi quan trọng đầu tiên của PhD, Candidacy exam, vào đầu kỳ thứ hai. Hai môn học chuyên ngành kia là hai môn quan trọng nhất trong cả PhD của tôi. Trong thời gian này, tôi cũng thường xuyên được nghe đến Convex Optimization và Machine Learning từ các anh trong lab. Ai ai cũng nói về những thứ đó mà tôi không biết gì. Vậy là sau khi qua kỳ Candidacy và trở thành PhD candidate, tôi tự học hai khoá miễn phí trên mạng: Machine Learning của Andrew Ng và Convex Optimization của Stephen Boyd. Tôi học được rất nhiều thứ từ hai khoá này. Cùng kỳ đó, tôi cũng được học môn Pattern Recognition từ giáo sư yêu thích nhất của tôi trong khoa. Chỗ này hơi khoe một tí, tôi đạt điểm cao nhất trong kỳ thi Candidacy của khoa và là người duy nhất đạt điểm A trong môn Pattern Recognition kỳ đó. (Và bây giờ khoa tôi đã biết rằng ở châu Á còn có Việt Nam nữa )
+
+Lúc này thì tôi đã tự tin hơn rất nhiều. Quan trong hơn, cái đam mê học hỏi và làm việc như hồi cấp ba của tôi dần quay trở lại.
+
+Trong vài năm học PhD, tôi nghe quá nhiều về Deep Learning và những thành tựu không tưởng của nó, nhưng tôi vẫn cố tránh vì sợ. Rồi đến cuối 2016, tôi nhận ra rằng mình không thể trốn trành nó được nếu muốn ở lại lâu dài với Machine Learning. Tôi muốn rằng đề tài thứ ba, cũng là đề tài cuối cùng trong PhD của tôi, phải là Deep Learning. Tôi đọc khá nhiều bài báo về Deep Learning cho bài toán mà tôi thích và chợt nhận ra rằng Deep Learning cũng được xây dựng từ những thứ rất cơ bản, và có rất nhiều những thứ cơ bản về Machine Learning mà trước đây tôi tưởng rằng mình rõ, thực ra tôi lại rất mơ hồ.
+
+Tôi quyết định hệ thống lại kiến thức về Machine Learning của mình vào sáng sớm ngày 25/12/2016, khi trằn trọc không ngủ được vì đêm hôm trước uống hơi nhiều. Và để cho hấp dẫn hơn, tôi sẽ viết nó dưới dạng một blog, phải đến khi viết ra và chia sẻ với người khác thì mình mới hiểu sâu được nó.
+
+Cách học tập tốt nhất là chia sẻ kiến thức. Kiến thức là thứ mà khi cho đi, chúng ta sẽ thu được nhiều hơn.
+
+Thời gian đó là kỳ nghỉ đông nên tôi có nhiều thời gian cho việc viết và tạo dựng blog. Trong 4 ngày đầu, tôi xây dựng được bộ khung cho blog và viết liền được 3 bài để ra mắt.
+
+Những comments tích cực và số lượng like tăng vọt trong những ngày đầu như một liều thuốc mê kích thích tôi viết cực nhiều trong tháng đầu tiên (7 bài) và thậm chí bỏ bê việc nghiên cứu chính. Dần dần tôi bố trí thời gian hợp lý hơn và ra 1 bài/tuần như bây giờ. (Trước đó tôi lập trình Python rất ít, chủ yếu là Matlab, nhưng rồi vừa làm vừa học, giờ cũng khá hơn rồi.)
+
+Qua những thảo luận và những post trên page facebook, tôi tự mình học được ra rất nhiều điều. Có những niềm vui mới, có những mối quan hệ mới, có những cơ hội mới mở ra, hầu hết nằm ngoài kỳ vọng của tôi.
+
+Khi tìm được đam mê và niềm vui, tôi thường làm việc rất năng suất. Tôi không dám hứa trước, những sẽ cố gắng hết mình để hết năm nay có thể viết được những gì cần thiết cho các bạn bước chân vào Machine Learning.
+
+Niềm vui của các bạn cũng là niềm hạnh phúc của tôi. (Hơi chém tí, nhưng cũng phần nào đúng đấy)
+
+Cảm ơn các bạn đã đồng hành cùng tôi ôn tập lại kiến thức về Machine Learning.
+boolean | false

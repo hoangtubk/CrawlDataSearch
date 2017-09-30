@@ -1,0 +1,62 @@
+url | http://diendanpccc.com/showthread.php/455-Ti%C3%AAu-chu%C3%A2%CC%89n-H%C3%AA%CC%A3-th%C3%B4%CC%81ng-Ch%C3%B4%CC%81ng-se%CC%81t-trong-x%C3%A2y-d%C6%B0%CC%A3ng-Vi%C3%AA%CC%A3t-Nam
+title | Tiêu chuẩn Hệ thống Chống sét trong xây dựng Việt Nam
+content | Một số văn bản & tiêu chuẩn liên quan đến chống sét, tiếp đất, liên kết và che chắn điện từ trường đang áp dụng :
+
+1. Các tiêu chuẩn của IEC (Ủy ban kỹ thuật điện quốc tế)
+
+IEC61024 "Protection of structures against lightning"
+IEC61312 "Protection against lightning electromagnetic impulse (LEMP)”
+IEC61662 (1996-05) "Assessment of risk of damage due to lightning"
+IEC61663 "Protection of telecommunication lines against lightning"
+IEC60364-5-534 (1997-11) "Electrical installations of buildings"-Part 5: Selection and erection of electrical equipment - Section 534 : Devices for protection against overvoltages
+IEC61643 “Surge protecive devices connected to low-voltage power distribution systems” (2002-01) - Part 1: Performance Requirements and testing methods
+IEC61643 “Low voltage surge protective devices (2000-09)-Part 21: Surge protective devices connected to telecommunication and signalling networks and testing methods
+IEC 61643 “Low voltage surge protective devices (2002-02)-Part 12: Surge protective devices connected to low voltage power distribution systems – Selection and application principles
+IEC61643 “Components for low-voltage surge protective devices” (2001-10) Part 311: Specification for gas discharge tubes (GDT)
+IEC62305 Protection against lightning (2006-01)–Part 1: General principles
+IEC62305 Protection against lightning (2006-01)–Part 2: Risk management
+IEC62305 Protection against lightning (2006-01)–Part 3: Physical damage to structures and life hazard
+IEC62305 Protection against lightning (2006-01)–Part 4: Electrical and electronic systems within structures
+
+2. Các khuyến nghị và tài liệu của ITU-T
+
+(Liên minh viễn thông quốc tế - nhóm viễn thông) liên quan đến chống sét, tiếp đất, liên kết và che chắn điện từ dông sét
+
+ITU-T Recommendation K.11: Principles of protection against overvoltages (Các nguyên tắc chống quá áp và quá dòng)
+ITU-T Recommendation K.12 : Characteristics of gas discharge tubes for the protection of telecommunications installations (Đặc tính các ống phóng điện có khí bảo vệ thiết bị viễn thông)
+ITU-T Recommendation K.20: Resistibility of telecommunication equipment installed in a telecommunications centre to overvoltages and overcurrents. (Khả năng chống quá áp và quá dòng của thiết bị viễn thông lắp đặt trong một trung tâm viễn thông)
+ITU-T Recommendation K.21: Resistibility of telecommunication equipment installed in customer premises to overvoltages and overcurrents (Khả năng chống quá áp và quá dòng của thiết bị được lắp tại nhà của khách hàng).
+ITU-T Recommendation K.25 : Protection of optical fibre cables (Bảo vệ cáp sợi quang)
+ITU-T Recommendation K.27: Bonding configurations and earthing inside a telecommunication building (Cấu hình đấu nối và tiếp đất bên trong một toà nhà viễn thông).
+ITU-T Recommendation K.28: Characteristics of semi-conductor arrester assemblies for the protection of telecommunications instalations (Các đặc tính của tổ hợp thiết bị chống sét bán dẫn bảo vệ thiết bị viễn thông).
+ITU-T Recommendation K.30 : Positive temperature coefficient (PTC) thermistors (Các điện trở có hệ số nhiệt dương, PTC).
+ITU-T Recommendation K.31: Bonding configurations and earthing of telecommunication insatallations inside a subscriber’s building. (Cấu hình đấu nối và tiếp đất cho thiết bị viễn thông bên trong toà nhà thuê bao).
+ITU-T Recommendation K.35: Bonding configurations and earthing at remote electronic sites (Cấu hình đấu nối và tiếp đất tại các điểm điện tử ở xa).
+ITU-T Recommendation K.36: Selection of protective devices (Lựa chọn các thiết bị bảo vệ).
+ITU-T Recommendation K.39: risk assessment of damages to telecommunication sites due to lightning discharges (Đánh giá rủi ro thiệt hại đối với các trạm viễn thông do sét).
+ITU-T Recommendation K.40 : Protection against LEMP in telecommunications centres (Chống xung điện từ sét tại các trung tâm viễn thông).
+ITU-T Recommendation K.44: Resistibility tests for telecommunication equipment exposed to overvoltages and overcurrents - Basic Recommendation (Các phép thử khả năng chống quá áp và quá dòng đối với thiết bị viễn thông đặt ở nơi trống trãi).
+ITU-T Recommendation K.47: Protection of telecommunication lines using metallic conductors against direct lightning discharges (Chống sét đánh trực tiếp bảo vệ đường dây viễn thông dùng dây dẫn kim loại).
+ITU-T Recommendation K.56: Protection of radio base stations against lightning discharges (Chống sét bảo vệ các trạm gốc vô tuyến).
+ITU-T (1974) : The protection of telecommunication lines and equipment against lightning discharges, Chapters 1-5 (Chống sét bảo vệ các đường dây và thiết bị viễn thông, Các chương 1-5).
+ITU-T (1978) : The protection of telecommunication lines and equipment against lightning discharges, Chapters 6,7 and 8 (Chống sét bảo vệ các đường dây và thiết bị viễn thông, Các chương 6,7 và 8)
+
+3. Tiêu chuẩn Việt Nam
+
+TCN 68-140:1995: Chống quá áp, quá dòng bảo vệ đường dây và thiết bị thông tin - Yêu cầu kỹ thuật.
+TCN 68-167:1997: Thiết bị chống quá áp, quá dòng do ảnh hưởng của sét và đường dây tải điện - Yêu cầu kỹ thuật .
+TCN 68-141:1999: Tiếp đất cho các công trình viễn thông - Yêu cầu kỹ thuật.
+TCN 68-135:2001: Chống sét bảo vệ các công trình viễn thông - Yêu cầu kỹ thuật .
+TCN 68-174:2006: Quy phạm tiếp đất và chống sét bảo vệ các công trình và thiết bị viễn thông.
+TCXDVN 46-2007 : Chống sét cho công trình xây dựng - Hướng dẫn thiết kế, kiểm tra và bảo trì hệ thống.
+
+4. Một số tiêu chuẩn của các quốc gia khác
+
+UL 1449 (Mỹ): Tiêu chuẩn về thiết bị bảo vệ cho các hệ thống điện.
+UL 96A ( USA):Installation Requirements for Lightning Protection Systems (Các yêu cầu về lắp đặt các hệ thống chống sét).
+NFC17-100 ( France) : Protection of structures and of open areas against lightning using traditional air terminal. (Chống sét bảo vệ các công trình xây dựng và các vùng trống trãi sử dụng điện cực thu sét trtuyền thống).
+NFC17-102 ( France) – Protection of structures and of open areas against lightning using early streamer emission air terminal. (Chống sét bảo vệ các công trình xây dựng và các vùng trống trãi sử dụng điện cực phát xạ sớm)
+UNE 21-186 (Span) - Protection of structures and of open areas against lightning using early streamer emission air terminal (Chống sét bảo vệ các công trình xây dựng và các vùng trống trãi sử dụng điện cực phát xạ sớm)
+
+Để có một hiệu quả cao trong chống sét bảo vệ các công trình viễn thông, truyền số liệu, điện lực, dầu khí, phát thanh truyền hình và các cấu trúc xây dựng khác trên mặt đất cần phải có một giải pháp chống sét toàn diện. Có thể sử dụng giải pháp công nghệ của các nhà sản xuất khác nhau trên thế giới và trong nước, nhưng phải đảm bảo các tiêu chuẩn quy định quốc tế và trong nước.
+boolean | false

@@ -1,0 +1,118 @@
+url | https://daynhauhoc.com/t/deep-learning-for-beginner/37493
+title | Deep learning for beginner
+content | Em chào mọi ngừoi ! Hiện tại e đang được thầy hướng dẫn và định hướng phát triển mảng deeplearning , tuy nhiên e chưa xác định được nên bắt đầu từ đâu . Em có đọc và tìm hiểu thì deep là 1 nhánh đặc biệt của machine learning . Vậy em nên bắt đầu từ đâu là hợp lý ? Em sử dụng deep trong việc xử lý hình ảnh , cám ơn mọi người ạ !
+
+1 Like
+
+created
+Oct '16
+last reply
+Oct '1610
+replies
+2.2k
+views
+7
+users
+6
+likes
+15
+links
+3
+
+Pete HoustonOct '16
+Anh dự là thấy giáo em theo dõi khoá này của Stanford, http://cs231n.stanford.edu/83
+
+Điểm khởi đầu của machine learning và deep learning là trên cơ sở toán học đại cương, số học, tuyến tính, xác xuất và thống kê.
+
+https://www.edx.org/course/calculus-1a-differentiation-mitx-18-01-1x29
+https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm17
+
+www.coursera.org 9
+
+Coursera | Online Courses From Top Universities. Join for Free
+
+1000+ courses from schools like Stanford and Yale - no application required. Build career skills in data science, computer science, business, and more.
+Sau đó có thể tiếp cận với một số framework về deep learning: Tensorflow, Torch, Theano.
+
+Với xử lý ảnh thì sẽ quan tâm tới Computer Vision và ImageNet.
+
+Em có thể tham khảo thêm tại cái reading list này: http://deeplearning.net/reading-list/56
+
+1 Like
+
+Trần Tuấn AnTr_n_Tu_n_AnOct '16
+chào a ! E có được thầy nói về tìm hiểu về tensorflow tuy nhiên e đang ở mức bắt đầu nên rất băn khoăn , vậy e nên tìm hiểu nền tảng về ML trước phải không ạ ?
+
+
+
+nhatlonggunzOct '16
+Mình thấy thấy đã có vài bài về Machine Learning và Deep Learning rồi này bạn:
+
+ Lộ trình học Machine Learning/ Deep Learning từ đầu cho các bạn Lập Trình Viên 
+dev chat
+1. Giới thiệu Đây là kế hoạch dài hơi cho sự nghiệp học tập Machine Learning / Deep Learning của mình. Mình hiện là Lập Trình Viên mobile (Android, iOS, Blackberry) với 6 năm kinh nghiệm và không có bằng cấp Thạc sĩ, Tiến sĩ gì về Computer Science. Mục đích chính của mình là tìm 1 cách học Machine Learning / Deep Learning thật hiệu quả cho các bạn không có kinh nghiệm nghiên cứu khoa học. Cách học này sẽ tập trung vào việc thực hành các ứng dụng của ML/DL trước, sau đó mới đi dần dần vào lý t…
+
+ Nhờ mọi người giúp sức xây dựng những phần còn thiếu trong wiki của Deep Learning 
+dev chat
+Mình đang tìm hiểu về deep learning, nhưng tài liệu về tiếng việt về phần này khá ít cộng với nhiều phần về học máy còn chưa được rõ (Đối với mình), vẫn biết nên học bằng tiếng anh là tốt, nhưng sẽ tốt hơn nữa nếu có thêm tiếng việt để bổ sung những phần chưa rõ (do vấn đề về tiếng hoặc vấn đề về chuyên ngành khó hiểu). Vậy mình muốn nhờ mọi người giúp sức xây dựng những phần còn thiếu trong wiki này (Nếu ngại viết wiki thì có thể gửi mình bản tiếng việt và mình sẽ đẩy lên wiki sớm nhất). …
+
+
+CLOSED OCT 28, '16
+
+OPENED OCT 28, '16
+
+Thịnh LêTh_nh_LeOct '16
+http://neuralnetworksanddeeplearning.com/chap1.html111
+đây là từ mảng Neural Network, người ta giải thích cực kì cặn kẽ luôn, bạn có thể học theo
+
+1 Like
+
+Thịnh LêTh_nh_LeOct '16
+khóa học Machine Learning trên coursera của giáo sư Andrew Ng thì theo mình thấy là khá ổn, kiểu giống như xem bên trong cái thuật toán là black box, bạn có thể áp dụng nhưng lại không hiểu rõ ràng được tại sao lại như vậy. Nên sau khi xem xong khóa học đó, bạn có thể đọc cuốn sách mình gửi hoặc học thêm Neural Network của giáo sư gì mình không nhớ tên, chỉ nhớ là thuộc đại học Toronto
+
+
+
+Huy TrầnhuydotnetOct '16
+Mình thấy nhiều bạn bây giờ cứ muốn học là đâm đầu vào học Deep Learning, như vậy rất có hại.
+
+Deep Learning chỉ là 1 mảng con của Machine Learning, và để tiếp cận được Deep Learning thì cần phải nắm được rất nhiều khái niệm cơ bản từ Machine Learning. Nếu không thì trong quá trình học các bạn sẽ rất dễ bỏ qua một vài keyword quan trọng, dẫn tới ko hiểu gì hết luôn.
+
+Theo mình thì có các cách học như sau cho hiệu quả:
+
+Học lý thuyết
+
+Đầu tiên: Học course ML trên Coursera của Andrew Ng kết hợp đọc tài liệu course CS29955 (đây là course chính của Andrew, cái course trên Coursera chỉ là trích lược từ course này)
+
+Tiếp theo: Học tiếp course Deep Learning của Google19, và nếu muốn đi sâu vào Neural Network thì đọc trước cái link bác @Th_nh_Le đã đưa http://neuralnetworksanddeeplearning.com/chap1.html20 để nắm kiến thức cơ bản về Neural Network
+
+Để học được course này bạn cần có kiến thức về (trích nguyên văn trên udacity luôn nha):
+
+Basic machine learning knowledge (especially supervised learning)
+Basic statistics knowledge (mean, variance, standard deviation, etc.)
+Linear algebra (vectors, matrices, etc.)
+Calculus (differentiation, integration, partial derivatives, etc.)
+Và 4 cái trên nó được cover trong course CS299.
+
+Sau cùng: Học tiếp course CS231n12 mà a Pete đã đưa link, vì course này chỉ nói về CNN dùng cho nhận diện hình ảnh (tức là một ngách hẹp hơn nữa của Neural Network)
+
+Học thực hành
+
+Tất nhiên các khóa trên đều thuộc phạm trù Machine Learning Lý Thuyết (theo như phân loại trên cái lộ trình học Machine Learning12 của a @ZuzooVn), trong thời gian ôn luyện lý thuyết, bạn có thể order vài cuốn sách thiên về Machine Learning thực hành để làm quen ví dụ như cuốn:
+
+Data Science from Scratch12
+Python Machine Learning23
+Make your own Neural Network10
+Và học thêm Sci-Kit2 hoặc TensorFlow qua loạt bài ví dụ này23 để tự implement thử vài thứ cho dễ hiểu thêm.
+
+Hai bước thực hành và lý thuyết bạn có thể tiến hành song song, nhưng tuyệt đối ko đc bỏ phần lý thuyết nếu bạn muốn học ML một cách nghiêm túc :smiley:
+
+2 Replies2 Likes
+
+Nam VuZuzooVnOct '16
+Hiện tại quyển sách deeplearningbook.org đang trong quá trình dịch sang tiếng Việt rồi :slight_smile:
+
+1 Like
+
+Thịnh LêTh_nh_LeOct '16  huydotnet
+course của Andrew Ng do trích ra nên thiếu sót nhiều, ko đủ để nắm sâu về ML, nhưng lại là cần thiết cho người mới bắt đầu vì đó là nhập môn
+boolean | true

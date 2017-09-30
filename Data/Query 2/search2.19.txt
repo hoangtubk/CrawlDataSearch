@@ -1,0 +1,32 @@
+url | https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_s%C3%A2u
+title |Học sâu
+content | Học sâu (tiếng Anh: Deep learning) là một chi của ngành máy học dựa trên một tập hợp các thuật toán để cố gắng để mô hình dữ liệu trừu tượng hóa ở mức cao bằng cách sử dụng nhiều lớp xử lý với cấu trúc phức tạp, hoặc bằng cách khác bao gồm nhiều biến đổi phi tuyến.
+
+Học sâu là một phần của một họ các phương pháp học máy rộng hơn dựa trên đại diện học của dữ liệu. Một quan sát (ví dụ như, một hình ảnh) có thể được biểu diễn bằng nhiều cách như một vector của các giá trị cường độ cho mỗi điểm ảnh, hoặc một cách trừu tượng hơn như là một tập hợp các cạnh, các khu vực hình dạng cụ thể, vv. Một vài đại diện làm khiến việc học các nhiệm vụ dễ dàng hơn (ví dụ, nhận dạng khuôn mặt hoặc biểu hiện cảm xúc trên khuân mặt) từ các ví dụ. Một trong những hứa hẹn của học sâu là thay thế các tính năng thủ công bằng các thuật toán hiệu quả đối với học không có giám sát hoặc nửa giám sát và tính năng phân cấp.
+
+Các nghiên cứu trong lĩnh vực này cố gắng thực hiện các đại diện tốt hơn và tạo ra các mô hình để tìm hiểu các đại diện này từ dữ liệu quy không dán nhãn mô lớn. Một số đại diện được lấy cảm hứng bởi những tiến bộ trong khoa học thần kinh và được dựa trên các giải thích của mô hình xử lý và truyền thông thông tin trong một hệ thống thần kinh, chẳng hạn như mã hóa thần kinh để cố gắng để xác định các mối quan hệ giữa các kích thích khác nhau và các phản ứng liên quan đến thần kinh trong não.
+
+Nhiều kiến trúc học sâu khác nhau như mạng nơ-ron sâu, mã mạng nơ-ron tích chập sâu, mạng niềm tin sâu và mạng nơron tái phát đã được áp dụng cho các lĩnh vực như thị giác máy tính, tự động nhận dạng giọng nói, xử lý ngôn ngữ tự nhiên, nhận dạng âm thanh ngôn ngữ và tin sinh học, chúng đã được chứng minh là tạo ra các kết quả rất tốt đối với nhiều nhiệm vụ khác nhau.
+
+Ngoài ra, học sâu đã trở thành một từ ngữ thời thượng, hay một thương hiệu của mạng nơ-ron.
+Định nghĩa[sửa | sửa mã nguồn]
+Có một số cách để mô tả học sâu. Học sâu là một lớp của các thuật toán máy học mà(pp199–200)
+
+Sử dụng một tầng (cascade) nhiều lớp các đơn vị xử lý phi tuyến để trích tách đặc điểm và chuyển đổi. Mỗi lớp kế tiếp dùng đầu ra từ lớp trước làm đầu vào. Các thuật toán này có thể được giám sát hoặc không cần giám sát và các ứng dụng bao gồm các mô hình phân tích (không có giám sát) và phân loại (giám sát).
+Dựa trên học (không có giám sát) của nhiều cấp các đặc điểm hoặc đại diện của dữ liệu. Các tính năng cao cấp bắt nguồn từ các tính năng thấp cấp hơn để tạo thành một đại diện thứ bậc.
+Là một phần của lĩnh vực máy học rộng lớn hơn về việc học đại diện dữ liệu.
+Học nhiều cấp độ đại diện tương ứng với các mức độ trừu tượng khác nhau; các mức độ hình thành một hệ thống phân cấp của các khái niệm.
+Các định nghĩa này có điểm chung là (1) nhiều lớp các đơn vị xử lý phi tuyến và (2) học có giám sát hoặc không có giám sát của biểu diễn đặc tính ở mỗi lớp, với các lớp hình thành một hệ thống các tính năng phân cấp từ thấp đến cao cấp.(p200) Các thành phần của một lớp của đơn vị xử lý phi tuyến sử dụng một thuật toán học sâu tùy theo vấn đề cần được giải quyết. Các lớp được sử dụng trong học sâu bao gồm các lớp ẩn của một mạng nơ-ron nhân tạo và tập các công thức mệnh đề phức tạp. Chúng cũng có thể bao gồm các biến tiềm ẩn được tổ chức thành các lớp chọn lọc trong các mô hình thể sinh (có khả năng sinh ra) sâu như các nút trong Deep Belief Networks và Deep Boltzmann Machines.
+
+Các thuật toán học sâu tương phản với các thuật toán học nông bởi số biến đổi được tham số hóa một tín hiệu gặp phải khi nó lan truyền từ các lớp đầu vào đến lớp đầu ra, nơi một biến đổi được tham số hóa là một đơn vị xử lý có các thông số có thể huấn luyện được, chẳng hạn như trọng số và ngưỡng.(p6) Một chuỗi các biến đổi từ đầu vào đến đầu ra là một đường gán kế thừa (CAP- credit assignment path). CAP mô tả các kết nối quan hệ nhân quả tiềm năng giữa đầu vào và đầu ra và có thể thay đổi chiều dài. Đối với một mạng nơ-ron nuôi tiến (feedforward), độ sâu của CAP, và do đó độ sâu của mạng đó, là số lượng các lớp ẩn cộng 1 (lớp đầu ra cũng là tham số hóa). Đối với mạng nơ-ron tái phát, trong đó một tín hiệu có thể truyền thông qua một lớp nhiều hơn một lần, CAPcó khả năng không bị giới hạn chiều dài. Không có sự thống nhất chung về ngưỡng của độ sâu chia học cạn với học sâu, nhưng hầu hết các nhà nghiên cứu trong lĩnh vực đồng ý rằng học sâu có nhiều lớp phi tuyến (CAP > 2) và Schmidhuber coi CAP > 10 để là học rất sâu.(p7)
+
+Khái niệm cơ bản[sửa | sửa mã nguồn]
+Các thuật toán học sâu dựa trên các đại diện phân phối. Giả định tiềm ẩn đằng sau các đại diện phân phối là các dữ liệu được quan sát là được tạo ra bởi sự tương tác của các yếu tố được tổ chức theo lớp. Học sâu thêm giả định rằng các lớp của các yếu tố này tương ứng với các mức độ trừu tượng hay theo thành phần. Các con số khác nhau của các lớp và kích thước của lớp có thể được sử dụng để quy định các lượng trừu tượng khác.
+
+Học sâu khai thác ý tưởng thứ bậc các yếu tố giải thích này ở cấp cao hơn, những khái niệm trừu tượng hơn được học từ các cấp độ thấp hơn. Những kiến trúc này thường được xây dựng với một phương pháp lớp chồng lớp tham lam. Học sâu giúp để tháo gỡ những khái niệm trừu tượng này và chọn ra những đặc điểm cần thiết cho việc học.
+
+Đối với các nhiệm vụ học có giám sát, các phương pháp học sâu sẽ tránh kỹ thuật đặc điểm (feature engineering), bằng cách dịch các dữ liệu vào các đại diện trung gian nhỏ gọn giống như các thành phần chính, và lấy được các cấu trúc lớp mà loại bỏ sự thừa thải trong đại diện.
+
+Rất nhiều các thuật toán học sâu được áp dụng cho các nhiệm vụ học không có giám sát. Đây là một lợi ích quan trọng bởi vì dữ liệu không dán nhãn (chưa phân loại) thường phong phú hơn các dữ liệu dán nhãn. Một ví dụ của một cấu trúc sâu có thể được đào tạo theo cách không có giám sát là một mạng lưới tin sâu (deep belief network).
+
+boolean | true

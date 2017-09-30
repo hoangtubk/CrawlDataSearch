@@ -1,0 +1,12 @@
+url | https://tech.fpt.com.vn/phuong-phap-tu-van-noi-dung-huong-nguoi-dung-tren-dien-dan/
+title | Phương pháp tư vấn nội dung hướng người dùng trên diễn đàn
+content | Bài báo trình một nghiên cứu về bài toán tư vấn các bài viết phù hợp cho người dùng. Các tác giả đề xuất một giải pháp lọc cộng tác (collaborative filtering) hiệu quả sử dụng các mẫu đồng bình luận (co-commenting patterns) của người dùng.
+
+Các nền tảng Web 2.0 như các trang cá nhân (blogs), các trang tin tức trực tuyến (online news), mạng xã hội (social networks), và diễn đàn (forums) cho phép người dùng viết các bình luận (comments) diễn tả mối quan tâm hoặc quan điểm (opinion) của họ về nội dung các bài báo, bộ phim, bài viết trên diễn đàn. Các bình luận của người dùng chứa thông tin bổ sung cho nội dung bài viết cũng nhưng cung cấp thông tin quan trọng cho tương tác người dùng.
+
+Trong bài báo này chúng tôi trình một nghiên cứu về bài toán tư vấn các bài viết phù hợp cho người dùng. Chúng tôi đề xuất một giải pháp lọc cộng tác (collaborative filtering) hiệu quả sử dụng các mẫu đồng bình luận (co-commenting patterns) của người dùng. Để cải tiến độ chính xác, chúng tôi cũng giới thiệu một một giải pháp tư vấn lai (hybrid recommendation) mới trong đó kết hợp các đặc trưng cộng tác và các đặc trưng dựa trên nội dung sử dụng phương pháp học xếp hạng (learning-to-rank). Chúng tôi kiểm định tính hiệu quả của các phương pháp đề xuất trên hai tập dữ liệu thu thập trên diễn đàn và trên trang tin tức trực tuyến. Các kết quả thực nghiệm chỉ ra rằng phương pháp lọc cộng tác đề xuất tốt hơn hẳn các phương pháp dựa trên nội dung truyền thống. Hơn nữa phương pháp tư vấn lại cho kết quả tốt nhất. Kết quả thực nghiệm cũng cho thấy tính ổn định của các phương pháp của chúng tôi khi xử lý các bài viết mới được đưa lên với số lượng bình luận ít.  
+
+Do việc chuyển thể ngôn ngữ học thuật gặp khó khăn, mời độc giả quan tâm vui lòng truy cập link tiếng Anh:
+
+https://tech.fpt.com.vn/language/en/personalized-recommendation-of-stories-for-commenting-in-forum-based-social-media/
+boolean | true

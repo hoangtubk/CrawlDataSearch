@@ -1,0 +1,36 @@
+url | https://laptrinhx.com/topic/29933/cac-thuat-toan-duoc-su-dung-trong-he-thong-goi-y-recommendation-system
+title | Các Thuật toán được sử dụng trong hệ thống gợi ý (Recommendation System)
+content | Ở bài viết trước, chúng ta đã làm quen với hệ thống gợi ý và các hướng tiếp cận của nó. Bài viết hôm nay, chúng ta sẽ cùng nhau tìm hiểu về các thuật toán thường được sử dụng trong hệ thống này nhé. :D
+Có rất nhiều thuật toán được sử dụng trong hệ thống gợi ý. Tuy nhiên mỗi thuật toán sẽ cho chúng ta những kết quả khác nhau, nó phụ thuộc vào việc thuật toán đó được thiết kế để giải quyết vẫn đề gì, mối quan hệ giữa các dữ liệu ra làm sao v..v...
+
+Pearson correlation
+Pearson correlation hay còn gọi là hệ số tương quan pearson, dùng để đo lường mức độ tương quan giữa 2 người dùng (và các thuộc tính của họ, chẳng hạn như các bài báo được đọc từ một bộ sưu tập các blog) có thể được tính toán chính xác với pearson correlation . Nguyên tắc cơ bản của thuật toán là đo lường sự phụ thuộc tuyến tính giữa hai biến (hoặc người dùng). Do đó, phân tích tương quan Pearson còn được gọi là phân tích hồi quy đơn giản (nhưng khác nhau về mặt ý nghĩa).
+
+Hệ số tương quan Pearson (r) nhận giá trị từ -1 đến 1. Khi hệ số tương quan bằng r = 0 hoặc gần bằng 0, điều đó có nghĩa hai biến không có liên hệ gì với nhau. Nếu giá trị hệ số tương quan r > 0 nghĩa là khi giá trị của biến này tăng thì giá trị của biến kia cũng tăng. Ngược lại khi giá trị tương quan r < 0 nghĩa là nếu giá trị của biến này tăng thì sẽ làm giảm giá trị của biến kia và ngược lại.
+
+Cho hai biến số x, y từ n mẫu, hệ số tương quan Pearson được ước tính bằng công thức sau:
+thuật toán Pearson correlation được sử dụng rộng rãi trong nghiên cứu, là một thuật toán phổ biến cho collaborative filtering.
+
+Clustering algorithms
+Clustering hay còn gọi là phân cụm, là một dạng học không giám sát (unsupervised learning). Được dùng trong mô hình dữ liệu ngẫu nhiên (hoặc không có nhãn). Chúng hoạt động bằng cách xác định các điểm tương đồng giữa các đối tượng, Ví dụ đối với những đọc giả của các blog công nghệ, bằng cách tính khoảng cách từ các mục khác nhau trong không gian đặc trưng (các feature trong không gian đặc trưng có thể đại diện cho số lượng bài viết đã được đọc trong tập hợp các blogs). Số lượng các feature độc lập là kích thước của không gian. Những dữ liệu có tính chất tương tự nhau sẽ được gom lại thành một nhóm, dữ liệu của hai nhóm khác nhau sẽ có tính chất khác nhau.
+
+Có nhiều nhóm giải thuật khác nhau được dùng để phân cụm dữ liệu: hierarchical clustering, partitioning, density-based, model-based, etc. Nhưng đơn giản và được sử dụng nhiều nhất là giải thuật K-means phân chia các thành phần thành k cụm. Ban đầu các mục được ngẫu nhiên đặt vào các cụm. Sau đó tâm của các cụm này sẽ được tính dựa vào khoảng cách của các item trong cụm. Khoảng cách của mỗi item tính từ tâm sẽ được kiểm tra, nếu một đối tượng sau khi kiểm tra thấy nó gần với tâm của một cụm khác, nó sẽ được di chuyển tới cụm đó. Tâm của cụm sẽ được tính toán lại lần nữa, đến khi nào nó đạt được sự ổn định, có nghĩa là không có item nào di chuyển trong các quá trình kiểm tra lặp lại, thì tập hợp đã được nhóm đúng và thuật toán kết thúc.
+
+Khoảng cách giữa hai đối tượng thường được tính bằng giải thuật Euclidean, trong đó mỗi đối tượng được coi như là một vector đa chiều.
+
+Các thuật toán phân cụm được ứng dụng thành công trong hầu hết các lãnh vực tìm kiếm thông tin, phân tích dữ liệu, etc. Nếu sau này các bạn có ý tưởng xây dựng một hệ thống phân tích dữ liệu nào đó thì cũng nên tham khảo thuật toán này nhé, nó cũng sẽ rất hữu ích đó ạ ;)
+
+Các giải thuật khác
+Một số thuật toán khác cũng đã được sử dụng thành công:
+
+Bayesian Belief Nets, có thể được hình dung như là một đồ thị không tuần hoàn, với các cung đại diện cho các xác suất liên quan giữa các biến.
+Markov chains, có cách tiếp cận tương tự với Bayesian Belief Nets nhưng viêc xử lý vấn đề sẽ tối ưu hoá tuần tự thay vì chỉ đơn giản là dự đoán.
+Rocchio classification (được phát triển với mô hình Vector Space), khai thác thông tin phản hồi về tính phù hợp của item để cải thiện độ chính xác của các gợi ý.
+Những thách thức khi xây dựng hệ thống gợi ý
+Một trong những thách thức đối với bất kỳ hệ thống gợi ý nào là vấn đề người dùng mới (new user) hoặc mục tin mới (new item) – hay còn được gọi là “cold-start problem” – do họ chưa có bất kỳ thông tin đánh giá nào trong quá khứ nên giải thuật không thể dự đoán được. Nhưng theo nghiên cứu và tìm hiểu của tôi, bạn hoàn toàn có thể giải quyết vấn đề user cold start bằng cách gợi ý những item được nhiều người đánh giá cao và phù hợp với thông tin đăng ký của người dùng: thông tin cá nhân, sở thích dựa vào ngữ cảnh hiện tại của những người dùng hoặc theo chủ đề mà họ quan tâm.
+
+Conclusion
+Recommendation engines hiện đang trở thành một công cụ mạnh mẽ trên các trang web xã hội và thương mại phổ biến như, Amazone, faceboook, linkedin. Nó cung cấp giá trị to lớn cho chủ sở hữu trang web, và những người dùng của họ. Ví dự đối với một trang web như linkedin, hệ thống gợi ý đưa những người tìm việc đến gần hơn các doanh nghiệp, để họ dễ dàng tìm thấy những công việc phù hợp với năng lực bản thân, các nhà tuyển dụng cũng dễ dàng thu hút, tìm kiếm những nhân tài ẩn dật về với đội của mình.
+Qua những gì tìm hiểu được của chúng ta, tôi hy vọng một ngày nào đó bạn cũng có thể tạo ra cho riêng mình một recomendation engine áp dụng cho các sản phẩm của chính mình.
+Nguồn: Viblo
+boolean | true

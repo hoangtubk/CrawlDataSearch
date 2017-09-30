@@ -1,0 +1,41 @@
+url | https://ongxuanhong.wordpress.com/2017/01/10/he-thong-recommend-bai-nhac/
+title | Hệ thống recommend bài nhạc
+content | Một trong những công nghệ giúp cho đời sống con người ngày càng dễ dàng hơn đó là recommender system. Recommender system giúp kết nối người dùng với sản phẩm mà họ tìm kiếm được thuận tiện và nhanh chóng hơn từ đó mang lại lợi thế cạnh tranh của sản phẩm so với các đối thủ khác. Bạn có thể bắt gặp hệ thống này ở các trang xem phim, nghe nhạc, mua bán, mạng xã hội, … Về cơ bản, bạn có thể áp dụng ngay kỹ thuật này vào hệ thống của bạn thông qua các hướng tiếp cận như: Popularity – liệt kê top các sản phẩm được nhiều người quan tâm nhất, Classification – dựa vào các chủ đề mà bạn cung cấp để lọc ra danh sách sản phẩm tương ứng. Tuy nhiên, các hướng tiếp cận này đều mang tính đại chúng, không nhắm vào một cá nhân cụ thể nào. Hơn nữa, không ai dễ dàng cung cấp thông tin cá nhân cho ứng dụng của bạn để có thể lọc thông tin phù hợp.
+
+Do đó, trong bài viết này, tôi sẽ đi theo hướng tiếp cận Collaborative Filtering với hai phương pháp gồm Memory-Based Collaborative Filtering và Model-Based Collaborative filtering giúp trả lời hai câu hỏi “user nghe bài nhạc này thì sẽ có xu hướng nghe các bài như…” và “user có gu âm nhạc như bạn thì sẽ có xu hướng nghe các bài nhạc như…”. Trong đó, Model-Based sẽ sử dụng singular value decomposition (SVD) và Memory-Based sử dụng khoảng cách cosine để mô hình hóa hệ thống. Bạn có thể download dữ liệu từ đây Million Song Dataset Challenge.
+
+Source code: Github.
+
+
+Chuẩn bị tập dữ liệu
+
+Đầu tiên, ta sẽ import các thư viện cần thiết. Nếu có thư viện nào bị thiếu, bạn có thể sử dụng pip để install.
+Có thể thấy Sehr kosmisch – Harmonia được nghe nhiều nhất với 5970 lượt nghe. Dù bạn là ai đi chăng nữa thì hệ thống của chúng ta cũng chỉ recommend cho người dùng bằng cách hiển thị top các bài nhạc được nghe nhiều nhất. Giả sử người dùng không thích các thể loại nhạc này thì hệ thống của chúng ta đã thất bại trong việc gợi ý.
+
+Trước khi xây dựng hệ thống recommender, ta sẽ phân chia tập dữ liệu thành tập train và tập test với tỉ lệ 0.75/0.25.
+Memory-Based Collaborative Filtering
+
+Để có thể áp dụng phương pháp user-item filtering và item-item filtering, ta cần xây dựng ma trận user-item như hình bên dưới:
+Nếu tập dữ liệu của chúng ta có 66,346 user và 10,000 bài nhạc thì ta sẽ đi xây dựng ma trận user-item 66,346 dòng và 10,000 cột dữ liệu. Như vậy, ta có thể biết được số lượt nghe (listen count/ratings) của một user đối với một bài nhạc thông qua việc truy xuất ma trận như hình bên dưới.
+Sau khi xây dựng được ma trận user-item, ta sẽ xây dựng ma trận khoảng cách để tính độ tương tự (similarity distance) giữa các item và user lẫn nhau. Ta có nhiều độ đo khoảng cách để áp dụng tính toán. Thông thường, ta sử dụng độ đo khoảng cách cosine để tính.
+
+Cosine similiarity giữa user k và a được tính dựa vào công thức như bên dưới. Trong đó, x_{k,m} là số lượt nghe bài nhạc m của user k, x_{a,m} là số lượt nghe bài nhạc m của user a.
+Ta có thể dùng hàm pairwise_distances của sklearn để tính cosine similarity. Chú ý, output sẽ nằm trong khoảng 0 đến 1 do số lượt nghe đều là số không âm.
+
+Để có thể dự đoán số lượt nghe bài nhạc m của user k. Số lượt nghe càng cao tương đương với user quan tâm đến bài nhạc này càng nhiều. Ta có thể sắp xếp lại kết quả dự đoán để cho ra các bài nhạc gợi ý cho user này. Công thức dự đoán theo user-based CF được tính như bên dưới:
+Ta có thể thấy độ đo khoảng cách giữa user k và a được sử dụng như trọng số của mô hình dự đoán. User k càng giống user a bao nhiêu thì kết quả dự đoán sẽ càng gần với a bấy nhiêu. Đồng thời, giá trị dự đoán sẽ được tính dựa vào số lượt nghe trung bình của user k đối với các bài nhạc trước đó. Tương tự, item-based CF được tính như sau:
+
+Cuối cùng, ta sẽ sử dụng Root Mean Squared Error (RMSE) để đánh giá mô hình dựa vào tập dữ liệu test.
+sklearn có cung cấp hàm mean_square_error (MSE) để tính toán. Do ta đánh giá mô hình dựa vào tập test nên ta cần filter prediction matrix trước bằng lệnh prediction[ground_truth.nonzero()]. Giá trị của RMSE càng nhỏ thì mô hình của chúng ta càng tốt.
+
+a có thể thấy mô hình Memory-based dễ dàng cài đặt và dự đoán. Khuyết điểm của mô hình này đó là khó mở rộng cho các hệ thống lớn và không giải quyết được cold-start problem. Nghĩa là hệ thống không có khả năng dự đoán cho một user mới chưa có lượt nghe ở bất kỳ bài nhạc nào.
+
+Model-based Collaborative Filtering
+
+Giả sử, ta có d topics cho từng user và từng bài nhạc. Ví dụ, ta có thể mô tả bài nhạc m (R_m) thông qua phần trăm các topic bên trong đó như 0.3% jazz, 0.01% pop, 1.5% dance, … Tương tự, ta có thể mô tả gu âm nhạc của user u (L_u) thông qua phần trăm các topic như 2.5% jazz, 0% pop, 0.8% dance, … Khi đó, ta sẽ có hai vector tương tự như sau:
+Và mức độ quan tâm của user đối với bài nhạc này sẽ là tích vector của R_m, L_u. Khi đó, ta có thể sắp xếp các bài nhạc theo mức độ quan tâm này cho user.
+
+Model-based CF có khả năng mở rộng và giải quyết vấn đề ma trận bị rời rạc (sparsity level) tốt hơn memory-based models. Nhưng vẫn không giải quyết được vấn đề khi có user mới chưa có nghe bài nhạc nào. Bạn có thể giải quyết vấn đề cold-start bằng các cách gom nhóm người dùng mới vào nhóm người dùng cũ, dựa vào các feature ta đã xây dựng như thời điểm nghe nhạc, thông tin tài khoản, các chủ đề quan tâm, …
+
+Hiện nay, bạn có thể cài đặt recommender system một cách dễ dàng hơn thông qua các thư viện hỗ trợ sẵn như Crab – Recommender systems in Python hay Spark Mlib cho các hệ thống Big Data.
+boolean | true

@@ -1,0 +1,25 @@
+url | https://techmaster.vn/khoa-hoc/25511/machine-learning-co-ban
+title | Nhập môn Machine Learning
+content | Khóa học gồm giáo trình video, bài giảng trực tuyến và lựa chọn thực hành phòng lab tương tác với giảng viên. Học viên ở xa nên chọn học trực tuyến với học phí thấp, bài giảng xem vĩnh viễn
+
+Khóa học ngắn 13 buổi, nhập môn Machine Learning cho lập trình viên. Học qua dự án nhỏ demo, ngôn ngữ lập trình Python, framework Scikit-Learn, TensorFlow, Mlib trên Spark, Deeplearning4J (For java and Spark integratable).
+
+Học viên phải là lập trình viên, đã có ít nhất 24 tháng kinh nghiệm lập trình hoặc sinh viên chuyên ngành CNTT đã học môn xác suất, thống kê.
+
+Khóa học bao gồm các chủ đề:
+
+Supervised (bài toán có nhãn): classification and regression
+Unsupervised (bài toán không có nhãn): clustering and dimension reduction
+Các dự án, bài tập mẫu thực hành sẽ dạy các kỹ thuật
+
+Naïve Bayes
+Linear regression and logistic regression
+K-means
+Self-organizing map
+Principle component analysis
+Perceptron and back propagation
+Convolution neural network (nhận diện ảnh, phân loại text)
+Recurrent neural network
+Sequence2sequence neural network (chat bot, translator)
+Giảng viên: Cao Thanh Hà, kĩ thuật viên triển khai Machine Learning tại VCCorp.
+boolean | true 

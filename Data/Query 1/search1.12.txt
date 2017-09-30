@@ -1,0 +1,44 @@
+url | https://discuss.grokking.org/t/thi-t-k-ki-n-truc-youtube/113
+title | Thiết kế kiến trúc Youtube
+content | Youtube thì chắc chẳng ai là không biết đâu nhỉ? Nhưng các engineers nhà ta có ai từng thử đặt câu hỏi, khi xây dựng hệ thống như youtube cần phải giải quyết những vấn đề gì, và nên giải quyết như thế nào không?
+
+Cùng tham khảo 2 bài viết cùng serie bên dưới để hiểu thêm về những technical decision đằng sau việc team Youtube giải quyết những vấn đề sau nhé:
+
+Storage và data model
+Video và image storage
+Popular VS long-tailed videos
+Scale database
+Cache
+Security
+Webserver
+Đọc thêm http://r.grokking.org/article-how-to-design-youtube-ii66
+
+Show Full Post...
+1 Like
+
+created
+May 23
+last reply
+Jun 175
+replies
+375
+views
+3
+users
+2
+likes
+1
+link
+4
+
+vinhcMay 242 
+Những vấn đề thử thách nhất của youtube không nằm ở mấy feature căn bản: upload, transcode, browse & view. Mình có thể list 1 vài thử thách lớn của họ:
+1. CDN world-wide và cách để tối ưu CDN theo content/user
+2. Hệ thống bảo vệ bản quyền cho content owner, các cơ chế tự động quét và block content không bản quyền
+3. Hệ thống recommendation của youtube hiểu bạn thích xem gì hơn chính bạn
+4. Hệ thống statistic near-realtime
+
+Việc họ chọn công nghệ tại thời điểm đầu là MySQL, PHP chỉ là do vô tình phổ biến chứ không hẳn là có nghiên cứu và evaluation đầy đủ (ý kiến chủ quan của mình). Anyway là nó vẫn đáp ứng tốt nhu cầu của họ.
+
+Có bạn nào đã hoặc đang làm hệ thống tương tự thì inbox trao đổi với mình nhé :slight_smile: Skype: phucvinh.huynh
+boolean | false

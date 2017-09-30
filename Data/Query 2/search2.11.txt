@@ -1,0 +1,106 @@
+url | https://blog.topdev.vn/hieu-them-ve-deep-learning-thong-qua-12-khoa-hoc-online-mien-phi/
+title | Hiểu thêm về Deep Learning thông qua 12 khóa học online miễn phí
+content | Hằng ngày, chúng ta luôn bắt gặp những đầu báo nói về Deep Learning đang thay đổi cuộc sống như thế nào:
+
+Các thuật toán của Deep Learning giúp chuẩn đoán ung thư da chuẩn xác như bác sĩ đầy kinh nghiệm.
+Amazon Go: Deep Learning và AI đã thay đổi cách thức bán hàng như thế nào.
+Deep Learning giúp xe tự lái thông minh phát hiện ra người đi bộ khi đang chạy trên đường
+Bạn tò mò muốn tìm hiểu về nó? Bạn đang muốn học hỏi nhằm phát triển kĩ năng cũng như sự nghiệp của mình? Tôi đã tìm ra 12 lớp học online (hoàn toàn miễn phí) trải dài từ những điều cơ bản nhất cho tới những nghiên cứu mới nhất.
+
+Trước khi bắt đầu, có lẽ bạn sẽ vẫn thắc mắc rằng “Deep learning là cái quái gì?”
+Deep learning là một subfield của machine learning tập trung vào thuật toán dựa theo cấu trúc và tính năng của bộ não và được gọi là hệ thần kinh nhân tạo” – theo Jason Brownlee trong Machine Learning Mastery
+
+Các khóa học online về Deep learning
+
+1/ Ứng dụng thông minh của Deep learning với TensorFlow
+
+via Kadenze
+
+★★★★★ (14 ratings)
+
+Khóa học bao gồm những bài học cơ bản về deep learning, nó có nghĩa gì, hoạt động như thế nào cũng như cách lập trình để tạo ra các thuật toán về mạng phức tạp sâu, các bộ mã vạch biến thể, các mạng lưới đối ứng sinh sản, và mạng nơron recurrent. Một trong những điểm chính của khóa là tập trung vào cách áp dụng các thuật toán đó để tạo nên những ứng dụng sáng tạo. Khóa có 2 lựa chọn free và trả phí (tùy thuộc vào mức độ bạn muốn học).
+
+Christopher Kelly cho biết “ Tôi đã tốt nghiệp chuyện ngành về computer science…. tôi cũng dành cả đống thời gian học online thế nhưng tôi thật sự rất ấn tượng bởi chất lượng và tính chuyên nghiệp của khóa học này. Rất khuyến khích các bạn muốn biết về deep learning học khóa này”
+
+2/ Neural Networks for Machine Learning
+
+Đại học Toronto via Coursera
+
+★★★★★ (18 ratings)
+
+Học về mạng nơ-ron nhân tạo và cách chúng được sử dụng trong machine learning, như nhận diện vật thể, giọng nói; phân tích cử động con người; phân chia hình ảnh, etc. Khóa học cũng tập trung vào những cơ bản về thuật toán và các trick thực tiễn nhằm khiến chúng hoạt động tốt.  Khóa có 2 lựa chọn free và trả phí (tùy thuộc vào mức độ bạn muốn học).
+
+Một review nổi bật (bởi Bobby Brady): “Là một trong những khóa học cực hay mà bạn có thể học được từ những người giỏi nhất.Geoffrey Hinton là một trong những nhà nghiên cứu quan nổi tiếng nhất về lĩnh vực trí tuệ nhân tạo và mạng lưới thần kinh những năm 80. Hiện ông đang làm việc cho Google với project là AI/deep learning initiatives”.
+
+3/ Practical Deep Learning For Coders, Part 1
+
+fast.ai
+
+★★★★☆ (3 ratings)
+
+Khóa học kéo dài 7 tuần này dành cho những người đã có ít nhất 1 năm kinh nghiệm với lập trình, kèm với một số kiến thức về toán học cấp 3. Bạn sẽ bắt đầu với bước một – Học cách làm cho một GPU server online phù hợp với deep learning  – cho đến việc tạo ra sự hiện đại, thiết thực của các model cho computer vision, xử lý ngôn ngữ tự nhiên cũng như recommendation systems. Tất cả đều hoàn toàn miễn phí.
+
+Anonymous cho biết: “Đây như là ngọc trong đá vậy. Jeremy Howard đã rất xuất xắc trong việc dẫn dắt người học qua những thứ cơ bản cũng như chỉ ra kết quả của chúng. Tôi đã rất ngạc nhiên khi anh liên tục đưa ra những thông tin được cập nhật không chỉ trong năm mà còn chỉ vừa cách đây vài tuần vào các bài học… Bạn được thực hành dựa trên những số liệu, thông tin có thực. Tôi cực kì khuyến khích các bạn nào chưa có kinh nghiệm mà muốn trở thành chuyên gia trong lĩnh vực này tham gia vào khóa học này”.
+
+4/ 6.S191: Introduction to Deep Learning
+
+Massachusetts Institute of Technology (MIT)
+
+★★★★☆ (1 rating)
+
+Một khóa giởi thiệu về các phương thức của deep learning với những ứng dụng vào machine translation, nhận diện hình ảnh, game, chế tạo hình ảnh và nhiều thứ khác. Là một khóa học có sự hợp tác giữa các labs thuộc TensorFlow. Hoàn toàn miễn phí.
+
+5/ 6.S094: Deep Learning for Self-Driving Cars
+
+Massachusetts Institute of Technology (MIT)
+
+★★★★☆ (1 rating)
+
+Khóa học giới thiệu về các ứng dụng thực tiễn của deep learning dựa trên theme xây dưng một xe ô tô tự chạy. Đây là một lớp học dành cho các beginner và những người hoàn toàn mới đối với machine learning, thế nhưng khóa học cũng rất hưu ích đối những nhà nghiên cứu đang tìm kiếm một phương thức áp dụng deep learning vào các app của họ. Khóa học hoàn toàn miễn phí
+
+6/ Deep Learning
+
+Google via Udacity
+
+★★☆☆☆ (20 ratings)
+
+Trong khóa học này, bạn sẽ được hiểu rõ về động lực của deep learning, và thiết kế một hệ thống trí thông minh nhân tạo với khả năng đọc hiểu các dataset phức tạp và lớn. bạn cũng se được học cách giải quyết các vấn đề vốn từng được cho là khá khó nhai, cũng như là trở nên quí trọng hơn đối với trí tuệ của con người khi bạn giải quyết những vấn đề ấy một cách dễ dàng sử dụng các cách thức của deep learning. Khóa học cũng hoàn toàn free.
+
+7/ Deep Learning for Natural Language Processing
+
+University of Oxford
+
+Là một khóa học tập trung về những công nghệ mới nhất về phân tích cũng như tạo ra lời văn và text sử dụng hệ thống network neural recurrent. Các định nghĩa toán học của các model của machine learning cũng sẽ được giới thiệu cùng với những thuật toán dùng để tối ưu chúng.
+
+Khóa học được tạo ra bởi Phil Blunsom cùng với sự hợp tác từ nhóm nghiên cứu DeepMind Natural Language. Khóa học cũng miễn phí cho các bạn.
+
+8/ CS224n: Natural Language Processing with Deep Learning
+
+Stanford University
+
+Bạn sẽ được học về những công trình nghiên cứu mới nhất về deep learning trong Natural Language Processing. Về phía model, khóa học sẽ tập trung vềCác mô hình vector chữ, các mạng nơ-ron dựa trên window-base, mạng nơ-ron tái phát, các mô hình bộ nhớ dài hạn, mạng nơ-lăng đệ quy, mạng nơ-ron xoắn cũng như model mới đây có liên quan về lưu trữ bộ nhớ. Thông qua các bài học và những bài assignment, học sinh sẽ học được những trick kĩ thuật cần thiết để làm ra một neural network vận hành tốt và giải quyết được các vấn đề trong thực tiễn. Hoàn toàn miễn phí.
+
+9/ Machine Learning
+
+Nando de Freitas/University of British Columbia
+
+Khóa học tập trung về những lĩnh vực nổi bật nhất của deep learning. Dựa trên những thông tin về thần kinh học và thống kê, khóa học giới thiệu về background cơ bản của neural network, Boltzmann machine, mạng thần kinh xoắn và mạng thần kinh tái diễn. Nó cũng chỉ ra sự ảnh hưởng của deep learning về cách chúng ta hiểu về trí thông minh cũng như những đóng góp vào việc tạo ra những cỗ máy với trí thông minh nhân tạo. Khóa học cũng hoàn toàn miễn phí.
+
+10/ Deep Learning Summer School 2015 and 2016
+
+Various organizers (including Yoshua Bengio and Yann LeCun) via Independent
+
+Deep Learning Summer School nhắm tới các sinh viên đã tốt nghiệp và engineer cũng như những nhà nghiên cứu vốn đã có một lượng kiến thức cơ bản về machine learning (cũng như deep learning) nhưng vẫn muốn học thêm về lĩnh vực đó. Mặc dù khóa học không được sắp xếp như một khóa học online truyền thống nhưng bởi vì người tạo ra nó cũng như các thành viên tham gia giảng dạy cho khóa mà nó được đánh giá như một ỏ vàng về deep learning. Tất nhiên cũng miễn phí.
+
+11/ Online Course on Neural Networks
+
+Hugo Larochelle/Université de Sherbrooke
+
+“Chào mừng các bạn đã đến với khóa học online về neural network của tôi! Đây là một khóa học mà tôi dùng nó để dạy trong trường đại học  Université de Sherbrooke. Đây là một khóa học với trình độ ngang đai học, bao gồm tất cả những điều cơ bản về nerual network và những topic nâng cao khác”. Miễn phí!
+
+12/ Learn TensorFlow and deep learning, without a Ph.D.
+
+Google
+
+Một khóa học vỏn vẹn 3 tiếng (bao gồm slide và video) sẽ giới thiệu nhanh cho các developer về những nguyên tắc cơ bản nhất của deep-learning, kèm theo một số kiến thức đến từ TensorFlow. Hoàn toàn free.
+boolean | true

@@ -1,0 +1,14 @@
+url | https://vi.wikipedia.org/wiki/ITU-T
+title | ITU-T
+content | ITU-T là cụm từ viết tắt của International Telecommunication Union - Telecommunication Standardization Sector là lĩnh vực Tiêu chuẩn viễn thông - thuộc Tổ chức Viễn thông quốc tế.
+
+Mục lục  [ẩn] 
+1	Giới thiệu về ITU
+2	Nội dung của tiêu chuẩn ITU-T
+3	Tham khảo
+4	Liên kết ngoài
+Giới thiệu về ITU[sửa | sửa mã nguồn]
+ITU là Tổ chức viễn thông quốc tế thuộc Liên hiệp quốc, được thành lập vào năm 1865 (với tên gọi tiền thân là Liên minh Điện báo quốc tế - International Telegraph Union). Các hoạt động của ITU bao trùm tất cả các vấn đề thuộc ngành Công nghệ Viễn thông và Thông tin gồm có điều phối các quốc gia trên toàn cầu trong việc chia sẻ và sử dụng các tài nguyên Viễn thông như tần số vô tuyến điện, quỹ đạo vệ tinh, hỗ trợ phát triển cơ sở hạ tầng viễn thông tại các nước đang phát triển và xây dựng các tiêu chuẩn chung trên thế giới về kết nối các hệ thống liên lạc. ITU cũng đang tham gia nghiên cứu và tìm giải pháp cho các thách thức chung trên toàn cầu trong thời đại hiện nay như biến đổi khí hậu và bảo mật, an toàn thông tin.
+ITU có 3 lĩnh vực hoạt động chính gồm: ITU-T (Viễn thông - Telecom), ITU-R (Thông tin vô tuyến - Radio), ITU-D (Phát triển viễn thông - Telecommunications Development).
+Trụ sở của ITU hiện được đặt tại Genève, Thụy Sĩ. Tính tới thời điểm hiện nay, số lượng thành viên của ITU là 191 Quốc gia thành viên và hơn 700 thành viên lĩnh vực và thành viên liên kết.
+boolean | false

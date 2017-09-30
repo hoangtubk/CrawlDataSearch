@@ -1,0 +1,89 @@
+url | http://khoahoc.tv/tri-tue-nhan-tao-deep-learning-machine-learning-la-gi-70189
+title | Trí tuệ nhân tạo, deep learning, machine learning là gì?
+content | Trí tuệ nhân tạo (artificial intelligence - AI) giờ xuất hiện ở khắp mọi nơi. Nó là thứ được sử dụng để trả lời email tự động trên Gmail, học cách lái xe cho chúng ta ngồi chơi, sắp xếp lại ảnh của những chuyến đi chơi thành từng album riêng biệt, thậm chí còn giúp quản lý ngôi nhà hay đi mua sắm nữa. Nhưng bạn có biết là trí tuệ nhân tạo không chỉ đơn giản là một thực thể mà nó còn được chia thành nhiều loại nhỏ hơn? Những hạn chế hiện tại của sản phẩm trí tuệ nhân tạo là gì? Và vì sao chúng ta không cần (hay chưa cần) phải lo lắng về việc trí tuệ nhân tạo bùng lên chiếm lấy thế giới?
+Đây là những cụm từ mà bạn rất thường hay thấy trong những thông tin liên quan đến trí tuệ nhân tạo. Về cơ bản, bạn có thể nghĩ về những thứ này như các lớp cấu thành trí tuệ nhân tạo.
+
+Neural network, tạm gọi là mạng lưới thần kinh nhân tạo, sẽ nằm dưới cùng. Đây là hệ thống các máy tính và thiết bị hệ thống điện toán nói chung được kết nối theo một cách nào đó để mô phỏng lại một phần cách hoạt động của các nơ-ron thần kinh trong não người. Những chiếc máy tính trong neural network có thể nằm gần nhau trong cùng một phòng hay cách xa nhau cả nghìn cây số, mỗi một chiếc máy tính trong đó có thể được xem như một đơn vị thần kinh, gọi là node.
+
+Neural network không nhất thiết phải dựa trên phần cứng, nó vẫn có thể là phần mềm và các giải thuật.
+
+Khái niệm về neural network đã có từ những năm 1950 với sự ra đời của ngành nghiên cứu về trí tuệ nhân tạo. Người ta nói rằng khi nằm riêng biệt, những node máy tính này chỉ chạy những gì được lập trình sẵn và chỉ có thể trả lời những câu hỏi đơn giản, hay nói cách là nó "không thông minh". Cũng giống như trong cơ thể người, một nơ-ron không chưa làm nên chuyện, nhưng khi kết nối chúng thành một mạng lưới dày đặt thì mọi chuyện sẽ khác đi rất nhiều. Khi các hệ thống máy tính được nối lại với nhau, chúng có thể giải quyết những vấn đề khó khăn hơn. Và quan trọng nhất, khi áp dụng đúng thuật toán, người ta có thể "dạy học" cho máy tính.
+
+Lớp kế tiếp là machine learning. Đây là một chương trình chạy trên neural network, nó sẽ làm nhiệm vụ huấn luyện máy tính để "học hỏi" một vấn đề gì đó, ví dụ như học hỏi từ hàng nhìn mẫu chữ viết tay của người dùng để đoán xem đó là kí tự gì, hoặc học từ hàng nghìn bức ảnh chụp bãi biển để tìm ra điểm chung và sau đó nhìn phát là biết ngay tấm này chụp biển chứ không phải chụp núi.
+
+Deep learning nằm ở trên cùng. Đây là một nhánh đặc biệt của ngành khoa học machine learning. Deep learning trở nên phổ biến trong thập kỉ gần đây nhờ vào sự gia tăng nhanh chóng của lượng dữ liệu số mà loài người tạo ra, ngoài còn nhờ sức mạnh xử lý của máy tính gia tăng trong khi giá thành giảm xuống. Sẽ nói kĩ hơn về deep learning ở bên dưới.
+
+Trí tuệ nhân tạo hoạt động ra sao?
+Giả sử như bạn muốn một cái máy tính biết cách băng qua đường. Theo cách truyền thống, chúng ta sẽ lập trình cho nó cách nhìn trái, nhìn phải, cách đợi xe chạy qua hết, cách đi đúng vạch băng đường theo luật và nhiều thứ khác, sau đó để cho máy tự đi.
+
+Còn với kĩ thuật trí tuệ nhân tạo, mà cụ thể là một chương trình machine learning, bạn sẽ cho máy tính xem 10.000 đoạn video về cách băng đường an toàn. Kế tiếp bạn lại cho nó xem thêm 10.000 đoạn video nữa nhưng lần này chiếu cảnh người ta bị xe tông khi băng đường ẩu. Lúc này bạn mới thả cho nó tự băng đường.
+
+Deep learning sử dụng nhiều lớp trong một neural network để phân tích dữ liệu theo nhiều khía cạnh khác nhau.
+Deep learning sử dụng nhiều lớp trong một neural network để phân tích dữ liệu theo nhiều khía cạnh khác nhau.
+
+Phần khó nhất đó là bạn phải làm sao cho máy tính hiểu và tiếp thu được thông tin từ các video này, cũng giống như phần khó nhất khi đi dạy học là phải làm cho học sinh hiểu được bạn nói gì và ghi nhớ điều đó. Trong nhiều thập kỉ qua, người ta đã thủ nhiều phương pháp khác nhau để dạy cho máy tính học. Một trong những cách đã được xài đó là "reinforcement learning", tức là bạn sẽ "thưởng" cho máy tính khi nó làm đúng thứ bạn muốn rồi từ từ tối ưu để đạt kết quả tốt nhất. Người ta vẫn thường hay huấn luyện thú vật theo cách này. Một cách khác nữa là "chọn lọc tự nhiên", tức là nhiều cách giải quyết cùng một vấn đề sẽ được áp dụng cho chạy song song, cái này giải được nhanh và chính xác nhất sẽ thắng những cái còn lại.
+
+Còn trong thời đại ngày nay, người ta xài một phương pháp gọi là deep learning. Deep learning sử dụng nhiều lớp trong một neural network để phân tích dữ liệu theo nhiều khía cạnh khác nhau. Ví dụ, nếu bạn đưa cho máy tính học một tấm ảnh theo kĩ thuật deep learning, mỗi lớp trong mạng lưới thần kinh nhân tạo này sẽ nhìn nhận vấn đề theo một cách riêng. Lớp dưới cùng sẽ chỉ đơn giản là vẽ ra một cái lưới 5x5 lên tám ảnh và đánh dấu "có" hoặc "không" khi có một đối tượng xuất hiện trong ô. Nếu "có", lớp bên trên sẽ bắt đầu nhìn vào từng ô này một cách kĩ càng hơn, nó phân tích xem đây có phải là điểm đầu của một đường thẳng không, hay đây là một cái góc nghiêng? Thật nhiều lớp như thế sẽ giúp phần mềm hiểu được những vấn đề phức tạp, tất cả đều dựa trên các bẻ nhỏ nó ra rồi "điều tra" từ từ. Cũng chính vì lý do này mà người ta gọi đây là "deep", tức là sâu và có nhiều lớp.
+
+Kĩ thuật được Facebook áp dụng để nhận diện gương mặt, trong đó chia bức ảnh thành lớp khác nhau để học hỏi​.
+Kĩ thuật được Facebook áp dụng để nhận diện gương mặt, trong đó chia bức ảnh thành lớp khác nhau để học hỏi​.
+
+Yann LeCun, trưởng bộ phận trí tuệ nhân tạo của Facebook, cho biết: "Khi bạn đi lên các lớp cao hơn thì những thứ được phát hiện sẽ càng lúc càng rộng hơn. Càng lúc càng có nhiều khía cạnh hơn được phân tích. Và khi bạn leo lên đến lớp cao nhất, bạn sẽ có những công cụ để cho bạn biết bức hình đó đang chụp người hay một chút chó hay một chiếc máy bay".
+
+Nãy giờ chúng ta chỉ mới nói đến chuyện nhận biết, giờ thì đến lúc dạy cho máy tính biết thứ mà nó vừa nhận ra là gì. Một hệ thống neural network lại được sử dụng, nhưng lần này nó sẽ xem xét nhiều đặc điểm của một con mèo. Rất nhiều bức hình chụp mèo cũng sẽ được đưa cho hệ thống xem kèm theo lời dặn: đây là ảnh con mèo đó nha. Rồi người ta lại cho máy xem thêm một loạt ảnh khác nữa chụp chó, heo, gấu, vịt và dặn: đây không phải là con mèo. Thông qua hàng loạt dữ liệu như vậy, phần mềm sẽ biết được những con mèo thường có điểm chung gì, móng, lông, tay chân, đầu, đuôi của chúng ra sao thì mới được gọi là mèo...
+
+Theo thời gian, máy sẽ ghi nhớ những dữ liệu này và sắp xếp theo thứ tự quan trọng. Ví dụ, móng vuốt không chỉ mèo mới có, nhưng nếu móng đi chung với bàn chân to và ria mép thì đây đích thị là con mèo. Các mối liên hệ như thế này cũng sẽ được cung cấp theo thời gian trong quá trình phần mềm machine learning học hỏi các ảnh. Quy trình này diễn ra trong thời gian dài và lặp đi lặp lại nhiều lần. Cứ lần sau nó sẽ tốt hơn lần trước vì được góp ý từ con người hoặc thậm chí là từ những hệ thống trí tuệ nhân tạo khác.
+
+Bạn có thể thấy rằng chỉ để nhận biết được một con mèo thôi đã phức tạp quá chừng, trong khi các hệ thống machine learning của Facebook, Google hay Microsoft phải nhận biết nhiều thứ khác nữa trong đời sống. Thế nên, việc Microsoft tự hào khi phát hành một ứng dụng có khả năng nhận biết các giống chó khó nhanh nghe có vẻ đơn giản nhưng phía sau nó là cả một mạng lưới thần kinh nhân tạo phức tạp và đã bắt đầu chạy học hỏi trong thời gian rất dài rồi.
+
+Hình ảnh được tạo ra từ dự án trí tuệ nhân tạo Google Drea​.
+Hình ảnh được tạo ra từ dự án trí tuệ nhân tạo Google Drea​.
+
+Đây có phải là thứ mà Google, Facebook và nhiều công ty khác đang sử dụng?
+Câu trả lời chung sẽ là "Đúng rồi".
+
+Deep learning hiện tại đang được xài cho nhiều tác vụ khác nhau. Các công ty công nghệ lớn thường lập riêng một bộ phận trí tuệ nhân tạo. Google, Facebook còn mở những hệ thống phần mềm machine learning của mình ra cho mọi người sử dụng. Google hồi tháng trước cũng mới mở một khóa học kéo dài 3 tháng vè machine learning và deep learning.
+
+Một vài ví dụ về machine learning đó là công cụ Google Photos. Nó có khả năng nhận biết và phân loại hình ảnh mà bạn chụp theo từng chủ đề khác nhau, thậm chí là theo từng khuôn mặt khác nhau một cách tự động. Hay Facebook M, một trợ lý ảo cá nhân nửa người nửa máy có thể giúp bạn đặt một số món hàng mà bạn muốn. Microsoft với Cortana, Google với Google Now và Apple với Siri đều là những ví dụ rất thực của trí tuệ nhân tạo.
+
+Đây cũng là lý do vì sao mà trong thời gian gần đây chúng ta bắt đầu nghe nói nhiều về machine learning, deep learning và trí tuệ nhân tạo. Đó là vì các hãng tiêu dùng lớn đã bắt đầu nhảy vào cuộc chơi và đưa ra những sản phẩm thực tế mà người ta có thể cầm nắm và trải nghiệm. Trước đó, deep learning và machine learning chỉ nằm trong các phòng thí nghiệm ở những viện nghiên cứu và trường đại học mà thôi.Các nền tảng lớn hiện nay như Facebook, Amazon, Netflix,... đều có hệ thống gợi ý (recommend) rất mạnh giúp tăng đáng kể độ tương tác của người dùng. Cụ thể là chúng dựa trên các dữ liệu người dùng phát sinh ra khi dùng để gợi ý thêm những sản phẩm họ sẽ thích (trên các nền tảng mua sắm), những bộ phim họ sẽ muốn xem (vd. như trên Netflix), gợi ý các bài quảng cáo/được tài trợ (trên Facebook) hay các khóa học người học quan tâm (trên các nền tảng học online).
+
+Nhận diện hình ảnh
+Mục tiêu của công nghệ nhận diện ảnh là nhận biết và xác định các đối tượng trong ảnh cũng như hiểu được nội dung và ngữ cảnh trong đó. Ví dụ trên cho thấy dịch vụ nhận diện và xác định khuôn mặt của AlchemyVision có khả năng phân biệt hai khuôn mặt tương tự nhau giữa nam diễn viên Will Ferrell và tay trống của Red Hot Chili Peppers, Chad Smith. Công nghệ nhận diện hình ảnh cũng được đưa vào Facebook để gợi ý người dùng tag mặt bạn bè hay ứng dụng vào khoa học tội phạm và điều tra.
+
+Phát hiện các loại bệnh hiếm gặp
+Trí tuệ nhân tạo Watson của IBM đã phát hiện ra một loại bệnh mà các bác sĩ đã bó tay.
+Trí tuệ nhân tạo Watson của IBM đã phát hiện ra một loại bệnh mà các bác sĩ đã bó tay.
+
+Gần đây, trí tuệ nhân tạo Watson của IBM đã phát hiện ra một loại bệnh mà các bác sĩ đã bó tay không thể tìm ra ở một nữ bệnh nhân. Bằng cách so sánh bộ gene của người phụ nữ này với hơn 20 triệu kết quả nghiên cứu bệnh khác, Watson đã đưa ra kết quả là một chứng leukemia cực kỳ hiếm gặp chỉ trong 10 phút.
+
+Hạn chế của trí tuệ nhân tạo hiện nay
+Deep learning đang được sử dụng cho những thứ như nhận dạng giọng nói và nhận dạng hình ảnh, những thứ có nhiều tiềm năng thương mại hóa. Nhưng song song đó, nó cũng còn nhiều hạn chế.
+
+Đầu tiên, deep learning cần một lượng dữ liệu đầu vào khổng lồ để máy tính có thể học hỏi. Quy trình này mất nhiều thời gian, nhiều sức mạnh xử lý mà chỉ có các server cỡ lớn mới làm được. Nếu không có đủ dữ liệu đầu vào, hay có đủ dữ liệu nhưng không đủ sức mạnh để xử lý, thì mọi thứ không thể diễn ra đúng như ý định, kết quả do máy học sẽ không chính xác.
+
+Thứ hai, deep learning vẫn chưa thể nhận biết được những thứ phức tạp, ví dụ như các mối liên hệ thông thường. Chúng cũng sẽ gặp khó khăn khi cần nhận biết những thứ tương tự nhau. Lý do là vì hiện chưa có kĩ thuật nào đủ tốt để trí tuệ nhân tạo có thể rút ra những kết luận đó một cách logic. Bên cạnh đó, vẫn còn nhiều thách thức trong việc tích hợp kiến thức trừu tượng vào các hệ thống machine learning, ví dụ như thông tin về vật đó là gì, nó dùng để làm gì, người ta hay xài nó làm sao... Nói cách khác, machine learning chưa có được những kiến thức thông thường như con người.
+
+Một ví dụ rất cụ thể cho các bạn dễ hiểu: trong một dự án của Google, một mạng lưới thần kinh được sử dụng để tạo ra bức ảnh của một quả tạ mà người ta hay cầm tập trong phòng gym. Kết quả đưa ra khá ấn tượng: hai vòng tròn màu xám được kết nối bằng một cái ống ngang. Nhưng ở giữa cái ống này còn có cánh tay của con người, và đây không phải là thứ nằm trong "đề bài". Lý do thì khá là dễ đoán: hệ thống được dạy về quả tạ bằng những tấm hình chụp người ta đang cử tạ, vậy nên dính tay người vào là chuyện hiển nhiên. Hệ thống có thể biết được quả tạ ra sao, nhưng nó không biết là quả tạo sẽ không bao giờ có cánh tay cả.
+
+Bên cạnh việc mang lại nhiều lợi ích, deep learing cũng còn nhiều hạn chế.
+Bên cạnh việc mang lại nhiều lợi ích, deep learing cũng còn nhiều hạn chế.
+
+Với một số bức hình đơn giản hơn nhưng mahcine vẫn nhầm lẫn. Thử nghiệm của một nhóm nhà nghiên cứu cho thấy rằng khi họ đưa máy tính xem một loạt ảnh chỉ có các pixel ngẫu nhiên nhưng máy lại chắc chắn đây 95% là một cái... xe tải, hay là một con sao biển...
+
+Đó chưa phải là tất cả. Theo lời của nhà khoa học máy tính Hector Levesque, những công cụ trí tuệ nhân tạo hiện nay sử dụng nhiều "mánh" để xóa đi những lỗ hổng thật sự trong kiến thức của chúng. Các trợ lý ảo như Siri hay Cortana thường làm cho bạn có cảm giác bạn đang nói chuyện với người thật vì chúng sử dụng các câu nói đùa, câu trích dẫn, các biểu hiện cảm xúc và nhiều thứ khác, cốt chỉ để bạn phân tâm.
+
+Bạn hãy thử hỏi những thứ cần đến suy nghĩ thông thường, ví dụ như "con cá xấu có lái xe được không" hay "một cầu thủ đá banh có được phép gắn cánh để bay hay không". Các câu hỏi dạng này quá phức tạp với những hệ thống trí tuệ nhân tạo hiện nay nên thường sẽ không có kết quả nào được trả về cho bạn, nếu có cũng là những thứ không liên quan hay chỉ đơn giản là search câu nói của bạn trên Internet.
+
+Mùa đông AI
+Ngành khoa học trí tuệ nhân tạo là một ngành dễ lên nhưng cũng dễ xuống. Năm 1958, tờ New York Times từng nói về một chiếc máy có khả năng phân biệt bên trái và bên phải như là một dạng mầm sống của robot thông minh. Nhưng đến nay, chúng ta vẫn chưa thể tạo ra được một con robot nào có trí thông minh đến vậy. Và khi những lời hứa hẹn đó không được thực hiện, người ta dùng từ "mùa đông AI". Đó là giai đoạn mà lượng tiền đầu tư cho AI giảm mạnh, ít còn ai nhắc về nó, và người ta cũng tỏ ra hoài nghi về những kết quả có thể đạt được. Tính đến nay đã có khoảng 6 "mùa đông AI" nhỏ và 2 mùa lớn từng xuất hiện, vào cuối những năm 70 và đầu các năm 90.
+
+Trí tuệ nhân tạo có tri giác?
+Nhiều người đang làm việc trong ngành trí tuệ nhân tạo cho rằng chúng ta sẽ rất khó để tạo ra một trí tuệ nhân tạo có tri giác. "Có rất ít bằng chứng ở thời điểm hiện tại cho thấy hi vọng về việc tạo ra một trí tuệ nhân tạo có tính linh hoạt cao và làm được những thứ mà chúng không được tạo ra để thực hiện", theo lời giáo sư Andrei Barbu từ đại học MIT. Ông nhấn mạnh việc nghiên cứu trí tuệ nhân tạo hiện nay chỉ tạo ra được những hệ thống được tối ưu để giải quyết một vấn đề cụ thể mà thôi.
+
+Cũng đã có một số công trình nghiên cứu về việc cho máy tính học nhưng không cần sự giám sát, tức là cứ đưa dữ liệu cho máy học mà không dán nhãn đúng sai hay giải thích gì cả. Tuy nhiên, Andrei Barbu nhận xét những dự án như thế này vẫn chưa có tiến triển nào và vẫn còn rất xa xời để đến được ngày có kết quả. Một ví dụ đã từng xuất hiện đó là một hệ thống neural network của Google đã từng lấy ngẫu nhiên ảnh thumbnail của 10 triệu video trên YouTube để tự dạy mình con mèo trông giống như thế nào. Thế nhưng, Google nói đây chỉ là một thử nghiệm và không nói gì về độ chính xác của nó cả.
+
+Nói cách khác, chúng ta vẫn chưa biết cách làm cho máy tính tự học mà không cần giám sát. Đó là rào cản lớn nhất. Tức là vẫn còn rất xa mới tới cái ngày mà robot có tri giác và đánh trả lại con người.
+
+Như Elon Musk đã nói, công ty ông có tạo ra một trí tuệ nhân tạo cho tính năng tự lái xe trên những chiếc Tesla. Nhưng ông chưa bao giờ nói rằng nó sẽ biết hết mọi thứ. Đây chỉ đơn giản là một mạng lưới giúp các xe học hỏi lẫn nhau. Khi một chiếc này học được điều gì thì những chiếc khác cũng biết điều tương tự. Kết quả cuối cùng không phải là những chiếc xe có thể làm mọi thứ trên đời, nó chỉ để giải quyết một vấn đề rất cụ thể mà thôi.
+boolean | true

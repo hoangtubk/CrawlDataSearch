@@ -1,0 +1,41 @@
+url | https://tinhte.vn/threads/tri-tue-nhan-tao-deep-learning-machine-learning-la-gi-chung-hoat-dong-ra-sao-va-co-han-che-nao.2555928/
+title | Trí tuệ nhân tạo, deep learning, machine learning là gì, chúng hoạt động ra sao và có hạn chế nào?
+content | Trí tuệ nhân tạo (artificial intelligence - AI) giờ xuất hiện ở khắp mọi nơi. Nó là thứ được sử dụng để trả lời email tự động trên Gmail, học cách lái xe cho chúng ta ngồi chơi, sắp xếp lại ảnh của những chuyến đi chơi thành từng album riêng biệt, thậm chí còn giúp quản lý ngôi nhà hay đi mua sắm nữa. Nhưng bạn có biết là trí tuệ nhân tạo không chỉ đơn giản là một thực thể mà nó còn được chia thành nhiều loại nhỏ hơn? Những hạn chế hiện tại của sản phẩm trí tuệ nhân tạo là gì? Và vì sao chúng ta không cần (hay chưa cần) phải lo lắng về việc trí tuệ nhân tạo bùng lên chiếm lấy thế giới?
+
+Neural network, machine learning, deep learning là gì?
+
+Đây là những cụm từ mà bạn rất thường hay thấy trong những thông tin liên quan đến trí tuệ nhân tạo. Về cơ bản, bạn có thể nghĩ về những thứ này như các lớp cấu thành trí tuệ nhân tạo.
+
+Neural network, tạm gọi là mạng lưới thần kinh nhân tạo, sẽ nằm dưới cùng. Đây là hệ thống các máy tính và thiết bị hệ thống điện toán nói chung được kết nối theo một cách nào đó để mô phỏng lại một phần cách hoạt động của các nơ-ron thần kinh trong não người. Những chiếc máy tính trong neural network có thể nằm gần nhau trong cùng một phòng hay cách xa nhau cả nghìn cây số, mỗi một chiếc máy tính trong đó có thể được xem như một đơn vị thần kinh, gọi là node.
+
+Cập nhật: Neural network không nhất thiết phải dựa trên phần cứng, nó vẫn có thể là phần mềm và các giải thuật.
+
+Khái niệm về neural network đã có từ những năm 1950 với sự ra đời của ngành nghiên cứu về trí tuệ nhân tạo. Người ta nói rằng khi nằm riêng biệt, những node máy tính này chỉ chạy những gì được lập trình sẵn và chỉ có thể trả lời những câu hỏi đơn giản, hay nói cách là nó "không thông minh". Cũng giống như trong cơ thể người, một nơ-ron không chưa làm nên chuyện, nhưng khi kết nối chúng thành một mạng lưới dày đặt thì mọi chuyện sẽ khác đi rất nhiều. Khi các hệ thống máy tính được nối lại với nhau, chúng có thể giải quyết những vấn đề khó khăn hơn. Và quan trọng nhất, khi áp dụng đúng thuật toán, người ta có thể "dạy học" cho máy tính.
+
+Lớp kế tiếp là machine learning. Từ này mình không biết nên dịch sang tiếng Việt như thế nào cho chính xác nên tạm thời cứ để nguyên tiếng Anh. Đây là một chương trình chạy trên neural network, nó sẽ làm nhiệm vụ huấn luyện máy tính để "học hỏi" một vấn đề gì đó, ví dụ như học hỏi từ hàng nhìn mẫu chữ viết tay của người dùng để đoán xem đó là kí tự gì, hoặc học từ hàng nghìn bức ảnh chụp bãi biển để tìm ra điểm chung và sau đó nhìn phát là biết ngay tấm này chụp biển chứ không phải chụp núi.
+
+Deep learning nằm ở trên cùng, cũng không biết dịch ra tiếng Việt như thế nào. Đây là một nhánh đặc biệt của ngành khoa học machine learning. Deep learning trở nên phổ biến trong thập kỉ gần đây nhờ vào sự gia tăng nhanh chóng của lượng dữ liệu số mà loài người tạo ra, ngoài còn nhờ sức mạnh xử lý của máy tính gia tăng trong khi giá thành giảm xuống. Sẽ nói kĩ hơn về deep learning ở bên dưới.
+
+Trí tuệ nhân tạo hoạt động ra sao?
+
+Giả sử như bạn muốn một cái máy tính biết cách băng qua đường. Theo cách truyền thống, chúng ta sẽ lập trình cho nó cách nhìn trái, nhìn phải, cách đợi xe chạy qua hết, cách đi đúng vạch băng đường theo luật và nhiều thứ khác, sau đó để cho máy tự đi.
+
+Còn với kĩ thuật trí tuệ nhân tạo, mà cụ thể là một chương trình machine learning, bạn sẽ cho máy tính xem 10.000 đoạn video về cách băng đường an toàn. Kế tiếp bạn lại cho nó xem thêm 10.000 đoạn video nữa nhưng lần này chiếu cảnh người ta bị xe tông khi băng đường ẩu. Lúc này bạn mới thả cho nó tự băng đường.
+
+Đang tải google_self_driving_car.0.gif…  ​
+
+Phần khó nhất đó là bạn phải làm sao cho máy tính hiểu và tiếp thu được thông tin từ các video này, cũng giống như phần khó nhất khi đi dạy học là phải làm cho học sinh hiểu được bạn nói gì và ghi nhớ điều đó. Trong nhiều thập kỉ qua, người ta đã thủ nhiều phương pháp khác nhau để dạy cho máy tính học. Một trong những cách đã được xài đó là "reinforcement learning", tức là bạn sẽ "thưởng" cho máy tính khi nó làm đúng thứ bạn muốn rồi từ từ tối ưu để đạt kết quả tốt nhất. Người ta vẫn thường hay huấn luyện thú vật theo cách này. Một cách khác nữa là "chọn lọc tự nhiên", tức là nhiều cách giải quyết cùng một vấn đề sẽ được áp dụng cho chạy song song, cái này giải được nhanh và chính xác nhất sẽ thắng những cái còn lại.
+
+Còn trong thời đại ngày nay, người ta xài một phương pháp gọi là deep learning. Deep learning sử dụng nhiều lớp trong một neural network để phân tích dữ liệu theo nhiều khía cạnh khác nhau. Ví dụ, nếu bạn đưa cho máy tính học một tấm ảnh theo kĩ thuật deep learning, mỗi lớp trong mạng lưới thần kinh nhân tạo này sẽ nhìn nhận vấn đề theo một cách riêng. Lớp dưới cùng sẽ chỉ đơn giản là vẽ ra một cái lưới 5x5 lên tám ảnh và đánh dấu "có" hoặc "không" khi có một đối tượng xuất hiện trong ô. Nếu "có", lớp bên trên sẽ bắt đầu nhìn vào từng ô này một cách kĩ càng hơn, nó phân tích xem đây có phải là điểm đầu của một đường thẳng không, hay đây là một cái góc nghiêng? Thật nhiều lớp như thế sẽ giúp phần mềm hiểu được những vấn đề phức tạp, tất cả đều dựa trên các bẻ nhỏ nó ra rồi "điều tra" từ từ. Cũng chính vì lý do này mà người ta gọi đây là "deep", tức là sâu và có nhiều lớp.
+
+ Đang tải DeepFace.jpg…
+Kĩ thuật được Facebook áp dụng để nhận diện gương mặt, trong đó chia bức ảnh thành lớp khác nhau để học hỏi​
+
+Yann LeCun, trưởng bộ phận trí tuệ nhân tạo của Facebook, cho biết: "Khi bạn đi lên các lớp cao hơn thì những thứ được phát hiện sẽ càng lúc càng rộng hơn. Càng lúc càng có nhiều khía cạnh hơn được phân tích. Và khi bạn leo lên đến lớp cao nhất, bạn sẽ có những công cụ để cho bạn biết bức hình đó đang chụp người hay một chút chó hay một chiếc máy bay".
+
+Nãy giờ chúng ta chỉ mới nói đến chuyện nhận biết, giờ thì đến lúc dạy cho máy tính biết thứ mà nó vừa nhận ra là gì. Một hệ thống neural network lại được sử dụng, nhưng lần này nó sẽ xem xét nhiều đặc điểm của một con mèo. Rất nhiều bức hình chụp mèo cũng sẽ được đưa cho hệ thống xem kèm theo lời dặn: đây là ảnh con mèo đó nha. Rồi người ta lại cho máy xem thêm một loạt ảnh khác nữa chụp chó, heo, gấu, vịt và dặn: đây không phải là con mèo. Thông qua hàng loạt dữ liệu như vậy, phần mềm sẽ biết được những con mèo thường có điểm chung gì, móng, lông, tay chân, đầu, đuôi của chúng ra sao thì mới được gọi là mèo...
+
+Theo thời gian, máy sẽ ghi nhớ những dữ liệu này và sắp xếp theo thứ tự quan trọng. Ví dụ, móng vuốt không chỉ mèo mới có, nhưng nếu móng đi chung với bàn chân to và ria mép thì đây đích thị là con mèo. Các mối liên hệ như thế này cũng sẽ được cung cấp theo thời gian trong quá trình phần mềm machine learning học hỏi các ảnh. Quy trình này diễn ra trong thời gian dài và lặp đi lặp lại nhiều lần. Cứ lần sau nó sẽ tốt hơn lần trước vì được góp ý từ con người hoặc thậm chí là từ những hệ thống trí tuệ nhân tạo khác.
+
+Bạn có thể thấy rằng chỉ để nhận biết được một con mèo thôi đã phức tạp quá chừng, trong khi các hệ thống machine learning của Facebook, Google hay Microsoft phải nhận biết nhiều thứ khác nữa trong đời sống. Thế nên, việc Microsoft tự hào khi phát hành một ứng dụng có khả năng nhận biết các giống chó khó nhanh nghe có vẻ đơn giản nhưng phía sau nó là cả một mạng lưới thần kinh nhân tạo phức tạp và đã bắt đầu chạy học hỏi trong thời gian rất dài rồi.
+boolean | false

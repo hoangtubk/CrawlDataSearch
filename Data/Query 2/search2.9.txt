@@ -1,0 +1,27 @@
+url | https://daynhauhoc.com/t/lo-trinh-hoc-machine-learning-deep-learning-tu-dau-cho-cac-ban-lap-trinh-vien/37264
+title | Lộ trình học Machine Learning/ Deep Learning từ đầu cho các bạn Lập Trình Viên
+content | 1. Giới thiệu
+Đây là kế hoạch dài hơi cho sự nghiệp học tập Machine Learning / Deep Learning của mình.
+Mình hiện là Lập Trình Viên mobile (Android, iOS, Blackberry) với 6 năm kinh nghiệm và không có bằng cấp Thạc sĩ, Tiến sĩ gì về Computer Science.
+
+Mục đích chính của mình là tìm 1 cách học Machine Learning / Deep Learning thật hiệu quả cho các bạn không có kinh nghiệm nghiên cứu khoa học. Cách học này sẽ tập trung vào việc thực hành các ứng dụng của ML/DL trước, sau đó mới đi dần dần vào lý thuyết, toán học sau .
+
+2. Tại sao lại theo cách này?
+Các bạn có thế tìm kiếm nhanh trên google về cách học Machine learning, và nhận thấy ngay việc phải học Toán: xác xuất thống kê, đại số tuyến tính, giải tích .... đầu tiên.
+Ngoài ra việc nghiên cứu khoa học ở mức độ Thạc sĩ, Tiến sĩ là điều cần thiết khi muốn tìm hiểu sâu.
+
+Cũng như các bạn, mình gặp khá nhiều rắc rối trong việc này.
+- Có nên bỏ làm để đi học Thạc sĩ, Tiến sĩ?
+- Ở Viêt Nam có học được ngành này không?
+
+Có 2 loại Machine learning:
+
+Machine Learning thực hành: Liên quan truy vấn cơ sở dữ liệu, làm sạch dự liệu, viết script để chuyển đổi data và gắn kết thuật toán với các thư viện để giải quyết vấn đề.
+
+Machine Learning lý thuyết: Liên quan tới toán học, lý thuyết, nghiên cứu khoa học.
+
+Theo mình cách học tốt nhất dành cho các bạn chưa có căn bản về nghiên cứu là tập trung vào thực hành: "thực hành - tìm hiểu - thực hành", có nghĩa là đầu tiên các bạn sẽ làm quen với 1 vài bài toán và thực hành các giải pháp của bài toán đó, để làm quen với hướng xử lý và 1 vài thuật ngữ về ML/DL. Sau đó mới có thể học lý thuyết trong sách. Cứ thế lặp lại thì các bạn có thể nắm dc rõ về bản chất của ML/DL. Như vậy sẽ dễ tiếp cận hơn việc đọc sách khô khan.
+
+3. Cụ thể học như thế nào?
+Mình đã tạo ra roadmap rất chi tiết trên Github và hiện tại đang có hơn 2 nghìn bạn đang cùng xây dựng và học cùng mình.
+boolean | true

@@ -1,0 +1,22 @@
+url | http://vietonrails.com/ai/2016/05/04/gioi-thieu-va-su-dung-nhung-library-ve-deep-learning-1-tensorflow
+title | Giới thiệu và sử dụng những library về Deep Learning 
+content | Bài viết này giới thiệu và hướng dẫn cách install và sử dụng các library nổi tiếng về DeepLearning hiện tại như TensorFlow, Chainer, Caffe, DeepDream. Bài viết này không đi sâu về khái niệm và giải thích bản chất thuật toán của vấn đề, đơn giản là cách sử dụng và 1 phần nào đó là khả năng của Deep Learning.
+
+Trong bài viết này ta sẽ thử 3 library/framework đề machine learning và deep learning nổi tiếng nhất hiện nay, đó là TensorFlow, Chainer, Caffe. Cùng với đó là 2 app nổi tiếng trong năm 2015 dùng deep learning là DeepDream và chainer-gogh.
+
+Môi trường mình đang làm việc :
+
+Mac OS X 10.11.1 El Capitan
+Xcode 7.2
+TensorFlow
+TensorFlow là 1 library do Google phát triển và opensource vào tháng 11/2015. TensorFlow được cho là sử dụng trong nhiều service của Google.
+
+Vài nét về TensorFlow
+Sử dụng trong rất nhiều ứng dụng của Google như phần loại email của Gmail, nhận biết phát âm và dịch tự động, nhận biết khuôn mặt trong Google Photo, tối ưu hoá kết quả tìm kiếm, quảng cáo trong Youtube, …
+Đặc trưng của TensorFlow là xử lý được tất cả các loại dữ liệu có thể biểu diễn dưới dạng data flow graph hay low level như xử lý chữ viết tay. TensorFlow được viết bằng C++, thao tác interface bằng Python vì thế performance rất tốt, dùng được cả CPU lẫn GPU nên TF có thể chạy trên cả PC thông thường lẫn 1 server cực lớn, thậm chí cả smartphone cũng có thể sử dụng được.
+Vì sao Google opensource TF ?
+License của TF là Apache 2.0, tức là có thể sử dụng trong các sản phẩm thương mại khác. Tại sao 1 công cụ tuyệt vời được sử dụng trong hầu hết các sản phẩm của Google lại được opensource 1 cách tự do như thế ? Và đây là lời giải thích của Google :
+
+Bằng việc opensource TF, Google muốn khuyến khích nhiều người sử dụng hơn nữa, từ sinh viên, giáo viên cho đến các developer có hứng thú với AI. Bằng cách này, TF nói riêng hay AI nói chung sẽ được sử dụng trong nhiều lĩnh vực hơn nữa, từ y học cho đến khoa học vũ trụ. Tất cả những lợi ích đó đều quay lại phục vụ CON NGƯỜI.
+Đó là lý do mà Google đã, đang và sẽ luôn đi đầu trong giới công nghệ.
+boolean | true 

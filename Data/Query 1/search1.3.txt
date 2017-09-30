@@ -1,0 +1,28 @@
+url | https://itviec.com/viec-lam-it/xay-dung-he-thong-recommedation-viettel-media-4833
+title | Xây Dựng Hệ Thống (Linux, Database, SQL)
+content | Mô Tả Công Việc
+Xây dựng triển khai hệ thống recommendation cho site âm nhạc, tin tức của công ty
+Xây dựng hệ thống giám sát, đo kiểm đánh giá chất lượng các hệ thống recommendation
+Nghiên cứu các công nghệ mới, đề xuất cho BGĐ các công nghệ, tính năng mới áp dụng trong mảng ott, video, tin tức, client
+Yêu Cầu Công Việc
+- Tốt nghiệm Đại học chính quy ngành CNTT, TOEIC 500, có ít nhất 5 năm tại vị trí tương đương.
+
+- Có kinh nghiệm chuyên xây trong lĩnh vự thu thập dữ liệu, hệ thống học máy, đề xuất nội dung.
+
+- Hiểu biết sâu về các thuật toán, các giải thuật áp dụng cho bài toán recommendation.
+
+- Đã triển khai áp dụng trong bài toán cụ thể, có kpi đo lường, ưu tiên với các bài toán liên quan đến lĩnh vực âm nhạc, video, ott.
+
+- Chuyên sâu về việc tối ưu cơ sở dữ liệu lớn, đặc biệt các hệ thống cơ sở dữ liệu NO-SQL.
+
+- Thành thạo linux, các open source
+
+- Có khả năng học hỏi nắm bắt kiến thức nhanh, sẵn sàng làm việc và nghiên cứu ngoài giờ hành chính theo yêu cầu của công việc
+Tại Sao Bạn Sẽ Yêu Thích Làm Việc Tại Đây
+Một môi trường làm việc năng động, chuyên nghiệp với những đồng nghiệp tận tâm vì công việc và tôn trọng bạn,
+Mức thu nhập tương xứng với khả năng và đóng góp của bạn, cùng nhiều chế độ đãi ngộ hấp dẫn khác.
+Cam kết từ Công ty về điều kiện phát triển sự nghiệp của riêng bạn.
+Nếu bạn muốn có cơ hội phát triển và để thấy dấu ấn công việc của mình vào cuộc sống hãy apply ngay để gia nhập team chúng tôi. VTM luôn chào đón các bạn!
+
+Thay mặt Team VTM: Võ Thanh Hải - Giám đốc Viettel Media.
+boolean | true
