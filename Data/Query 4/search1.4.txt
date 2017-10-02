@@ -1,0 +1,256 @@
+URL |https://voer.edu.vn/m/co-che-suy-dien/175a6558
+Title | Cơ Chế Suy Diễn
+Content |Khái niêm về suy diễn và lập luận
+
+Suy diễn (inference) và lập luận (reasoning) là hai khái niệm được dùng chung để chỉ một tiến trình đưa đến kết luận từ các giả thiết cho ở dạng cơ sở tri thức (sự kiện, quy luật)
+
+Các hệ tri thức mà cơ sở tri thức bao gồm các luật sẽ được gọi là các hệ dựa trên luật (rule -based system). Trong các mục còn lại của chương này chúng ta sẽ nghiên cứu các thủ tục suy diễn trong các hệ dựa trên luật.
+
+Một khi chúng ta đã lưu trữ một cơ sở tri thức, chúng ta cần có thủ tục lập luận để rút ra các kết luận từ cơ sở tri thức. Trong các hệ dựa luật, có hai phương pháp luận lập luận cơ bản:
+
+• Lập luận tiến và
+
+• lập luận lùi
+
+Chúng ta sẽ phân chia cơ sở tri thức thành hai bộ phận: cơ sở luật và cơ sở sự kiện (hoặc bộ nhớ làm việc). Cơ sở luật bao gồm các luật có ít nhất một điều kiện, biểu diễn các tri thức chung về lĩnh vực áp dụng. Còn cơ sở luật bao gồm các câu phần tử (các luật không điều kiện) mô tả các sự kiện mà chúng ta biết về các đối tượng trong lĩnh vực áp dụng.
+Lập luận tiến
+
+Tư tưởng cơ bản của lập luận tiến là áp dụng luật suy diễn Modus Ponens tổng quát). Trong mỗi bước của thủ tục lập luận tiến, người ta xét một luật trong cơ sở luật. Đối sánh mỗi điều kiện của luật với các sự kiện trong cơ sở sự kiện, nếu tất cả các điều kiện của luật đều được thoả mãn thì sự kiện trong phần kết luận của luật được xem là sự kiện được suy ra. Nếu sự kiện này là sự kiện mới (không có trong bộ nhớ làm việc), thì nó được đặt vào bộ nhớ làm việc. Quá trình trên được lặp lại cho tới khi nào không có luật nào sinh ra các sự kiện mới.
+
+Như vậy quá trình lập luận tiến là quá trình xem xét các luật. Với mỗi luật, ta đi từ phần điều kiện tới phần kết luận của luật, khi mà tất cả các điều kiện của luật đều được làm thoả mãn (bởi các sự kiện trong cơ sở sự kiện), thì ta suy ra sự kiện trong phần kết luận của luật. Chính vì lẽ đó mà có tên lập luận tiến (forward chaining hoặc forward reasoning).
+
+Quá trình lập luận tiến không định hướng tới giải quyết một vấn đề nào cả, không định hướng tới tìm ra câu trả lời cho một câu hỏi nào cả. Lập luận tiến chỉ là quá trình suy ra các sự kiện mới từ các sự kiện trong bộ nhớ làm việc. Vì vậy lập luận tiến còn được gọi là lập luận điều khiển bởi dữ liệu (data - driven reasioning), hoặc lập luận định hướng dữ liệu (data - directed reasioning).
+
+Ví dụ lập luận tiến. Để thấy được quá trình lập luận tiến diễn ra như thế nào, chúng ta xét ví dụ sau đây. (Ví dụ này là của P. H. Winston xem [17]).
+
+Giả sử cơ sở luật (cơ sở luật về các động vật trong sở thú) gồm các luật sau Luật 1: nếu động vật có lông mao
+
+thì động vật là loài có vú
+
+Luật 2: nếu động vật có lông vũ thì động vật là chim
+
+Luật 3: nếu 1. động vật biết bay, và
+
+2. động vật đẻ trứng
+
+thì động vật là chim
+
+Luật 4: nếu 1. động vật là loài có vú, và
+
+2. động vật ăn thịt
+
+thì động vật là thú ăn thịt
+
+Luật 5: nếu 1. động vật là loài có vú, và
+
+2. động vật có răng nhọn, và
+
+3. động vật có móng vuốt thì động vật là thú ăn thịt
+
+Luật 6: nếu 1. động vật là thú ăn thịt, và
+
+2. động vật có màu lông vàng hung, và
+
+3. động vật có đốm sẫm
+
+thì động vật là báo Châu Phi
+
+Luật 7: nếu 1. động vật là thú ăn thịt, và
+
+2. động vật có màu lông vàng hung, và
+
+3. động vật có vằn đen
+
+thì động vật là hổ
+
+Luật 8: nếu 1. động vật là chim, và
+
+2. động vật không biết bay, và
+
+3. động vật có chân dài, và
+
+4. động vật có cổ dài thì động vật là đà điểu
+
+Luật 9: nếu 1. động vật là chim, và
+
+2. động vật không biết bay, và
+
+3. động vật biết bơi, và
+
+4. động vật có lông đen và trắng
+
+thì động vật là chim cánh cụt
+
+Giả sử một em bé quan sát một con vật có tên là Ki trong sở thú, em thấy nó có các đặc điểm sau Ki có lông mao
+
+Ki ăn thịt
+
+Ki có màu lông vàng hung Ki có đốm sẫm
+
+Lúc này cơ sở sự kiện sẽ bao gồm các sự kiện trên.
+
+Thủ tục lập luận tiến xem xét luật 1. Khi biến “động vật” trong luật này được thay bởi Ki, điều kiện của luật trỏ thành “Ki có lông mao”, đây là một sự kiện có trong bộ nhớ làm việc, do đó ta suy ra “Ki là loài có vú”. Đây là sự kiện mới, do đó nó được thêm vào bộ nhớ làm việc. Xét luật 4, thế biến “động vật” bởi Ki, thì hai điều kiện của luật trở thành:
+
+Ki là loài có vú, và
+
+Ki ăn thịt
+
+Cả hai sự kiện này đều có trong bộ nhớ làm việc, do đó từ luật 4 ta suy ra “Ki là thú ăn thịt”. Sự kiện mới này lại được thêm vào bộ nhớ làm việc. Ta xét tiếp luật 6, thế biến “động vật” bởi Ki, các điều kiện của luật trở thành:
+
+Ki là loài thú ăn thịt, và
+
+Ki có màu lông vàng hung, và Ki có đốm sẫm
+
+Tất cả các điều kiện này đều đúng, do đó từ luật 6, ta suy ra “Ki là báo Châu Phi”. Như vậy từ các sự kiện đã biết về Ki, lập luận tiến đã suy ra các sự kiện mới sau
+
+Ki là loài có vú.
+
+Ki là thú ăn thịt.
+
+Ki là báo Châu Phi.
+Lập luận lùi
+
+Trong các hệ dựa trên luật, chúng ta còn có thể sử dụng phương pháp lập luận lùi (backward chaining hoặc backward reasoning).
+
+Trong lập luận lùi, người ta đưa ra các giả thuyết cần được đánh giá. Sử dụng lập luận lùi, giả thuyết đưa ra hoặc là được chứng minh, hoặc là bị bác bỏ (bởi các sự kiện trong bộ nhớ làm việc). Cần lưu ý rằng, chúng ta nói giả thuyết được chứng minh, hoặc bị bác bỏ là muốn nói tới nó được chứng minh, hoặc bác bỏ bởi tình trạng hiện thời của bộ nhớ làm việc. Khi mà bộ nhớ làm việc thay đổi (chúng ta thêm vào hoặc loại bỏ một số sự kiện) thì một giả thuyết đã được chứng minh có thể trở thành bị bác bỏ và ngược lại.
+
+Quá trình lập luận lùi diễn ra như sau: Ta đối sánh giả thuyết đưa ra với các sự kiện trong bộ nhớ làm việc. Nếu có một sự kiện khớp với giả thuyết, (ở đây “khớp” được hiểu là hai câu mô tả sự kiện và giả thuyết trùng nhau qua một phép thế nào đó), thì ta xem như giả thuyết là đúng. Nếu không cớ sự kiện nào khớp với giả thuyết, thì ta đối sánh giả thuyết với phần kết luận của các luật. Với mỗi luật mà kết luận của luật khớp với giả thuyết, ta đi lùi lại phần điều kiện của luật. Các điều kiện này của luật được xem như các giả thuyết mới. Với giả thuyết mới, ta lập lại quá trình trên.
+
+Nếu tất cả các giả thuyết được sinh ra trong quá trình phát triển các giả thuyết bởi các luật được chọn thích hợp đều được thoả mãn (đều có trong bộ nhớ làm việc) thì giả thuyết đã đưa ra được xem là đúng. Ngược lại, dù ta áp dụng luật nào để phát triển các giả thuyết cũng dẫn tới các giả thuyết không có trong bộ nhớ làm việc và không thể quy giả thuyết này về các giả thuyết mới khác, thì giả thuyết đã đưa ra được xem là sai.
+
+Ví dụ lập luận lùi. Để làm sáng tỏ tư tưởng của lập luận lùi, xét với dụ sau.Giả sử bộ nhớ làm việc chứa các sự kiện sau.
+
+Bibi có lông vũ
+
+Bibi có chân dài Bibi có cổ dài
+
+Bibi không biết bay
+
+Ta đưa ra giả thuyết sau đây Bibi là đà điểu
+
+Đối sánh giả thuyết này với phần kết luận của các luật, ta thấy nó khớp với kết luận của luật 8 nếu thế biến “động vật” bởi Bibi. Từ luật 8, ta suy ra rằng, giả thuyết “Bibi là đà điểu” là đúng, nếu các điều kiện sau là đúng
+
+1. Bibi là chim
+
+2. Bibi không biết bay
+
+3. Bibi có chân dài
+
+4. Bibi có cổ dài
+
+Đây là 4 giả thuyết mới. Việc đánh giá giả thuyết “Bibi là đà điểu” được quy về việc đánh giá bốn giả thuyết mới này. Các giả thuyết 2, 3 và 4 đều có trong bộ nhớ làm việc, ta chỉ cần đánh giá giả thuyết “Bibi là chim”. Lại đối sánh giả thuyết này với phần kết luận của các luật. Ta thấy nó khớp với kết luận của luật 2 và luật 3. Xét luật 3, đi lùi lại phần điều kiện của luật này, ta nhận được các giả thuyết mới là:
+
+Bibi biết bay
+
+Bibi đẻ trứng
+
+Cả hai giả thuyết này đều không có trong bộ nhớ làm việc và cũng không khớp với phần kết luận của luật nào cả. Do đó, ta không thể phát triển tiếp các giả thuyết này được nữa. Chuyển sang xét luật 2, để “Bibi là chim” luật này đòi hỏi điều kiện “Bibi có lông vũ”. Điều kiện này có trong bộ nhớ làm việc. Vậy giả thuyết đã đưa ra “Bibi là đà điểu” là đúng.
+
+Lập luận lùi nhằm chứng minh một giả thuyết. Chính vì thế mà lập luận lùi còn được gọi là lập luận định hướng mục đích (goal - ariented reasoning).
+Lập luận tương tự như tìm kiếm trên đồ thì và/hoặc
+
+Có thể biểu diễn lập luận bởi đồ thị và/hoặc. Mỗi luật nếu - thì dạng đều có dạng nếu P1 và P2 ... và Pmthì Q
+
+Có thể xảy ra nhiều luật khác nhau có cùng phần kết luận. Chẳng hạn, có hai luật cho kết luận Q, một luật gồm ba điều kiện P1, P2, P3, một luật gồm hai điều kiện S1, S2. Hoàn cảnh này được biểu diễn bởi đồ thị trong hình 1.
+Biểu diễn đồ thị của luật
+
+Bằng cách biểu diễn các luật bởi đồ thị như trên. Từ cơ sở luật, ta xây dựng đồ thị và/hoặc. Khi đó lập luận lùi có thể xem như quá trình tìm kiếm trên đồ thị và/hoặc được xây dựng nên từ cơ sở luật. Quá trình tìm kiếm xuất phát từ đỉnh khớp với giả thuyết cần đánh giá.
+
+Việc tìm kiếm để xác định một giả thuyết là đúng hay sai hoàn toàn tương tự như việc tìm kiếm trên đồ thị và/hoặc để xác định một đỉnh ứng với bài toán đã cho là giải được hay không giải được. Nếu giả thuyết được chứng minh là đúng thì chúng ta sẽ tìm được cây chứng minh giống như tìm cây nghiệm cho bài toán cần giải
+
+Thủ tục lập luận tiến
+
+Như chúng ta đã nói, trong các hệ dựa trên luật, chúng ta sẽ tách cơ sở tri thức thành hai phần
+
+• Cở sở luật, ký hiệu là RB (Rule Base), và
+
+• Cở sở sự kiện (bộ nhớ làm việc), ký hiệu là FB (Fact Base) Với mỗi luật R:
+
+Nếu P1 và P2 ... Pmthì Q
+
+ký hiệu Conds là danh sách các điều kiện của luật, Conds = [P1, P2, ..., Pm], và ký hiệu Conc là kết luận của luật, Conc = Q. Ta xem mỗi luật R như một cặp danh sách các điều kiện và một kết luận:
+
+R = (Conds(R), Conc(R))
+
+Trong thủ tục lập luận tiến, chúng ta sẽ sử dụng luật suy diễn sau
+
+trong đó, Pi hợp nhất với S bởi phép thế θ, tức:
+
+Piθ = Sθ, và Pk = P kθ(k = 1, ..., m; k ≠ i), Q’ = Qθ.
+
+Luật suy diễn trên cho phép ta từ một luật có m điều kiện, một trong các điều kiện đó “khớp” với một sự kiện suy ra một luật mới có m - 1 điều kiện. Do đó nếu luật có m điều kiện, thì bằng cách áp dụng luật suy diễn tiến m lần (nếu có thể) ta suy ra được một sự kiện. Sự kiện này là kết quả của việc áp dụng phép thế biến vào kết luận của luật.
+Thủ tục For_chain
+
+Thủ tục sau đây, thủ tục For_Chair, thực hiện quá trình áp dụng luật suy diễn nêu trên để giảm bớt số điều kiện của một luật trong cơ sở luật. Khi mà ta dẫn tới một luật có phần điều kiện rỗng tức là ta đã suy ra một sự kiện. Trong thủ tục For_Chain, luật R = (Conds, Conc) là biến địa phương của thủ tục, Conds = [P1, ..., Pi, ..., Pm]
+
+Trong thủ tục trên, thủ tục Add(Conc,FB) thực hiện kiểm tra kết luận conc có là sự kiện mới không (tức là không có sự kiện nào trong cơ sở sự kiện FB trùng với Conc hoặc nhận được từ Conc bằng cách đặt tên lại các biến), nếu Conc là sự kiện mới thì nó được đặt vào FB.
+
+Quá trình lập luận tiến là quá trình áp dụng thủ tục trên cho các luật trong cơ sở luật cho tới khi nào không có sự kiện mới nào xuất hiện. Ta có thủ tục sau:
+
+Giả sử cơ sở luật chứa luật sau (luật mẹ) nếu
+
+1. x là ngựa, và
+
+2. x mẹ của y, và
+
+3. y chạy nhanh thì x có giá
+
+Cơ sở sự kiện gồm các sự kiện sau Tom là ngựa
+
+Ken là ngựa Kit là ngựa Bin là ngựa
+
+Tom là mẹ của Bin Tom là mẹ của Ken Bin là mẹ của Kit. Kit chạy nhanh. Bin chạy nhanh.
+
+Bằng cách sử dụng các vị từ House(x) (x là ngựa), Mother(x, y) (x là mẹ của y), Fast(y) (y chạy nhanh), Valuable(x) (x có giá), ta có thể viết luật trên lại thành câu:
+
+House(x) Λ Mother(x, y) Λ Fast(y) ⇒ Valuable(x)
+
+Cơ sở sự kiện gồm các câu phần tử sau
+
+House(Tom) (1)
+
+House(Ken) (2)
+
+House(Kit) (3)
+
+House(Bin) (4)
+
+Mother(Tom, Bin) (5)
+
+Mother(Tom, Ken) (6)
+
+Mother(Bin, Kit) (7)
+
+Fast(Kit) (8)
+
+Fast(Bin) (9)
+
+Xét quá trình sẽ diễn ra như thế nào khi ta áp dụng thủ tục For_chain cho luật mẹ và FB gồm các sự kiện (1) - (9).
+
+• Sự kiện (1) khớp với điều kiện thứ nhất của luật bởi phép thế [x/Tom], từ luật mẹ ta suy ra
+
+• Mother(Tom, y) Λ Fast(y) ⇒ Valuable(Tom)
+
+• Sự kiện (5) hợp nhất với điều kiện Mother(Tom/y) bởi phép thế [y/ Bin], ta suy ra
+
+• Fast(Bin) ⇒ Valuable(Tom)
+
+• Từ sự kiện (9) và kéo theo trên, ta suy ra Valuable(Tom).
+
+• Sự kiện (2) cũng hợp nhất với điều kiện thứ nhất của luật, do đó ta suy ra
+
+• Mother(Ken, y) Λ Fast(y) ⇒ Valuable(Ken)
+
+Tới đây ta không suy diễn tiếp được, vì không có sự kiện nào hợp nhất được với điều kiện Mother(Ken, y). Điều tương tự cũng xảy ra, khi mà biến x trong luật mẹ được thế bởi Kit.
+
+• Từ sự kiện (4) và luật mẹ, ta suy ra
+
+• Mother(Bin, y) Λ Fast(y) ⇒ Valuable(Bin)
+
+• Sự kiện (7) hợp nhất với điều kiện Mother(Bin, y), từ đó ta suy ra
+
+• Fast(Kit) ⇒ Valuable(Bin)
+
+Từ kéo theo này và sự kiện (8), ta suy ra Valuable(Bin). Như vậy áp dụng thủ tục For_chain cho luật mẹ, chúng ta suy ra được hai sự kiện mới là “Tom có giá” và “Bin có giá”.
+
+boolean | true

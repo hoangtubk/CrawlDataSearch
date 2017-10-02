@@ -1,0 +1,26 @@
+URL | https://www.scribd.com/document/73488524/Ap-d%E1%BB%A5ng-gi%E1%BA%A3i-thu%E1%BA%ADt-di-truy%E1%BB%81n-va-tim-ki%E1%BA%BFm-c%E1%BB%A5c-b%E1%BB%99-%C4%91%E1%BB%83-gi%E1%BA%A3i-quy%E1%BA%BFt-bai-toan-s%E1%BA%AFp-Th%E1%BB%9Di-Khoa-Bi%E1%BB%83u-cho-khoa-Cong-Ngh%E1%BB%87-Thong-Tin
+Title | Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biểu chokhoa Công Nghệ Thông Tin
+Content | 
+ 
+Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biều chokhoa Công Nghệ Thông Tin==================================================================
+Chương 2: Phát biểu bài toán
+I. Phát biểu bài toán
+Công nghệ thông tin ngày càng phát triển, vì vậy việc quản lý dữ liệu vàlàm việc trên máy tính không còn xa lạ với mọi người. Do đó, khoa CNTT muốnxây dựng chương trình sắp thời khóa biểu thực hành trên máy tính để đáp ứng nhucầu của khoa.Trong mỗi học kỳ, các lớp đều có thời khóa biểu của mình trong học kỳđó gồm lịch học các môn lý thuyết và lịch thực hành. Lịch lý thuyết của các khoa do phòng Đào Tạo sắp, còn đối với khoa CNTT, giáo vụ khoa phải xếp lịch thực hànhcho mỗi lớp với các môn thực hành thuộc khoa CNTT và nhập môn tin học cho cáckhoa khác.Mục tiêu cuối cùng của hệ thống, là giúp Giáo Vụ khoa dễ dàng trongviệc sắp thời khoá biểu thực hành phù hợp cho cả giảng viên, các lớp thuộc khoa vàcác khoa khác của trường Đại Học Nông Lâm, dựa trên thời khóa biểu từ phòngĐào Tạo và một số điều kiện thực tế của khoa như:+ Số phòng thực hành hạn chế nên một số lớp phải thực hành cả ngày chủnhật.+ Tình trạng giảng viên canh thực hành còn thiếu, vì thế một số giảngviên có thể phải canh thực hành cả 2 phòng …+ Đối với một số môn học không được thực hành tại một số phòng máynhất định vì tốc độ máy chậm, thiếu các chương trình cài đặt… (như phòng M306, phòng P4) nên không đáp ứng được yêu cầu học tập.+ Ràng buộc về thời gian thực hành của các lớp, cùng một lớp môn có thểthực hành cùng một thời gian nhưng phải khác phòng.+ Số tiết thực hành của một môn không được rơi vào 2 buổi (tiết 6 và tiết7 hoặc tiết 12 và tiết 1).Để thực hiện được mục tiêu của bài toán, hệ thống đã xây dựng được cácchức năng chính: nhập dữ liệu (nhập lịch học lý thuyết, giảng viên, phòng, lớp, mônhọc…) sắp thời khoá biểu, xem kết quả sắp, hiệu chỉnh.
+GVHD: Th.s Nguyễn Đức Thành2SVTH: T.Loan, C.Thi, K. Loan, T.Thắm
+ 
+Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biểu chokhoa Công Nghệ Thông Tin===============================================================
+Bên cạnh đó, còn có một số chức năng khác: đăng nhập, thay đổi mậtkhẩu.1. Nhập dữ liệu:Vào đầu mỗi học kỳ, phòng Đào Tạo sẽ gửi thời khoá biểu xuống chotừng khoa, giáo vụ sẽ nhập chi tiết các thông tin đó vào cơ sở dữ liệu như: thông tinvề môn học, giảng viên, lớp, phòng, thông tin về lịch học lý thuyết của các lớp …nhằm phục vụ cho quá trình sắp thời khoá biểu thực hành.2. Sắp thời khoá biểu:Áp dụng giải thuật Di Truyền và tìm kiếm cục bộ để giải quyết bài toánsắp thời khóa biểu thực hành này.3. Xem kết quả đã sắp:Sau khi sắp xong thì Giáo Vụ khoa chọn chức năng này để xem kết quảđã sắp, có thể chọn xem kết quả theo giảng viên, theo lớp, theo phòng…4. Hiệu chỉnh:Sau khi sắp thời khóa biểu xong, nếu giáo vụ không hài lòng với kếtquả sắp được thì có thể sử dụng chức năng hiệu chỉnh, để thay đổi thời khóa biểuthực hành theo yêu cầu.
+II. Mô hình Use Case:
+1. Lược đồ chính của mô hình usecase:
+ ________________________________________________________________________ GVHD: Th.s Nguyễn Đức Thành3SVTH: T.Loan, C.Thi, K. Loan, T.Thắm
+ 
+Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biều chokhoa Công Nghệ Thông Tin==================================================================
+Dang nhapNhap cac thong tin sap thoikhoa bieuSap thoi khoa bieuXem ket qua sap thoi khoabieuGiao Vu khoaHieu chinh
+2. Đặc tả từng UseCase:
+2.1 Use Case Đăng nhập :2.1.1 Tóm tắt :UseCase này cho phép giáo vụ khoa đăng nhập vào hệ thống sắpthời khoá biểu với tên và mật khẩu .2.1.2 Dòng sự kiện:- Dòng sự kiện chính :UseCase này bắt đầu khi giáo vụ khoa muốn đăng nhập vào hệthống Sắp Thời Khoá Biểu.+ Hệ thống hiển thị trang đăng nhập yêu cầu giáo vụ nhập tên vàmật khẩu.+ Hệ thống sẽ kiểm tra tên và mật khẩu được nhập và cho phépgiáo vụ đăng nhập vào hệ thống.- Các dòng sự kiện khác:+ Thông tin không hợp lệ: nếu trong dòng sự kiện chính, giáo vụnhập sai tên hoặc mật khẩu, hệ thống sẽ hiển thị một thông báo lỗi. Giáo vụ có thểchọn trở về đầu của dòng sự kiện chính hoặc hủy bỏ việc đăng nhập, lúc này usecase kết thúc.
+GVHD: Th.s Nguyễn Đức Thành4SVTH: T.Loan, C.Thi, K. Loan, T.Thắm
+You're reading a preview. Unlock full access with a free trial.
+Pages 5 to 23 are not shown in this preview.
+Download With Free Trial
+
+boolean | true

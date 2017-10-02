@@ -1,0 +1,78 @@
+URL | https://rpubs.com/lengockhanhi/291094
+Title | Giới thiệu package CausalImpact
+Suy diễn nhân quả bằng mô hình Bayesian structural
+Content |1 Giới thiệu
+
+Ngoài giờ làm chính thức, nghề tay trái của Nhi là tư vấn về phân tích số liệu, nói một cách bình dân là đi làm thông kê « dạo ». Công việc này có thể rất nhẹ nhàng hoặc cực khổ, tùy vào tình huống, đôi khi những đòi hỏi kì quặc và khó khăn của một vài thân chủ lại là động lực để Nhi đi tìm tòi học hỏi kiến thức, kỹ năng mới.
+
+Cách đây 3 ngày có môt thân chủ đưa ra yêu cầu rất thú vị : Ông ta nghĩ ra một phương pháp điều trị mới cho triệu chứng thiếu oxy trong khi ngủ do hẹp đường thở trên, bằng cách gắn 1 số điện cực kích thích một vài nhóm cơ hô hấp, bệnh nhân lập tức cải thiện được lưu lượng khí thở và phục hồi độ bão hòa Oxygen (SpO2). Ông ta muốn Nhi tư vấn nên dùng công cụ thống kê nào để chứng minh là kích thích điện thực sự đã làm cải thiện SpO2. Vấn đề là SpO2 được theo dõi liên tục trong khi ngủ như 1 time series data với tần suất lấy mẫu là 1 Hz. Đây là 1 bài toán chứng minh liên hệ nhân quả rất hiếm gặp trong nghiên cứu y học.
+
+Tìm kiếm trên mạng, Nhi phát hiện ra bài toán tương tự có tồn tại trong những lĩnh vực hoàn toàn khác, đó là Marketing, quảng cáo, Kinh tế tài chính. Một giải pháp rất hiệu quả đã được giới thiệu bởi Brodersen KH (nhân viên của Google) từ năm 2015.
+
+Brodersen KH, Gallusser F, Koehler J, Remy N, Scott SL. Inferring causal impact using Bayesian structural time-series models. Annals of Applied Statistics, 2015, Vol. 9, No. 1, 247-274. http://research.google.com/pubs/pub41854.html
+
+Một cách đơn giản, tác giả áp dụng 1 mô hình cấu trúc Bayes trên một phần của Time series trước khi 1 can thiệp bắt đầu, mô hình này đưa ra dự báo về diễn tiến của Time serie nếu như không có can thiệp nào xảy ra, từ đó so sánh với kết quả trên thực tế sau can thiệp. Kết quả phân tích là 1 phân phối hậu nghiệm về độ lớn của hiệu ứng can thiệp lên diễn tiến của time series này.
+
+Bằng cách này, người ta có thể khảo sát doanh số của 1 sản phẩm SAU khi bắt đầu 1 chiến dịch quảng cáo trên truyền thông?
+2 Bài toán mô phỏng
+
+Nhi quyết định thử nghiệm phương pháp này trên 1 bài toán mô phỏng như sau:
+
+Giả sử ta muốn khảo sát hiệu quả điều trị của 1 loại thuốc điều trị hen phế quản trên 1 bệnh nhân. Kết quả là khả năng thông khí được đo bằng lưu lượng đỉnh (Peakflow). Chỉ số Peakflow được đo mỗi ngày vào 1 giờ nhất định trong 2 tháng trước và sau khi điều trị bằng loại thuốc này. Ta có 1 time series 120 điểm, điểm khởi đầu điều trị nằm ở ngày 61.
+
+Số liệu được mô phỏng như sau:
+
+Nhi tạo ra thêm 1 biến số nữa là Huyết áp tâm thu, với giả định biến này không có liên quan gì đến loại thuốc trị hen nói trên.
+3 Package CausalImpact
+
+Tác giả của method này đã tạo ra hẳn 1 package rất đơn giản, dễ sử dụng mà bạn có thể tải về từ CRAN: đó là package CausalImpact
+
+https://google.github.io/CausalImpact/
+
+Kết quả cho thấy loại thuốc trị hen này đã làm cải thiện chức năng thông khí của bệnh nhân : hiệu ứng tuyệt đối trung bình là 187 (180 – 194), hiệu ứng tương đối: tăng trung bình +116% (từ 111 tới 120%), xác suất hậu nghiệm của quan hệ nhân quả là 99.9% (p=0.001)
+
+Tác giả còn cung cấp 1 văn bản diễn dịch rất cụ thể cho các bạn từ kết quả.
+
+Và 1 hình vẽ rất đẹp cho thấy diễn tiến của biến kết quả trong 2 kịch bản : có và không có điều trị. Thật thú vị, điều này giống như bạn có thể du hành xuyên thời gian và nhìn thấy cả 2 hiện tượng khác nhau tại cùng 1 thời điểm ở tương lai cho cùng 1 bệnh nhân tùy theo quyết định của bạn trong quá khứ (đây là điều mà không có thiết kế thử nghiệm lâm sàng nào làm được, đơn giản là ta không thể quan sát cùng lúc hiệu ứng Placebo lẫn hiệu ứng của thuốc trên cùng 1 bệnh nhân một khi người này đã được phân nhóm).
+
+Lưu ý là ngoài hiệu quả trung bình, còn có cả hiệu quả tích lũy (dùng trong trường hợp biến kết quả là 1 tần suất sự kiện hay số đếm).
+
+## Posterior inference {CausalImpact}
+## 
+##                          Average        Cumulative    
+## Actual                   349            20915         
+## Prediction (s.d.)        162 (3.7)      9701 (219.6)  
+## 95% CI                   [155, 169]     [9279, 10143] 
+##                                                       
+## Absolute effect (s.d.)   187 (3.7)      11214 (219.6) 
+## 95% CI                   [180, 194]     [10772, 11636]
+##                                                       
+## Relative effect (s.d.)   116% (2.3%)    116% (2.3%)   
+## 95% CI                   [111%, 120%]   [111%, 120%]  
+## 
+## Posterior tail-area probability p:   0.001
+## Posterior prob. of a causal effect:  99.9%
+## 
+## For more details, type: summary(impact, "report")
+
+## Analysis report {CausalImpact}
+## 
+## 
+## During the post-intervention period, the response variable had an average value of approx. 348.58. By contrast, in the absence of an intervention, we would have expected an average response of 161.68. The 95% interval of this counterfactual prediction is [154.64, 169.05]. Subtracting this prediction from the observed response yields an estimate of the causal effect the intervention had on the response variable. This effect is 186.90 with a 95% interval of [179.53, 193.94]. For a discussion of the significance of this effect, see below.
+## 
+## Summing up the individual data points during the post-intervention period (which can only sometimes be meaningfully interpreted), the response variable had an overall value of 20.91K. By contrast, had the intervention not taken place, we would have expected a sum of 9.70K. The 95% interval of this prediction is [9.28K, 10.14K].
+## 
+## The above results are given in terms of absolute numbers. In relative terms, the response variable showed an increase of +116%. The 95% interval of this percentage is [+111%, +120%].
+## 
+## This means that the positive effect observed during the intervention period is statistically significant and unlikely to be due to random fluctuations. It should be noted, however, that the question of whether this increase also bears substantive significance can only be answered by comparing the absolute effect (186.90) to the original goal of the underlying intervention.
+## 
+## The probability of obtaining this effect by chance is very small (Bayesian one-sided tail-area probability p = 0.001). This means the causal effect can be considered statistically significant.
+
+Nếu tò mò, bạn có thể thử dựng mô hình cho biến SBP, kết quả sẽ âm tính !
+4 Kết luận:
+
+Ngoài công việc chuyên môn, chúng ta nên quan sát và học hỏi thêm từ các chuyên ngành, lĩnh vực khác như Kinh tế học, Xã hội học, Tâm lý học. bên đó người ta có những phương pháp thống kê độc đáo mà nếu mình lĩnh hội được thì có thể mang áp dụng cho chuyên môn của mình.
+
+Tạm biệt các bạn và hẹn gặp lại…
+
+boolean | false

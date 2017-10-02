@@ -1,0 +1,56 @@
+URL | http://congdongjava.com/forum/threads/%C4%90%C3%B3ng-g%C3%B3p-b%C3%A0i-to%C3%A1n-ng%C6%B0%E1%BB%9Di-du-l%E1%BB%8Bch-tsp-b%E1%BA%B1ng-gi%E1%BA%A3i-thu%E1%BA%ADt-di-truy%E1%BB%81n.15727/
+Title | [Đóng góp] Bài toán người du lịch (TSP) bằng giải thuật di truyền
+Content | 
+
+    Lâu rồi không vào diễn đàn :D bài tập lớn môn HCG của mình. Chia sẻ
+
+    [​IMG]
+
+    http://www.mediafire.com/?abhgbup8s40awb8 
+
+ce_itcn, 30/8/12
+#1
+Dung Hồ, nguyenson197, hiencdn and 1 other person like this.
+thethanh1207
+thethanh1207
+Member
+
+    bạn có thể share cho mình tài liệu về giải thuật di truyền và các tài liêu ứng dụng liên quan đc không?mình đang phải làm 1 cái project về GA, môn này toàn tự tìm hiểu nên rất cần tài liệu hữu ích, lên mạng search thì nhiều nên mình cũng k biết nên vọc theo cái nào,thanks bạn nhé:)thông cảm nếu là spam 
+
+thethanh1207, 31/8/12
+#2
+hiencdn
+hiencdn
+New Member
+
+    bạn ơi cho hỏi down về rồi sao mở không được. mở bằng netbean được.nhưng chạy không báo lỗi nhưng không thấy được giao diện như trên. làm sao để chạy có giao diện như vậy. 
+
+hiencdn, 28/3/13
+#3
+nguyenson197
+nguyenson197
+Member
+
+    Có báo cáo hay tư tưởng gì của bài không bạn. 
+
+nguyenson197, 28/3/13
+#4
+ce_itcn
+ce_itcn
+Moderator
+
+    Nhớ là đọc nhiều sách lắm, nhưng mà lập trình vẫn bị sai chỗ nào đó. Cách thức và thuật toán không thể nào sai đc. Cái này giờ bảo viết lại cũng ngại các bạn thử tìm quyển Giải thuật di truyền và tiến hóa + với từ khóa GA xem. 
+
+ce_itcn, 29/3/13
+#5
+Dung Hồ likes this.
+chienhd93
+chienhd93
+New Member
+
+    cho m hỏi sao m chạy đc giao diện mà sao ấn Tiến Hóa lại k đc gì nhỉ? 
+
+chienhd93, 14/11/13
+#6
+
+boolean | f

@@ -1,0 +1,150 @@
+https://nhatkythangcoder.wordpress.com/2017/07/02/co-ban-ve-tensorflow/
+Nhật ký Thằng Coder dạo
+Cơ bản về tensorflow – Nhật ký Thằng Coder dạo
+	
+		
+img.wp-smiley,
+		
+		
+		
+Skip to content
+Menu
+ Nhật ký Thằng Coder dạo
+Cơ bản về tensorflow 
+Các khái niệm cơ bản
+Tensor
+Tensor là khái niệm cơ bản nhất trong TensorFlow.
+đơn vị số học
+0
+1
+Vector
+2
+3
+3-Tensor
+n
+n-Tensor
+(n chiều) ….
+Dimension number
+0
+0-D
+1
+1-D
+2
+2-D
+3
+3-D
+n
+n-D
+Type
+Các dạng số trong TF.
+Python type
+Description
+DT_FLOAT
+DT_DOUBLE
+DT_INT8
+tf.int8
+8 bits signed integer.
+DT_INT16
+tf.int16
+16 bits signed integer.
+DT_INT32
+tf.int32
+32 bits signed integer.
+DT_INT64
+tf.int64
+64 bits signed integer.
+DT_UINT8
+tf.uint8
+8 bits unsigned integer.
+DT_STRING
+tf.string
+DT_BOOL
+tf.bool
+DT_COMPLEX64
+tf.complex64
+DT_QINT8
+tf.qint8
+DT_QINT32
+tf.qint32
+DT_QUINT8
+tf.quint8
+MNIST
+Xử lý ảnh
+Dưới đây là ví dụ về số 1 :
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.6.7.7.50000000000.81111111.9.30000000.4.4.4.7111000000000000.1.10000000000000000000000000000000000000000000000000000000000
+Hiển thị dưới dạng đồ thị :
+Ở đây :
+Trọng số
+'''
+'''
+  -1.47629070e+01  -1.18935766e+01  -1.92577553e+01  -3.63449310e-03      
+------
+.
+.
+cross_entropy 23026.0       
+cross_entropy 2870.42 
+ 
+			 
+Advertisements
+					
+		 
+		
+ 
+Enter your comment here...
+ 
+ 
+Website
+Connecting to %s
+ 
+ 
+Archives 
+September 2017 (2)
+August 2017 (7)
+July 2017 (10)
+June 2017 (13)
+April 2017 (27)
+December 2016 (1)
+November 2016 (3)
+October 2016 (1)
+September 2016 (1)
+2,637 hits
+.NET (4)
+Android (1)
+Cloud Coins (4)
+Góp nhặt (4)
+Google Adwords (1)
+Heroku (1)
+iOS (3)
+Là Chính Mình (5)
+MongoDB (1)
+NodeJS (4)
+PHP7 (1)
+Redis (6)
+Restful Services (1)
+Rootkit (2)
+Server (5)
+SSL (1)
+System (1)
+tensorflow (1)
+Webservices (1)
+Ưu tư riêng (34)
+`Gitflow (1)
+Join 360 other followers
+ 
+Follow Nhật ký Thằng Coder dạo on WordPress.com
+	
+Post to
+ 
+	
+		
+		
+		
+ 
+	
+ 
+%d bloggers like this:
+	
+	
+	
+	
+	

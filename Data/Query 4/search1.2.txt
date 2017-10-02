@@ -1,0 +1,130 @@
+URL | http://kcntt.duytan.edu.vn/Home/ArticleDetail/vn/128/2054/suy-dien-tien
+Title |Suy diễn tiến
+Content |Suy diễn tiến
+
+Suy diễn tiến (lập luận tiến - forward chaining hoặc forward reasoning)
+
+(tư tưởng cơ bản của suy diễn tiến là áp dụng luật suy diễn Modus Ponens tổng quát)
+
+Là quá trình suy diễn bắt đầu từ tập sự kiện đã biết, rút ra những sự kiện mới và cứ như vậy cho đến khi có được sự kiện cần chứng minh hoặc không có luật nào sinh ra các sự kiện mới (tập sự kiện đúng là cực đại).
+
+Procedure suydientien;
+
+Begin
+
+    T:= F;
+
+    S:= loc(R, T); { s: là tập luật có dạng p1 Ùp2 Ù....Ùpn Þq sao cho pjÎT  }
+
+    While G ËT and S<>fdo
+
+              Begin
+
+                       r := get(S);
+
+                       T:= T + right(r);
+
+                       R:=R \ {r};
+
+                       S:= loc(R,T);
+
+              End;
+
+    If G ÌT then write (“thành công”)
+
+    Else write (“không thành công”);
+
+End;
+
+ví dụ
+
+1)    cho trước tập sự kiện F={a,b}. sử dụng các luật:
+
+r1: a =>c
+
+r2: b =>d
+
+r3: c =>e
+
+r4: a  và d =>e
+
+r5: b và c =>f
+
+r6: e và f =>g
+
+cần suy ra g
+
+ 
+
+r
+	
+
+T
+	
+
+S
+	
+
+R
+
+ 
+
+r1
+
+r2
+
+r3
+
+r4
+
+r5
+
+r6
+	
+
+a, b
+
+a, b, c
+
+a, b, c, d
+
+a, b, c, d, e
+
+a, b, c, d, e
+
+a, b, c, d, e, f
+
+a. b, c, d, e, f, g
+	
+
+r1, r2, r3
+
+r2, r3, r5
+
+r3, r4, r5
+
+r4, r5
+
+r5
+
+r6
+
+ 
+	
+
+r1, r2, r3, r4, r5, r6
+
+r2,...r6
+
+r3,..., r6
+
+r4, r5, r6
+
+r5, r6
+
+r6
+
+ 
+
+gÎT nên bài toán được chứng minh (g: true)
+boolean | true

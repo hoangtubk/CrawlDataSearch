@@ -1,0 +1,25 @@
+https://viblo.asia/p/lam-the-nao-de-xay-dung-mot-recommender-system-rs-phan-2-4dbZNxom5YM
+Làm thế nào để xây dựng một Recommender System (RS) - Phần 2
+    +8
+                
+    Follow
+         804 8 4 Report
+    
+            
+            on 2017-05-17 07:25:45
+        This post is in the series:
+Giải thuật lọc cộng tác là gì???
+Luật số lớn và lý thuyết đám đông
+Tính toán độ tương tự
+Khoảng cách Ơ-clit và Minkowski:
+Khoảng cách Cosin
+Xây dựng Recommender System đơn giản với Python
+Đọc dữ liệu
+Tính toán độ đo tương tự
+Source Code
+To be continue
+                    Follow
+                 956
+             62
+             14
+                    © 2017 Viblo. All rights reserved.

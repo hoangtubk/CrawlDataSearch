@@ -1,0 +1,397 @@
+https://techtalk.vn/toi-da-tu-hoc-deep-learning-nhu-the-nao.html
+Tôi đã tự học Deep Learning như thế nào
+ 
+		
+img.wp-smiley,
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+ 
+Công nghệ
+Lập trình
+Lập trình ứng dụng
+Lập trình web
+Tools & Tips
+Sự kiện
+Tâm sự coder
+Devvui
+ 
+ 
+Tìm kiếm
+Sign in
+Đăng nhập tài khoản
+Tài khoản
+Khởi tạo mật khẩu
+ 
+Công nghệ
+ 
+Thật khó tin, đây là 20 câu hỏi kỳ quặc nhất… 
+ 
+ 
+POP!_OS phiên bản Linux distro dành cho developer 
+ 
+Intel giới thiệu chip AI mới có khả năng tự học… 
+ 
+Các công ty công nghệ thu hút nhân tài thế nào? 
+ 
+Lập trình
+Tất cảLập trình ứng dụngLập trình web
+ 
+ 
+ 
+Front-end web dev không dễ như những gì bạn nghĩ đâu! 
+ 
+Có gì mới trong MySQL 8.0 ? 
+ 
+Tools & Tips
+ 
+Thử một lần code mà không dùng If xem nào? 
+ 
+5 cách giúp lập trình viên tăng năng suất làm việc 
+ 
+Lập trình viên, liệu bạn đã đủ “hấp dẫn” trong mắt… 
+ 
+ 
+ 
+Sự kiện
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Einstein nói rằng: Nếu giải được bài toán này, bạn sẽ… 
+ 
+ 
+ 
+Sử dụng ký pháp BEM cho CSS 
+ 
+ 
+Tâm sự coder
+ 
+Lập trình viên và chuyện học ngoại ngữ 
+ 
+Tôi code vì tiền 
+ 
+ 
+ 
+Developer: Chúng tôi không có khái niệm đi “xin việc”! 
+ 
+Devvui
+ 
+November 22, 2016 5039 
+Tweet
+Bắt đầu tự viết ứng dụng
+Tóm lại
+ 
+CHIA SẺ
+Twitter
+ 
+BÀI VIẾT LIÊN QUANXEM THÊM
+ 
+10 công nghệ AI hot nhất 
+ 
+ 
+ 
+ 
+  
+Follow Us 
+		
+Những kiến thức UX hữu ích mà lập trình viên cần phải biết 
+October 6, 2016 
+Xu hướng tuyển dụng 2017: Lương không tăng nhiều! 
+April 1, 2017 
+September 7, 2017 
+Tâm sự coder
+August 21, 2017 
+ 
+June 23, 2017 
+ 
+Thực hư OT ngành IT
+Sự kiện
+September 27, 2017 
+September 27, 2017 
+September 26, 2017 
+Xem thêm  
+ 
+ 
+ 
+ 
+
+    
+
+            
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+    
+    .woocommerce-checkout .woocommerce input.button:hover,
+    #bbpress-forums button:hover,
+    .bbp_widget_login .button:hover,
+    .woocommerce .product #respond input#submit:hover,
+    .woocommerce .woocommerce.widget .button:hover,
+    .td-scroll-up,
+
+    .woocommerce .woocommerce-error .button:hover,
+
+
+
+    .td-post-content blockquote p,
+    .mce-content-body blockquote p,
+    .comment-content blockquote p,
+    .wpb_text_column blockquote p,
+    .td_block_text_with_title blockquote p,
+    .td_quote_on_blocks,
+    .comment-reply-link:hover,
+    #bbpress-forums .bbp-forum-title:hover,
+
+
+    .post .td_quote_box,
+
+
+
+    .widgettitle,
+    .td-trending-now-title,
+    .woocommerce .product .products h2,
+
+
+    .block-title,
+
+
+    
+    .td-grid-style-4 .entry-title
+
+    
+    .widgettitle,
+    .td-trending-now-title,
+    .woocommerce .product .products h2,
+
+
+    .block-title,
+
+    
+
+    
+
+
+    
+
+
+    
+        body #td-top-mobile-toggle i,
+
+    
+
+    
+
+    
+    .td-post-content,
+
+    
+    .td-post-content h1,
+    .td-post-content h2,
+    .td-post-content h3,
+    .td-post-content h4,
+    .td-post-content h5,
+
+    
+	
+    
+	
+    
+	
+    
+	
+	
+	
+    
+	
+    
+	
+    
+	
+
+
+
+	
+    .widgettitle,
+    .td-trending-now-title,
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+
+
+	
+	
+     
+	
+    
+	
+    
+	
+    
+    .td-post-content p,
+	
+    
+    .post blockquote p,
+	
+    
+    .post .td_quote_box p,
+	
+    
+    .post .td_pull_quote p,
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+
+
+
+
+
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+
+
+
+
+	
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+	
+
+
+
+
+    
+	
+	
+	
+	
+	
+
+
+
+
+	
+	
+    
+	
+    
+	
+    
+	
+    
+	
+    
+    .widget_text .textwidget,
+	
+    
+	.vc_btn,
+	.woocommerce button.button,
+	
+	
+	
+
+
+            limit: 3,
+

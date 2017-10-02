@@ -1,0 +1,105 @@
+http://kcntt.duytan.edu.vn/Home/ArticleDetail/vn/128/2054/suy-dien-tien
+None
+
+	
+
+Tiếng ViệtEnglish
+Giới thiệuGiới thiệu chungThông tin giảng viênĐào tạo & Tuyển sinhCác hoạt độngGiới thiệu ngành
+Liên hệ
+Cộng đồng công nghệTin tức công nghệBảo mậtỨng dụngDi độngMạng & InternetHệ điều hànhLập trìnhMã nguồn mởPhần mềmThiết bị sốMạng - Máy tínhKinh nghiệm - Thủ thuậtPhần mềm-Ứng dụng
+
+
+
+	Begin
+
+
+
+
+	              Begin
+
+
+
+
+
+
+	    If G ÌT then write (“thành công”)
+
+
+ví dụ
+
+
+
+
+
+
+
+
+
+	 
+r
+T
+S
+R
+
+					 
+
+					r1
+
+					r2
+
+					r3
+
+					r4
+
+					r5
+
+					r6
+
+
+
+
+
+
+
+
+					r1, r2, r3
+
+					r2, r3, r5
+
+					r3, r4, r5
+
+					r4, r5
+
+					r5
+
+					r6
+
+					 
+
+					r1, r2, r3, r4, r5, r6
+
+					r2,...r6
+
+					r3,..., r6
+
+					r4, r5, r6
+
+					r5, r6
+
+					r6
+
+					 
+
+	gÎT nên bài toán được chứng minh (g: true)
+
+Tuần học:9
+Sinh viên tiêu biểu
+video
+Số lượt truy cập:
+
+2501873
+
+	© 2017 Đại học Duy Tân
+
+
+    

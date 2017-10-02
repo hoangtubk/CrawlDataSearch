@@ -1,0 +1,208 @@
+URL | http://vnknowledge-sharing.blogspot.com/2014/11/heuristic-optimization-methods-giai.html
+Title | Heuristic Optimization Methods - Giải thuật di truyền - Thuật toán GA (Genetic Algorithms)
+Content |  Heuristic Optimization Methods - Giải thuật di truyền - Thuật toán GA (Genetic Algorithms)
+I. Ứng dụng giải thuật di truyền - Thuật toán GA trong việc tìm giá trị lớn nhất và nhỏ nhất của hàm số.
+   Trong bài này về mặt lý thuyết mình sẽ chỉ trích dẫn sơ lược một số khái niệm và nội dung cơ bản để tập chung vào ví dụ áp dụng GA để giải quyết một bài tán cụ thể. Các bạn muốn tìm hiểu một cách đầy đủ hơn có thể tìm kiếm các nguồn tài liệu rất phong phú và đa dạng trên mạng Internet.
+1.1 Một số khải niệm cơ bản:
+   "Một giải thuật di truyền (GA) là một thuật toán dùng để tìm các lời giải xấp xỉ cho các bài toán khó qua việc áp dụng các nguyên lý của sinh học tiến hóa cho ngành khoa học máy tính. Các thuật toán di truyền sử dụng các kỹ thuật sinh học như thừa kế (inheritance), biến dị, chọn lọc tự nhiên (natural selection), and tái tổ hợp (recombination ). Các giải thuật di truyền là một lớp của các giải thuật tiến hóa." - Wikipedia
+1.2 Nguyên lý làm việc:
+   "Giải thuật di truyền được bắt đầu bởi 1 tập hợp các giải pháp (biểu diễn bởi các nhiễm sắc thể) được gọi là quần thể.
+Các giải pháp từ 1 quần thể được lấy và sử dụng để tạo ra 1 quần thể mới. Điều này xuất phát từ ý tưởng quần thể mới sẽ tốt hơn quần thể cũ.
+Các giải  pháp được lựa chọn dựa trên độ thích nghi của chúng để hình thành giải pháp mới (con cái) phù hợp hơn giải pháp cũ.
+Điều này được lặp đi lặp lại cho đến khi một số điều kiện (ví dụ như số lượng của các quần thể hoặc tìm ra giải pháp tốt nhất) thỏa mãn." - Trích Slide Soft Computing
+1.3 Các bước thực hiện GA:
+"1.[Bắt đầu] Tạo ngẫu nhiên quần thể có n nhiễm sắc thể (ví dụ các giải pháp có thể cho bài toán).
+2.[Thích nghi] Đánh giá độ thích nghi f(x) cho mỗi nhiễm sắc thể x trong quần thể.
+3.[Quần thể mới] Tạo ra 1 quần thể mới bằng cách lặp lại các bước dưới đây đến khi quần thể mới hoàn thiện.
+(a). [Lựa chọn] Lựa chọn 2 nhiễm sắc thể cha mẹ từ quần thể trên dựa vào độ thích nghi của chúng (độ thích nghi tốt hơn, cơ hội được lựa chọn lớn hơn).
+(b). [Lai chéo] Với khả năng lai chéo, lai chéo các cha mẹ để tạo ra con mới. Nếu lai chéo không được thực hiện, con cái chính là 1 bản y sao của cha mẹ.
+(c). [Đột biến] Với  khả năng đột biến, đột biến con mới tại mỗi quỹ tích (vị trí trong nhiễm sắc thể).
+(d). [Chấp nhận] Đặt con mới vào trong quần thể mới 
+
+4. [Thay thế] Sử dụng quần thể mới đươc tạo ra cho bước lặp tiếp theo của thuật toán.
+
+5. [Kiểm thử] Nếu điều kiện cuối cùng được thỏa mãn, dừng lặp và trả về giải pháp tốt nhất trong quần thể đang xét.
+
+6. [Lặp] Quay trở về bước lặp thứ 2." - Trích Slide Soft Computing
+
+1.4 Lưu đồ thuật toán:
+2. Ví dụ về GA: Tìm giá trị lớn nhất của hàm số sau đây sử dụng thuật toán GA - Genetic Algorithms:
+
+Solution:
+
+We will use a process of GA with 5 Steps:
+
+Step 1 Initialization
+
+Step 2 Evaluation
+
+Step 3 Selection
+Step 4 Crossover
+Step 5 Mutation
+Step 6 Termination Checking
+ Go to Step 2 if not terminated
+Kết quả:
+Giá trị tối ưu tìm được sau 50 thế hệ:
+F(x, y)max =    4.2947
+(x, y) = (1.9931 , 1.9896)
+And there are some value of F(x,y) with each number of Generation – (From 1 to 50)  when I run this program in one time:
+  Columns 1 through 9
+
+    1.8799    3.9006    3.9380    3.9709    3.9732    3.9852    4.1925    4.1932    4.1932
+
+  Columns 10 through 18
+
+    4.1932    4.1932    4.2077    4.2077    4.2128    4.2128    4.2128    4.2128    4.2169
+
+  Columns 19 through 27
+
+    4.2169    4.2169    4.2169    4.2265    4.2265    4.2265    4.2265    4.2265    4.2265
+
+  Columns 28 through 36
+
+    4.2363    4.2363    4.2363    4.2363    4.2363    4.2363    4.2363    4.2363    4.2363
+
+  Columns 37 through 45
+
+    4.2363    4.2363    4.2363    4.2363    4.2363    4.2363    4.2411    4.2411    4.2411
+
+  Columns 46 through 50
+
+    4.2411    4.2411    4.2411    4.2547    4.2547
+Từ dữ liệu ở trên ta vẽ được đồ thị giá trị tối ưu tìm được sau mỗi một thế hệ:
+
+Khi chạy chương trình 20 lần với số thế hệ là 50:
+Nhận xét: Đôi khi thuật toán GA không thể cho ta một giải pháp tốt nhất - một Global Optimize.
+Code chương trình GA - Genetic Algorithms sử dụng phần mềm Matlab:
+function example_GA
+ % Genetic Algorithms
+ %--------------------------------------------------------------
+ % Reference book "A Tutorial on Meta-Heuristics for Optimization"
+ % Authors: Shu-Chuan Chu, Chin-Shiuh Shieh, and John F. Roddick
+ %--------------------------------------------------------------
+
+ % --Initialize Parameters---
+n = 10; % Population Size 
+cl = 32; % Number of bits in each chromosome
+c = zeros(n,cl);
+mg = 50; % %Maximal Number of Generations
+best_f = -10^9; % Best Fitness Value
+f = zeros(1,n);
+best_c = zeros(1,cl); % Best Chromosome
+p = zeros(1,n);
+tmpc=zeros(n,cl);
+CR = 0.5; % Crossover Rate
+MR = 0.05; % Mutation Rate
+Fvl=zeros(1,cl);
+
+% Initialize Population
+for i=1:1:n
+    for j=1:1:cl
+        if(rand(1)<0.5)
+            c(i,j)=0;
+        else
+            c(i,j)=1;
+        end
+    end
+end
+
+% Main Program
+for t=1:1:mg
+    %--Decode Chromosome--
+    x = zeros(1,n);
+    y = zeros(1,n);
+    for i=1:1:n
+        for j=1:1:cl/2
+            x(i) = x(i)*2+c(i,j);
+        end
+        x(i)=10*x(i)/(2^16)-5;
+        for j = (cl/2+1):1:cl
+            y(i) = y(i)*2+c(i,j);
+        end
+        y(i)=10*y(i)/(2^16)-5;
+        %--Update best solution--
+        f(i) = 4/((x(i)-2)^2+(y(i)-2)^2 +1)+3/((x(i)-2)^2+(y(i)+2)^2 +1)+2/((x(i)+2)^2+(y(i)-2)^2 +1);
+        if(f(i) > best_f)
+            best_f = f(i);
+            for j=1:1:cl
+                best_c(j)=c(i,j);
+            end
+        end
+    end
+   
+    % Evaluate Selection Probability
+    tmpf =0;
+    for i = 1:1:n
+        p(i) = (f(i))^2;
+        tmpf = tmpf + p(i);
+    end
+    for i = 1:1:n
+        p(i) = p(i)/tmpf;
+    end
+    % Save the best solution
+    for j=1:1:cl
+        tmpc(1,j)=best_c(j);
+    end
+    %--Roulette wheel selection--
+    for i=2:1:n
+        tmpf = rand(1);
+        for k=1:1:n
+            tmpf = tmpf - p(k);
+            if tmpf<0
+                g=k;
+                break;
+            end
+        end    
+        for j=1:1:cl
+            tmpc(i,j)=c(g,j);
+        end
+    end
+    %--Copy temporary population to population--
+    for i=1:1:n
+        for j=1:1:cl
+            c(i,j)=tmpc(i,j);
+        end
+    end
+    %--Crossover---
+    for i = 1:2:(n-1)
+            a = rand(1);
+            if(a<CR)
+                site = a*cl;
+                j=1;
+                while (j<site)
+                    tmpi = c(i,j);
+                    c(i,j) = c(i+1,j);
+                    c(i+1,j)= tmpi;
+                    j=j+1;
+                end
+            end
+    end
+    %--Mutation---
+    for i=1:1:n
+        for j =1:1:cl
+            if (rand(1)<MR)
+                c(i,j)=1-c(i,j);
+            end
+        end
+    end
+    %--Return F(x,y) have found out in each Generations---
+    r=0;
+    q=0;
+    for j=1:1:cl/2
+        r = r*2+best_c(j);
+    end
+    r=10*r/(2^16)-5;
+    for j = (cl/2+1):1:cl
+        q = q*2+best_c(j);
+    end
+    q=10*q/(2^16)-5;
+    Fvl(t) = 4/((r-2)^2+(q-2)^2 +1)+3/((r-2)^2+(q+2)^2 +1)+2/((r+2)^2+...
+        (q-2)^2 +1);
+   
+end
+% ---Export Graph---
+disp(Fvl);
+plot(Fvl);
+hold on;
+end
+boolean | true

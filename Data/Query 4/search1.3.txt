@@ -1,0 +1,269 @@
+URL |https://bienuit.wordpress.com/tag/suy-dien-tien/
+Title | Giải bài toán tam giác bằng mô hình Hệ luật dẫn dùng thuật giải Suy diễn tiến và Suy diễn lùi (phần cuối + demo)
+Content | 4. Tính toán và trình bày kết quả
+
+Sau khi xây dựng thuật giải và tìm được các luật áp dụng, tìm được các công thức cần áp dụng để đi đến được kết quả. Vậy là bài toán đã coi như gần hoàn tất, bây giờ công việc cuối cùng để hoàn thành bài toán là tính toán và trình bài kết quả.
+
+4.1.     Tính toán
+
+Sau khi có được các luật sẽ dùng, ta sẽ tiến hành đọc các công thức và thay số vào để tính.
+
+Các công thức toán học thông dụng chúng ta vẫn thường hay dùng được gọi là các công thức ở dạng trung tố (Infix), để chuyển về dạng ký pháp nghịch đảo Ba Lan tức là tính bằng các stack ta phải chuyển chúng về các biểu thức hậu tố (Posfix).
+
+Thuật toán để chuyển một biểu thức Infix sang dạn Posfix:
+
+Đọc từng token trong biểu thức infix từ trái qua phải, với mỗi token ta thực hiện các bước sau:
+
+–       Nếu là toán hạng: cho ra output.
+
+–       Nếu là dấu mở ngoặc “(“: cho vào stack
+
+–       Nếu là dấu đóng ngoặc “)”: lấy các toán tử trong stack ra và cho vào output cho đến khi gặp dấu mở ngoặc “(“. (Dấu mở ngoặc cũng phải được đưa ra khỏi stack)
+
+–       Nếu là toán tử:
+
+Chừng nào ở đỉnh stack là toán tử và toán tử đó có độ ưu tiên lớn hơn hoặc bằng toán tử hiện tại thì lấy toán tử đó ra khỏi stack và cho ra output.
+
+Đưa toán tử hiện tại vào stack
+
+Sau khi duyệt hết biểu thức infix, nếu trong stack còn phần tử thì lấy các token trong đó ra và cho lần lượt vào output.
+
+Ta có độ ưu tiên của các toán tử:
+
+‘sqrt’ = ‘sin’ = ‘cos’ = ‘tan’ = ‘arcsin’ = ‘arccos’ > ‘*’ = ‘/’ > ‘+’ = ‘-‘ > ‘(‘
+
+4.2.   Trình bày kết quả
+
+Sau khi nhận tập luật từ thuật giải suy diễn và nhận kết quả tính toán từ hàm Calculate thì ta sẽ trình bày bài giải theo ngôn ngữ tự nhiên sau cho dễ hiểu nhất. Ta có thể trình bày lời giải bằng ngôn ngữ tự nhiên trong file text hoặc đưa trực tiếp vào code.
+Demo và Sourcode
+
+Sau đây là demo của chương trình được mình thực hiện bằng C#. Vì mình làm demo đơn giản nên mình không xét đến các trường hợp dữ liệu input bị sai vậy nên dữ liệu bài toán đưa vào phải là dữ liệu chuẩn, không có sai sót.
+
+–         Giải bài toán với Suy diễn tiến:
+
+Suy dien tien
+
+–         Giải bài toán với Suy diễn lùi:
+
+Suy dien lui
+
+–         Khi không đủ giả thiết để giải bài toán:
+
+Not enough hepothesis
+
+Demo + Source code
+Advertisements
+Giải bài toán tam giác bằng mô hình Hệ luật dẫn dùng thuật giải Suy diễn tiến và Suy diễn lùi (phần 1)
+Posted: Tháng Ba 6, 2013 in Artificial Intelligence	
+Thẻ:AI, Bài toán tam giác, Hệ luật dẫn, Suy diễn lùi, Suy diễn tiến	
+0
+
+Trong bài viết này mình sẽ trình bày cách giải bài toán tam giác dùng hệ luật dẫn. Bài toán tam giác này sẽ giới thiệu cách làm với các công thức thông dụng.
+
+1. a)     Các đối tượng, sự kiện trong tam giác
+
+Ảnh
+
+Ta có các đối tượng trong tam giác cần xét:
+
+–         A: Số đo góc đối diện cạnh a
+
+–         B: Số đo góc đối diện cạnh b
+
+–         C: Số đo góc đối diện cạnh c
+
+–         a: độ dài cạnh a
+
+–         b: độ dài cạnh b
+
+–         c: độ dài cạnh c
+
+–         ha: độ dài đường cao tương ứng với cạnh a
+
+–         hb: độ dài đường cao tương ứng với cạnh b
+
+–         hc: độ dài đường cao tương ứng với cạnh c
+
+–         S: diện tích của tam giác
+
+–         p: nửa chu vi
+
+a)     Các công thức trong tam giác (luật)
+
+    A + B + C = π
+
+Ảnh
+
+L10_nc_ch2_bai3_4
+
+L10_nc_ch2_bai3_14
+
+Ảnh
+
+2.1.      Xác định bài toán cần giải
+
+–         Giả thiết: Một số thông số (đối tượng, sự kiện) của tam giác cho trước.
+
+–         Mục tiêu: Xác định một thông số (đối tượng) của tam giác.
+
+Ví dụ: Xét tam giác ABC có góc A = 300, góc B = 600, cạnh c có độ dài là 5 đơn vị độ dài. Hãy xác định độ dài đường cao hc.
+
+2.2.      Biểu diễn tri thức
+
+Tri thức gồm hai thành phần (F, R), tức là các khái niệm (phát biểu) và các luật dẫn.
+
+Trong bài toán tam giác trên, phần tri thức theo luật dẫn (Facts, Rules) gồm:
+
+Facts = {A, B, C, a, b, c, S, p, R, ha, hb, hc, …}
+
+Rules = {
+
+                        r1: {A, B} –> {C};
+
+                        r2: {A, C} –> {B};
+
+                        …
+
+    }
+
+Tổ chức tri thức lưu trên bộ nhớ phụ với 2 file : Facts.txt và Rules.txt
+
+    Cấu trúc file Facts.txt :
+
+Begin
+
+<tên đối tượng 1> : <mô tả của đối tượng 1>
+
+<tên đối tượng 2> : <mô tả của đối tượng 2>
+
+…
+
+End.
+
+    File Facts.txt của chương trình:
+
+Begin
+
+A : so do goc doi dien canh a
+
+B : so do goc doi dien canh b
+
+C : so do goc doi dien canh c
+
+a : do dai canh a
+
+b : do dai canh b
+
+c : do dai canh c
+
+ha : do dai duong cao tuong ung voi canh a
+
+hb : do dai duong cao tuong ung voi canh b
+
+hc : do dai duong cao tuong ung voi canh c
+
+S : dien tich tam giac
+
+p : nua chu vi
+
+End.
+
+    Cấu trúc file Rules.txt :
+
+<luật 1> : <công thức 1>
+
+<luật 2> : <công thức 2>
+
+…
+
+    File Rules.txt của chương trình :
+
+a,b,c->p.( a + b + c ) / 2
+
+a,b,c,p->S.sqrt ( p * ( p – a ) * ( p – b ) * ( p – c ) )
+
+a,b,C->S.( a * b * sin C ) / 2
+
+a,c,B->S.( a * c * sin B ) / 2
+
+b,c,A->S.( b * c * sin A ) / 2
+
+a,ha->S.a * ha / 2
+
+b,hb->S.b * hb / 2
+
+c,hc->S.c * hc / 2
+
+a,b,A->B.arcsin ( b * sin A / a )
+
+a,b,B->A.arcsin ( a * sin B / b )
+
+a,c,A->C.arcsin ( c * sin A / a )
+
+a,c,C->A.arcsin ( a * sin C / c )
+
+b,c,B->C.arcsin ( c * sin B / b )
+
+b,c,C->B.arcsin ( b * sin C / c )
+
+A,B->C.180 – A – B
+
+A,C->B.180 – A – C
+
+B,C->A.180 – C – B
+
+a,C->hb.a * sin C
+
+a,B->hc.a * sin B
+
+c,A->hb.c * sin A
+
+c,B->ha.c * sin B
+
+b,A->hc.b * sin A
+
+b,C->ha.b * sin C
+
+a,A,B->b.a * sin B / sin A
+
+a,A,C->c.a * sin C / sin A
+
+b,B,A->a.b * sin A / sin B
+
+b,B,C->c.b * sin C / sin B
+
+c,C,A->a.c * sin A / sin C
+
+c,C,B->b.c * sin B / sin C
+
+a,b,C->c.sqrt ( a * a + b * b – 2 * a * b * cos C )
+
+a,c,B->b.sqrt ( a * a + c * c – 2 * a * c * cos B )
+
+b,c,A->a.sqrt ( b * b + c * c – 2 * b * c * cos A )
+
+        Sau khi lưu luật dẫn dưới dạng luật như trên, ta xây dựng cấu trúc dữ liệu phù hợp để đọc luật vào. Ở đây, sau khi đọc các luật, tôi sẽ sử dụng lưu luật dưới dạng mảng:
+
+array
+
+Khởi tạo mảng sẽ là một mảng 11 phần tử, mỗi phần tử mặc định là số -1. Mảng này dùng để đánh dấu các biến trong luật.
+
+Trong mảng này mình sẽ load các biến xuất hiện trong luật vào các dòng của bảng như trên.
+
+Mỗi luật được đưa vào sẽ được phân tích như sau:
+
+Mỗi sự kiện trong mệnh đề IF sẽ được đánh dấu là 0, trong mệnh đề THEN là 1.
+
+Ví dụ luật: A, B -> C
+
+Ta có các giá trị trong mảng lần lượt là:
+
+0, 0, 1, -1, -1, -1, -1, -1, -1, -1, -1.
+
+Hay a, b, c -> p
+
+-1, -1, -1, 0, 0, 0, -1, -1, -1, 1, -1.
+
+Vậy là các bạn đã hoành thành bước thu thập và biểu diễn tri thức. Chúng ta sẽ tới bước tiếp theo : Xây dựng thuật giải.
+
+boolean | true 

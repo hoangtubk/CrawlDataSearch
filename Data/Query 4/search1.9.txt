@@ -1,0 +1,18 @@
+URL |https://diendantoanhoc.net/topic/121655-b%C3%A0i-t%E1%BA%ADp-v%E1%BB%81-suy-di%E1%BB%85n-ti%E1%BA%BFn-v%C3%A0-suy-di%E1%BB%85n-l%C3%B9i-trong-h%E1%BB%87-chuy%C3%AAn-gia/
+Title | bài tập về suy diễn tiến và suy diễn lùi trong hệ chuyên gia
+Content | chào các bạn..mình là newbie mình mới tham gia diễn đàn lên còn nhiều thứ rất mơ hồ và thắc mắc..mình rất muốn đ][cj học hỏi kinh nghiệm cũng như kiến thức của những ng][ì đi trước...
+
+ mình sắp phải thi môn hệ chuyên gia ùi..mà mình lại không biết nhiều về môn này .mình có một bài mà rất khó hiểu ming mọi người góp ý cho mình với ..cảm ơn các bạn nhiều ... :lol:  mai mình thi ùi hhixhix 
+
+Câu 2 (3 đ): Cho tập các luật sau R = {r1, ..., r7}
+r1: a ^ b -> c; r2: b -> c; r3: b ^ h -> d; r4: a ^ c -> d;
+r5: c ^ d -> e; r6: a ^ e -> f; r7: e ^ f -> m
+a) Tập sự kiện {a, b} có là cơ sở sự kiện của tập sự kiện cho trong R không?
+b) Với GT = {a, b}, KL = {m}. Hãy áp dụng kỹ thuật suy diễn để đưa ra kết luận.
+- Suy diễn
+- Suy diễn lùi 
+
+ 
+
+đó các bạn giúp mình với ..nếu mình có viết gì không đúng mong mod đừng xoá nha  :(  cảm ơn các bạn nhiều và chức các bạn một ngày tốt lành
+boolean | true

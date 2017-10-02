@@ -1,0 +1,371 @@
+URL | http://alpha9999.forumotion.net/t637-topic
+Title |Thuật Giải Suy Diễn T
+Content | MÔ TẢ
+
+    R: là tập các luật dẫn.
+    G: là tập các giả thiết.
+    K: là tập kết luận.
+
+CODE MẪU VỀ THUẬT GIẢI SUY DIỄN TIẾN BẰNG NGÔN NGỮ LẬP TRÌNH HÌNH THỨC MATHEMATICA 5.1
+
+Code:
+    (*SUY DIEN TIEN*)
+    Clear[R, G, K, i, n];
+    R = Input["Nhap vao tap luat dan"];
+    G = Input["Nhap tap gia thiet"];
+    K = Input["Nhap tap ket luan"];
+    i = 1;
+    n = Length[R];
+    Print["Tap quan he R = ", R];
+    Print["So quan he n = ", n];
+    Print["Tap gia thiet G = ", G];
+    Print["Tap ket luan K = ", K];
+    While[i ≤ n && Intersection[G, K] != K,
+           If[Intersection[G, R[[i, 1]]] == R[[i, 1]],
+                Print["+ Chon (R,G,", i, ")"];
+                G = Union[G, R[[i, 2]]];
+                Print["  => Gt = ", G]
+                ,
+                Print["+ Khong chon (R,G,", i, ")"];
+             ];
+           i++;
+        ];
+    If[Intersection[G, K] != K, Print["==> K sai"], Print["==> K dung"]];
+
+VÍ DỤ
+
+    Cho R ={
+    (1)a,b->c,
+    (2)a,c->d,
+    (3)a,d->e}
+    G = {a,b}
+    K = {e}
+    Khi đó ta nhập liệu như sau:
+    R ={{{a,b},{c}},{{a,c},{d}},{{a,d},{e}}}
+    G = {a,b}
+    K = {e}
+
+
+
+Được sửa bởi Admin ngày Thu Jun 23, 2011 3:06 pm; sửa lần 2.
+
+    Về Đầu Trang
+
+admin
+
+avatar
+admin
+    Admin
+    Admin
+
+    Tổng số bài gửi : 1207
+    Points : 3010
+    Join date : 11/11/2009
+    Age : 36
+    Đến từ : Cần Thơ
+
+    Post n°2
+
+Cài đặt thuật toán suy diễn tiến bằng Pascal
+
+Bài gửi  admin on Mon Jun 06, 2011 10:43 am
+Cài đặt thuật toán suy diễn tiến bằng Pascal
+
+CODE MẪU
+
+Code:
+    (****************************************
+      Chuong trinh duoc viet boi Bui Van Thuc
+      Lop: 46TH1
+      Truong: Dai hoc Nha Trang
+    *****************************************)
+
+    program ThuatToanSuyDienTien;
+    uses crt;
+    type DSLK = ^luat;
+         luat = record
+              vt: string;
+              vp: char;
+              next: DSLK;
+         end;
+         taphop = set of char;
+
+    var
+       tDung : taphop;
+       giathiet : string;
+       TapLuat, T : DSLK;
+       KL : char;
+       soluat:byte;
+
+    {---khoi tao tap luat = rong------------}
+    procedure KhoiTaoTapLuat(var r : DSLK);
+        begin
+            r := nil;
+        end;
+
+
+    {---Bo xug 1 luat vo tap luat-----------}
+    procedure BXLuat(vt : string; vp : char; var r : DSLK);
+        var last, t : DSLK;
+        begin
+            new(t);
+            t^.vt := vt;
+            t^.vp := vp;
+            t^.next := nil;
+            if r = nil then r := t
+            else
+                last^.next := t;
+            last := t;
+        end;
+
+    {---doc tap tin luat--------------------}
+    procedure DocTapLuat(tenfile: string; var r : DSLK);
+        var f : text;
+
+            chuoi: string;
+            k, i : byte;
+        Begin
+            KhoiTaoTapLuat(r);
+            assign(f, tenfile);
+            reset(f);
+            readln(f, soluat);
+            for i:= 1 to soluat do
+                begin
+                    readln(f, chuoi);
+                    k:= pos(' ',chuoi);
+                    BXLuat(copy(chuoi, 1, k-1), chuoi[length(chuoi)], r);
+                end;
+            {Doc gia thiet va ket luan trong file}
+            readln(f, chuoi);
+            k:= pos(' ',chuoi);
+            giathiet:= copy(chuoi,1,k-1);
+            KL := chuoi[length(chuoi)];
+            close(f);
+        End;
+
+    {----In tap luat vua doc len man hinh---}
+    procedure InTapLuat(r : DSLK);
+        var p : DSLK;
+        begin
+            p := r;
+            writeln(' -- ********************* -- ');
+            writeln(' --    Cho tap luat sau   -- ');
+            writeln(' -- ********************* -- ');
+            while p <> nil do
+                begin
+                    writeln('   ',p^.vt,' --> ', p^.vp);
+                    p := p^.next;
+                end;
+            writeln('     Hoi suy dan sau dung hay sai???');
+            writeln('    ',giathiet,' --> ',KL);
+        end;
+
+    {---------------------------------------}
+    procedure Loc(TapLuat : DSLK; TD: taphop; Var T : DSLK);
+        var p, q : DSLK;
+            i : byte;
+            thuocTD, thuocT : boolean;
+        begin
+             thuocTD := false;
+             thuocT := false;
+             p := TapLuat;
+
+             while (p <> nil) do
+                   begin
+                        for i:= 1 to length(p^.vt) do
+                            if ((p^.vt[i]) in TD) then thuocTD := true
+                            else  begin thuocTD := false; break; end;
+                        if thuocTD then
+                           begin
+                                q := T;
+                                while q <> nil do
+                                 begin
+                                      if (p^.vt = q^.vt)  and (p^.vp = q^.vp) then
+                                         begin thuocT := true; break; end
+                                      else thuocT := false;
+                                      q := q^.next;
+                                 end;
+                                if not thuocT then
+                                   BXLuat(p^.vt, p^.vp, T);
+                           end;
+                        p := p^.next;
+                   end;
+        end;
+
+    {---Kiem tra T co khac rong?------------}
+    function khacRong(T: DSLK): boolean;
+        begin
+            if T <> nil then khacRong := true
+            else khacRong:= false;
+        end;
+
+    {------Xoa 1 ptu trog tap luat----------}
+    Procedure Xoa(r : DSLK; Var L: DSLK);
+        Var tam : DSLK;
+        Begin
+             If L <> nil then
+                begin
+                   While (L = TapLuat) and (L^.vt = r^.vt) and (L^.vp = r^.vp) do
+                     begin
+                         tam := L;
+                         L := L^.next;
+                         TapLuat := L;
+                         dispose(tam);
+                     end;
+                   If (L^.next^.vt = r^.vt) and (L^.next^.vp = r^.vp) then
+                      begin
+                         tam := L^.next;
+                         L^.next := tam^.next;
+                         dispose(tam);
+                         Xoa(r, L);
+                      end;
+                   Xoa(r, L^.next);
+                end;
+        End;
+
+    {----Lay ra 1luat trong r dua vao T-----}
+    procedure Get(var T : DSLK; var r : DSLK);
+        var tam : DSLK;
+        begin
+             tam := T;
+             r := tam;
+             T := T^.next;
+             r := T;
+             dispose(tam);
+        end;
+
+    {---Thuc hien thuat toan Suy dien tien--}
+    procedure SuyDienTien;
+        var i : byte;
+            r : DSLK;
+        begin
+             tDung := [];
+             for i:= 1 to length(giathiet) do tDung := tDung + [giathiet[i]];
+             Loc(TapLuat, tDung, T);
+             while ((not(KL in tDung)) and khacRong(T)) do
+                   begin
+                        Get(T, r);
+                        tDung := tDung + [r^.vp];
+                        Xoa(r, TapLuat);
+                        Loc(TapLuat, tDung, T);
+                   end;
+             if (KL in tDung) then writeln(' ---> Suy dan tren dung. Chuc mung ban!')
+             else writeln(' <--- Suy dan tren khong dung');
+        end;
+
+    {---Chuong trinh chinh------------------}
+    BEGIN
+        clrscr;
+        DocTapLuat('rule.txt', TapLuat);
+        InTapLuat(TapLuat);
+        write(' Press Enter to display result...');
+        readln;
+        KhoiTaoTapLuat(T);
+        SuyDienTien;
+        readln;
+    END.
+
+TEST MẪU
+
+    6
+    a c
+    b d
+    a e
+    ad e
+    bc f
+    ef g
+    acb g
+
+    Về Đầu Trang
+
+thanhlongltvp
+
+
+thanhlongltvp
+    Nhập môn
+    Nhập môn
+
+    Tổng số bài gửi : 2
+    Points : 2
+    Join date : 06/06/2011
+
+    Post n°3
+
+Re: Thuật giải suy diễn tiến
+
+Bài gửi  thanhlongltvp on Wed Jun 08, 2011 2:02 am
+Anh ơi, anh có thể share cho em code bài đó bằng C++ đc ko ạh Very Happy
+
+    Về Đầu Trang
+
+admin
+
+avatar
+admin
+    Admin
+    Admin
+
+    Tổng số bài gửi : 1207
+    Points : 3010
+    Join date : 11/11/2009
+    Age : 36
+    Đến từ : Cần Thơ
+
+    Post n°4
+
+Re: Thuật giải suy diễn tiến
+
+Bài gửi  admin on Wed Jun 08, 2011 7:59 am
+
+    thanhlongltvp ﻿đã viết:
+    Anh ơi, anh có thể share cho em code bài đó bằng C++ đc ko ạh Very Happy
+
+Mình không có thời gian code lại. Em download Mathematica về chạy thử nhé. Vì cài đặt trên Math nhanh và viết ngắn gọn hơn. Cám ơn em đã quan tâm đến bài viết này.
+
+    Về Đầu Trang
+
+thanhlongltvp
+
+
+thanhlongltvp
+    Nhập môn
+    Nhập môn
+
+    Tổng số bài gửi : 2
+    Points : 2
+    Join date : 06/06/2011
+
+    Post n°5
+
+Re: Thuật giải suy diễn tiến
+
+Bài gửi  thanhlongltvp on Wed Jun 08, 2011 11:49 am
+Anh ơi, vậy làm thế nào để có thể hiện thị các bước làm việc của nó để dẫn đến kết luận là đúng hay sai ạh
+
+    Về Đầu Trang
+
+admin
+
+avatar
+admin
+    Admin
+    Admin
+
+    Tổng số bài gửi : 1207
+    Points : 3010
+    Join date : 11/11/2009
+    Age : 36
+    Đến từ : Cần Thơ
+
+    Post n°6
+
+Re: Thuật giải suy diễn tiến
+
+Bài gửi  admin on Fri Jun 10, 2011 9:14 am
+
+    thanhlongltvp ﻿đã viết:
+    Anh ơi, vậy làm thế nào để có thể hiện thị các bước làm việc của nó để dẫn đến kết luận là đúng hay sai ạh
+
+
+Em đọc trong vòng while khi hiểu thì em sẽ xuất kết quả từng bước làm ra là được.
+boolean | tr

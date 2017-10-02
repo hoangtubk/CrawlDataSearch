@@ -1,0 +1,13 @@
+http://vutranthuan.blogspot.com/2011/05/tieu-chuan-he-thong-chong-set-trong-xay.html#!
+None
+"color:Text": "#333333",
+"color:Menu Text": "#FFFFFF",
+"color:Link": "#009EB8",
+"color:Link Visited": "#009EB8",
+"color:Link Hover": "#009EB8",
+"color:Blog Title": "#555555",
+"color:Blog Description": "#555555",
+"color:Post Title": "#333333",
+"color:Ribbon": "#666666",
+"color:Ribbon Hover": "#AD3A2B",
+    

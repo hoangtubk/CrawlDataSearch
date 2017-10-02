@@ -1,0 +1,52 @@
+URL | https://viblo.asia/p/thuat-toan-di-truyen-ung-dung-giai-mot-so-bai-toan-kinh-dien-phan-1-RQqKLxJzK7z
+Title | Thuật toán di truyền - Ứng dụng giải một số bài toán kinh điển (phần 1)
+Content | Trong quá trình học phổ thông cũng như ở đại học, chắc không ít lần các bạn gặp phải một số bài toán như "bài toán người du lịch", "bài toán người bán hàng", "bài toán cái túi"....
+Những bài toán kiểu kiểu như thế này thì rất nhiều, nhưng chủ yếu khác nhau ở cách mô tả, còn lại đều có có những điểm chung, theo mình nhận thấy như sau:
+
+    Nghiệm là một tập hợp
+    Nghiệm là tối ưu, không phải nghiệm duy nhất
+    Nghiệm được lấy từ một tập hợp là tất cả những trường hợp có thể xảy ra dựa trên những điều kiện của đề bài.
+
+Đây là những đặc điểm do mình nhìn thấy trên quan điểm di truyền và tiến hóa (chưa chắc đã đúng :v)
+
+Để giải dạng toán này thì có rất nhiều thuật toán (nói rứa thôi chứ mình cũng không biết hết) (yaoming), nhưng trong bài viết này mình xin giới thiệu một thuật toán khá thú vị (theo mình là rứa) để giải quyết: Thuật toán di truyền (mình lại thích gọi là thuật toán tiến hóa hơn)
+
+Nghe có vẻ liên quan đến Sinh học, nên trước tiên mình sẽ nói sơ sơ qua một số lý thuyết về môn này, cái môn mà mình giỏi nhất hồi đi học, đặc biệt là mấy chương cuối (ifyouknow...)
+Di truyền
+
+"Di truyền" là "hiện tượng chuyển những tính trạng của cha mẹ cho con cái thông qua gen của bố mẹ". Trong sinh học, di truyền chuyển những đặc trưng sinh học từ một sinh vật cha mẹ đến con cái và nó đồng nghĩa với di chuyển gen, gen thừa nhận mang thông tin sinh học hay thông tin di truyền.
+(Wikipedia)
+Tiến hóa
+
+Tiến hóa nói đến quá trình hoàn thiện, biến đổi dần để hoàn thiện hơn các bộ phận, chức năng của các sinh vật để phù hợp hơn với điều kiện sinh tốn cũng đang dần thay đổi.
+
+Trong sinh học, tiến hóa là sự thay đổi đặc tính di truyền của một quần thể sinh học qua những thế hệ nối tiếp nhau. Các quá trình tiến hóa làm nảy sinh sự đa dạng ở mọi mức độ tổ chức sinh học bao gồm loài, các cá thể sinh vật và cả các phân tử như ADN và protein.
+
+Tiến hóa do chọn lọc tự nhiên là một quá trình có thể suy ra từ ba thực kiện về các quần thể sinh học:
+
+    Nhiều cá thể con được sinh ra hơn số lượng có thể sống sót
+    Các tính trạng khác nhau giữa các cá thể, dẫn tới tỉ lệ sinh tồn và sinh sản khác nhau
+    Những sự khác biệt về đặc điểm trên là có tính di truyền.
+
+Do đó, khi những cá thể của một quần thể chết đi, chúng được thay thế bằng những hậu duệ của thế hệ cha mẹ nhưng có thể thích nghi tốt hơn để tồn tại và sinh sôi trong môi trường mà sự chọn lọc tự nhiên diễn ra. Quá trình này tạo ra và bảo tồn những đặc điểm được cho là phù hợp hơn cho chức năng mà chúng đảm nhiệm.
+
+Cho đến nay, sự chọn lọc tự nhiên là nguyên nhân duy nhất cho sự thích nghi, tuy nhiên không phải là nguyên nhân duy nhất cho sự tiến hóa. Những nguyên nhân khác của tiến hóa bao gồm sự đột biến và dịch chuyển di truyền. Vào đầu thế kỷ 20, di truyền học kết hợp với lý thuyết tiến hóa nhờ chọn lọc tự nhiên của Darwin thông qua di truyền học quần thể. Tầm quan trọng của chọn lọc tự nhiên như một nguyên nhân tiến hóa đã được chấp nhận trong những nhánh khác của sinh học.
+
+(Wikipedia) - (Đọc mệt nghỉ rồi hehe)
+Thuật toán di truyền
+
+Giải thuật di truyền (GA-Genetic Algorithm) là kỹ thuật phỏng theo quá trình thích nghi tiến hóa của các quần thể sinh học dựa trên học thuyết Darwin. GA là phương pháp tìm kiếm tối ưu ngẫu nhiên bằng cách mô phỏng theo sự tiến hóa của con người hay của sinh vật. Tư tưởng của thuật toán di truyền là mô phỏng các hiện tượng tự nhiên, là kế thừa và đấu tranh sinh tồn.
+
+GA thuộc lớp các giải thuật xuất sắc nhưng lại rất khác các giải thuật ngẫu nhiên vì chúng kết hợp các phần tử tìm kiếm trực tiếp và ngẫu nhiên. Khác biệt quan trọng giữa tìm kiếm của GA và các phương pháp tìm kiếm khác là GA duy trì và xử lý một tập các lời giải, gọi là một quần thể (population). Trong GA, việc tìm kiếm giả thuyết thích hợp được bắt đầu với một quần thể, hay một tập hợp có chọn lọc ban đầu của các giả thuyết. Các cá thể của quần thể hiện tại khởi nguồn cho quần thể thế hệ kế tiếp bằng các hoạt động lai ghép và đột biến ngẫu nhiên – được lấy mẫu sau các quá trình tiến hóa sinh học. Ở mỗi bước, các giả thuyết trong quần thể hiện tại được ước lượng liên hệ với đại lượng thích nghi, với các giả thuyết phù hợp nhất được chọn theo xác suất là các hạt giống cho việc sản sinh thế hệ kế tiếp, gọi là cá thể (individual). Cá thể nào phát triển hơn, thích ứng hơn với môi trường sẽ tồn tại và ngược lại sẽ bị đào thải. GA có thể dò tìm thế hệ mới có độ thích nghi tốt hơn. GA giải quyết các bài toán quy hoạch toán học thông qua các quá trình cơ bản: lai tạo (crossover), đột biến (mutation) và chọn lọc (selection) cho các cá thể trong quần thể. Dùng GA đòi hỏi phải xác định được: khởi tạo quần thể ban đầu, hàm đánh giá các lời giải theo mức độ thích nghi – hàm mục tiêu, các toán tử di truyền tạo hàm sinh sản.
+
+Sơ đồ thuật toán của GA:
+
+Thuật giải GA đã và đang được ứng dụng để giải quyết các bài toán trong rất nhiều lĩnh vực của cuộc sống cũng như trong kỹ thuật.
+
+Vậy thì nó liên quan gì đến những bài toán đã nêu (???)
+Nếu đủ 100 views (câu view tí hehe), phần tiếp theo mình sẽ show full code ví dụ để giải một trong các bài toán trên (yaoming)
+
+Tham khảo:
+http://www.epu.edu.vn/
+https://vi.wikipedia.org
+boolean | tr

@@ -1,0 +1,10 @@
+URL | https://linhtranitvnua.blogspot.com/2016/10/cai-at-thuat-toan-suy-dien-tien-bang.html
+Title | Cài đặt thuật toán suy diễn tiến bằng j
+Content | 
+Giao diện chương trình: 
+
+  
+
+Link file exe: https://drive.google.com/file/d/0BxuqCqJeS-9XeHNMU3RFRjhyeDA/view?usp=sharing
+
+boolean | true

@@ -1,0 +1,12 @@
+URL | http://www.ddth.com/showthread.php/637094-Help-Suy-di%E1%BB%85n-ti%E1%BA%BFn-v%E1%BB%9Bi-logic-m%E1%BB%87nh-%C4%91%E1%BB%81
+Title | Help: Suy diễn tiến với logic mệnh đề
+Content |  Help: Suy diễn tiến với logic mệnh đề
+
+    Các bạn làm ơn hướng dẫn mình cài đặt chương trình suy diễn tiến với logic mệnh đề bằng C++ với, mình nghĩ mãi mà ko ra cách giải quyết nó :-ss
+
+    [=========> Bổ sung bài viết <=========]
+
+    Ko ai hướng dẫn giúp mình àh :-ss 
+
+
+boolean | true

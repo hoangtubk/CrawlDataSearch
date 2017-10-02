@@ -1,0 +1,83 @@
+http://kcntt.duytan.edu.vn/Home/ArticleDetail/vn/128/2055/suy-dien-lui
+None
+
+	
+
+Tiếng ViệtEnglish
+Giới thiệuGiới thiệu chungThông tin giảng viênĐào tạo & Tuyển sinhCác hoạt độngGiới thiệu ngành
+Liên hệ
+Cộng đồng công nghệTin tức công nghệBảo mậtỨng dụngDi độngMạng & InternetHệ điều hànhLập trìnhMã nguồn mởPhần mềmThiết bị sốMạng - Máy tínhKinh nghiệm - Thủ thuậtPhần mềm-Ứng dụng
+
+
+	-         giải thuật
+
+
+
+	          Begin
+
+
+
+	    Else
+
+	              Begin
+
+
+
+	                       Else
+
+	                                 For riÎS(p) do
+
+	                                          Begin
+
+
+
+
+
+Ví dụ
+
+
+
+
+	chứng minh s
+p
+r
+T
+S(p)
+
+					 
+
+					s
+
+					q
+
+					 
+
+					r2
+
+					r1
+
+					s
+
+					q, r
+
+					r, p
+
+					 
+
+					r2
+
+					r
+
+	 
+
+Tuần học:9
+Sinh viên tiêu biểu
+video
+Số lượt truy cập:
+
+2501875
+
+	© 2017 Đại học Duy Tân
+
+
+    

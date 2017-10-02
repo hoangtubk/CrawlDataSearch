@@ -1,0 +1,274 @@
+http://www.youtube.com/watch?v=6jceoC1AyLc
+
+              Video này không sẵn có.
+
+    
+  
+  
+ 
+ 
+  
+ 
+ 
+VNĐăng nhậpTìm kiếm
+ 
+    
+  
+ 
+    
+Đóng 
+Tìm hiểu thêm
+    
+    
+ 
+Đóng
+ 
+ 
+ Có, hãy giữ nó
+Hoàn tác
+Đóng
+ 
+              Video này không sẵn có.
+    
+Hàng đợi xemHàng đợiHàng đợi xemHàng đợi 
+    
+ 
+ 
+Hàng đợi xem
+    
+Hàng đợi
+    
+ 
+          "position": 1,
+    
+ 
+ 
+Tìm hiểu nguyên nhânĐóng
+  
+ 
+Xàm Hod
+    
+        Hủy đăng ký Xàm Hod?
+      
+Hủy
+Hủy đăng ký
+    
+Đăng kýĐã đăng kýHủy đăng ký0 
+    
+    
+    
+ 
+Thêm vào
+    
+Đăng nhập
+ Thêm
+ 
+Báo cáo
+Bạn cần báo cáo video?
+      Đăng nhập để báo cáo nội dung không phù hợp.
+    
+Đăng nhập
+Thống kê
+Thêm bản dịch
+76 lượt xem
+1
+    
+Đăng nhập
+2
+0
+    
+Đăng nhập
+1
+    
+    
+    
+Xếp hạng sẵn có khi video được thuê.
+    
+    
+Mọi người và Blog
+      Giấy phép
+    
+ Hiển thị thêm
+Ẩn bớt
+    
+Tự động phát
+Khi bật tính năng tự động phát, video được đề xuất sẽ tự động phát tiếp. 
+ 
+        Tiếp theo
+      
+  
+     - Thời lượng: 12:17.
+  
+hiDSPtv
+818 lượt xem
+12:17
+  
+     - Thời lượng: 6:15.
+  
+145 lượt xem
+6:15
+  
+     - Thời lượng: 18:03.
+  
+TED
+472.487 lượt xem
+18:03
+  
+     - Thời lượng: 5:20.
+  
+57.120 lượt xem
+5:20
+  
+     - Thời lượng: 3:47.
+  
+317.765 lượt xem
+3:47
+  
+     - Thời lượng: 2:20.
+  
+26.556 lượt xem
+2:20
+  
+     - Thời lượng: 53:43.
+  
+3.200 lượt xem
+53:43
+    MÀY MÒ MACHINE LEARNING #1: Ngồi học MÁY HỌC cơ bản ✔ PYTHON, ARTIFICIAL INTELLIGENCE
+  
+     - Thời lượng: 33:13.
+  
+548 lượt xem
+33:13
+  
+     - Thời lượng: 39:24.
+  
+2.562 lượt xem
+39:24
+    Nhà thông minh và ứng dụng IoT - VTV1.Công nghệ và cuộc sống
+  
+     - Thời lượng: 27:27.
+  
+2.835 lượt xem
+27:27
+  
+     - Thời lượng: 37:28.
+  
+21.900 lượt xem
+37:28
+  
+     - Thời lượng: 18:08.
+  
+Intel FPGA
+16.493 lượt xem
+18:08
+  
+     - Thời lượng: 4:49.
+  
+Minh Thư
+69.284 lượt xem
+4:49
+  
+     - Thời lượng: 1:08:40.
+  
+1.634.114 lượt xem
+1:08:40
+    Mô hình hồi quy tuyến tính đơn biến
+  
+     - Thời lượng: 12:24.
+  
+3.245 lượt xem
+12:24
+  
+     - Thời lượng: 5:24.
+  
+Phạm Ngọc Tú
+312 lượt xem
+5:24
+  
+     - Thời lượng: 1:49.
+  
+414 lượt xem
+1:49
+  
+     - Thời lượng: 1:54.
+  
+2.231 lượt xem
+1:54
+  
+     - Thời lượng: 11:25.
+  
+Android Authority
+297.735 lượt xem
+11:25
+  
+     - Thời lượng: 4:09.
+  
+MyStudy
+174 lượt xem
+4:09
+    
+Hiển thị thêm
+  
+ 
+Ngôn ngữ:
+  
+  Tiếng Việt
+ 
+Vị trí nội dung:
+  
+ 
+Chế độ hạn chế:
+  
+Tắt
+Lịch sử Trợ giúp
+    
+    
+    
+ Giới thiệu
+Báo chí
+Bản quyền
+Người sáng tạo
+Quảng cáo
+Nhà phát triển
++YouTube
+ Điều khoản
+Bảo mật
+  
+Gửi phản hồi
+    
+    
+ 
+    
+ 
+Thêm vào
+    
+    
+      'VIDEO_ID': "6jceoC1AyLc",
+      'THUMB_LOADER_PAUSE_MS': 0,
+      'THUMB_LOADER_GROUP_PX': 400,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': true,
+      'YPC_CAN_RATE_VIDEO': true,
+        'COMMENTS_TOKEN': "EhYSCzZqY2VvQzFBeUxjwAEAyAEA4AEBGAY%3D",
+      'GET_PLAYER_EVENT_ID': "sXjSWeHRJoSQgAOojK-4DQ",
+      'HL_LOCALE': "vi_VN",
+      'TTS_URL': "",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': 1,
+      'SHUFFLE_VALUE': 0,
+      'IS_DISTILLER': true,
+      'SHARE_CAPTION': null,
+      'SHARE_REFERER': "",
+      'PLAYLIST_INDEX': null
+    
+    
+    'GUIDED_HELP_LOCALE': "vi_VN",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  
+    'GUIDED_HELP_LOCALE': "vi_VN",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'YPC_GB_LANGUAGE': "vi_VN",
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+      'XSRF_FIELD_NAME': "session_token",

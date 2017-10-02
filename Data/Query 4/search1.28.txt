@@ -1,0 +1,273 @@
+URL |https://prezi.com/6ygbfa0nmzow/csdl-suy-dien/
+Title | CSDL Suy dien
+Content | CreateExploreLearn & support
+Get started
+Log in
+Pricing
+You’re using the new, improved player. You can always go back to the old viewer.
+Switch back
+CSDL Suy dien
+No description
+by Anh Tú Phạm on 28 November 2014
+42
+Comments (0)
+
+Please log in to add your comment.
+
+Report abuse
+Transcript of CSDL Suy dien
+Under the surface
+Ví dụ
+CSDL mô tả mối quan hệ huyết thống (PARENT, ANCENTRE)
+Câu hỏi của người dùng thường có dạng:
++ Tìm các hậu duệ của Louis
++ Tìm các tổ tiên của Alexander
+Cần định nghĩa:
++ Làm thế nào để có được hậu duệ và tổ tiên
++ Và là thế nào chúng ta có thể suy diễn được từ dữ liệu của CSDL nếu PARENT(X,Y) và PARENT(Y,Z) thì ANCETRE(X,Z)
+Các chức năng của CSDL Suy diễn
+Cho phép biểu diễn tri thức bằng ngôn ngữ, tri thức cơ bản (đối tượng hoặc sự kiện), mối quan hệ giữa các đối tượng
+Suy diễn thông tin mới từ dữ liệu trong CSDL và từ các luật mô tả tri thức
+Đảm bảo thực thi hiệu quả quá trình suy diễn:
++ Lưu trữ luật
++ Tối ưu hóa tập luật
++ Điều khiển thực thi.
+1
+DIỄN DỊCH CÔNG THỨC
+ĐẠI SỐ QUAN HỆ VÀ DATALOG
+Cho các quan hệ sau:
++ Person ( NP, Nom, Prénom, Ville)
++ Student (NE, NomEtud, PreEtud, Ville, Age)
++ Inscription (NE, NC, Session, Date)
+Hợp: trích trên và họ của người (person) và của sinh viên (student)
++ R(y,z) <== Person (-,y,z,-)
++ R(y,z) <== Student (-y,z,-)
+Hiệu: tìm người không phải sinh viên
++ R(y,z) <== Person(-,y,z,-) and NOT Student (-,y,z,-)
+Giao: tìm người là sinh viên
++ R(y,z) <== Person(-,y,z,-) and Student (-,y,z,-)
+Chiếu: tìm tên và họ của sinh viên
++ R(y,z) <== Student (-,y,z,-)
+CSDL LOGIC
+Khái quát chung
+Xuất phát từ quan điểm lý thuyết, các CSDL suy diễn có thể được coi như các chương trình logic với sự khái quát hóa về CSDL quan hệ.
+Lập trình logic là mảng công việc trước tiên khi chứng minh định lý cơ học.
+CSDL suy diễn và lập trình logic là các hệ thống lập trình logic nhấn mạnh cá các chức năng , trong khi đó CSDL suy diễn nhấn mạnh tính hiệu quả
+Mô hình CSDL suy diễn
+Mô hình dữ liệu gồm có:
+
+
+
+Kí pháp toán học để mô tả hình thức dữ liệu và các quan hệ .
+Kỹ thuật để xử lý dữ liệu như trả lời các câu hỏi, kiểm tra điều kiện tòan vẹn .
+LOGIC
+Logic bậc 1:
++ Là ngôn ngữ hình thức cho phép biểu diễn đối tượng, quan hệ giữa các đối tượng
++ Được định nghĩa bởi tập từ vựng, văn phạm
++ Cho phép chúng ta xây dựng công thức, diễn dịch công thức
+KÍ HIỆU
+Biến: x,y,z
+Hằng: a,b,c
+Vị từ: P,Q,R theo sau đc đặt trong []
+Phép toán logic: =>, v, ^,..
+Hàm: f,g,h
+Lượng tử: với mọi, chỉ một
+VĂN PHẠM
+Mục(term): được định nghĩa đệ quy
++ Hằng: "Paul"
++ Biến: x
++ Áp dụng hàm: f(x), f((g(y))
+Luật xây dựng mục mới: Nếu t1,tn là các mục thì P(t1,tn) cũng là một mục
+Biểu thức:
++ Mục là biểu thức
++ F1,F2 là biểu thức thì F1 ^ F2 cũng
+là biẻu thức
+
+
+Diễn dịch công thức của logic b1 kết hợp 1 giá trị đúng/sai vào một công thức
+Lĩnh vực đang nói đến D: biến và hằng
+Quan hệ giữa các đối tượng trong lĩnh vực D: vị từ
+Hàm D' -> D: kí hiệu hàm
+Diễn dịch công thức:
+F1 ^ F2
+F1 v F2
+F1 => F2
+]F1
+VxF1
+Cần định nghĩa:
+Members of Group 2
+Các việc cần làm với CSDL suy diễn:
+Hiểu CSDL thông qua logic
+Sử dụng logic để định nghĩa các phép toán đại số quan hệ
+Sử dụng logic để định nghĩa cơ chế suy diễn
+Sử dụng logic trong CSDL hướng đối tượng
+Sử dụng logic trong CSDL
+Sử dụng logic vị từ
+Định nghĩa phép tính quan hệ giữa các mẫu tin (tuples)
+Giới thiệu câu truy vấn đệ quy
+CSDL và logic
+CSDL ngoại diễn
+Tương ứng với tập sự kiện đang có
+Được xây dựng từ nội dung của CSDL
+Trong CSDL quan hệ: tập các quan hệ
+CSDL nội hàm
+Tương ứng với các sự kiện có thể được suy diễn ra
+Sự kiện không có sẵn trong CSDL
+Tập luật chính là phương tiện để sinh ra các sự kiện mới
+CSDL suy diễn
+DATALOG
+Ngôn ngữ logic tương tự prolog, dành cho CSDL
+Ngôn ngữ CSDL: DATA và Logic, thao tác dữ liệu dựa trên logic, khả năng biểu diễn tốt hơn SQL
+Ngôn ngữ cho CSDL suy diễn: dựa trên kiểu mẫu (prototypes), cho phép so sánh khả năng biểu diễn của các ngôn ngữ khác
+Tiền đề của 1 CSDL suy diễn:
++ CSDL ngoại diễn: Parent(Jacques, Oliver)
++ CSDL nội hàm (các biểu thức logic): Parent(x,y) => Ancetre(x,y)
+Ngôn ngữ luật: là ngôn ngữ mô ta, cho phép thực hiện các thao tác cơ bản trong CSDL (chọn, chiếu, kết nối,...), cách tiếp cận tương tự Prolog
+Cú pháp: ngôn ngữ luật chỉ CSDL, mô tả quan hệ suy diễn dựa trên chuẩn Horn
+Các mệnh đề theo chuẩn Horn: Q <- P1 ^ P2 ^...^Pn:
++ Biểu thức không chứa lượng tử, chỉ có 1 biến ở vế trái.
+Biến đổi: Tất cả các biểu thức logic đều có thể được chuyển về chuẩn Horn.
+VÍ DỤ
+{
+parent(jacques, oliver) <-
+ancetre(x,y) <- parent(x,y)
+parent (oliver, adrien) <-
+ancetre(x,z) <- ancetre(x,y) ^ parent (y,z)
+parent(suzanne,jacques)<-
+parent(oliver,juliette)<-
+}
+VÍ DỤ
+VỀ BIỂU DIỄN CÂU TRUY VẤN SQL VÀ
+BIỂU DIỄN TRONG DATALOG
+
+CÁCH TIẾP CẬN - SUY DIỄN LÙI
+Nguyên lý:
+bắt đầu từ câu truy vấn của người dùng
+quay lên các giá trị đã biết của các vị từ thông qua luật khi suy diễn lùi
+việc quay lên dừng lại khi ta nhận được các sự kiện đã được lưu trữ trong CSDL
+nếu các sự kiện đều được tìm thấy trong CSDL, câu trả lời cho câu truy vấn là đúng
+Ưu điểm:
+Ta chỉ tìm các sự kiện phù hợp với câu truy vấn
+
+CÁCH TIẾP CẬN - SUY DIỄN LÙI -VÍ DỤ
+Câu truy vấn: ancetre(x, adrien)?
+Luật 1: parent (x,y) <- father (x,y)
+Luật 2: parent (x,y) <- mother (x,y)
+Sự kiện phù hợp:
+Luật 1: father (x,adrien)?
+Kết quả: father (oliver,adrien)
+
+Luật 2: mother (x, adrien)?
+Kết quả: mother( brigitte, adrien)
+CÁCH TIẾP CẬN - SUY DIỄN TIẾN
+SELECT DISTINCT Lecteur
+FROM Lecture L1
+WHERE NOT EXISTS (SELECT*
+FROM LIBRARY B1
+WHERE NOT EXISTS (SELECT*
+FROM Lecture
+WHERE lecteur=L1.lecteur
+AND Book = B1.Book))
+Cho các quan hệ sau:
+LIBRARY(Book) chứa tất cả các quyển sách trong thư viện
+LECTURE(Lecteur, Book) mô tả ai đọc quyển sách nào
+-Tìm các độc giả đọc tất cả các quyển sách
+DATALOG
+Time(x,y) <== Lecture (x,-) AND Library (y)
+------
+Bad (x) <== Time(x,y) AND NOT Lecture (x,y)
+------
+Solution(x) <== Lecture (x,-) AND NOT Bad (x)
+NGUYÊN LÝ
+Nguyên lý:
+Bắt đầu từ dữ liệu để thiếp lập câu trả lời
+Tất cả các sự kiện (fact) phải suy diễn đều được suy diễn
+Lọc các sự kiện phù hợp với câu truy vấn
+Ví dụ: Parent(x,adrien) ?
+Bước 1:
++ Sinh ra tất cả các tổ tiên bằng cách áp dụng luật lên tất cả các sự kiện ban đầu
++ Bước này dừng khi không thể áp dụng được luật nào nữa
+Bước 2:
++ Lọc lại để tìm kết quả
+CÁCH TIẾP CẬN - SUY DIỄN TIẾN
+Luật:
+parent(x,y) <- father (x,y)
+parent(x,y) <- mother (x,y)
+Câu truy vấn: parent (x, adrien)
+Bước 1: Sự kiện
+father (jacques, oliver)
+father (oliver, adrien)
+mother (suzanne, jacques)
+mother (brigitte, adrien)
+mother(colette, oliver)
+Kết quả
+parent (jacques, oliver)
+parent( oliver, adrien)
+parent(suzzane, jacques)
+parent(brigitte, adrien)
+parent(colette, oliver)
+Bước 2: Lọc
+----- Parent (oliver, adrien)
+Parent (Brigitte, adrien)
+1. Phạm Anh Tú
+2. Nguyễn Thị Yến
+3. Nguyễn Thị Thảo
+4. Nguyễn Đình Nghĩa
+5. Trần Quang Việt
+6. Hoàng Trung Hiếu
+Full transcript
+Popular presentations
+
+See more popular or the latest prezis
+
+    Prezi
+    Product
+    Gallery
+    The Science
+    Conversational Presenting
+    For Business
+    Testimonials
+
+    Company
+    About
+    Team
+    Careers
+    Our Values
+    Press
+    Our Customers
+    Contact Us
+
+    Languages
+    English
+    Español
+    한국어
+    日本語
+    Deutsch
+    Português
+    Français
+    Magyar
+    Italiano 
+
+    Infogram
+    Charts
+    Infographics
+
+    Support
+    Prezi Next Support
+    Prezi Classic Support
+
+    Blog
+
+    27 September 2017
+    Everything you need to know for your next internal QBR meeting
+
+    20 September 2017
+    Introducing Prezi Charts: bring your data to life
+
+    8 September 2017
+    On-Demand Webinar: The Presentation Lifecycle – How to Create, Present, and Analyze for Greater Growth
+    See all
+
+© 2017 Prezi Inc. Terms
+
+boolean | false

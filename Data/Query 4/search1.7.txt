@@ -1,0 +1,196 @@
+URL | http://diendan.congdongcviet.com/threads/t208614::thuat-toan-suy-dien-tien-trong-he-chuyen-gia-tri-tue-nhan-tao-trong-csharp.cpp
+Title | Đề tài: Thuật toán suy diễn tiến trong hệ chuyên gia/trí tuệ nhân tạo trong C#
+Content | Thuật toán suy diễn tiến trong hệ chuyên gia/trí tuệ nhân tạo trong C#
+
+    Ngồi làm bài tập lớn về cái suy diễn tiến này, thấy hay hay nên post nên chia sẻ cùng anh em.
+    Thứ 1, về thuật toán như sau:
+    1. Suy dien tien
+    *Suy dien tien voi logic menh de
+    -Input:+ Tap luat Rule={r1,r2,r3,…,rm}
+    + Gia thiet (GT), ket luan (KL)
+    -Output: Return “true” neu GT  KL
+    *Method
+    TD = GT; //TD: tap dich, GT: gia thuyet
+    T = FILTER(Rule, TD); //loc rule co VT (ve trai) trong TD
+    While <KL Є/ TD> and <T ≠ ø> do
+    {
+    r = Get(T);
+    TD = TD Ū {q}; //r: left->q
+    Rule = Rule \ {r}; // luat nao da dung roi thi bo di
+    T=FILTER(Rule,TD); // luu y Rule nao ma loc ra tu TD da xuat hien roi thi khong lay lai
+    }
+    If (KL Є TD) then return “true”
+    Else return false
+
+    Vd minh hoa 1: Rule= {r1: a ^ b->c, r2: b->d, r3: a->e, r4: a ^ d ->e, r5: b ^ c->f, r6: e ^ f->g }
+    KT : a ^ b ->g ?
+    Giai:
+    -Input: Tap luat Rule = {r1, r2, r3, r4, r5, r6}
+    GT: a ^ b
+    KL: a ^ b->g
+    -Output: return “true” neu GT->KL
+
+    Thứ 2: Về code
+    Visual C# Code:
+    Select All | Show/Hide
+
+            public class Luat
+            {
+                public  List<RuleItem> List;
+                public Luat(string fileName)
+                {
+                    RuleItem e = new RuleItem();
+                    List = e.GetData(fileName);
+                }
+                /*
+                *Suy dien tien voi logic menh de
+                -Input:+ Tap luat Rule={r1,r2,r3,…,rm}
+                        + Gia thiet (GT), ket luan (KL)
+                -Output: Return “true” neu GT => KL
+                *Method
+                TD = GT;      //TD: tap dich, GT: gia thuyet
+                T = FILTER(Rule, TD);     //loc rule co VT (ve trai) trong TD
+                While  <KL Є/ TD> and <T ≠ ø> do
+                {
+                 r = Get(T);      
+                TD = TD Ū {q};               //r: left->q
+                Rule = Rule \ {r};            // luat nao da dung roi thi bo di    
+                T=FILTER(Rule,TD);         // luu y Rule nao ma loc ra tu TD da xuat hien roi thi khong lay lai
+                }
+                If (KL Є TD) then return “true”
+                Else return false
+                */
+                private void PrintGT(string title,List<string> gt)
+                {
+                    string str=title+"{";
+                    foreach (string s in gt)
+                        str += s + ",";
+                    str += "}\n";
+                    Console.WriteLine(str);
+                }
+                private void PrintRule(string title, List<RuleItem> rule)
+                {
+                    string str = title + "{";
+                    foreach (RuleItem r in rule)
+                        str += r.Code + ",";
+                    str += "}\n";
+                    Console.WriteLine(str);
+                }
+                public string KQ { get; set; }
+                public bool SuyDienTien(List<RuleItem> rules, List<string> gt, List<EventItem> kl)
+                {
+                    //Lay tat ca ma cua gt
+                    List<string> td = gt;
+                    //Lay rule co VT chua cac gia thuyet
+                    List<RuleItem> newRules= FILTER(rules, td);
+                    List<RuleItem> vet = new List<RuleItem>();
+                    //In
+                    Console.WriteLine("----------------------------\n");
+                    PrintRule("Rules=",rules);
+                    PrintGT("TD=", gt);
+                    PrintRule("T=", newRules);
+                    int c = 1;
+                    //
+                    while (newRules.Count>0 && Check_KL_in_TL(kl, td) == false)            
+                    {
+                        //r=GET(T)
+                        Console.WriteLine("Chay lan "+c.ToString()+"\n");
+                        foreach (RuleItem r in newRules)
+                        {
+                            if(td.IndexOf(r.Right)<0)
+                                td.Add(r.Right.Trim());
+                            rules.Remove(r);
+                            vet.Add(r);
+                        }
+                        newRules = FILTER(rules, td);
+                        PrintGT("TD=", gt);
+                        PrintRule("Rules=", rules);
+                        PrintRule("T=", newRules);
+                        c++;
+                    }
+                    PrintRule("VET=", vet);
+                    return Check_KL_in_TL(kl, td);
+                }
+         
+                //
+                private List<RuleItem> FILTER(List<RuleItem> rules,  List<string> gt)
+                {
+                    List<RuleItem> lst=new List<RuleItem>();
+                    foreach (RuleItem r in rules)
+                    {              
+                        //GT={a,b}
+                        //r1={a,b,c->k) - ko lay luat nay
+                        //r2={a->k) - Lay luat nay
+                        //r3={b->k) - Lay luat nay
+                        //r4={a,b->k) - Lay luat nay
+                        if (r.Left.Length <= gt.Count)
+                        {  
+                            int count = 0;
+                            foreach (string tt in gt)
+                            {
+                                if (r.Left.Contains(tt))
+                                    count++;
+                            }
+                            if (count == r.Left.Length)
+                                lst.Add(r);
+                           
+                        }
+         
+                    }
+                    return lst;
+                }
+                //Kiem tra xem gia thuyet da suy ra ket luan chua
+                private bool Check_KL_in_TL(List<EventItem> kl, List<string> gt)
+                {
+                    foreach (EventItem k in kl)
+                    {
+                        foreach (string g in gt)
+                            if (g == k.Code)
+                                {
+                                    KQ = k.Name;
+                                    return true;
+                                }
+                    }
+                    return false;
+                }
+               
+            }
+
+
+    Mr Thanh -KHMT1K8 - HAUI 
+
+    Đã mất công nghĩ thì nghĩ mẹ cái thật lớn vào !
+    Y!H: trinhhoaithanh1905
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+24-07-2014, 07:18 AM #2
+Avatar của luanft
+luanft
+luanft là offline Thành viên chính thức
+
+Ngày gia nhập
+    02 2013
+Nơi ở
+    Ho Chi Minh City, Vietnam, Vietnam
+Bài viết
+    78	
+
+    Mình rất thích học về mấy cái này. Bạn làm luôn một cái tut về ứng dụng luôn đi 
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+08-06-2017, 07:42 AM #3
+No Avatar
+ntrinh96
+ntrinh96 là offline Thành viên mới
+
+Ngày gia nhập
+    06 2017
+Bài viết
+    1	
+
+    bác có thể cho em cả project được không ạ?
+
+    c.ơn bác nhiều lắm 
+
+
+boolean | true

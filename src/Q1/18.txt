@@ -1,0 +1,153 @@
+https://ongxuanhong.wordpress.com/2017/01/10/he-thong-recommend-bai-nhac/
+Ông Xuân Hồng
+Hệ thống recommend bài nhạc – Ông Xuân Hồng
+	
+		
+img.wp-smiley,
+		
+		
+Ông Xuân Hồng
+Menu
+Skip to content
+Lập trình
+Python
+R
+Kiến thức
+Toán
+Dự án
+About
+ 
+Hệ thống recommend bài nhạc
+Tháng Một 10, 2017Tháng Tám 3, 2017Ông Xuân Hồng
+2 phản hồi
+Source code: Github.
+Chuẩn bị tập dữ liệu
+import os
+    return df
+                                    user_id             song_id  listen_count
+                                                   Song  Count
+4482                                       Undo - Björk   5281
+940                             Revelry - Kings Of Leon   4339
+    return pred
+def rmse(prediction, ground_truth):
+svd-prediction
+Implementing your own recommender systems in Python
+			 
+Advertisements
+					
+		 
+		
+ 
+Điều hướng bài viết
+			2 thoughts on “Hệ thống recommend bài nhạc”		
+ Nguyễn Thành Thịnh nói: 
+								Tháng Một 12, 2017 lúc 3:17 sáng							
+Số lượt thíchSố lượt thích
+Phản hồi 
+ Ông Xuân Hồng nói: 
+								Tháng Một 12, 2017 lúc 3:21 sáng							
+Số lượt thíchLiked by 1 person
+Phản hồi 
+Trả lời Hủy trả lời 
+Mời bạn điền thông tin vào ô dưới đây hoặc kích vào một biểu tượng để đăng nhập:
+ 
+ 
+Tên (bắt buộc)
+Hủy bỏ
+Connecting to %s
+ 
+ 
+Tìm bài viết
+Tìm kiếm cho:
+Bạn Không Thể Sống Một Mình 
+ĐĐ. GS. Thích Phước Tiến
+__(())__
+Theo dõi Blog
+ 
+Liên hệ 
+Comment(bắt buộc)
+Top bài viết
+  Bài viết mới 
+Tháng Mười 2, 2017
+Tháng Chín 15, 2017
+Thống kê ứng dụng 3: Các vấn đề trong thống kê
+Tháng Chín 14, 2017
+Thống kê ứng dụng 2: Suy luận thống kê
+Tháng Chín 12, 2017
+Tháng Chín 7, 2017
+Tháng Chín 4, 2017
+Tháng Tám 28, 2017
+Tháng Tám 3, 2017
+Tháng Tám 3, 2017
+Tháng Sáu 17, 2017
+Thư viện 
+Tháng Mười 2017 (1)
+Tháng Chín 2017 (5)
+Tháng Tám 2017 (3)
+Tháng Sáu 2017 (3)
+Tháng Năm 2017 (3)
+Tháng Một 2017 (3)
+Tháng Mười Một 2016 (2)
+Tháng Mười 2016 (2)
+Tháng Chín 2016 (1)
+Tháng Tám 2016 (2)
+Tháng Bảy 2016 (2)
+Tháng Năm 2016 (1)
+Tháng Tư 2016 (1)
+Tháng Một 2016 (1)
+Tháng Mười Một 2015 (5)
+Tháng Mười 2015 (6)
+Tháng Chín 2015 (11)
+Tháng Tám 2015 (16)
+Tháng Bảy 2015 (25)
+Tháng Sáu 2015 (4)
+Chọn chuyên mục
+Dự án  (9)
+Kiến thức  (51)
+   Toán  (5)
+Lập trình  (46)
+   Python  (13)
+   R  (28)
+Thống kê 
+347,430 hits
+Tháng Một 2017
+H
+B
+T
+N
+S
+B
+C
+« Th12
+ 
+Th3 »
+ 1
+2345678
+9101112131415
+16171819202122
+23242526272829
+3031
+ 
+Bình luận mới nhất 
+Lập trình
+Kiến thức
+Dự án
+About
+ 
+Tạo một website miễn phí hoặc 1 blog với WordPress.com.
+	
+Post to
+Hủy bỏ
+ 
+	
+		
+		
+		
+		
+ 
+%d bloggers like this:
+	
+	
+	
+	
+	

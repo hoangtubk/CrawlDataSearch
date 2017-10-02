@@ -1,0 +1,1318 @@
+URL | http://dtth.saodo.edu.vn/nghien-cuu-khoa-hoc/ung-dung-giai-thuat-di-truyen-ga-de-toi-uu-tham-so-he-mo-trong-phan-lop-tin-hieu-dien-tim-408.html
+Title | Ứng dụng giải thuật di truyền (GA) để tối ưu tham số hệ mờ trong phân lớp tín hiệu điện tim
+Content | Page
+8
+/8
+Page 1 of 8
+
+1
+
+ỨNG DỤNG GIẢI THUẬT DI TRUYỀN (GA) ĐỂ TỐI ƯU THAM SỐ HỆ
+
+MỜ TRONG PHÂN LỚP TÍN HIỆU ĐIỆN TIM
+
+APPLICATION GA OPTIMISATION OF PARAMETERS FUZZY LOGIC
+
+SYSTEM FOR ECG CLASSIfiCATION
+
+Hoàng Thị Ngọc Diệp
+
+Tóm Tắt
+
+Bài báo nghiên cứu khả năng của hệ mờ không đơn trị (NSFLS) và giải thuật di truyền (GA) để xử lý
+
+nhiễu trong các bài toán phân loại mẫu. Hiệu năng của các hệ thống đơn trị và không đơn trị được so
+
+sánh với nhau trong bài toán phân lớp điện tim. Các kết quả chỉ ra rằng NSFLS làm việc với nhiễu
+
+hiệu quả hơn, vì vậy cho phép phân loại dựa trên các đặc trưng được trích chọn.
+
+Từ khóa: Hệ mờ không đơn trị (NSFLS); Giải thuật di truyền (GA); Phân loại mẫu; Phân lớp tín hiệu
+
+điện tim (ECG).
+
+Abstract
+
+This paper studies the ability of a non-singleton fuzzy logic system (NSFLS) that is evolved using
+
+Genetic Algorithm (GA) to handle the uncertainties in pattern classification problems. The performance
+
+of non-singleton and singleton systems for cardiac arrhythmias classification is compared. Results
+
+show that NSFLS can deal with uncertainty within its framework more efficiently, thereby enabling
+
+classification to be performed using features that are easier to extract.
+
+Keywords: non-singleton Fuzzy Logic System (NSFLS); Genetic Algorithm (GA); Pattern
+
+classification; Electrocardiogram (ECG).
+
+1. GIỚI THIỆU
+
+Lĩnh vực phân loại mẫu bao trùm rất nhiều bài
+
+toán xử lý thông tin có ý nghĩa trong thực tế, từ
+
+bài toán phân loại chữ viết tay đến bài toán
+
+phát hiện lỗi trong các phân tích máy móc và y
+
+tế. Có rất nhiều vấn đề con người xử lý khá
+
+đơn giản. Trái lại, trong nhiều trường hợp,
+
+phương án sử dụng máy tính đã chỉ ra mức độ
+
+khó của vấn đề. Tuy gặp nhiều khó khăn nhưng
+
+việc sử dụng máy tính trong các bài toán nhận
+
+dạng mẫu ngày càng trở nên phổ biến. Mục
+
+đích chính của việc phân loại mẫu là tự động
+
+trợ giúp con người khi phân tích khối lượng dữ
+
+liệu cực lớn và từ đó trích chọn ra những tri
+
+thức hữu ích. Mặc dù có nhiều phương thức khi
+
+phân loại, chẳng hạn như ANN, SVM, HMM
+
+and FLS, nhưng chúng đều có chung cấu trúc
+
+nền tảng và các bước khi thiết kế. Các thành
+
+phần của một bộ phân loại và trình tự thiết kế
+
+bộ phân loại được chỉ ra trên hình 1.
+
+Bước trích chọn đặc trưng biến đổi dữ liệu đầu
+
+vào (trong không gian quan sát) thành các véc
+
+tơ đặc trưng (trong không gian đặc trưng).
+
+Không gian đặc trưng có số chiều ít hơn nhiều
+
+so với không gian quan sát. Bước tiếp theo là
+
+biến đổi từ không gian đặc trưng sang không
+
+gian quyết định được định nghĩa bởi tập các lớp
+
+(xác định). Một bộ phân loại, hay một thuật toán,
+
+sẽ sinh ra một phân hoạch của không gian đặc
+
+trưng bởi các miền quyết định. Sau khi thiết kế
+
+bộ phân loại với hiệu năng mong muốn, ta có thể
+
+sử dụng nó để phân loại các đối tượng mới.
+
+Điều này có nghĩa là bộ phân loại sẽ gán từng
+
+véc tơ đặc trưng trong không gian đặc trưng với
+
+một lớp trong không gian quyết định.
+
+Trong bài toán phân loại mẫu, trích chọn đặc
+
+trưng là nhiệm vụ khó khăn nhất, quyết định
+
+đến độ chính xác của thuật toán. Những đặc
+
+trưng thừa hay không thích hợp ảnh hưởng
+
+đến hiệu năng của hầu hết các thuật toán học
+
+máy hay phân loại mẫu. Việc lựa chọn tập các
+
+đặc trưng hữu ích từ một tập khổng lồ các đặc
+
+trưng giúp ích trong việc tìm ra thuật toán học
+
+hiệu quả cho bài toán phân loại mẫu cũng như
+
+bài toán học máy nhằm hiểu rõ hơn về dữ liệu
+
+khi khai phá tri thức. Do có nhiều cách lựa chọn
+
+thuật toán nên độ khó khi trích chọn đặc trưng
+
+cũng rất đa dạng. Chi phí tính toán có thể được
+
+giảm đi bằng cách sử dụng các đặc trưng dễ
+
+trích chọn. Tuy nhiên, những đặc trưng này lại
+
+ẩn chứa nhiều thông tin không cần thiết có thể
+Page 1 of 8
+Page 2 of 8
+
+2
+
+dẫn tới việc phân loại sai. Hơn nữa, trong các
+
+ứng dụng ta luôn phải đối mặt với nhiễu.
+
+Nguyên nhân của chúng là do nhiễu điện trong
+
+các thiết bị trích chọn hoặc thao tác các thiết bị
+
+không đúng.
+
+Hình 1. Các thành phần và trình tự thiết kế bộ phân loại sử dụng GA
+
+Với mô hình mờ sử dụng logic mờ loại 2
+
+khoảng đơn trị thì khả năng làm việc với nhiễu
+
+hiệu quả chưa cao. Do đó, hệ mờ không đơn trị
+
+được chọn vì nó thích hợp hơn hệ mờ đơn trị
+
+khi làm việc với nhiễu. Giải thuật di truyền được
+
+dùng để tối ưu hóa đồng thời hàm thuộc và cơ
+
+sở luật. Bài báo này trình bày khả năng của hệ
+
+mờ không đơn trị và giải thuật di truyền để xử
+
+lý nhiễu trong các bài toán phân loại mẫu. Hiệu
+
+năng của các hệ thống đơn trị và không đơn trị
+
+được so sánh với nhau trong bài toán phân lớp
+
+điện tim. Các kết quả chỉ ra rằng giải thuật di
+
+truyền tốt hơn hệ mờ đơn trị khi có nhiễu trong
+
+các đặc trưng được trích chọn. Điều này rất
+
+hữu ích khi không thể tránh khỏi sự nhập
+
+nhằng trong dữ liệu đầu vào [8].
+
+2. GIẢI THUẬT DI TRUYỀN ÁP DỤNG VÀO
+
+BÀI TOÁN ECG
+
+2.1. Bài toán ECG
+
+Bài toán phân lớp điện tim được mô tả theo sơ
+
+đồ như hình 2 sau, trong đó:
+
+Đầu vào: gồm 2 đặc trưng: độ rộng xung (PW),
+
+chu kỳ xung (T).
+
+Đầu ra: Trong bài toán này loại nhịp tim phân
+
+làm ba lớp: NRS (nhịp tim bình thường), VF
+
+(chứng rung tâm thất) và VT (chứng tim đập
+
+nhanh).
+
+Hình 2. Sơ đồ bài toán ECG
+
+Tín hiệu điện tim đầu vào
+
+Loại nhịp tim
+
+Xử lý và trích rút đặc trưng của tín hiệu
+
+Phân lớp tín hiệu
+
+Dữ liệu vào
+
+Cảm biến
+
+Tiền xử lý
+
+Trích chọn đặc trưng
+
+Phân lớp
+
+Quyết định
+
+Bắt đầu
+
+Thu thập dữ liệu
+
+Lựa chọn đặc trưng
+
+Lựa chọn lớp
+
+Huấn luyện bộ phân loại
+
+Đánh giá hiệu suất
+
+Kết thúc
+
+a) b)
+Page 2 of 8
+Page 3 of 8
+
+3
+
+2.2. Giải thuật di truyền ứng dụng vào bài
+
+toán ECG
+
+Khi thiết kế một hệ mờ bằng cách sử dụng giải
+
+thuật di truyền, điều quan trọng đầu tiên là xem
+
+xét chiến lược trình bày, làm thế nào để mã
+
+hóa hệ mờ vào nhiễm sắc thể. Trong thiết kế
+
+của [8] có hai đầu vào và mỗi đầu vào gồm 2
+
+biến (x1 và x2) được phân chia thành ba hàm,
+
+do đó, có 12 tham số. Giả sử không mất tính
+
+tổng quát và độ lệch tiêu chuẩn của hàm tham
+
+gia là
+
+i
+
+l
+
+mx
+
+và
+
+i
+
+l  x
+
+, Trong đó i = 1, 2 and l = 1,
+
+2, 3. Ngoài ra có 9 luật (3x3) trong các quy tắc
+
+cơ sở, thêm kết quả phụ 9 tham số, rn trong đó
+
+n = 1, 2, . . . , 9. Do vậy, tổng cộng 21 tham số
+
+(3 chức năng thành viên × 2 tham số × 2 biến
+
+đầu vào + 9 quy tắc) cần thiết để giải thuật di
+
+truyền điều chỉnh. Mỗi tham số của hàm được
+
+mã hóa (kiểu gen đại diện) là một chuỗi nhị
+
+phân 8-bit, trong khi mỗi tham số luật được mã
+
+hóa thành chuỗi nhị phân 2-bit. Kết quả là chiều
+
+dài của chuỗi nhị phân là 114bit. Các minh họa
+
+tương ứng của cấu trúc NST được thể hiện
+
+trong hình 3.
+
+Hình 3. Cấu trúc của Nhiễm sắc thể
+
+Tuy nhiên, tất cả các tham số phải được giải
+
+mã (kiểu hình đại diện) trong quá trình thẩm
+
+định thích hợp. Các tham số luật được giải mã
+
+thành dãy số nguyên 0-4. Mặt khác các tham
+
+số hàm được giải mã thành số thực bằng cách
+
+sử dụng phương trình lập bản đồ tuyến tính
+
+như dưới đây [3]:
+
+2 1
+
+( )
+
+min max min
+
+
+
+   
+
+N
+
+q
+
+p q q q
+
+A
+
+g G G G
+
+(1)
+
+Trong đó, gp biểu thị giá trị thực tế của các
+
+tham số q
+
+th, Aq biểu diễn các số nguyên đại
+
+diện là chuỗi gen N-bit,
+
+max Gq
+
+và
+
+min Gq
+
+biểu thị
+
+cho người dùng xác định giới hạn trên và dưới
+
+của gen tương ứng.
+
+3. CẤU TRÚC CỦA MÔ HÌNH PHÂN LỚP MỜ
+
+SỬ DỤNG GA ĐỂ TỐI ƯU THAM SỐ
+
+Về cơ bản, kiến trúc chung của mô hình GA
+
+giống với mô hình phân lớp loại hai khoảng.
+
+Tuy nhiên trong cấu trúc có thêm khối tiền xử lý
+
+và giảm bớt khối giảm loại và khử mờ.
+
+Hình 4. Cấu trúc của một hệ phân loại mờ sử
+
+dụng GA
+
+3.1. Khái niệm hệ mờ không đơn trị
+
+Kaufman và Gupta [7] định nghĩa phép mờ hóa
+
+không đơn trị như sau: Một bộ mờ hóa không
+
+đơn trị có dạng
+
+'
+
+( ) 1( 1,..., )
+
+i
+
+x i  x i p  
+
+và
+
+( ) X i
+
+x
+
+i
+
+
+
+giảm dần từ 1 khi
+
+i
+
+x
+
+xa dần
+
+'
+
+i
+
+x .
+
+3.2. Khối tiền xử lý
+
+Xét một bộ phân loại, giả sử có thể có một số
+
+loại nhiễu. Đầu tiên, các đầu vào của bộ phân
+
+loại có thể bị hỏng. Các tín hiệu điện tim ghi
+
+được (đặc biệt là tín hiệu điện tim đo trên bề
+
+mặt) rất nhạy cảm với việc di chuyển cáp điện và
+
+các hoạt động của cơ. Ngoài ra, nhiễu từ mạng
+
+điện có thể sai lệch quá trình ghi nhận tín hiệu...
+
+Do đó, tín hiệu cần được tiền xử lý để có thể thu
+
+được thông tin từ tín hiệu chính xác hơn.
+
+Việc trích rút hai đặc trưng độ rộng xung, chu
+
+kỳ xung của tín hiệu được thực hiện của hai
+
+bước. Tín hiệu điện tim sau khi lọc được biến
+
+đổi thành 1 chuỗi nhị phân để làm tăng khả
+
+năng trích chọn đặc trưng. Thuật toán biến đổi
+
+sử dụng trong bài báo được cải tiến từ thuật
+
+toán trong [9]. Bài báo sử dụng thuật toán biến
+
+đổi hai bước thay vì thuật toán biến đổi một
+
+bước của Zhang. Tín hiệu điện tim sẽ được
+
+biến đổi từng phần thành chuỗi nhị phân thay vì
+
+biến đổi toàn bộ. Điều này có thể làm giảm việc
+
+Đầu vào
+
+Tiền xử lý
+
+Mờ hóa
+
+Cơ sở
+
+luật
+
+Hệ suy diễn
+
+Bộ quyết định
+
+Phân lớp
+Page 3 of 8
+Page 4 of 8
+
+4
+
+phát hiện sai các đỉnh tích cực bằng cách khử
+
+đi tín hiệu có biên độ nhỏ. Sau bước này là
+
+bước biến đổi hoàn toàn chuỗi nhị phân nhằm
+
+xác định ngưỡng để cực đại hóa sự khác biệt
+
+giữa lớp NSR và lớp VF/VT. Sau đó, ta sẽ tính
+
+toán độ rộng xung, chu kỳ xung trung bình của
+
+tín hiệu dựa vào chuỗi nhị phân trên. Các bước
+
+được trình bày như sau:
+
+Thuật toán:
+
+- Bước 1: Chuyển mẫu tín hiệu (4s tín hiệu)
+
+ban đầu thành chuỗi nhị phân
+
+ Chọn 4s dữ liệu từ bản ghi. Do các tín hiệu
+
+của VFDB được rời rạc tại tần số 250Hz nên
+
+có tất cả 1000 điểm dữ liệu trong cửa sổ dài
+
+4s  ta có n =1000 mẫu có các giá trị Xi:
+
+{x[i] | i = 1,2..., n}
+
+ Tính giá trị trung bình x[m] của mảng {Xi}.
+
+Sau đó tạo ra một mảng X’ bằng cách lấy
+
+giá trị của mỗi phần từ trừ đi Xm: X’i = {xi –
+
+xm}
+
+ Tính giá trị âm nhỏ nhất Vn và giá trị dương
+
+lớn nhất Vp của mảng X’.
+
+ Tạo ra một phần chuỗi nhị phân: nếu Các
+
+phần tử của X’ có giá trị trong khoảng
+
+(0<xi<0.2Vp) hoặc (0.2Vn<xi<0) thì x’(i) = 0.
+
+ Tính tham số Np và Nn. Np là ký hiệu số
+
+lượng dữ liệu xi>0 và Nn=n-Np.
+
+ Xác định ngưỡng thích hợp Tr để chuyển
+
+một phần chuỗi nhị phân thành toàn bộ
+
+chuỗi nhị phân. Bước này là rất quan trọng
+
+để tách biệt giữa các tín hiệu NSR và tín
+
+hiệu VF, VT.
+
+o Nếu Np < 0.15n thì Tr = 0.7*Vp
+
+o Nếu Np >= 0.15n thì Tr = 0
+
+ So sánh x[i] với Tr để chuyển một phần
+
+chuỗi nhị phân thành chuỗi nhị phân hoàn
+
+toàn, có nghĩa là :
+
+o Nếu x[i] <= Tr thì gán x[i] = 0
+
+o Ngược lại, gán x[i] = 1
+
+Sau bước này ta có chuỗi nhị phân tương ứng
+
+với mẫu tín hiệu: dãy số 1 liên tiếp trong chuỗi
+
+nhị phân biểu diễn xung QRS của tín hiệu ban
+
+đầu.
+
+- Bước 2: Tính Pw và T từ chuỗi nhị phân:
+
+Bước này sẽ tính độ rộng xung và chu kỳ xung
+
+trung bình trong khoảng 4s tín hiệu. Độ rộng
+
+xung của mẫu 4s tín hiệu được tính bằng trung
+
+bình độ rộng của tất cả các xung trong khoảng
+
+tín hiệu. Độ rộng của một xung trong mẫu tín
+
+hiệu là độ dài chuỗi số 1 liên tiếp trong chuỗi
+
+nhị phân tương ứng.
+
+
+
+Như vậy, sau bước này với mỗi tín hiệu ta sẽ thu
+
+được 2 giá trị độ rộng xung (PW) và chu kỳ xung
+
+(T). Giá trị của hai đặc trưng này sẽ là đầu vào
+
+cho mô hình phân lớp dựa trên luật mờ ở bước
+
+sau.
+Page 4 of 8
+Page 5 of 8
+
+5
+
+Hình 5. Ba dạng tín hiệu điện tim khác nhau với
+
+chuỗi nhị phân tương ứng
+
+Theo Teck Wee Chua and Woei Wan Tan [8],
+
+Trong hình 5 có hai tham số được trích chọn từ
+
+chuỗi nhị phân này: độ rộng xung, chu kì xung.
+
+Tất cả các tham số được tính trung bình trong
+
+cửa sổ 4s và độ lệch chuẩn của chúng được
+
+tính tương ứng.
+
+3.3. Khối mờ hóa
+
+Trong các phương pháp mờ hóa thì bộ mờ hóa
+
+đơn trị đơn giản và phổ biến hơn bộ mờ hóa
+
+không đơn trị. Tuy nhiên, bộ mờ hóa không đơn
+
+trị có thể làm việc tốt hơn trong môi trường
+
+nhiễu vì nó có thể mô hình hóa sự không chắc
+
+chắn, không chính xác của các đầu vào [4], [5].
+
+Theo Mouzouris và Mendel [2], bộ mờ hóa
+
+không đơn trị coi đầu vào x là đại diện tốt nhất
+
+từ tất cả các giá trị xung quanh nó. Vì các tín
+
+hiệu điện tim ECG thường bị ngắt quãng khi ghi
+
+nên các điểm kề đó có thể cũng là các giá trị
+
+đúng nhưng với độ thuộc bé hơn. Tuy nhiên, ta
+
+có thể dễ dàng chuyển bộ phân loại không đơn
+
+trị thành đơn trị và ngược lại bằng cách thay
+
+thế khối mờ hóa tương ứng (hình chữ nhật
+
+đậm trong hình 4).
+
+Mendel [1] lí giải rằng hiệu quả của “bộ tiền lọc”
+
+của FLS không đơn trị là chìa khóa để làm việc
+
+với sự không chắc chắn trong đầu vào. Hiệu
+
+quả này là kết quả của phép hợp thành super- star trong phép mờ hóa của NSFLS framwork
+
+với việc biến x thành xl
+
+max. Vì vậy, sự khác biệt
+
+duy nhất giữa hệ logic mờ đơn trị và không đơn
+
+trị là số lượng các mức đốt cháy.
+
+Theo [8] Xét 1 tập mờ với hàm thuộc Gauss
+
+
+theo 2
+
+cách; suy diễn sử dụng phép min hoặc product.
+
+Giả sử tập mờ đầu vào thứ k và tiền đề thứ k
+
+tương ứng có dạng:
+
+
+
+Ưu điểm của bộ mờ hóa không đơn trị là nếu
+
+đầu vào bị hỏng do nhiễu thì nó cũng có thể xử
+
+lý được. Ví dụ, đầu vào
+
+k
+
+m
+
+bị hỏng bởi nhiễu,
+
+tức là:
+
+mXk
+
+ mXk 0
+
+ nk
+
+(7)
+
+Với
+
+k 0
+
+mX
+
+là tín hiệu có ích và
+
+k
+
+n
+
+là nhiễu. Thay
+
+Xk
+
+m
+
+trong (5) bởi (7) ta có:
+
+
+
+Công thức (8) chỉ ra rằng bộ mờ hóa Gaussian
+
+làm việc được với nhiễu bởi thành phần
+
+l l / ( )
+
+k k k
+
+   F F X 
+
+. Một cách tương tự, ta cũng
+
+chứng minh được bộ mờ hóa tam giác cũng có
+
+khả năng làm việc được với nhiễu.
+
+Một tính chất khác của hệ mờ không đơn trị là
+
+hàm thuộc đầu ra có độ cao cực đại lớn hơn hệ
+Page 5 of 8
+Page 6 of 8
+
+6
+
+mờ đơn trị [3]. Khi có nhiều nhiễu trong đầu vào,
+
+nhiều luật sẽ được đốt cháy trong hệ mờ không
+
+đơn trị hơn là trong hệ mờ đơn trị. Đó là vì một
+
+đầu vào không đơn trị có thể có độ thuộc trong
+
+nhiều tập mờ tiền đề hơn là đầu vào đơn trị.
+
+3.4. Khối quyết định
+
+Phần này bàn về đề xuất tiếp cận GA để phân
+
+lớp mờ, hàm Gaussian và các luật được chọn
+
+ngẫu nhiên, và được điều chỉnh đồng thời bởi
+
+GA.Shi et al. [6], các hàm và các luật được thiết
+
+kế và phát triển cùng một lúc vì hai tham số đó
+
+được gọi là đồng tác phụ thuộc.
+
+Tiếp theo, là sự lựa chọn của hàm thích hợp.
+
+Một hàm thích hợp tốt có thể phản ánh được
+
+mục tiêu của hệ thống. Không giống như
+
+phương pháp truyền thống gradient, phương
+
+pháp dùng giải thuật di truyền được sử dụng để
+
+phát triển hệ thống với bất kỳ loại hàm của
+
+phép đo thích hợp bao gồm không khả vi,
+
+không liên tục,.... Làm thế nào để xác định hàm
+
+thẩm định thích hợp hoàn toàn là vấn đề phụ
+
+thuộc. Không giống như đối với dự báo và
+
+những vấn đề ước lượng mà thường sử dụng
+
+sai số bình phương hoặc hàm liên quan lỗi
+
+khác biệt tuyệt đối, số lượng các lớp được
+
+phân loại chính xác hoặc lớp được phân loại
+
+chưa chính xác được sử dụng làm vấn đề phân
+
+loại. Hàm thích hợp được đề xuất như sau:
+
+3
+
+ACNSR ACVF ACVT fit  
+
+
+
+(9)
+
+Trong đó AC biểu thị tỷ lệ phần trăm của lớp
+
+được phân loại chính xác. Sau khi mỗi nhiễm
+
+sắc thể được đánh giá và liên quan tới một sự
+
+thích hợp, dân số hiện nay đang trải qua quá
+
+trình sinh sản để tạo ra một thế hệ tiếp theo của
+
+dân số. Lựa chọn sơ đồ “sự thay thế” được sử
+
+dụng để xác định các thành viên của dân số
+
+mới phát sinh. Mục đích của cơ chế chọn lọc là
+
+tập trung tìm kiếm trên các vùng hứa hẹn nhất
+
+của không gian tìm kiếm. Biến thể của nhà khai
+
+thác (chéo và đột biến) đóng vai trò quan trọng
+
+trong giải thuật di truyền. Họ tạo điều kiện để
+
+tìm kiếm hiệu quả và hướng sự tìm kiếm vào
+
+các vùng mới. Sự xuyên chéo tạo điều kiện
+
+thăm dò, trong khi đột biến tạo điều kiện khai
+
+thác không gian tìm kiếm. ở đây, chúng tôi sử
+
+dụng chéo điểm duy nhất và từng bit đột biến.
+
+Để đơn giản các xác suất của chéo và đột biến
+
+là hằng số trong toàn bộ hoạt động của giải
+
+thuật di truyền là 0.8 và 0.03 tương ứng.
+
+Những cải tiến trong hoạt động lặp đi lặp lại cho
+
+phù hợp với một số tiêu chí dừng theo quy
+
+định.
+
+4. KẾT QUẢ THỬ NGHIỆM
+
+Với cùng cơ sở dữ liệu thử nghiệm như hệ mờ
+
+loại hai khoảng [3]. Kết quả của hệ mờ sử dụng
+
+giải thuật di truyền [8] như sau:
+
+Có ba cách đo hiệu suất (độ chính xác, độ nhạy
+
+cảm và đặc trưng) được dùng để chuẩn hóa hệ
+
+thống phân lớp. Độ nhạy cảm là khả năng mà
+
+nếu xét nghiệm là dương tính thì người có
+
+bệnh, trong khi đó đặc trưng là khả năng mà
+
+nếu xét nghiệm là âm tính thì người không có
+
+bệnh. Các tham số được định nghĩa như sau:
+
+Sensitivity,
+
+TP FN
+
+TP SE
+
+
+
+
+
+(10)
+
+Specificity,
+
+TN FP
+
+TN SP
+
+
+
+
+
+(11)
+
+Trong đó TP, TN, FP và FN được định nghĩa
+
+trong Bảng 1
+
+Bảng 1: Ký hiệu sử dụng giống nhau giữa độ
+
+nhạy cảm và đặc trưng
+
+Predicted /
+
+Real Rhythm A Rhythm B
+
+Rhythm A True Positive
+
+(TP)
+
+False
+
+Negative (FN)
+
+Rhythm B False
+
+Positive (FP)
+
+True Negative
+
+(TN)
+
+Bảng 2: Kết quả phân lớp với các cấu hình
+
+khác nhau
+
+Cấu
+
+hình Nhịp tim AC
+
+(%)
+
+SE(%) SP(%)
+
+a
+
+NSR 100.00 100.00 100.00
+
+VF 83.33 90.91 92.00
+
+VT 91.67 84.62 95.65
+
+Trung bình 91.67 91.84 95.88
+
+b
+
+NSR 100.00 100.00 100.00
+
+VF 95.00 100.00 97.56
+
+VT 100 95.24 100.00
+
+Trung bình 98.33 98.41 99.19
+
+c
+
+NSR 100.00 98.36 100.00
+
+VF 98.33 100.00 99.17
+
+VT 100.00 100.00 100.00
+Page 6 of 8
+Page 7 of 8
+
+7
+
+Cấu
+
+hình Nhịp tim AC
+
+(%)
+
+SE(%) SP(%)
+
+Trung bình 98.44 98.45 99.72
+
+d
+
+NSR 100.00 100.00 100.00
+
+VF 100.00 100.00 100.00
+
+VT 100.00 100.00 100.00
+
+Trung bình 100.00 100.00 100.00
+
+Trong đó [8]:
+
+a, FLS đơn trị với đặc trưng đầu vào là độ rộng
+
+xung và chu kỳ.
+
+b, FLS đơn trị với đặc trưng đầu vào là độ rộng
+
+xung và biên độ.
+
+c, FLS không đơn trị với đặc trưng đầu vào là
+
+độ rộng xung và chu kỳ.
+
+d, FLS không đơn trị với đặc trưng đầu vào là
+
+độ rộng xung và biên độ.
+
+Trong thực tế, các cán bộ y tế luôn quan sát
+
+thông tin biên độ chứ không phải là thông tin
+
+chu kỳ để xác định các loại loạn nhịp thất.
+
+Thông tin về chu kỳ xung có thể là không đáng
+
+tin cậy vì chu kỳ xung ngắn hơn có thể là kết
+
+quả từ các hoạt động tập thể dục hay cảm xúc
+
+của bệnh nhân. Tuy nhiên, từ kết quả này ta
+
+thấy ưu thế của việc sử dụng hệ logic mờ
+
+không đơn trị. Bên cạnh đó, FLS không đơn trị
+
+cung cấp những lợi thế nhất khi tín hiệu đầu
+
+vào đơn gồm các đặc trưng không chắc chắn
+
+để phân lớp tín hiệu. Vấn đề được cải thiện
+
+chút ít nếu tín hiệu đầu vào là đặc trưng có ít
+
+sự chắc chắn hơn. Nói tóm lại, FLS không đơn
+
+trị được chứng minh là một công cụ rất hữu
+
+hiệu trong việc giải quyết những bất trắc tồn tại
+
+trong phân loại mẫu.
+
+Thuật toán giải thuật sử dụng các cửa sổ chiều
+
+dài ngắn nhất (4.0s) để khai thác tính năng so
+
+với các thuật toán khác như sự liên quan giữa
+
+sự khác biệt và hiệu suất. Một số thuật toán đã
+
+dùng có độ dài của cửa sổ 4.0s, 4.8s, 8.0s,
+
+20.0s, 8.0s, 7.0s và 5.5s tương ứng để đạt
+
+được kết quả khá tốt. Một số cửa sổ chiều dài
+
+ngắn hơn sẽ cho phép phát hiện trong một thời
+
+gian ngắn hơn, cho rằng thời gian tính toán của
+
+các phân lớp là tương đương. Đề xuất FLS
+
+không đơn trị chỉ dùng ít hơn 0.05ms để phân
+
+lớp một tập các dữ liệu tách ra, vì thế thời gian
+
+tính toán lấy của phân loại là không đáng kể so
+
+với các đặc trưng được chọn.
+
+Bảng 3 cho thấy hệ thống phân lớp sử dụng
+
+giải thuật di truyền tối ưu hệ mờ không đơn trị
+
+tốt hơn hệ thống phân lớp sử dụng hệ mờ loại
+
+hai khoảng và VF – Filter Leakage.
+
+Bảng 3: So sánh kết quả phân lớp tập dữ liệu (%) của các phương pháp khác nhau
+
+Thuật
+
+toán/bài
+
+báo
+
+NSR VF VT
+
+Cơ sở
+
+AC dữ liệu
+
+(%)
+
+SE
+
+(%)
+
+SP
+
+(%)
+
+AC
+
+(%)
+
+SE
+
+(%)
+
+SP
+
+(%)
+
+AC
+
+(%)
+
+SE
+
+(%)
+
+SP
+
+(%)
+
+VF-Filter
+
+Leakage/[9] 97.55 94.12 98.24 89.22 89.41 89.08 89.71 84.71 93.28 VFDB
+
+Type-2
+
+khoảng
+
+Fuzzy
+
+Classifier/[3]
+
+100 100 100 92.3 92.5 98 93.3 93.3 95.8 MIT-BIH
+
+GA Fuzzy
+
+Classifier 100.0 98.36 100.0 98.33 100.0 99.17 100.0 100.0 100.0 VFDB
+
+Trong đó:
+
+VFDB- cơ sở liêu chứng loạn nhịp thất ác tính
+
+của MIT-BIH.
+
+CSDL điện tim MIT-BIH [10] được sử dụng để
+
+đánh giá hiệu năng của mô hình phân lớp. 70
+
+mẫu dữ liệu được chọn ngẫu nhiên từ CSDL để
+
+huấn luyện và thử nghiệm mô hình. Trong 70
+
+mẫu dữ liệu bao gồm 30 mẫu thuộc lớp NSR,
+
+25 mẫu thuộc lớp VT và 15 lớp thuộc lớp VF.
+
+CSDL bao gồm 48 bản ghi, mỗi bản ghi lưu trữ
+
+một điện tâm đồ trong khoảng thời gian 30
+
+phút. Tần số lấy mẫu của tín hiệu điện tim là
+
+250Hz.
+Page 7 of 8
+Page 8 of 8
+
+8
+
+5. KẾT LUẬN
+
+Nhóm tác giả đã trình bày hệ mờ không đơn trị
+
+dùng giải thuật di truyền tiến hóa để tối ưu
+
+tham số hệ mờ. Kết quả chỉ ra rằng hệ mờ
+
+không đơn trị luôn vượt các hệ mờ đơn trị
+
+tương ứng không phân biệt các loại dữ liệu
+
+đầu vào, điều đó chứng tỏ hệ mờ không đơn
+
+trị có thể đối phó tốt hơn với sự tồn tại mờ
+
+trong mô hình phân lớp. Một sự phân lớp tốt là
+
+sử dụng chiều dài cửa sổ ngắn (4.0s). Điều đó
+
+chứng tỏ khả năng loại bỏ nhiễu của hệ mờ
+
+không đơn trị.
+
+___________________________________
+
+TÀI LIỆU THAM KHẢO
+
+[1] J. M. Mendel: Uncertain Rule-Based Fuzzy
+
+Logic Systems: Introduction and New
+
+Directions. Upper Saddle River, NJ
+
+Prentice-Hall, 2001.
+
+[2] J. M. Mendel and R .I. John, Type-2 Fuzzy
+
+Sets Made Simple, IEEE Transactions on
+
+Fuzzy Systems (2002), 10(2), 117-127.
+
+[3] Teck Wee Chua and Woei Wan Tan,
+
+Interval Type-2 Fuzzy System for ECG
+
+Arrhythmic Classification, Department of
+
+Electrical Engineering, National University
+
+of Singapore, Singapore, 1-18.
+
+[4] L. X. Wang, Adaptive Fuzzy Systems and
+
+Control Design and Stability Analysis. NJ:
+
+Prentice-Hall, 1994
+
+[5] N.V. Thakor, Y.S. Zhu, and K.Y. Pan,
+
+“Ventricular Tachycardia and Fibrillation
+
+Detection by A Sequential Hypothesis
+
+Testing Algorithm” IEEE Transactions on
+
+Biomedical Engineering, vol. 37, no. 9, pp.
+
+837-843, 1990.
+
+[6] A.S. Al-Fahoum, I.H., Combined Wavelet
+
+Transform and Radial Basis Neural
+
+Networks for the classifying Life
+
+Threatening Cardiac arrhythmias. Med. Bio.
+
+Eng. Comput., 1999. 37: p. 566-573.
+
+[7] A. Kaufman and M. M. Gupta, Introduction
+
+to Fuzzy Arithmetic: Theory and
+
+Applications. NY: Van Nostrand Reinhold,
+
+1991.
+
+[8] Teck Wee Chua and Woei Wan Tan, GA
+
+Optimisation of Non-Singleton Fuzzy Logic
+
+System for ECG Classification, Department
+
+of Electrical and Computer Engineering
+
+National University of Singapore 4,
+
+Engineering Drive 3, Singapore 117576
+
+[9] X. S. Zhang, Y. S. Zhu and N. V. Thakor,
+
+“Detecting Ventricular Tachycardia and
+
+Fibrillation by Complexity Measure,” IEEE
+
+Transactions on Biomedical Engineering,
+
+vol. 46, no. 5, pp. 837-843, 1990.
+
+[10] MIT/BIH Database Distribution,
+
+Massachusetts Inst. Techno.
+
+Cambridge, MA.
+
+http://www.physionet.org/physiobank/d
+
+atabase/
+Page 8 of 8
+Page 8 of 8
+boolean | true

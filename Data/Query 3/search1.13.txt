@@ -1,0 +1,197 @@
+URL | http://tailieu.vn/tag/giai-thuat-di-truyen.html
+Title | Giải thuật di truyền
+Content | 
+Giải thuật di truyền
+Xem 1-20 trên 447 kết quả Giải thuật di truyền
+
+    Tự chỉnh bộ điều khiển mờ giữ cân bằng hệ con lắc ngược quay dùng giải thuật di truyền
+    Tự chỉnh bộ điều khiển mờ giữ cân bằng hệ con lắc ngược quay dùng giải thuật di truyền
+
+    Bài báo trình bày giải thuật di truyền tự chỉnh bộ điều khiển mờ giữ cân bằng hệ con lắc ngược quay. Khác với đa số các giải thuật quen thuộc, chúng tôi đề xuất phương pháp tự chỉnh bộ điều khiển mở qua hai bước: bước 1 chỉnh hệ quy tắc, bước 2 chỉnh hàm liên thuộc.
+
+    pdf7p doxuan 05-08-2009 681 208
+      Download
+    Luận văn thạc sĩ: Kỹ thuật mạng Nơron và giải thuật di truyền trong khai phá dữ liệu và thử nghiệm ứng dụng
+    Luận văn thạc sĩ: Kỹ thuật mạng Nơron và giải thuật di truyền trong khai phá dữ liệu và thử nghiệm ứng dụng
+
+    Luận văn tập trung nghiên cứu kỹ thuật mạng Nơron và giải thuật di truyền trong khai phá dữ liệu ,đặc biệt là giải pháp tích hợp giải thuật di truyền với giải thuật huấn luyện mạng noron.Trên cơ sở đó,luận văn xây dựng chương trình dự báo dữ liệu sử dụng mạng no7ron truyền thẳng huấn luyện bằng giải thuật lai GA-BP
+
+    pdf102p cancer23 20-08-2012 321 200
+      Download
+    Bài tập lớn Trí tuệ nhân tạo: Tìm hiểu về giải thuật di truyền
+    Bài tập lớn Trí tuệ nhân tạo: Tìm hiểu về giải thuật di truyền
+
+    Bài tập lớn Trí tuệ nhân tạo: "Tìm hiểu về giải thuật di truyền" trình bày tổng quan về thuật toán di truyền, cấu trúc, các công thức của thuật toán di truyền; ứng dụng của thuật toán và những kết luận về ưu nhược điểm của nó. Mời bạn đọc cùng tham khảo.
+
+    pdf18p kudoi57 23-10-2014 187 92
+      Download
+    Luận văn:Nghiên cứu giải thuật di truyền ứng dụng vào giải một số bài toán thống kê
+    Luận văn:Nghiên cứu giải thuật di truyền ứng dụng vào giải một số bài toán thống kê
+
+    Giải thuật di truyền là một kỹ thuật của khoa học máy tính nhằm tìm kiếm giải pháp thích hợp cho các bài toán tối ưu tổ hợp (combinatorial optimization). Giải thuật di truyền là một phân ngành của giải thuật tiến hóa vận dụng các nguyên lý của tiến hóa như di truyền, đột biến, chọn lọc tự nhiên, và trao đổi chéo.
+
+    pdf26p esc_12 03-08-2013 111 46
+      Download
+    Luận văn: Ứng dụng giải thuật di truyền để xếp thời khóa biểu hệ tín chỉ cho trường đại học
+    Luận văn: Ứng dụng giải thuật di truyền để xếp thời khóa biểu hệ tín chỉ cho trường đại học
+
+    Ứng dụng giải thuật di truyền để xếp thời khóa biểu hệ tín chỉ cho trường đại học nhằm đưa ra phương án xếp thời khóa biểu thõa mãn tất cả các ràng buộc đặt ra đồng thời khai thác hiệu quả các nguồn lực đào tạo của nhà trường với thời gian ngắn
+
+    pdf13p mobile_12 28-12-2013 110 28
+      Download
+    ỨNG DỤNG MẠNG TRÍ TUỆ NHÂN TẠO KẾT HỢP VỚI GIẢI THUẬT DI TRUYỀN TÌM PHƯƠNG ÁN TỐI ƯU VẬN HÀNH HỒ CHỨA ĐA MỤC TIÊU: NGHIÊN CỨU ĐIỂN HÌNH CHO HỒ HÒA BÌNH
+    ỨNG DỤNG MẠNG TRÍ TUỆ NHÂN TẠO KẾT HỢP VỚI GIẢI THUẬT DI TRUYỀN TÌM PHƯƠNG ÁN TỐI ƯU VẬN HÀNH HỒ CHỨA ĐA MỤC TIÊU: NGHIÊN CỨU ĐIỂN HÌNH CHO HỒ HÒA BÌNH
+
+    Quyết định số 1879/QĐ-TTg ngày 13/10/2010 của Thủ tướng Chính phủ đã phê duyệt danh mục các hồ thủy lợi, thủy điện trên 11 lưu vực sông phải xây dựng quy trình vận hành liên hồ chứa. Như vậy, xây dựng quy trình vận hành tối ưu hồ chứa, thường là hồ chứa đa mục tiêu, là một lĩnh vực nghiên cứu lớn trong quản lý tài nguyên nước ở Việt Nam.
+
+    pdf10p xuanquachthi 06-06-2013 101 19
+      Download
+    Luận văn thạc sĩ: Xây dựng chương trình tối ưu hóa quá trình định tuyến trên mạng IP dựa vào giải thuật di truyền
+    Luận văn thạc sĩ: Xây dựng chương trình tối ưu hóa quá trình định tuyến trên mạng IP dựa vào giải thuật di truyền
+
+    Xây dựng chương trình tối ưu hóa quá trình định tuyến trên mạng IP dựa vào giải thuật di truyền nhằm giảm thiểu chi phí và nâng cao chất lượng dịch vụ Iternet .
+
+    pdf26p mobile_12 27-12-2013 55 12
+      Download
+    Giải thuật di truyền mã hóa số thực với toán tử lai ghép SBX.
+    Giải thuật di truyền mã hóa số thực với toán tử lai ghép SBX.
+
+    Giải thuật di truyền mã hóa số thực với toán tử lai ghép SBX. Theo L.V Bertalanffy thì có một lý thuyết tổng quát và nhiều lý thuyết hệ thống chuyên biệt ứng dụng cho các lĩnh vực khác nhau (như lý thuyết hệ thống tự nhiên, lý thuyết hệ thống xã hội, lý thuyết hệ thống tư duy…).
+
+    pdf7p butmaucam 28-08-2013 39 6
+      Download
+    Cực tiểu hóa thời gian trễ trung bình trong một mạng hàng đợi bằng giải thuật di truyền.
+    Cực tiểu hóa thời gian trễ trung bình trong một mạng hàng đợi bằng giải thuật di truyền.
+
+    Cực tiểu hóa thời gian trễ trung bình trong một mạng hàng đợi bằng giải thuật di truyền. Những vòng điều khiển cơ bản như vậy giả thuyết là cơ sở sự tự trị mô tả đặc điểm các cá thể, tổ chức: mà hành vi của nó, từ nảy sinh ý muốn đến hành động được xác định từ môi trường bên ngoài. Đó là đặc điểm của "tác nhân độc lập".
+
+    pdf6p butmaucam 27-08-2013 24 6
+      Download
+    Sử dụng bộ điều khiển nơron được tối ưu bằng giải thuật di truyền trong mạch truyền thẳng điều khiển robot bằng phương pháp tính momen.
+    Sử dụng bộ điều khiển nơron được tối ưu bằng giải thuật di truyền trong mạch truyền thẳng điều khiển robot bằng phương pháp tính momen.
+
+    Phương pháp tính momen là một phương pháp phổ biến trong điều khiển robot hiện đại. Nó cho phép loại bỏ được tất cả các thành phần phi tuyến và liên kết chéo trong robot. Nhược điểm của phương pháp này là các tham số phi tuyến thường không được ước lượng chính xác và quá trình tính toán phức tạp đòi hỏi thời gian thực. Vì vậy trong thực tế dao động và quá chỉnh thường xuyên xuất hiện khi điều khiển bằng phương pháp tính momen.
+
+    pdf6p doxuan 05-08-2009 706 313
+      Download
+    Luận án tiến sỹ " Xây dựng, phát triển, ứng dụng một số mô hình kết hợp giữa mạng nơron (NN), logic mờ và thuật giải di truyền (GA) "
+    Luận án tiến sỹ " Xây dựng, phát triển, ứng dụng một số mô hình kết hợp giữa mạng nơron (NN), logic mờ và thuật giải di truyền (GA) "
+
+    Tài liệu tham khảo tóm tắt Luận án tiến sỹ toán học " Xây dựng, phát triển, ứng dụng một số mô hình kết hợp giữa mạng nơron (NN), logic mờ và thuật giải di truyền (GA) " chuyên ngành đảm bảo toán học cho máy tính và các hệ thống tính toán.
+
+    pdf32p gauhaman123 18-11-2011 156 88
+      Download
+    Luận văn: Bài toán tìm kiếm văn bản sử dụng giải thuật di truyền
+    Luận văn: Bài toán tìm kiếm văn bản sử dụng giải thuật di truyền
+
+    Giải thuật di truyền là một kỹ thuật của khoa học máy tính nhằm tìm kiếm giải pháp thích hợp cho các bài toán tối ưu tổ hợp (combinatorial optimization). Giải thuật di truyền là một phân ngành của giải thuật tiến hóa vận dụng các nguyên lý của tiến hóa như di truyền, đột biến, chọn lọc tự nhiên, và trao đổi chéo.
+
+    pdf156p therain_nl 10-07-2012 163 73
+      Download
+    BÁO CÁO KHOA HỌC: GIẢI THUẬT DI TRUYỀN SONG SONG VÀ ỨNG DỤNG GIẢI BÀI TOÁN MAX- SAT
+    BÁO CÁO KHOA HỌC: GIẢI THUẬT DI TRUYỀN SONG SONG VÀ ỨNG DỤNG GIẢI BÀI TOÁN MAX- SAT
+
+    Với khả năng hiện nay, máy tính đã giúp giải được rất nhiều bài toán khó mà trước đây thường bó tay. Mặc dù vậy vẫn có một số lớn các bài toán thú vị mà chưa có giải thuật hợp lý để giải chúng. Trong đó các bài toán tối ưu là nững bài toán thường gặp trong thực tiễn.
+
+    pdf28p buddy8 13-07-2011 159 63
+      Download
+    Bài thuyết trình: Thuật toán di truyền và ứng dụng giải bài toán người du lịch - ĐH Hải Phòng
+    Bài thuyết trình: Thuật toán di truyền và ứng dụng giải bài toán người du lịch - ĐH Hải Phòng
+
+     Bài thuyết trình gồm các nội dung sau: Giải thuật di truyền, bài toán người du lịch, giải bài toán người du lịch bằng giải thuật di truyền. Tham khảo nội dung bài thuyết trình để nắm bắt nội dung chi tiết.
+
+    ppt26p thuhientingil 22-05-2015 142 59
+      Download
+    Ứng dụng giải thuật di truyền tái cấu trúc lưới điện
+    Ứng dụng giải thuật di truyền tái cấu trúc lưới điện
+
+    Bài báo đề xuất một số ứng dụng của thuật toán di truyền để xác định cấu trúc lưới điện phân phối tối ưu cho mục đích giảm tổn thất công suất với các ràng buộc như: Tải không bị cô lập, giới hạn công suất trên đường dây và trạm biến áp và sụt áp nhỏ nhất. Tính chính xác của giải thuật được kiểm chứng thông qua lưới điện và kết quả bài toán được so sánh với các kết quả khác.
+
+    pdf10p uocvongxua09 04-09-2015 30 9
+      Download
+    Tích hợp các giải thuật tính toán mềm giải toán tối ưu số
+    Tích hợp các giải thuật tính toán mềm giải toán tối ưu số
+
+    Bài báo này nghiên cứu và đề xuất một thuật toán tích hợp ba giải thuật cơ bản là: Giải thuật di truyền mã hóa số thực, chiến lược tiến hóa và giải thuật mô phỏng tôi luyện. Các kết quả thực nghiệm đã chứng tỏ hiệu quả của thuật toán này.
+
+    pdf7p uocvong07 14-10-2015 35 8
+      Download
+    Giải thuật di truyền giải bài toán cực tiểu hoá độ trễ
+    Giải thuật di truyền giải bài toán cực tiểu hoá độ trễ
+
+    Bài báo trình bày thuật toán phát triển dựa trên sơ đồ của thuật toán di truyền (Genetic Algorithm – GA – thuật toán áp dụng hiệu quả cho lớp bài toán tối ưu tổ hợp) để giải bài toán MLP. Kết quả thực nghiệm cho thấy, thuật toán đề xuất đưa ra được lời giải với chất lượng tốt hơn so với các lời giải của các thuật toán gần đúng tốt nhất hiện biết.
+
+    pdf6p kiepnaybinhyen_00 26-11-2015 19 4
+      Download
+    Luận văn:Tìm Hiểu Giải Thuật Di Truyền Ứng Dụng Giải Bài Toán Lập Lịch
+    Luận văn:Tìm Hiểu Giải Thuật Di Truyền Ứng Dụng Giải Bài Toán Lập Lịch
+
+    Trong ngành khoa học máy tính, tìm kiếm lời giải tối ƣu cho các bài toán là vấn đề đƣợc các nhà khoa học máy tính đặc biệt rất quan tâm. Mục đích chính của các thuật toán tìm kiếm lời giải là tìm ra lời giải tối ƣu nhất cho bài toán trong thời gian nhỏ nhất. Các thuật toán nhƣ tìm kiếm không có thông tin / vét cạn ( tìm kiếm trên danh sách, trên cây hoặc đồ thị ) sử dụng phƣơng pháp đơn giản nhất và trực quan nhất hoặc các thuật toán tìm kiếm...
+
+    pdf41p chieuwindows23 01-06-2013 138 57
+      Download
+    luận văn: ĐIÊU KHIEN THIÊT BỊ PHẢN ỨNG KHUẤY TRỘN LIÊN TỤC CSTR SỬ DỤNG GIẢI THUẬT DI TRUYỀN
+    luận văn: ĐIÊU KHIEN THIÊT BỊ PHẢN ỨNG KHUẤY TRỘN LIÊN TỤC CSTR SỬ DỤNG GIẢI THUẬT DI TRUYỀN
+
+    Cùng với sự phát triểncủa đất nước,hiện nay sự nghiệp công nghiệp hóa,hiện đại ngày càng phát triển mạnh mẽ,sự tiến bộ khoa học kĩ thuật, trong đó có kỹ thuật điều khiển tự động- thông minh cũng góp phần lớn tạo điều kiện nâng cao hiệu quả quá trình sản xuất và đảm bảo yêu cầu về bảo vệ người, máy móc và môi trường.
+
+    pdf26p tuyetmuadong2013 16-04-2013 110 26
+      Download
+    Luận án Tiến sĩ Kỹ thuật: Thuật toán luyện khe trong quá trình luyện mạng nơron
+    Luận án Tiến sĩ Kỹ thuật: Thuật toán luyện khe trong quá trình luyện mạng nơron
+
+    Luận án Tiến sĩ Kỹ thuật: Thuật toán luyện khe trong quá trình luyện mạng nơron có mục tiêu đề xuất mô hình kết hợp thuật toán vượt khe và giải thuật di truyền để huấn luyện mạng nơron, xây dựng bộ công cụ phần mềm để luyện mạng nơron cho một số bài toán có mặt lỗi đặc biệt, làm cơ sở bổ sung vào Neural Toolbox Matlab.
+
+    pdf144p votinhdon91 28-08-2014 76 24
+      Download
+
++Xem thêm 447 Giải thuật di truyền khác
+CHỦ ĐỀ BẠN MUỐN TÌM
+
+    Cơ chế di truyền
+    Di truyền y học
+    Ôn thi phần Di truyền học
+    Di truyền học
+    Cấu trúc di truyền
+    Di truyền người
+    Kỹ thuật di truyền
+    Di truyền học động vật
+    Biến dị di truyền
+    Di truyền học đại cương
+    Di truyền động vật
+    Bài tập di truyền
+    Bài tập di truyền học
+    Bệnh di truyền
+    Gen di truyền
+    Di truyền học người
+    Di truyền học quần thể
+    Giáo trình di truyền học
+    Toán di truyền
+    Phương pháp giải bài tập di truyền
+
+THÔNG TIN
+
+    Về chúng tôi
+    Quy định bảo mật
+    Thỏa thuận sử dụng
+    Quy chế hoạt động
+
+TRỢ GIÚP
+
+    Hướng dẫn sử dụng
+    Upload tài liệu
+    Hỏi và đáp
+     
+
+HỖ TRỢ KHÁCH HÀNG
+
+    Liên hệ
+    Hỗ trợ trực tuyến
+    Liên hệ quảng cáo
+     
+
+Theo dõi chúng tôi
+
+Giấy phép ICP số: 670/GP-BTTTT cấp ngày 30/11/2015 Copyright © 2009-2015 TaiLieu.VN. All rights reserved. TaiLieu.VN hiển thị tốt nhất với trình duyệt Chrome, Firefox, Internet Explorer 8.
+
+boolean | true

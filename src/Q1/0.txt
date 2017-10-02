@@ -1,0 +1,63 @@
+https://itviec.com/viec-lam-it/xay-dung-he-thong-recommedation-viettel-media-4833
+
+Xây Dựng Hệ Thống (Linux, Database, SQL)
+
+  
+Đăng Nhập
+1
+Get your new job -- sign up now!
+Việc Làm IT
+Công ty IT Hàng Đầu
+Blog
+Đăng Nhập
+EN
+VN
+Nhà Tuyển Dụng
+Sản phẩm
+11-50
+Thứ 2 - Thứ 6
+3 Việc làm
+Về chúng tôi
+Lưu việc làm này
+Linux
+SQL
+Đăng nhập để xem mức lương
+Xem bản đồ
+Đã hết hạn
+Mô Tả Công Việc
+Yêu Cầu Công Việc
+Chọn các kỹ năng mà bạn muốn nhận thông tin việc làm.
+Linux
+SQL
+Đăng Ký
+Đăng Nhập
+Đăng ký & cập nhật hồ sơ.
+Đăng ký bằng Google
+hoặc
+Đăng nhập bằng Google
+hoặc
+Quên mật khẩu?
+Tuyệt vời, bạn đã đăng ký thành công!
+Đăng nhập
+Việc Làm IT
+Về ITviec.com
+Quy chế hoạt động
+Quy định bảo mật
+Thoả thuận sử dụng
+Chính sách giải quyết khiếu nại
+Copyright © ITviec Ltd
+MST: 0312192258
+Điện thoại: 028.66811397
+Việc Làm IT
+Về ITviec.com
+Quy định bảo mật
+Thoả thuận sử dụng
+Quy chế hoạt động
+Copyright © ITviec Ltd
+MST: 0312192258
+Điện thoại: 028.66811397
+Chính sách giải quyết khiếu nại
+      version    : 'v2.2'
+  
+    job_id: 25832,
+    job_locid: "HN",

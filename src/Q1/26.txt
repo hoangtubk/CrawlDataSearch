@@ -1,0 +1,56 @@
+http://cuthanh.com/nodejs/xay-dung-thong-goi-y-phan-2
+
+Xây dựng hệ thống “Gợi ý…” (Phần 2)
+
+		
+img.wp-smiley,
+Text color
+Link color
+Welcome to Custom CSS!
+Technology
+Server
+NodeJS
+About
+ 
+  
+ 
+ 
+ Minh Thành in NodeJS
+    1 Comment
+Xây dựng hệ thống “Gợi ý…” (Phần 2)
+Tiếp tục loạt bài nào…
+Demo
+Ý tưởng
+Ví dụ
+Giáo sư X thích Mystique và bác Sói.
+Ví dụ 2
+Thuật toán
+ 
+Gọi tập hợp những người hợp tính với người thứ 1 là U1, người thứ 2 là U2
+Ví dụ
+Những người cả U1 và U2 đều thích sẽ là U1 ∩ U2
+Tất cả những người cả 2 đều thích sẽ là U1 ∪ U2
+Ví dụ
+Ví dụ
+Ví dụ
+Tính xem Bác X có hợp với Scott không bằng công thức trên
+Kết luận
+Phần 3: Xây dựng hệ thống “Gợi ý…” (Phần 3)
+Like
+Like
+Love
+Wow
+Angry
+4 
+1 Comment
+Written By
+ 
+Minh Thành
+công thứcgợi ýhệ thốngthuật toánxây dựng 
+Comments
+				1 Comment			
+ Hủy 
+Website *
+ 
+ 
+ 

@@ -1,0 +1,46 @@
+URL | http://diendan.giasualpha.com/showthread.php?229-thuat-giai-suy-dien-tien
+Title | THUẬT GIẢI SUY DIỄN TIẾN
+Content | MÔ TẢ
+R: là tập các luật dẫn.
+G: là tập các giả thiết.
+K: là tập kết luận.
+
+CODE MẪU VỀ THUẬT GIẢI SUY DIỄN TIẾN BẰNG NGÔN NGỮ LẬP TRÌNH HÌNH THỨC MATHEMATICA 5.1
+Mã:
+
+(*SUY DIEN TIEN*)
+Clear[R, G, K, i, n];
+R = Input["Nhap vao tap luat dan"];
+G = Input["Nhap tap gia thiet"];
+K = Input["Nhap tap ket luan"];
+i = 1;
+n = Length[R];
+Print["Tap quan he R = ", R];
+Print["So quan he n = ", n];
+Print["Tap gia thiet G = ", G];
+Print["Tap ket luan K = ", K];
+While[i ≤ n && Intersection[G, K] != K,
+    	If[Intersection[G, R[[i, 1]]] == R[[i, 1]],
+      		Print["+ Chon (R,G,", i, ")"];
+      		G = Union[G, R[[i, 2]]];
+      		Print["  => Gt = ", G]
+      		,
+      		Print["+ Khong chon (R,G,", i, ")"];
+      	];
+    	i++;
+    ];
+If[Intersection[G, K] != K, Print["==> K sai"], Print["==> K dung"]];
+
+VÍ DỤ
+Cho R ={
+(1)a,b->c,
+(2)a,c->d,
+(3)a,d->e}
+G = {a,b}
+K = {e}
+Khi đó ta nhập liệu như sau:
+R ={{{a,b},{c}},{{a,c},{d}},{{a,d},{e}}}
+G = {a,b}
+K = {e}
+
+boolean | true

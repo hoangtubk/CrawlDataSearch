@@ -1,0 +1,110 @@
+http://tech.3si.vn/2016/01/11/deeplearning-p2/
+
+			HPC (P2) – Lựa chọn kiến trúc GPU nào cho Deep Learning		
+ 
+
+
+
+
+
+		
+img.wp-smiley,
+
+                
+
+				
+					
+
+					
+					
+						type:"post",
+					
+				
+
+		
+		
+3SI
+SERVICES
+COMMUNITY
+CONTACT
+ 
+Blog_check10b_c_10
+ 
+ 
+01.Intel Xeon Phi
+Kiến trúc: 32,000 Intel Xeon E5-2692 12C tốc độ 2.200 GHz + 48,000 Xeon Phi 31S1P
+Hệ điều hành:  Kỳ Lân OS (Kylin Linux)
+Ổ cứng: 12.4 PB
+Khả năng tính toán: 33.86 PFLOPS
+Trị giá: 2.4 tỷ Nhân Dân Tệ (US$390 triệu)
+02. OpenCL (Khronos Group)
+03. CUDA (NVIDIA)
+ Post Views: 501
+Comments comments
+Login
+ 
+  Recent Posts 
+DevOps
+Thiết kế RESTful APIs
+CodeFights – Hướng dẫn chi tiết cách giải các dạng bài tập
+CodeFights – Nơi những tráng sĩ coder hội tụ
+Advertising (2)
+Agile (1)
+Algorithm (20)
+Bản tin iOS (30)
+Business (5)
+Coding (45)
+Fun (9)
+Mobility (14)
+Process (6)
+Web Design (2)
+WordPress (1)
+Archives 
+July 2017 (1)
+April 2017 (3)
+December 2016 (4)
+November 2016 (1)
+July 2016 (2)
+June 2016 (2)
+April 2016 (10)
+December 2015 (8)
+November 2015 (6)
+October 2015 (4)
+September 2015 (6)
+August 2015 (10)
+April 2015 (7)
+Ajit Johnson
+Android
+Apple TV
+CSS
+Encode
+frontend
+Fuji
+Fujifilm
+hiếp ảnh
+iOS
+Microsoft Azure
+Nodejs
+PHP
+Process
+Retro
+runtime
+SQL Server
+structure
+SVG
+Swift
+Tip
+tvOS
+Web
+X-E1
+X-E2
+X-T1
+X100T
+Xephinh
+Log in
+Entries RSS
+Comments RSS
+WordPress.org 
+Copyright © 2015 3S Intersoft JSC. All Rights Reserved
+ 
+ 

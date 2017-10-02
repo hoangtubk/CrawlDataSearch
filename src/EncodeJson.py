@@ -128,4 +128,10 @@ if __name__ == "__main__":
     json2 = cat.creat_file_json(query2, des2, path2)
 
     print(json1)
+    j1 = open('./json/query1.json', 'w')
+    j1.write(json1)
+    j1.close()
     print(json2)
+    j2 = open('./json/query2.json', 'w')
+    j2.write(json2)
+    j2.close()

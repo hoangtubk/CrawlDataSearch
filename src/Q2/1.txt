@@ -1,0 +1,107 @@
+http://vietonrails.com/ai/2016/05/13/co-ban-ve-tensorflow
+Cơ bản về tensorflow
+    
+    
+  
+  
+        
+Ruby
+NLP
+AI
+Home
+About
+Tuyển dụng
+    
+Cơ bản về tensorflow
+    
+      tensorflow
+Các khái niệm cơ bản 
+Tensor
+Type
+MNIST 
+Xử lý ảnh
+Trọng số 
+Các khái niệm cơ bản
+Tensor
+Tensor là khái niệm cơ bản nhất trong TensorFlow.
+đơn vị số học
+0
+1
+Vector
+2
+3
+3-Tensor
+n
+n-Tensor
+(n chiều)  ….
+Dimension number
+0
+0-D
+1
+1-D
+2
+2-D
+3
+3-D
+n
+n-D
+Type
+Các dạng số trong TF.
+Python type
+Description
+DT_FLOAT
+DT_DOUBLE
+DT_INT8
+tf.int8
+8 bits signed integer.
+DT_INT16
+tf.int16
+16 bits signed integer.
+DT_INT32
+tf.int32
+32 bits signed integer.
+DT_INT64
+tf.int64
+64 bits signed integer.
+DT_UINT8
+tf.uint8
+8 bits unsigned integer.
+DT_STRING
+tf.string
+DT_BOOL
+tf.bool
+DT_COMPLEX64
+tf.complex64
+DT_QINT8
+tf.qint8
+DT_QINT32
+tf.qint32
+DT_QUINT8
+tf.quint8
+MNIST
+Xử lý ảnh
+Dưới đây là ví dụ về số 1 :
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.6.7.7.50000000000.81111111.9.30000000.4.4.4.7111000000000000.1.10000000000000000000000000000000000000000000000000000000000
+Hiển thị dưới dạng đồ thị :
+Ở đây :
+Trọng số
+Lý do vì các số từ 1 đến 9 hấu như không viết đến những pixel ở trên, do đó các pixel này không có giá trị gì cho việc đánh giá.
+Vấn đề còn lại là TF đã thực hiện việc tính toán W và b khi nào và như thế nào. 
+'''
+'''
+  -1.47629070e+01  -1.18935766e+01  -1.92577553e+01  -3.63449310e-03      
+------
+.
+.
+cross_entropy 23026.0       
+cross_entropy 2870.42 
+Trọng số ở pixel 380 thì phức tạp hơn. Việc tính toán còn lại cứ để cho máy tính nhỉ :D.
+          Fintech là gì?
+          Cài đặt môi trường Python
+          07 Feb 2017
+          GitFlow trong thực tế
+          06 Feb 2017
+Comments
+  * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  
+      if(!checkbox.checked ||

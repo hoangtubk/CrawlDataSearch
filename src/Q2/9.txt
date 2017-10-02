@@ -1,0 +1,82 @@
+https://daynhauhoc.com/t/deep-learning-for-beginner/37493
+
+Deep learning for beginner
+
+    
+    color: #006A9C
+ Log In
+Tr_n_Tu_n_An
+           (Trần Tuấn An)
+           
+             2016-10-28 11:08:33 UTC
+           
+#1
+petehouston
+           (Pete Houston)
+           
+             2016-10-28 12:11:52 UTC
+           
+#2
+      
+    
+Tr_n_Tu_n_An
+           (Trần Tuấn An)
+           
+             2016-10-28 14:07:12 UTC
+           
+#3
+           
+             2016-10-28 15:58:59 UTC
+           
+#4
+1. Giới thiệu
+    
+ Vậy mình muốn nhờ mọi người giúp sức xây dựng những phần còn thiếu trong wiki này (Nếu ngại viết wiki thì có thể gửi mình bản tiếng việt và mình sẽ đẩy lên wiki sớm nhất). …
+    
+           
+             2016-10-28 15:59:10 UTC
+           
+#5
+           (Huy Nguyen)
+           
+             2016-10-28 16:23:08 UTC
+           
+#6
+Th_nh_Le
+           (Thịnh Lê)
+           
+             2016-10-30 11:04:48 UTC
+           
+#7
+Th_nh_Le
+           (Thịnh Lê)
+           
+             2016-10-30 11:08:24 UTC
+           
+#8
+huydotnet
+           (Huy Trần)
+           
+             2016-10-30 18:12:09 UTC
+           
+#9
+Học lý thuyết
+Và 4 cái trên nó được cover trong course CS299.
+Học thực hành
+ZuzooVn
+           
+             2016-10-31 04:16:25 UTC
+           
+#10
+Th_nh_Le
+           (Thịnh Lê)
+           
+             2016-10-31 09:43:25 UTC
+           
+#12
+Home
+Terms of Service
+ Học C++ Free? Click
+ Blog
+ Tự Học Lập Trình
+      

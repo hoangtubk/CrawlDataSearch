@@ -1,0 +1,336 @@
+URL | http://text.123doc.org/document/2771081-giai-thuat-di-truyen-va-ung-dung-vao-bai-toan-nguoi-dua-thu.htm
+Title | Giải Thuật Di Truyền Ứng Dựng Vào Bài Toán Người Đưa Thư
+Content |
+Giải Thuật Di Truyền Ứng Dựng Vào Bài Toán Người Đưa Thư
+ 
+GVHD:
+PGS.TS.
+ĐỖ VĂN NHƠN
+ 
+Học
+ viên:
+Phạm
+ Phú Thanh Sang
+ 
+Mã
+số:
+ CH1301050
+Lớp:
+ 
+CHK8 TP.HCM 01/2014
+ 
+ 
+Thuật Toán Và Phương Pháp Giải Quyết
+ 
+GVHD: PGS.TS
+Đỗ Văn Nhơn
+ 
+Phạm Phú Thanh Sang
+ Trang 1
+Lời
+ 
+cảm
+ 
+ơn
+ 
+ Lời
+ 
+đầu
+ tiên em xin chân thành
+cảm
+ 
+ơn
+ 
+Thầy Đỗ Văn Nhơn
+ 
+đã
+ 
+truyền
+ 
+đạt 
+ cho em
+những 
+ bài
+học
+ 
+thậ
+t
+bổ 
+ ích
+với
+ 
+những 
+ câu
+truyện
+ 
+đầy
+ tính sáng
+tạo
+ và lý thú.
+Cảm
+ 
+ơn
+ nhà
+trường 
+ 
+đã
+ 
+tạo
+ 
+điều
+ 
+kiệ
+n cho em cùng các
+bạn
+ trong
+lớp
+ có
+thể 
+ 
+học
+ 
+tập
+ và
+tiếp
+ thu
+những 
+ 
+kiến
+ 
+thức
+ 
+mới.
+  Em
+cũng 
+ chân thành
+cảm
+ 
+ơn
+ các
+bạn
+ trong
+lớp
+ 
+đã
+ chia
+ sẻ
+ cho nhau
+những 
+ tài
+liệu
+ và
+hiểu
+ 
+biết 
+ 
+về 
+ môn
+học
+ 
+để 
+ cùng hoàn thành
+tốt 
+ môn
+học
+ này. Trong
+thời
+ gian
+vừa
+ qua
+mặc
+ dù em
+đã
+ 
+cố 
+ 
+ gắng 
+ 
+rất 
+ 
+nhiều
+ 
+để 
+ hoàn thành
+tốt 
+ 
+đề 
+ tài
+của
+ mình, song
+chắc
+ 
+chắn
+ 
+kết 
+ 
+quả
+ không tránh
+khỏi
+ 
+những 
+ 
+thiếu
+ sót. Em kính mong
+được
+ 
+ sự 
+ 
+cảm
+ thông và
+tận
+ tình
+chỉ 
+ 
+bảo
+ 
+của
+ T 
+hầy.
+ 
+TP.Hồ
+ Chí Minh Tháng 01/2014
+ Học
+ viên
+thực
+ 
+hiện
+ 
+ Phạm
+ Phú Thanh Sang 
+ 
+ 
+Thuật Toán Và Phương Pháp Giải Quyết
+ 
+GVHD: PGS.TS
+Đỗ Văn Nhơn
+ 
+Phạm Phú Thanh Sang
+ Trang 2
+NHẬN
+ XÉT
+CỦA
+ GIÁO VIÊN
+HƯỚNG
+ 
+DẪN
+ 
+........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ........................................................................................................................................................................... ...........................................................................................................................................................................
+You're reading a preview. Unlock full access with a free trial.
+Pages 4 to 30 are not shown in this preview.
+Download With Free Trial
+Recommended Documents
+Documents Similar To Thuật giải di truyền cho bài toán người du lịch
+
+    Toán rời rạc (1)
+    Toán rời rạc (1)
+    LapTrinhProlog-DHQGHN
+    LapTrinhProlog-DHQGHN
+    XÂY DỰNG MÔ HÌNH BIỂU DIỄN TRI THỨC HÌNH HỌC PHẲNG ỨNG DỤNG GIẢI BÀI TOÁN VECTOR
+    XÂY DỰNG MÔ HÌNH BIỂU DIỄN TRI THỨC HÌNH HỌC PHẲNG ỨNG DỤNG GIẢI BÀI TOÁN VECTOR
+    CHƯƠNG TRÌNH VẼ CÂY AND/OR PHÂN TÍCH CÚ PHÁP CÂU VÀ PHÂN TÍCH THƠ
+    CHƯƠNG TRÌNH VẼ CÂY AND/OR PHÂN TÍCH CÚ PHÁP CÂU VÀ PHÂN TÍCH THƠ
+    215156702-Mo-Hinh-ONTOLOGY-COKB-Va-Ung-Dung.pdf
+    215156702-Mo-Hinh-ONTOLOGY-COKB-Va-Ung-Dung.pdf
+    So Sanh Thuat Toan
+    So Sanh Thuat Toan
+    TÌM HIỂU VỀ IPSEC
+    TÌM HIỂU VỀ IPSEC
+    Giai Thuat Di Truyen
+    Giai Thuat Di Truyen
+    Protege
+    Protege
+    Xử lý ảnh và ứng dụng thư viện AForge.NET
+    Xử lý ảnh và ứng dụng thư viện AForge.NET
+    Thiết kế thuật toán-vét cạn và tham lam
+    Thiết kế thuật toán-vét cạn và tham lam
+    Do Thi Khai Niem
+    Do Thi Khai Niem
+    Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biểu cho khoa Công Nghệ Thông Tin
+    Áp dụng giải thuật di truyền và tìm kiếm cục bộ để giải quyết bài toán sắp Thời Khóa Biểu cho khoa Công Nghệ Thông Tin
+    Trí tuệ nhân tạo - thuật toán tìm kiếm đàn kiến
+    Trí tuệ nhân tạo - thuật toán tìm kiếm đàn kiến
+    Bài toán người đi du lịch
+    Bài toán người đi du lịch
+    Ung Dung Mang Tinh Toan Trong Mot So Bai Toan Hinh Hoc
+    Ung Dung Mang Tinh Toan Trong Mot So Bai Toan Hinh Hoc
+    Bai Toan Nguoi Du Lich
+    Bai Toan Nguoi Du Lich
+    BaiGiang OTOMAT&NNHT
+    BaiGiang OTOMAT&NNHT
+    Bài tập lớn tính toán mềm
+    Bài tập lớn tính toán mềm
+    Bao Cao Gen_bai Toan Ba Lo
+    Bao Cao Gen_bai Toan Ba Lo
+    Thesis
+    Thesis
+    Neural Networks 72
+    Neural Networks 72
+    Thuat giai Heuristic
+    Thuat giai Heuristic
+    Bai Tap Thuc Hanh Do Hoa May Tinh
+    Bai Tap Thuc Hanh Do Hoa May Tinh
+    ĐỒ ÁN NGUYÊN LÝ HỆ ĐIỀU HÀNH
+    ĐỒ ÁN NGUYÊN LÝ HỆ ĐIỀU HÀNH
+    nhom10
+    nhom10
+    2011 2012 De tai Do an He dieu Hanh - ThangDD
+    2011 2012 De tai Do an He dieu Hanh - ThangDD
+    45376016-Trắc-nghiệm-nguyen-li-cac-hệ-điều-hanh-Khoa-CNTT-Đại-học-Thai-Nguyen
+    45376016-Trắc-nghiệm-nguyen-li-cac-hệ-điều-hanh-Khoa-CNTT-Đại-học-Thai-Nguyen
+    chuong trinh dich
+    chuong trinh dich
+    Hệ điều hành
+    Hệ điều hành
+
+More From Đỗ Thiện Vũ
+
+    Máy học khai phá dữ liệu bằng cây quyết định ID3
+    Máy học khai phá dữ liệu bằng cây quyết định ID3
+    phương pháp nghiên cứu khoa học
+    phương pháp nghiên cứu khoa học
+    LOGIC MỜ TRONG PHÂN TÍCH DỰ ÁN PHẦN MỀM
+    LOGIC MỜ TRONG PHÂN TÍCH DỰ ÁN PHẦN MỀM
+    semantic wep và ontogoly
+    semantic wep và ontogoly
+    luận văn
+    luận văn
+    BÀI TẬP TOÁN RỜI RẠC
+    BÀI TẬP TOÁN RỜI RẠC
+    Ky Thuat Do Khoa WEP Cua Mang WiFi
+    Ky Thuat Do Khoa WEP Cua Mang WiFi 
+
+Footer Menu
+About
+
+    About Scribd
+    Press
+    Our blog
+    Join our team!
+    Contact Us
+    Join today
+    Invite Friends
+    Gifts
+
+Legal
+
+    Terms
+    Privacy
+    Copyright
+
+Support
+
+    Help / FAQ
+    Accessibility
+    Purchase help
+    AdChoices
+    Publishers
+
+Social Media
+
+        Scribd - Download on the App StoreScribd - Get it on Google Play
+
+    Copyright © 2017 Scribd Inc. .Browse Books.Mobile Site.Site Directory.Site Language:
+    English 
+
+
+boolean | tr

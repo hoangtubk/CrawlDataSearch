@@ -1,0 +1,135 @@
+http://careers.topica.asia/viec-lam/quan-ly-trung-tam-marketing-senior-manager-22-future-ceos-program-1512
+None
+ 
+﻿
+ |
+                
+  Gửi việc làm cho tôi
+  Tiếng Việt
+Tiếng Việt
+Đăng Ký
+Đăng Nhập
+Tuyển dụng
+  Con người TOPICA
+Sản phẩm
+Hỏi đáp
+Blog tuyển dụng
+Liên hệ
+Đăng Nhập
+Đăng Ký
+Tuyển dụng
+  Con người TOPICA
+Sản phẩm
+Hỏi đáp
+Blog tuyển dụng
+Liên hệ
+                                        Đơn vị:
+                                          - Tổ hợp Công nghệ Giáo dục TOPICA                                     
+                                        Nơi làm việc: 
+                                         Hà Nội
+                                Hết hạn ứng tuyển
+                            
+Hạn nộp hồ sơ: 
+Mô tả công việc
+Yêu cầu
+google+
+twitter
+ 
+Quyền lợi
+    
+Việc làm HOT
+HOT
+                        CV Quản trị và Phát triển chất lượng GV
+                    
+Số lượng: 1 |
+                    Làm việc tại: Hà Nội
+HOT
+                        CTV Vận hành lớp Đào tạo giảng viên Quốc tế
+                    
+Số lượng: 7 |
+                    Làm việc tại: Hà Nội
+HOT
+                    
+Số lượng: 5 |
+                    Làm việc tại: Hà Nội
+HOT
+                    
+Số lượng: 1 |
+                    Làm việc tại: Hà Nội
+HOT
+                        CV Vận hành quảng cáo Google
+                    
+Số lượng: 1 |
+                    Làm việc tại: Hà Nội
+HOT
+                        Chuyên viên Nghiên cứu và Phát triển
+                    
+Số lượng: 2 |
+                    Làm việc tại: Hà Nội
+Xem tất cả
+ 
+                    
+                                Lưu
+                            
+                            
+Gửi câu hỏi cho chúng tôi
+Click vào đây
+Hỏi đáp
+Liên hệ
+Văn hoá TOPICA
+    color: #800c15
+    color: #FFF
+    
+   
+×
+Đăng nhập
+         
+			
+ Google
+			
+  Đăng nhập tài khoản TOPICA CAREER
+ Lưu Tài Khoản
+        
+Đăng nhập
+Quên mật khẩu?
+ 
+×
+Đăng ký
+ Google
+Họ tên
+Số điện thoại
+Mật khẩu
+Nhập lại
+Đăng ký
+    color: #FFF
+×
+Đăng ký
+ Google
+ 
+×
+Quên mật khẩu
+Khôi phục mật khẩu
+ 
+×
+Thông Tin Liên Hệ
+            xin vui lòng liên hệ với chúng tôi theo thông tin dưới đây:
+GỬI THƯ
+Trung tâm tuyển dụng
+Hà Nội
+Hotline: 04 625 320 81
+Đà Nẵng
+TP.Hồ Chí Minh
+Hotline: 08 6659 7650
+ 
+×
+Đăng nhập
+Bạn cần đăng nhập vào hệ thống để tiếp tục
+Đăng nhập hệ
+                    thống
+Đăng ký tài
+                    khoản
+                    return c.toString(1) + ".people (stub)"
+            xfbml: true,
+            version: 'v2.3'
+    
+    

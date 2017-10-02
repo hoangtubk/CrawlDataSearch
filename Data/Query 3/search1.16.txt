@@ -1,0 +1,760 @@
+URL | http://text.xemtailieu.com/tai-lieu/bieu-dien-nhiem-sac-the-trong-giai-thuat-di-truyen-va-cac-toan-tu-di-truyen-chuyen-biet-290377.html
+Title | Biểu diễn nhiễm sắc thể trong giải thuật di truyền và các toán tử di truyền chuyên biệt
+Content | ĐẠI HỌC THÁI NGUYÊN
+TRƢỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+
+---------------------------------------
+
+ĐẶNG THỊ MINH PHƢƠNG
+
+BIỂU DIỄN NHIỄM SẮC THỂ TRONG GIẢI THUẬT
+DI TRUYỀN VÀ CÁC TOÁN TỬ DI TRUYỀN
+CHUYÊN BIỆT
+Chuyên ngành: Khoa học máy tính
+Mã số: 60.48.01
+
+LUẬN VĂN THẠC SĨ KHOA HỌC MÁY TÍNH
+
+Thái Nguyên - 2012
+
+2
+
+LỜI NÓI ĐẦU
+Đặt vấn đề
+
+3
+Cho đến nay đã có nhiều thuật toán tìm lời giải tối ưu cho nhiều lĩnh vực
+bài toán, ví dụ như trong bài toán tìm kiếm trên danh sách, cây, đồ thị các nhà
+khoa học đã đưa ra thuật toán tìm kiếm quay lui, vét cạn. Các thuật toán này
+tuy tìm được nghiệm tối ưu nhưng chỉ áp dụng được cho các bài toán có
+không gian tìm kiếm nhỏ.
+Để khắc phục các hạn chế như trên các nhà khoa học cũng đã đưa ra các
+thuật toán tìm kiếm heurictics, đây là thuật toán có sử dụng các tri thức về
+lĩnh vực bài toán để nhằm giảm thời gian tìm kiếm. Tuy nhiên các thuật toán
+này lại vấp phải một vấn đề là các tri thức thường là kinh nghiệm của con
+người, do đó nó có thể chưa chính xác, đầy đủ và điều này có thể dẫn tới sự
+chệch hướng trong quá trình tìm kiếm.
+Giải thuật di truyền là một trong những kỹ thuật tìm kiếm tối ưu giúp ta
+giải quyết được những vấn đề đã đặt ra ở trên, nó cho phép ta tìm kiếm lời
+giải tối ưu trên các không gian lớn, nguyên tắc cơ bản của giải thuật di truyền
+là mô phỏng quá trình chọn lọc của tự nhiên. Cho đến nay lĩnh vực nghiên
+cứu về giải thuật di truyền đã thu được nhiều thành tựu, giải thuật di truyền
+được ứng dụng trong nhiều lĩnh vực phức tạp, các vấn đề khó có thể giải
+quyết được bằng phương pháp thông thường.
+Với những khả năng tiềm tàng của giải thuật di truyền đã là động lực và
+lý do chính để tác giả chọn đề tài “Biểu diễn nhiễm sắc thể trong giải thuật
+di truyền và các toán tử di truyền chuyên biệt”.
+Mục tiêu của đề tài
+- Nghiên cứu các khái niệm cơ bản của giải thuật di truyền.
+- Nghiên cứu một số phương pháp biểu diễn nhiễm sắc thể trong giải
+thuật di truyền và các toán tử di truyền tương ứng.
+- Nghiên cứu lựa chọn một số bài toán tối ưu và ứng dụng giải thuật di
+truyền để giải quyết các bài toán này.
+
+4
+Phạm vi của đề tài
+- Nghiên cứu các khái niệm cơ bản của giải thuật di truyền.
+- Nghiên cứu giải thuật di truyền sử dụng phương pháp biểu diễn nhiễm
+sắc thể bằng mã hóa nhị phân và các toán tử di truyền tương ứng.
+- Nghiên cứu giải thuật di truyền sử dụng phương pháp biểu diễn nhiễm
+sắc thể bằng mã hóa số thực và các toán tử di truyền tương ứng.
+- Nghiên cứu phương pháp biểu diễn nhiễm sắc thể bằng một hoán vị của
+một tập hợp.
+- Ứng dụng giải thuật di truyền sử dụng mã hóa nhị phân và giải thuật di
+truyền sử dụng mã hóa số thực để xác định độ rộng của các tập mờ trong bài
+toán xấp xỉ mô hình mờ của Cao-Kandel.
+
+5
+Chƣơng 1
+CÁC KHÁI NIỆM CƠ BẢN VỀ GIẢI THUẬT DI TRUYỀN
+1.1. Mở đầu
+Giải thuật di truyền (Gennetic Algorithm) là giải thuật tìm kiếm, chọn
+lựa các giải pháp tối ưu để giải quyết các bài toán khác nhau dựa trên cơ chế
+chọn lọc tự nhiên của ngành di truyền học.
+Trong cơ thể sinh vật, các gen liên kết với nhau theo cấu trúc dạng chuỗi
+gọi là nhiễm sắc thể, nó đặc trưng cho mỗi loài và quyết định sự sống còn của
+cơ thể đó.
+Một loài muốn tồn tại phải thích nghi với môi trường, cơ thể sống nào
+thích nghi với môi trường hơn thì sẽ tồn tại và sinh sản với số lượng ngày
+càng nhiều hơn, trái lại những loài không thích nghi với môi trường sẽ dần
+dần bị diệt chủng.
+Môi trường tự nhiên luôn biến đổi, nên cấu trúc nhiễm sắc thể cũng thay
+đổi để thích nghi với môi trường và ở thế hệ sau luôn có độ thích nghi cao
+hơn ở thế hệ trước. Cấu trúc này có được nhờ vào sự trao đổi thông tin ngẫu
+nhiên với môi trường bên ngoài hay giữa chúng với nhau.
+Dựa vào đó các nhà khoa học máy tính xây dựng nên một giải thuật tìm
+kiếm tinh tế dựa trên cơ sở chọn lọc tự nhiên và quy luật tiến hóa gọi là giải
+thuật di truyền.
+Các nguyên lý cơ bản của giải thuật được tác giả Holland đề xuất lần đầu
+vào năm 1962. Nền tảng toán học của giải thuật GA được tác giả công bố
+trong cuốn sách “Sự thích nghi trong các hệ thống tự nhiên và nhân tạo” xuất
+bản năm 1975.
+Giải thuật GA được xem như một phương pháp tìm kiếm có bước
+chuyển ngẫu nhiên mang tính tổng quát để giải các bài toán tối ưu hoá. [1, 2]
+
+6
+1.2. Các khái niệm cơ bản của giải thuật di truyền
+1.2.1. Giới thiệu chung
+Giải thuật GA thuộc lớp các giải thuật tìm kiếm tiến hoá. Khác với phần
+lớn các giải thuật khác tìm kiếm theo điểm, giải thuật GA thực hiện tìm kiếm
+song song trên một tập được gọi là quần thể các lời giải có thể.
+Thông qua việc áp dụng các toán tử di truyền, giải thuật GA tráo đổi
+thông tin giữa các cực trị và do đó làm giảm thiểu khả năng kết thúc giải thuật
+tại một cực trị địa phương. Trong thực tế, giải thuật GA đã được áp dụng
+thành công trong nhiều lĩnh vực.
+Giải thuật GA lần đầu được tác giả Holland giới thiệu vào năm 1962.
+Giải thuật GA mô phỏng quá trình tồn tại của các cá thể có độ phù hợp tốt
+nhất thông qua quá trình chọn lọc tự nhiên, sao cho khi giải thuật được thực
+thi, quần thể các lời giải tiến hoá tiến dần tới lời giải mong muốn.
+Giải thuật GA duy trì một quần thể các lời giải có thể của bài toán tối ưu
+hoá. Thông thường, các lời giải này được mã hoá dưới dạng một chuỗi các
+gien. Giá trị của các gien có trong chuỗi được lấy từ một bảng các ký tự được
+định nghĩa trước. Mỗi chuỗi gien được liên kết với một giá trị được gọi là độ
+phù hợp. Độ phù hợp được dùng trong quá trình chọn lọc.
+Cơ chế chọn lọc đảm bảo các cá thể có độ phù hợp tốt hơn có xác suất
+được lựa chọn cao hơn. Quá trình chọn lọc sao chép các bản sao của các cá
+thể có độ phù hợp tốt vào một quần thể tạm thời được gọi là quần thể bố mẹ.
+Các cá thể trong quần thể bố mẹ được ghép đôi một cách ngẫu nhiên và tiến
+hành lai ghép tạo ra các cá thể con.
+Sau khi tiến hành quá trình lai ghép, giải thuật GA mô phỏng một quá
+trình khác trong tự nhiên là quá trình đột biến, trong đó các gien của các cá
+thể con tự thay đổi giá trị với một xác suất nhỏ. [1, 2]
+
+7
+Tóm lại, có 6 khía cạnh cần được xem xét, trước khi áp dụng giải thuật
+GA để giải một bài toán, cụ thể là:
+- Mã hoá lời giải thành cá thể dạng chuỗi.
+- Hàm xác định giá trị độ phù hợp.
+- Sơ đồ chọn lọc các cá thể bố mẹ.
+- Toán tử lai ghép.
+- Toán tử đột biến.
+- Chiến lược thay thế hay còn gọi là toán tử tái tạo.
+Có nhiều lựa chọn khác nhau cho từng vấn đề trên. Phần tiếp theo sẽ đưa
+ra cách lựa chọn theo J.H. Holland khi thiết kế phiên bản giải thuật GA đầu
+tiên. Giải thuật này được gọi là giải thuật di truyền đơn giản (SGA).
+1.2.2. Giải thuật di truyền đơn giản [1, 2, 3]
+Trong giải thuật di truyền của mình J. H. Holland sử dụng mã hoá nhị
+phân để biểu diễn các cá thể, lý do là phần lớn các bài toán tối ưu hoá đều có
+thể được mã hoá thành chuỗi nhị phân khá đơn giản.
+Hàm mục tiêu, hàm cần tối ưu, được chọn làm cơ sở để tính độ phù hợp
+của từng chuỗi cá thể. Giá trị độ phù hợp của từng cá thể sau đó được dùng để
+tính toán xác suất chọn lọc.
+Sơ đồ chọn lọc trong giải thuật SGA là sơ đồ chọn lọc tỷ lệ. Trong sơ đồ
+chọn lọc này, cá thể có độ phù hợp f i có xác suất chọn lựa
+pi
+
+fi /
+
+N
+j 1
+
+f j , ở đây N là số cá thể có trong quần thể.
+
+Toán tử lai ghép trong giải thuật SGA là toán tử lai ghép một điểm cắt.
+Giả sử chuỗi cá thể có độ dài L (có L bít), toán tử lai ghép được tiến hành qua
+hai giai đoạn là:
+
+8
+
+Hai cá thể bố mẹ
+
+Hai cá thể con
+
+1 0 0 1 1 1 0 1 0 1
+
+1 0 0 1 1 1 0 1 1 0
+
+0 1 0 0 1 1 1 1 1 0
+
+0 1 0 0 1 1 1 1 0 1
+
+Vị trí lai ghép
+
+Hình 1.1. Sơ đồ lai ghép 1 điểm cắt
+- Hai cá thể trong quần thể bố mẹ được chọn một cách ngẫu nhiên với
+phân bố xác suất đều.
+- Sinh một số ngẫu nhiên j trong khoảng [1, L - 1]. Hai cá thể con được
+tạo ra bằng việc sao chép các ký tự từ 1 đến j và tráo đổi các ký tự từ
+j + 1 đến L. Quá trình này được minh hoạ như trong hình trên.
+Điều đáng lưu ý là giải thuật GA không yêu cầu toán tử lai ghép luôn
+xảy ra đối với hai cá thể bố mẹ được chọn. Sự lai ghép chỉ xảy ra khi số ngẫu
+nhiên tương ứng với cặp cá thể bố mẹ được sinh ra trong khoảng [0, 1].
+Không lớn hơn một tham số pc (gọi là xác suất lai ghép). Nếu số ngẫu nhiên
+này lớn hơn pc, toán tử lai ghép không xảy ra. Khi đó hai cá thể con là bản sao
+trực tiếp của hai cá thể bố mẹ.
+Tiếp theo, J. H. Holland xây dựng toán tử đột biến cho giải thuật SGA.
+Toán tử này được gọi là toán tử đột biến chuẩn. Toán tử đột biến duyệt từng
+gien của từng cá thể con được sinh ra sau khi tiến hành toán tử lai ghép và
+tiến hành biến đổi giá trị từ 0 sang 1 hoặc ngược lại với một xác suất pm được
+gọi là xác suất đột biến.
+Cuối cùng là chiến lược thay thế hay còn gọi là toán tử tái tạo. Trong giải
+thuật SGA, quần thể con được sinh ra từ quần thể hiện tại thông qua 3 toán tử
+là chọn lọc, lai ghép và đột biến thay thế hoàn toàn quần thể hiện tại và trở
+thành quần thể hiện tại của thế hệ tiếp theo.
+
+9
+Sơ đồ tổng thể của giải thuật SGA được thể hiện qua thủ tục GSA() trình
+bày dưới đây.
+Thủ tục SGA () /* Giải bài toán tối ưu */
+{
+
+k = 0;
+// Khởi tạo quần thể P0 một cách ngẫu nhiên.
+khởi_tạo (Pk);
+// Tính giá trị hàm mục tiêu cho từng cá thể.
+tính_hàm_mục_tiêu (Pk);
+// Đặt lời giải của giải thuật bằng cá thể có giá trị hàm mục tiêu tốt nhất.
+Xbest = tốt_nhất (Pk);
+do { // Chuyển đổi giá trị hàm mục tiêu thành giá trị độ phù hợp và
+// tiến hành chọn lọc tạo ra quần thể bố mẹ Pparent
+Pparent = chọn_lọc (Pk );
+// Tiến hành lai ghép và đột biến tạo ra quần thể cá thể con Pchild
+Pchild = đột_biến (lai_ghép (Pparent));
+// Thay thế quần thể hiện tại bằng quần thể cá thể con
+k = k + 1;
+Pk = Pchild;
+tính_hàm_mục_tiêu (Pk);
+// Nếu giá trị hàm mục tiêu obj của cá thể tốt nhất X trong quần
+// thể Pk lớn hơn giá trị hàm mục tiêu của Xbest thì thay thế lời giải
+X = tốt_nhất (Pk);
+if ( obj (X) > obj (Xbest) ) Xbest = X;
+} while ( k < G); /* Tiến hành G thế hệ */
+
+10
+return (Xbest); /* Trả về lời giải của giải thuật GA*/
+}
+Giải thuật di truyền phụ thuộc vào bộ 4 (N, pc, pm, G), trong đó:
+N - số cá thể trong quần thể; pc - xác suất lai ghép;
+pm - xác suất đột biến; G - số thế hệ cần tiến hoá.
+Đó chính là các tham số điều khiển của giải thuật SGA. Cá thể có giá
+trị hàm mục tiêu tốt nhất của mọi thế hệ là lời giải cuối cùng của giải thuật
+SGA. Quần thể đầu tiên được khởi tạo một cách ngẫu nhiên.
+Ví dụ: xét bài toán tìm max của hàm f(x) = x2 với x là số nguyên trên
+đoạn [0, 31].
+Để sử dụng giải thuật di truyền ta mã hóa mỗi số nguyên x trong đoạn
+[0, 31] bởi một số nhị phân có độ dài 5, chẳng hạn chuỗi 11000 là mã
+của số nguyên 24.
+Hàm thích nghi được xác định chính là hàm f(x)=x2
+Quần thể ban đầu gồm 4 cá thể (kích thước quần thể n=4).
+Thực hiện quá trình chọn lọc ta có bảng sau, trong bảng này ta thấy cá
+thể 2 có độ thích nghi cao nhất nên nó được chọn 2 lần, cá thể 3 có độ thích
+nghi thấp nhất không được chọn lần nào, mỗi cá thể 1 và 4 được chọn 1 lần
+Số hiệu
+
+Quần thể
+
+Độ thích nghi
+
+Số lần
+
+cá thể
+
+ban đầu
+
+f(x)=x2
+
+đƣợc chọn
+
+1
+
+01101
+
+13
+
+169
+
+1
+
+2
+
+11000
+
+24
+
+576
+
+2
+
+3
+
+01000
+
+8
+
+64
+
+0
+
+4
+
+10011
+
+19
+
+361
+
+1
+
+x
+
+11
+Thực hiện quá trình lai ghép với xác suất lai ghép pc=1, cả 4 cá thể sau
+chọn lọc đều được lai ghép.
+Kết quả lai ghép được cho trong bảng sau, trong bảng này, chuỗi thứ
+nhất được lai ghép với chuỗi thứ hai với điểm lai ghép là 4, hai chuỗi còn lại
+được lai ghép với nhau với điểm ghép là 2.
+Quần thể sau
+
+Điểm
+
+Quần thể sau
+
+chọn lọc
+
+ghép
+
+lai ghép
+
+1 1 1 0|1
+
+4
+
+01100
+
+12
+
+144
+
+1 1 0 0|0
+
+4
+
+11001
+
+25
+
+625
+
+1 1|0 0 0
+
+2
+
+11011
+
+27
+
+729
+
+1 0|0 1 1
+
+2
+
+10000
+
+16
+
+256
+
+X
+
+Độ thích nghi
+f(x)=x2
+
+Để thực hiện quá trình đột biến, ta chọn xác suất đột biến pm=0.001, tức
+là ta hy vọng có 5 x 4 x 0.001 = 0.02 bit được đột biến, do đó sẽ không có bit
+nào được đột biến.
+Như vậy thế hệ quần thể mới là quần thể sau lai ghép.
+Trong thế hệ ban đầu độ thích nghi cao nhất là 576, độ thích nghi trung
+bình là 292. Trong thế hệ mới, độ thích nghi cao nhất là 729, độ thích nghi
+trung bình là 438. Như vậy chỉ qua một thế hệ, các cá thể đã “tốt lên” rất
+nhiều.
+Kết luận chƣơng 1:
+Chương 1 đã đưa ra các khái niệm cơ bản của giải thuật di truyền, thông
+qua một ví dụ minh hoạ ta có thể thấy khả năng ứng dụng của giải thuật di
+truyền trong các bài toán tối ưu. Ngoài ra đây là cách thức quan trọng giúp ta
+có thể tiếp tục nghiên cứu sâu hơn nữa về giải thuật di truyền mà luận văn đề
+cập ở chương 2.
+
+12
+Chƣơng 2
+CÁC PHƢƠNG PHÁP BIỂU DIỄN NHIỄM SẮC THỂ
+TRONG GIẢI THUẬT DI TRUYỀN VÀ CÁC TOÁN TỬ DI TRUYỀN
+CHUYÊN BIỆT
+2.1. Phƣơng pháp biểu diễn nhiễm sắc thể bằng mã hóa nhị phân [1]
+Giải thuật di truyền với biểu diễn nhiễm sắc thể bằng mã hóa nhị phân đã
+được đề cập sơ bộ trong chương 1. Trong phần này chúng ta sẽ tìm hiểu sâu
+hơn về giải thuật di truyền này thông qua một bài toán tối ưu số.
+Không làm mất tính tổng quát, ta giả định bài toán tối ưu là bài toán tìm
+cực đại của hàm nhiều biến f. Bài toán tìm cực tiểu hàm g chính là bài toán
+tìm cực đại hàm f = -g, hơn nữa ta có thể giả định hàm mục tiêu f có giá trị
+dương trên miền xác định của nó, nếu không ta có thể cộng thêm một hằng số
+C dương.
+Cụ thể bài toán được đặt ra như sau: Tìm cực đại một hàm k biến f(x1,..,
+xk): Rk R. Giả sử thêm là mỗi biến xi có thể nhận giá trị trong miền Di =
+[ai,bi]
+
+R và f(x1,.., xk)
+
+0 với mọi xi
+
+Di. Ta muốn tối ưu hàm f với độ
+
+chính xác cho trước: Giả sử cần n số lẻ đối với giá trị của các biến.
+Để đạt được độ chính xác như vậy mỗi miền Di cần được phân cắt thành
+(bi - ai)
+(bi
+
+10n miền con bằng nhau, gọi m là số nguyên nhỏ nhất sao cho:
+ai ) 10 n
+
+2 mi
+
+1
+
+Như vậy mỗi biến xi được biểu diễn bằng một chuỗi nhị phân có chiều
+dài mi. Biểu diễn như trên rõ ràng thoả mãn điều kiện về độ chính xác theo
+yêu cầu. Công thức sau tính giá trị thập phân của mỗi chuỗi nhị phân biểu
+diễn biến xi
+xi
+
+ai
+
+decimal( string2 )
+
+bi a i
+2 mi 1
+
+13
+Trong đó hàm decimal(string2) cho biết giá trị thập phân của chuỗi nhị
+phân đó.
+Bây giờ, mỗi nhiễm sắc thể (là một lời giải) được biểu diễn bằng một
+chuỗi nhị phân có chiều dài m
+
+k
+i 1
+
+mi , m1 bit đầu tiên biểu diễn giá trị trong
+
+khoảng [a1,b1], m2 bit kế tiếp biểu diễn giá trị trong khoảng [a2,b2], …
+Để khởi tạo quần thể, chỉ cần đơn giản tạo pop _size nhiễm sắc thể ngẫu
+nhiên theo từng bit.
+Phần còn lại của giải thuật di truyền rất đơn giản, trong mỗi thế hệ ta
+lượng giá từng nhiễm sắc thể (tính giá trị hàm f trên các chuỗi biến nhị phân
+đã được giải mã), chọn quần thể mới thoả mãn phân bố xác suất dựa trên độ
+thích nghi và thực hiện các phép đột biến và lai để tạo ra các cá thể thế hệ
+mới.
+Sau một số thế hệ, khi không còn cải thiện thêm được gì nữa, nhiễm sắc
+thể tốt nhất sẽ được xem như lời giải của bài toán tối ưu (thường là toàn cục).
+Thông thường ta cho dừng giải thuật sau một số bước lặp cố định tuỳ ý, tuỳ
+thuộc vào điều kiện tốc độ và tài nguyên máy tính.
+Đối với tiến trình chọn lọc (chọn quần thể mới thoả mãn phân bố xác
+suất dựa trên các độ thích nghi), ta dùng bánh xe quay Rulet với các rãnh
+được định kích thước theo độ thích nghi. Ta xây dựng bánh xe Rulet như sau
+(giả định rằng các độ thích nghi đều dương).
++ Tính độ thích nghi eval(vi) của mỗi nhiễm sắc thể vi (i = 1,…,
+pop_size)
++ Tìm tổng giá trị thích nghi toàn quần thể: F
+
+pop size
+i 1
+
+eval(v i )
+
++ Tính xác suất chọn pi cho mỗi nhiễm sắc thể vi, (i = 1,…, pop_size):
+pi
+
+eval(v i ) / F
+
++ Tính vị trí xác suất qi của mỗi nhiễm sắc thể vi, (i = 1,…, pop_size):
+
+14
+qi
+
+i
+j 1
+
+pi
+
+Tiến trình chọn lọc thực hiện bằng cách quan bánh xe Rulet pop_size lần,
+mỗi lần chọn một nhiễm sắc thể từ quần thể hiện hành vào quần thể mới theo
+cách sau:
++ Phát sinh ngẫu nhiên một số r trong khoảng [0..1]
++ Nếu r
+
+q1 thì chọn nhiễm sắc thể đầu tiên v1, ngược lại thì chọn nhiễm
+
+sắc thể thứ i, vi (2
+
+i
+
+pop_size) sao cho qi-1 r qi
+
+Như vậy có thể có một số nhiễm sắc thể được chọn nhiều lần, điều này là
+phù hợp vì các nhiễm sắc thể tốt nhất cần có nhiều bản sao hơn, các nhiễm sắc
+thể trung bình không thay đổi các nhiễm sắc thể kém nhất thì chết đi.
+
+eval(v2)
+
+eval(vn)
+
+eval(v1)
+
+Hình 2.1. Minh họa bánh xe rulet
+Bây giờ ta có thể áp dụng phép toán di truyền: Kết hợp và lại vào các cá
+thể trong quần thể mới vừa được chọn từ quần thể cũ như trên.
+Một trong những tham số của giải thuật là xác suất lai pc. Xác suất này
+cho ta số nhiễm sắc thể pop_size pc mong đợi, các nhiễm sắc thể này được
+dùng trong tác vụ lai tạo. Ta tiến hành theo cách sau đây:
+Đối với mỗi nhiễm sắc thể trong quần thể mới:
+
+15
++ Phát sinh ngẫu nhiên một số r trong khoảng [0,1]
++ Nếu r
+
+pc, hãy chọn nhiễm sắc thể đó để lai tạo
+
+Bây giờ ta ghép đôi các nhiễm sắc thể đã được chọn một cách ngẫu
+nhiên: đối với mỗi cặp nhiễm sắc thể được ghép đôi, ta phát sinh ngẫu nhiên
+một số nguyên pos trong khoảng [1, m-1] (m là tổng chiều dài - số bit - của
+một nhiễm sắc thể). Số pos cho biết vị trí của điểm lai. Hai nhiễm sắc thể:
+(b1b2…bposbpos+1…bm) và (c1c2.…cposcpos+1…cm)
+được thay bằng một cặp con của chúng:
+(b1b2…bposcpos+1…cm) và (c1c2.…cposbpos+1…bm)
+Phép toán kế tiếp là phép đột biến, được thực hiện trên cơ sở từng bit.
+Một tham số khác của giải thuật là xác suất đột biến pm, cho ta số bit đột biến
+pm m pop_size mong đợi. Mỗi bit (trong tất cả các nhiễm sắc thể trong quần
+thể) có cơ hội bị đột biến như nhau, nghĩa là đổi từ 0 thành 1 hoặc ngược lại.
+Vì thế ta tiến hành theo cách sau đây:
+Đối với mỗi nhiễm sắc thể trong quần thể hiện hành (nghĩa là sau khi lai)
+và đối với mỗi bit trong nhiễm sắc thể:
++ Phát sinh ngẫu nhiên một số r trong khoảng [0,1]
++ Nếu rSau quá trình chọn lọc, lai và đột biến, quần thể mới đến lượt lượng giá
+kế tiếp của nó. Lượng giá này được dùng để xây dựng phân bố xác suất (cho
+tiến trình chọn lựa kế tiếp), nghĩa là để xây dựng lại bánh xe Rulet với các
+rãnh được định kích thước theo các giá trị thích nghi hiện hành. Phần còn lại
+của tiến hoá chỉ là lặp lại chu trình của những bước trên.
+Toàn bộ tiến trình sẽ được minh hoạ trong một thí dụ cực đại hoá hàm:
+
+f ( x1 , x 2 )
+
+21.5
+
+x1 sin(4 x1 ) x 2 sin(20 x 2 )
+
+Giả sử kích thước quần thể pop_size = 20, các xác suất di truyền tương
+ứng là Pc = 0.25 và Pm = 0.01
+
+16
+Giả sử cần tính chính xác đến 4 số lẻ đối với mỗi biến. Miền của biến x1
+có chiều dài 15.1, điều kiện chính xác đòi hỏi đoạn [-3.0, 12.1] cần được chia
+thành các khoảng có kích thước bằng nhau, ít nhất là 15.1 10000 khoảng,
+điều này cần 18 bit làm phần đầu tiên của nhiễm sắc thể: 217
+
+151000
+
+218
+
+Miền của biến x2 có chiều dài là 1.7, điều kiện chính xác đòi hỏi đoạn
+[4.1,5.8] cần được chia thành các khoảng có kích thước bằng nhau là
+1.7 10000 khoảng, điều này nghĩa là cần 15 bit làm thành phần cuối của
+nhiễm sắc thể: 214
+
+17000
+
+215
+
+Chiều dài toàn bộ nhiễm sắc thể (vectơ lời giải) là m =18+15 = 33
+Để cực đại hoá hàm f bằng giải thuật di truyền ta tạo ra một quần thể có
+pop_size = 20 nhiễm sắc thể. Cả 33 bit trong tất cả các nhiễm sắc thể đều
+được khởi tạo ngẫu nhiên.
+Giả sử sau tiến trình khởi tạo ta có quần thể sau đây:
+v1 = (100110100000001111111010011011111)
+v2 = (111000100100110111001010100011010)
+v3 = (000010000011001000001010111011101)
+v4 = (100011000101101001111000001110010)
+v5 = (000111011001010011010111111000101)
+v6 = (000101000010010101001010111111011)
+v7 = (001000100000110101111011011111011)
+v8 = (100001100001110100010110101100111)
+v9 = (011000000101100010110000001111100)
+v10 = (000001111000110000011010000111011)
+v11 = (011001111110110101100001101111000)
+v12 = (110100010111101101000101010000000)
+
+17
+v13 = (111011111010001000110000001000110)
+v14 = (010010011000001010100111100101001)
+v15 = (111011101101110000100011111011110)
+v16 = (110011110000011111100001101001011)
+v17 = (011010111111001111010001101111101)
+v18 = (011101000000001110100111110101101)
+v19 = (000101010011111111110000110001100)
+v20 = (101110010110011110011000101111110)
+Trong giai đoạn lượng giá ta giải mã từng nhiễm sắc thể và tính giá trị
+hàm thích nghi từ các giá trị (x1, x2) mới giải mã, ta có:
+eval(v1) = f(6.084492,5.652242) = 26.019600
+eval(v2) = f(10.348434,4.380264) = 7.580015
+eval(v3) = f(-2.516603,4.390381) = 19.626329
+eval(v4) = f(5.278638,5.593460) = 17.406725
+eval(v5) = f(-1.255173,4.734458) = 25.341160
+eval(v6) = f(-1.811725,4.391937) = 18.100417
+eval(v7) = f(-0.991471,5.680258) = 16.020812
+eval(v8) = f(4.910618,4.703018) = 17.959701
+eval(v9) = f(0.795406,5.381472) = 16.127799
+eval(v10) = f(-2.554851,4.793707) = 21.278435
+eval(v11) = f(3.130078,4.996097) = 23.410669
+eval(v12) = f(9.356179,4.239457) = 15.011619
+eval(v13) = f(11.134646,5.378671) = 27.316702
+eval(v14) = f(1.335944,5.151378) = 19.876294
+
+18
+eval(v15) = f(11.089025,5.054515) = 30.060205
+eval(v16) = f(9.211598,4.993762) = 23.967227
+eval(v17) = f(3.367514,4.571343) = 13.696165
+eval(v18) = f(3.843020,5.158226) = 15.414128
+eval(v19) = f(-1.746635,5.395584) = 20.095903
+eval(v20) = f(7.935998,4.757338) = 13.666916
+Rõ ràng nhiễm sắc thể v15 mạnh nhất và nhiễm sắc thể v2 yếu nhất
+Tiếp theo ta xây dựng bánh xe Rulet cho tiến trình chọn lọc. Tổng độ
+thích nghi của quần thể là:
+F
+
+20
+i 1
+
+eval(v i )
+
+387.776822
+
+Xác suất chọn lọc pi của mỗi nhiễm sắc thể vi (i = 1,…,20) là:
+p1 = eval(v1)/F = 0.067099
+p2 = eval(v2)/F = 0.019547
+p3 = eval(v3)/F = 0.050355
+p4 = eval(v4)/F = 0.044889
+p5 = eval(v5)/F = 0.065350
+p6 = eval(v6)/F = 0.046677
+p7 = eval(v7)/F = 0.041315
+p8 = eval(v8)/F = 0.046315
+p9 = eval(v9)/F = 0.041590
+p10 = eval(v10)/F = 0.054873
+p11 = eval(v11)/F = 0.060372
+p12 = eval(v12)/F =0.038712
+
+19
+p13 = eval(v13)/F = 0.070444
+p14 = eval(v14)/F = 0.051257
+p15 = eval(v15)/F = 0.077519
+p16 = eval(v16)/F = 0.061549
+p17 = eval(v17)/F = 0.035320
+p18 = eval(v18)/F = 0.039750
+p19 = eval(v19)/F = 0.051823
+p20 = eval(v20)/F = 0.035244
+Các vị trí xác suất qi của mỗi nhiễm sắc thể vi (i = 1,.., 20) là:
+q1 = 0.067099
+
+q2 = 0.086647
+
+q3 = 0.137001
+
+q4 = 0.181890
+
+q5 = 0.247240
+
+q6 = 0.293917
+
+q7 = 0.335232
+
+q8 = 0.381546
+
+q9 = 0.423137
+
+q10 = 0.478009
+
+q11 = 0.538381
+
+q12 = 0.577093
+
+q13 = 0.647537
+
+q14 = 0.698794
+
+q15 = 0.776314
+
+q16 = 0.837863
+
+q17 = 0.873182
+
+q18 = 0.812932
+
+q19 = 0.964756
+
+q20 = 1.000000
+
+Tiếp theo ta quay bánh xe Rulet 20 lần, mỗi lần chọn một nhiễm sắc thể
+cho quần thể mới. Giả sử thứ tự (ngẫu nhiên) của 20 số trong khoảng [0,1]
+được phát sinh là:
+0.513870
+
+0.175741
+
+0.308652
+
+0.534534
+
+0.947628
+
+0.171736
+
+20
+0.702231
+
+0.226431
+
+0.494773
+
+0.424720
+
+0.703899
+
+0.389647
+
+0.277226
+
+0.368071
+
+0.983437
+
+0.005398
+
+0.765682
+
+0.646473
+
+0.767139
+
+0.780237
+
+Số đầu tiên r = 0.513870 lớn hơn q10 và nhỏ hơn q11, nghĩa là nhiễm sắc
+thể v11 được chọn vào quần thể mới, số thứ 2 r = 0.175741 lớn hơn q3 nhỏ
+hơn q4, nghĩa là v4 được chọn cho quần thể mới,….
+Như vậy quần thể mới gồm các nhiễm sắc thể sau:
+v’1 = v11 = (011001111110110101100001101111000)
+v’2 = v4 = (100011000101101001111000001110010)
+v’3 = v7 = (001000100000110101111011011111011)
+v’4 = v11 = (011001111110110101100001101111000)
+v’5 = v19 = (000101010011111111110000110001100)
+v’6 = v4 = (100011000101101001111000001110010)
+v’7 = v15 = (111011101101110000100011111011110)
+v’8 = v5 = (000111011001010011010111111000101)
+v’9 = v11 = (011001111110110101100001101111000)
+v’10 = v3 = (000010000011001000001010111011101)
+v’11 = v15 = (111011101101110000100011111011110)
+v’12 = v9 = (011000000101100010110000001111100)
+v’13 = v6 = (000101000010010101001010111111011)
+v’14 = v8 = (100001100001110100010110101100111)
+v’15 = v20 = (101110010110011110011000101111110)
+
+Tài liệu liên quan
+
+   
+boolean | true

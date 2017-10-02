@@ -1,0 +1,40 @@
+URL | http://www.epu.edu.vn/cnck/Default.aspx?BT=14258
+Title | Giới thiệu về Giải Thuật di truyền
+Content | Giới thiệu về Giải Thuật di truyền (GA) (25/11/2014)
+ 
+Mục đích của bài viết này là trình bày tổng quan về thuật giải di truyền.
+
+Giải thuật di truyền (GA-Genetic Algorithm) là kỹ thuật phỏng theo quá trình thích nghi tiến hóa của các quần thể sinh học dựa trên học thuyết Darwin. GA là phương pháp tìm kiếm tối ưu ngẫu nhiên bằng cách mô phỏng theo sự tiến hóa của con người hay của sinh vật. Tư tưởng của thuật toán di truyền là mô phỏng các hiện tượng tự nhiên, là kế thừa và đấu tranh sinh tồn.
+
+Các giả thuyết trong GA thường được mô tả bằng các chuỗi bit, việc hiểu các chuỗi bit này tùy thuộc vào ứng dụng, ý tưởng các giả thuyết cũng có thể được mô tả bằng các biểu thức kí hiệu hoặc ngay cả các chương trình máy tính.
+
+GA thuộc lớp các giải thuật xuất sắc nhưng lại rất khác các giải thuật ngẫu nhiên vì chúng kết hợp các phần tử tìm kiếm trực tiếp và ngẫu nhiên. Khác biệt quan trọng giữa tìm kiếm của GA và các phương pháp tìm kiếm khác là GA duy trì và xử lý một tập các lời giải, gọi là một quần thể (population). Trong GA, việc tìm kiếm giả thuyết thích hợp được bắt đầu với một quần thể, hay một tập hợp có chọn lọc ban đầu của các giả thuyết. Các cá thể của quần thể hiện tại khởi nguồn cho quần thể thế hệ kế tiếp bằng các hoạt động lai ghép và đột biến ngẫu nhiên – được lấy mẫu sau các quá trình tiến hóa sinh học. Ở mỗi bước, các giả thuyết trong quần thể hiện tại được ước lượng liên hệ với đại lượng thích nghi, với các giả thuyết phù hợp nhất được chọn theo xác suất là các hạt giống cho việc sản sinh thế hệ kế tiếp, gọi là cá thể (individual). Cá thể nào phát triển hơn, thích ứng hơn với môi trường sẽ tồn tại và ngược lại sẽ bị đào thải. GA có thể dò tìm thế hệ mới có độ thích nghi tốt hơn. GA giải quyết các bài toán quy hoạch toán học thông qua các quá trình cơ bản: lai tạo (crossover), đột biến (mutation) và chọn lọc (selection) cho các cá thể trong quần thể. Dùng GA đòi hỏi phải xác định được: khởi tạo quần thể ban đầu, hàm đánh giá các lời giải theo mức độ thích nghi – hàm mục tiêu, các toán tử di truyền tạo hàm sinh sản.
+
+Sơ đồ thuật toán của GA được thể hiện trên Hình vẽ sau.
+GA.GIF
+
+Sơ đồ thuật toán tối ưu bằng GA
+
+trong đó, các thành phần của thuật toán GA như sau:
+
+- Khởi tạo: chọn ngẫu nhiên một số lượng cá thể (mỗi cá thể chỉ có 1 gen -genome duy nhất và 1 gen cũng chỉ phục vụ cho 1 cá thể duy nhất), tập hợp tất cả các cá thể gọi là quần thể.
+
+- Mã hóa: mỗi gen là 1 chuỗi nhị phân có số lượng bite phù hợp để mã hóa bài toán. Biến thiết kế được chọn ngẫu nhiên và mã hóa trong chuỗi nhị phân.
+
+- Chọn lọc: chọn quần thể mới thỏa mãn phân bố xác suất dựa trên độ thích nghi, các cá thể có độ thích nghi lớn sẽ có nhiều bản sao trong thế hệ mới.
+
+- Sinh sản: hình thành các cá thể mới trên cơ sở các cá thể cha – mẹ, bằng cách ghép một (hay nhiều) đoạn gen của hai (hay nhiều) các thể cha – mẹ với nhau.
+
+- Đột biến: cá thể con mang một số tính trạng không có trong mã di truyền của cha mẹ. Mỗi gen trong tất cả cá thể có cơ hội đột biến như nhau. Phép toán này làm tăng khả năng tìm được lời giải tối ưu của GA.
+
+- Giải mã: phép toán này ngược lại với phép toán Mã hóa.
+
+GA lập luận mang tính chất ngẫu nhiên để tìm giải pháp tối ưu cho những vấn đề phức tạp, thay vì xác định như toán học giải tích. Chính hàm số thích nghi là giúp GA tìm giải pháp tối ưu trong rất nhiều giải pháp có thể có. GA không để ý đến chi tiết vấn đề, trái lại chỉ chú ý đến giải pháp cho vấn đề, hay tìm điều kiện tối ưu cho việc điều hành và phân nhóm những giải pháp có được. GA được sử dụng đặc biệt cho những bài toán yêu cầu tìm kiếm tối ưu toàn cục với không gian tìm kiếm lớn và không thể kiểm soát nhờ khả năng duyệt qua không gian tìm kiếm đại diện mà không thực sự đi qua từng điểm của toàn bộ không gian.
+
+Chính vì vậy, thuật giải GA đã và đang được ứng dụng để giải quyết các bài toán trong rất nhiều lĩnh vực của cuộc sống cũng như trong kỹ thuật.
+
+Trong bài viết sau, chúng tôi sẽ trình bày cụ thể việc áp dụng thuật giải di truyền này vào một bài toán tối ưu trong cơ học.
+
+ Bùi Văn Bình - CNCK
+
+boolean | true

@@ -1,0 +1,835 @@
+URL | http://diendan.congdongcviet.com/threads/t71468::cach-giai-phuong-trinh-bac-2-bang-giai-thuat-di-truyen.cpp
+Title | cách giải phương trình bậc 2 bằng giải thuật di truyền 
+Content | 
+
+    nếu như những bài toán tìm min, max của 1 hàm nào đấy thì có miền xác định giúp mình có thể cho biết được những giá trị có thể xảy ra. sau đó chọn lọc, lai, đột biến... -> nghiệm.
+    còn bài toán phương trình bậc 2 thì không cho sẵn miền giá trị, mà nghiệm thì có thể là nghiệm thực thì mình làm cách nào xác định được nghiệm có thể nằm trong khoảng nào để chọn lọc đây..??
+    xin mọi người giúp đỡ..!!
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+17-02-2012, 08:56 PM #2
+No Avatar
+phancuc
+phancuc là offline Thành viên mới
+
+Ngày gia nhập
+    12 2011
+Bài viết
+    5	
+
+Mặc định chào bạn
+
+    mình cũng đang tìm hiểu về giải thuật di truyền. đê tài của minh là :"ứng dụng giải thuật di truyền vào bài toán tìm kiếm văn bản". Bạn có tài liệu + code liên quan tới vấn đề này, send cho mình với. Thank bạn trước nha.
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+17-02-2012, 11:25 PM #3
+No Avatar
+nndung179
+nndung179 là offline Thành viên nhiệt tình
+
+Ngày gia nhập
+    10 2010
+Bài viết
+    177	
+
+    Cậu lấy tham khảo bài này. Chạy với chế độ Debug nha.
+
+
+    PHP Code:
+    // GA.cpp : Defines the entry point for the console application.
+    //
+
+    #include "stdafx.h"
+
+    int a;
+    int b;
+    int c;
+    int Gen;
+    int PopSize;
+    float xacxuatlai;
+    float dotbien;
+
+
+    struct NST
+    {
+        char bitstring[8];
+        int realValue;
+        int fitness;
+        float cantren;
+        float canduoi;
+    };
+
+
+    void initRand()
+    {
+        srand((unsigned)(time(0)));
+    }
+
+    // Random 1 so ngau nhien
+    int Random(int min, int max)
+    {
+
+        if (min >= max)
+            return 0;
+        int d = max - min;
+        return (rand() % (d + 1) + min);
+    }
+
+    // Chuyen tu thap phan sang nhi phan
+    char* chuyenNhiPhan(int num)
+    {
+        int sodu;
+        char bit[8];
+        for(int i = 7; i >= 0; i--)
+        {
+            sodu = num % 2;
+            num = num / 2;
+
+            if(sodu == 0)
+            {
+                bit[i] = '0';
+            }
+            else
+            {
+                if(sodu == 1)
+                {
+                    bit[i] = '1';
+                }
+            }
+
+        }    
+        return bit;
+    }
+
+    int tinhFitness(NST ns)
+    {
+        int kq;
+        kq = a * ns.realValue * ns.realValue  + b * ns.realValue + c;    
+        return kq;
+    }
+
+    int tinhRealValue(NST sn)
+    {
+        int dem = 0;
+        int tong = 0;
+        for (int i = 7; i >= 0; i--)
+        {
+            if(sn.bitstring[i] == '1')
+            {
+                sn.bitstring[i] = 1;
+            }
+            else
+            {
+                if(sn.bitstring[i] == '0')
+                {
+                    sn.bitstring[i] = 0;
+                }
+            }
+            tong = tong +  pow(2,(float)dem) * sn.bitstring[i];
+            dem++;
+        }
+        return tong;
+    }
+
+    void chonLoc(NST *ns)
+    {
+        int sum = 0;
+        int kq;
+        for(int i = 0; i < 20; i++)
+        {
+            sum = sum + ns[i].realValue;
+        }
+        int can = 0;
+        for(int j = 0; j < 20; j++)
+        {
+            kq = ns[j].realValue / sum;
+            ns[j].canduoi = can;
+            ns[j].cantren = can + kq;
+            can = can + kq;
+        }
+    }
+
+    NST chonlocRieng(NST *ns)
+    {
+        NST cha = ns[0];
+        int rand = Random(0, 100);
+        int sum = 0;
+        float kq;
+        float can = 0;
+
+        for(int i = 0; i < 20; i++)
+        {
+            sum = sum + ns[i].fitness;
+        }
+        for(int j = 0; j < 20; j++)
+        {
+            kq = (int)((ns[j].fitness*1.0 / sum) * 100);
+            ns[j].canduoi = can;
+            ns[j].cantren = can + kq;
+            can = can + kq;
+        }
+
+        for(int k = 0; k < 20; k++)
+        {
+            if(rand >= ns[k].canduoi && rand < ns[k].cantren)
+            {
+                cha = ns[k];
+            }
+        }
+        return cha;
+    }
+    // lai con 1
+    NST batdaulaicon1(NST cha, NST me)
+    {
+        NST con1 = me;
+        strncpy(cha.bitstring,chuyenNhiPhan(cha.realValue),8);
+        strncpy(me.bitstring,chuyenNhiPhan(me.realValue),8);
+
+
+        int rand = Random(0, 100);
+        int i = Random (0,7);
+        if(rand < xacxuatlai * 100)
+        {
+            for(int a = i + 1; a < 8; a++)
+            {
+                con1.bitstring[a] = cha.bitstring[a];
+            }
+            con1.realValue = tinhRealValue(con1);
+            con1.fitness = tinhFitness(con1);
+        }
+
+        return con1;
+    }
+    // lai con 2
+    NST batdaulaicon2(NST cha, NST me)
+    {
+        NST con2 = cha;
+        strncpy(cha.bitstring,chuyenNhiPhan(cha.realValue),8);
+        strncpy(me.bitstring,chuyenNhiPhan(me.realValue),8);
+
+        int rand = Random(0, 100);
+        int i = Random(0,7);
+
+        //so sanh voi xac xuat lai, cai nay chua lam
+        if (rand < xacxuatlai * 100)
+        { 
+            // bat dau lai
+            for(int j = 0; j <= i; j++)
+            {
+                con2.bitstring[j] = me.bitstring[j];
+            }
+            con2.realValue = tinhRealValue(con2);
+            con2.fitness = tinhFitness(con2);
+        }
+
+        return con2;
+    }
+    //dot bien con 1
+    NST dotbiencon1(NST con1)
+    {
+        NST con1DB = con1;
+        for(int i = 0; i < 8; i++)
+        {
+            int rand = Random(0, 100); 
+            int k = Random(0, 7);
+            // sksanh xac xuat dot bien roi moi lai, cai nay chua lam
+            if(rand < dotbien * 100 && k == i)
+            {
+                // dot bien
+                if(con1.bitstring[i] == '1')
+                {
+                    con1DB.bitstring[i] = '0';
+                }
+                if(con1.bitstring[i] == '0')
+                {
+                    con1DB.bitstring[i] = '1';
+                }
+            }
+            con1DB.realValue = tinhRealValue(con1DB);
+            con1DB.fitness = tinhFitness(con1DB);
+        }
+        return con1DB; 
+    }
+    // dot bien con 2
+    NST dotbiencon2(NST con2)
+    {
+        NST con2DB = con2;
+        for(int i = 0; i < 8; i++)
+        {
+            int rand = Random(0, 100); 
+            int k = Random(0, 7);
+            // so sanh xac xuat dot bien roi moi lai
+            if(rand < dotbien * 100 && i == k)
+            { 
+                // dot bien
+                if(con2.bitstring[i] == '1')
+                {
+                    con2DB.bitstring[i] = '0';
+                }
+                if(con2.bitstring[i] == '0')
+                {
+                    con2DB.bitstring[i] = '1';
+                }
+            }
+            con2DB.realValue = tinhRealValue(con2DB);
+            con2DB.fitness = tinhFitness(con2DB);
+        }
+        return con2DB; 
+    }
+    int TimMax(NST ns[])
+    {
+        int lc = ns[0].fitness;
+        int gt = ns[0].realValue;
+        for(int i = 0; i < 20; i++)
+        {
+            if(ns[i].fitness > lc)
+            {
+                lc = ns[i].fitness;
+                gt = ns[i].realValue;
+            }
+        }
+        return gt;
+    }
+    // Ghi File
+    //void GhiFile(int n)
+    //{
+    //    FILE *f = fopen("Release/OUTPUT.txt", "w");
+    //    fprintf(f, "%d", n);
+    //}
+
+    // Main
+    void main(int argc, char* argv[])
+    {
+        a = 0;
+        b = 0;
+        c = 0;
+        initRand();
+
+        char *bit = new char[8];
+
+        //FILE* f = fopen("Release/INPUT.txt", "r");
+        FILE* f = fopen(argv[1], "r");
+        fscanf(f, "%d %d %d", &a, &b, &c);
+        fscanf(f,"%d %d %f %f",&Gen, &PopSize, &xacxuatlai, &dotbien);
+
+        
+
+        NST *ns = new NST[20];
+        NST cha, me;
+        for (int i = 0; i < 20; i++)
+        {
+            ns[i].realValue = Random(0, 255);
+            ns[i].fitness = tinhFitness(ns[i]);
+            strncpy(ns[i].bitstring,chuyenNhiPhan(ns[i].realValue),8);
+        }
+
+        NST *quanthemoi = new NST[20];
+        int dem = 0;
+        for(int i = 0; i < Gen; i++)
+        {
+            while(dem < PopSize)
+            {
+                cha = chonlocRieng(ns);
+                me = chonlocRieng(ns);
+                NST con1 = batdaulaicon1(cha,me);
+                NST con2 = batdaulaicon2(cha,me);
+                NST condb1 = dotbiencon2(con1);
+                NST condb2 = dotbiencon2(con2);
+
+                int flag = 0;
+                int flag1 = 0;
+                for(int l = 0; l < dem; l++)
+                {
+                    if(quanthemoi[l].realValue == con1.realValue)
+                    {
+                        flag = 1;
+                        
+                    }
+                    if(quanthemoi[dem].realValue != con2.realValue)
+                    {
+                        flag1 = 1;
+                    }
+
+                }
+                if(flag == 0)
+                {
+                    quanthemoi[dem] = con1;
+                    dem++;
+                }
+                if(flag1 == 0)
+                {
+                    quanthemoi[dem] = con2;
+                    dem++;
+                }
+            }
+            for(int j = 0; j < dem; j++)
+            {
+                ns[j] = quanthemoi[j];
+            }
+            
+            dem = 0;
+
+        }
+        
+        cout << TimMax(ns) << endl;
+        //GhiFile(TimMax(ns));
+        FILE *f1 = fopen(argv[2], "w");
+        fprintf(f1, "%d", TimMax(ns));
+        fclose(f1);
+        cin >> dem;        
+        
+    } 
+
+    Đã được chỉnh sửa lần cuối bởi nndung179 : 20-02-2012 lúc 11:45 PM. 
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+20-02-2012, 10:11 PM #4
+No Avatar
+phancuc
+phancuc là offline Thành viên mới
+
+Ngày gia nhập
+    12 2011
+Bài viết
+    5	
+
+    bạn có code bài của mình ko? gửi minh xin với. Bài của mình là: ứng dụng giải thuật di truyền vào bài toán tìm kiếm văn bản. thank bạn nha
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+20-02-2012, 10:46 PM #5
+Avatar của clchicken
+clchicken
+clchicken là offline Thành viên nhiệt tình
+
+Ngày gia nhập
+    10 2011
+Bài viết
+    552	
+
+    Cuối cùng vẫn là xin code.
+    Sao ko chịu khó học lấy cái GIẢI THUẬT DI TRUYỀN 1 phát đi là hiểu vấn đề rồi tự làm 1 cái tìm kiếm văn bản chứ sao mà phải đi xin code mãi thế ?
+
+    Um Mani Padme Hum...!!
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+21-02-2012, 09:09 AM #6
+No Avatar
+phancuc
+phancuc là offline Thành viên mới
+
+Ngày gia nhập
+    12 2011
+Bài viết
+    5	
+
+Mặc định cách giải phương trình bậc 2 bằng giải thuật di truyền
+
+    ac, đọc lý thuyết thì hiểu đó, mỗi tội không biết code thôi, b có gửi mình xin, thanks b trc nha
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+21-02-2012, 06:07 PM #7
+No Avatar
+nndung179
+nndung179 là offline Thành viên nhiệt tình
+
+Ngày gia nhập
+    10 2010
+Bài viết
+    177	
+
+    Vậy thì bạn cố gắng cài đặt đi. Không hiểu thì post lên mọi người sẽ giúp cho.
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+23-02-2012, 11:31 AM #8
+No Avatar
+ldthao56
+ldthao56 là offline Thành viên mới
+
+Ngày gia nhập
+    05 2010
+Nơi ở
+    Trên núi
+Bài viết
+    24	
+
+    hehe hinh nhu la tinh trang co bai tap roi post de bai len roi doi a e gia coppy code hoi bi nhieu, ben vn-zoom cung mot dong giai dum, it ai chui lam cho co van de roi dua ra a e thao luan. day moi hay. chu post de len bat ngta giai ko thi hap dan gi nua
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+13-09-2017, 08:37 PM #9
+No Avatar
+minhkhoipy
+minhkhoipy là offline Thành viên mới
+
+Ngày gia nhập
+    09 2016
+Bài viết
+    1	
+
+    Trích dẫn Nguyên bản được gửi bởi nndung179 Xem bài viết
+    Cậu lấy tham khảo bài này. Chạy với chế độ Debug nha.
+
+
+    PHP Code:
+    // GA.cpp : Defines the entry point for the console application.
+    //
+
+    #include "stdafx.h"
+
+    int a;
+    int b;
+    int c;
+    int Gen;
+    int PopSize;
+    float xacxuatlai;
+    float dotbien;
+
+
+    struct NST
+    {
+        char bitstring[8];
+        int realValue;
+        int fitness;
+        float cantren;
+        float canduoi;
+    };
+
+
+    void initRand()
+    {
+        srand((unsigned)(time(0)));
+    }
+
+    // Random 1 so ngau nhien
+    int Random(int min, int max)
+    {
+
+        if (min >= max)
+            return 0;
+        int d = max - min;
+        return (rand() % (d + 1) + min);
+    }
+
+    // Chuyen tu thap phan sang nhi phan
+    char* chuyenNhiPhan(int num)
+    {
+        int sodu;
+        char bit[8];
+        for(int i = 7; i >= 0; i--)
+        {
+            sodu = num % 2;
+            num = num / 2;
+
+            if(sodu == 0)
+            {
+                bit[i] = '0';
+            }
+            else
+            {
+                if(sodu == 1)
+                {
+                    bit[i] = '1';
+                }
+            }
+
+        }    
+        return bit;
+    }
+
+    int tinhFitness(NST ns)
+    {
+        int kq;
+        kq = a * ns.realValue * ns.realValue  + b * ns.realValue + c;    
+        return kq;
+    }
+
+    int tinhRealValue(NST sn)
+    {
+        int dem = 0;
+        int tong = 0;
+        for (int i = 7; i >= 0; i--)
+        {
+            if(sn.bitstring[i] == '1')
+            {
+                sn.bitstring[i] = 1;
+            }
+            else
+            {
+                if(sn.bitstring[i] == '0')
+                {
+                    sn.bitstring[i] = 0;
+                }
+            }
+            tong = tong +  pow(2,(float)dem) * sn.bitstring[i];
+            dem++;
+        }
+        return tong;
+    }
+
+    void chonLoc(NST *ns)
+    {
+        int sum = 0;
+        int kq;
+        for(int i = 0; i < 20; i++)
+        {
+            sum = sum + ns[i].realValue;
+        }
+        int can = 0;
+        for(int j = 0; j < 20; j++)
+        {
+            kq = ns[j].realValue / sum;
+            ns[j].canduoi = can;
+            ns[j].cantren = can + kq;
+            can = can + kq;
+        }
+    }
+
+    NST chonlocRieng(NST *ns)
+    {
+        NST cha = ns[0];
+        int rand = Random(0, 100);
+        int sum = 0;
+        float kq;
+        float can = 0;
+
+        for(int i = 0; i < 20; i++)
+        {
+            sum = sum + ns[i].fitness;
+        }
+        for(int j = 0; j < 20; j++)
+        {
+            kq = (int)((ns[j].fitness*1.0 / sum) * 100);
+            ns[j].canduoi = can;
+            ns[j].cantren = can + kq;
+            can = can + kq;
+        }
+
+        for(int k = 0; k < 20; k++)
+        {
+            if(rand >= ns[k].canduoi && rand < ns[k].cantren)
+            {
+                cha = ns[k];
+            }
+        }
+        return cha;
+    }
+    // lai con 1
+    NST batdaulaicon1(NST cha, NST me)
+    {
+        NST con1 = me;
+        strncpy(cha.bitstring,chuyenNhiPhan(cha.realValue),8);
+        strncpy(me.bitstring,chuyenNhiPhan(me.realValue),8);
+
+
+        int rand = Random(0, 100);
+        int i = Random (0,7);
+        if(rand < xacxuatlai * 100)
+        {
+            for(int a = i + 1; a < 8; a++)
+            {
+                con1.bitstring[a] = cha.bitstring[a];
+            }
+            con1.realValue = tinhRealValue(con1);
+            con1.fitness = tinhFitness(con1);
+        }
+
+        return con1;
+    }
+    // lai con 2
+    NST batdaulaicon2(NST cha, NST me)
+    {
+        NST con2 = cha;
+        strncpy(cha.bitstring,chuyenNhiPhan(cha.realValue),8);
+        strncpy(me.bitstring,chuyenNhiPhan(me.realValue),8);
+
+        int rand = Random(0, 100);
+        int i = Random(0,7);
+
+        //so sanh voi xac xuat lai, cai nay chua lam
+        if (rand < xacxuatlai * 100)
+        { 
+            // bat dau lai
+            for(int j = 0; j <= i; j++)
+            {
+                con2.bitstring[j] = me.bitstring[j];
+            }
+            con2.realValue = tinhRealValue(con2);
+            con2.fitness = tinhFitness(con2);
+        }
+
+        return con2;
+    }
+    //dot bien con 1
+    NST dotbiencon1(NST con1)
+    {
+        NST con1DB = con1;
+        for(int i = 0; i < 8; i++)
+        {
+            int rand = Random(0, 100); 
+            int k = Random(0, 7);
+            // sksanh xac xuat dot bien roi moi lai, cai nay chua lam
+            if(rand < dotbien * 100 && k == i)
+            {
+                // dot bien
+                if(con1.bitstring[i] == '1')
+                {
+                    con1DB.bitstring[i] = '0';
+                }
+                if(con1.bitstring[i] == '0')
+                {
+                    con1DB.bitstring[i] = '1';
+                }
+            }
+            con1DB.realValue = tinhRealValue(con1DB);
+            con1DB.fitness = tinhFitness(con1DB);
+        }
+        return con1DB; 
+    }
+    // dot bien con 2
+    NST dotbiencon2(NST con2)
+    {
+        NST con2DB = con2;
+        for(int i = 0; i < 8; i++)
+        {
+            int rand = Random(0, 100); 
+            int k = Random(0, 7);
+            // so sanh xac xuat dot bien roi moi lai
+            if(rand < dotbien * 100 && i == k)
+            { 
+                // dot bien
+                if(con2.bitstring[i] == '1')
+                {
+                    con2DB.bitstring[i] = '0';
+                }
+                if(con2.bitstring[i] == '0')
+                {
+                    con2DB.bitstring[i] = '1';
+                }
+            }
+            con2DB.realValue = tinhRealValue(con2DB);
+            con2DB.fitness = tinhFitness(con2DB);
+        }
+        return con2DB; 
+    }
+    int TimMax(NST ns[])
+    {
+        int lc = ns[0].fitness;
+        int gt = ns[0].realValue;
+        for(int i = 0; i < 20; i++)
+        {
+            if(ns[i].fitness > lc)
+            {
+                lc = ns[i].fitness;
+                gt = ns[i].realValue;
+            }
+        }
+        return gt;
+    }
+    // Ghi File
+    //void GhiFile(int n)
+    //{
+    //    FILE *f = fopen("Release/OUTPUT.txt", "w");
+    //    fprintf(f, "%d", n);
+    //}
+
+    // Main
+    void main(int argc, char* argv[])
+    {
+        a = 0;
+        b = 0;
+        c = 0;
+        initRand();
+
+        char *bit = new char[8];
+
+        //FILE* f = fopen("Release/INPUT.txt", "r");
+        FILE* f = fopen(argv[1], "r");
+        fscanf(f, "%d %d %d", &a, &b, &c);
+        fscanf(f,"%d %d %f %f",&Gen, &PopSize, &xacxuatlai, &dotbien);
+
+        
+
+        NST *ns = new NST[20];
+        NST cha, me;
+        for (int i = 0; i < 20; i++)
+        {
+            ns[i].realValue = Random(0, 255);
+            ns[i].fitness = tinhFitness(ns[i]);
+            strncpy(ns[i].bitstring,chuyenNhiPhan(ns[i].realValue),8);
+        }
+
+        NST *quanthemoi = new NST[20];
+        int dem = 0;
+        for(int i = 0; i < Gen; i++)
+        {
+            while(dem < PopSize)
+            {
+                cha = chonlocRieng(ns);
+                me = chonlocRieng(ns);
+                NST con1 = batdaulaicon1(cha,me);
+                NST con2 = batdaulaicon2(cha,me);
+                NST condb1 = dotbiencon2(con1);
+                NST condb2 = dotbiencon2(con2);
+
+                int flag = 0;
+                int flag1 = 0;
+                for(int l = 0; l < dem; l++)
+                {
+                    if(quanthemoi[l].realValue == con1.realValue)
+                    {
+                        flag = 1;
+                        
+                    }
+                    if(quanthemoi[dem].realValue != con2.realValue)
+                    {
+                        flag1 = 1;
+                    }
+
+                }
+                if(flag == 0)
+                {
+                    quanthemoi[dem] = con1;
+                    dem++;
+                }
+                if(flag1 == 0)
+                {
+                    quanthemoi[dem] = con2;
+                    dem++;
+                }
+            }
+            for(int j = 0; j < dem; j++)
+            {
+                ns[j] = quanthemoi[j];
+            }
+            
+            dem = 0;
+
+        }
+        
+        cout << TimMax(ns) << endl;
+        //GhiFile(TimMax(ns));
+        FILE *f1 = fopen(argv[2], "w");
+        fprintf(f1, "%d", TimMax(ns));
+        fclose(f1);
+        cin >> dem;        
+        
+    } 
+    bài viết khá lâu rồi nhưng cố gắng rep để hỏi bác hy vọng bác còn ở trong trang này.e cảm ơn.
+    bác có thể giải thích qua qua 1 chút về cái bác code dc k ạ.e ngu nên xin được giải thích ạ.qua thôi e sẽ hiểu ạ.tks bác
+
+Trả lời cùng với trích dẫn Trả lời cùng với trích dẫn
+13-09-2017, 10:59 PM #10
+No Avatar
+prog10
+prog10 bây giờ đang online Moderator
+
+Ngày gia nhập
+    01 2013
+Bài viết
+    1,464	
+
+    Đoạn code này rất máy móc vì không tận dụng được bit manipulation (mutation) và ở hàm decode. Lặp lại code nhiều lần.
+
+    Bạn tìm sách "Giải bài toán trên máy tính như thế nào" - tập 2, khoảng 100 trang cuối cùng có code minh họa.
+
+
+boolean | true

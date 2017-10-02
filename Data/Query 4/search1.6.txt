@@ -1,0 +1,151 @@
+URL | http://tailieu.vn/tag/suy-dien-tien.html
+Title |Suy Diễn Tiến
+Content |Suy diễn tiến
+Xem 1-20 trên 374 kết quả Suy diễn tiến
+
+    Bài giảng Suy diễn với logic bậc nhất - Tô Hoài Việt
+    Bài giảng Suy diễn với logic bậc nhất - Tô Hoài Việt
+
+    Bài giảng Suy diễn với logic bậc nhất - Tô Hoài Việt nhằm trình bày những nội dung về cơ sở của hợp giải trên logic bậc nhất, hợp giải trên logic bậc nhất, các ví dụ, suy diễn tiến và suy diễn lùi, thuật giải suy diễn tiến, thuật giải suy diễn lùi.
+
+    ppt22p anhgau456 23-11-2015 34 8
+      Download
+    Bài giảng Hệ chuyên gia – Chương 3: Cơ chế suy diễn
+    Bài giảng Hệ chuyên gia – Chương 3: Cơ chế suy diễn
+
+    Bài giảng "Hệ chuyên gia – Chương 3: Cơ chế suy diễn" cung cấp cho người học các kiến thức về suy diễn tiến và suy diễn lùi. Đây là một tài liệu hữu ích dành cho các bạn sinh viên và những ai quan tâm dùng làm tài liệu học tập và nghiên cứu.
+
+    pdf12p bautroibinhyen11 03-01-2017 12 3
+      Download
+    Bài giảng Trí tuệ nhân tạo - Chương 6: Biểu diễn tri thức và sử dụng luật
+    Bài giảng Trí tuệ nhân tạo - Chương 6: Biểu diễn tri thức và sử dụng luật
+
+    Mời các bạn cùng tham khảo "Bài giảng Trí tuệ nhân tạo - Chương 6: Biểu diễn tri thức và sử dụng luật" để nắm bắt những nội dung về tri thức khai báo và thủ tục, suy diễn tiến, suy diễn lùi, lập trình logic và giới thiệu ngôn ngữ Prolog. Mời các bạn tham khảo.
+
+    pdf27p anhgau456 23-11-2015 22 5
+      Download
+    Thuật toán tìm chuỗi suy diễn
+    Thuật toán tìm chuỗi suy diễn
+
+    Trước tiên mời các bạn cùng mình thống nhất vấn đề sau : Nếu ta có : B Í A và B C thì A A,C Ta có điều trên là vì : B Í A = A B (luật phản xạ) mà : B C (giả thiết) suy ra : A C (luật bắc cầu) suy ra : A A,C (luật tăng trưởng) Bài toán tìm chuỗi suy diễn : Cho tập phụ thuộc hàm (PTH) F={f1,f2,...,fm}. Tìm chuỗi suy diễn X Y nào đó. Để thực hiện thuật toán này ta cần một mảng mà mỗi phần tử của mảng có cấu trúc như sau : {tập thuộc tính...
+
+    doc5p ittvnn 27-12-2010 220 63
+      Download
+    NÂNG CAO TÍNH KHẢ DỤNG CỦA HỆ DẪN ĐƯỜNG PHƯƠNG TIỆN CƠ GIỚI TÍCH HỢP MEMS - INS/GPS
+    NÂNG CAO TÍNH KHẢ DỤNG CỦA HỆ DẪN ĐƯỜNG PHƯƠNG TIỆN CƠ GIỚI TÍCH HỢP MEMS - INS/GPS
+
+    NÂNG CAO TÍNH KHẢ DỤNG CỦA HỆ DẪN ĐƯỜNG PHƯƠNG TIỆN CƠ GIỚI TÍCH HỢP MEMS - INS/GPS DỰA TRÊN BỘ LỌC KALMAN BẰNG HỆ SUY DIỄN NƠRON - MỜ THÍCH NGHI PGS. TS. LÊ HÙNG LÂN Bộ môn Điều khiển học Khoa Điện - Điện tử Trường Đại học Giao thông Vận tải ThS.
+
+    pdf8p linhdan05016 27-01-2011 108 42
+      Download
+    Bài giảng Hệ cơ sở tri thức (Tuần 13-15)
+    Bài giảng Hệ cơ sở tri thức (Tuần 13-15)
+
+    Bài giảng Hệ cơ sở tri thức (Tuần 13-15) trình bày các nội dung: Dạng luật trong CSTT, các dạng luật suy diễn, các phép toán, tiến trình suy diễn, phân giải luật suy diễn không đệ qui, các chức năng quản trị CSTT.
+
+    pdf12p lalala06 02-12-2015 24 9
+      Download
+    Bài giảng Trí tuệ nhân tạo - Bài 9, 10: Biểu diễn tri thức bởi các luật và lập luận
+    Bài giảng Trí tuệ nhân tạo - Bài 9, 10: Biểu diễn tri thức bởi các luật và lập luận
+
+    Trong bài giảng này, người học sẽ cùng tìm hiểu về các cách biểu diễn tri thức bởi các luật và lập luận. Thông qua bài học này người học sẽ nắm bắt được cách biểu diễn biểu diễn tri thức bằng luật sinh, biết được các cơ chế suy diễn như lập luận tiến và lập luận lùi,... Mời các bạn cùng tham khảo.
+
+    pdf16p namthangtinhlang_04 15-11-2015 22 6
+      Download
+    Bệnh suy gan
+    Bệnh suy gan
+
+    Suy gan cấp (Acute Liver Failure ALF) là một tình trạng bệnh lý đa cơ quan phức tạp xuất hiện sau một tác động có hại đến gan và được đặc trưng bởi vàng da, rối loạn đông máu và bệnh lý não tiến triển trong một thời gian ngắn ở một bệnh nhân trước đó có chức năng gan bình thường. ALF là một tình trạng bệnh lý đa dạng bao gồm một loạt các hội chứng lâm sàng khác nhau được quy định bởi nguyên nhân gây bệnh, tuổi của bệnh nhân và thời gian diễn tiến của...
+
+    ppt43p vantuong_x1 29-11-2009 497 154
+      Download
+    Giáo trình Các hệ cơ sở tri thức: Phần 1 - NXB ĐHQG TP.HCM
+    Giáo trình Các hệ cơ sở tri thức: Phần 1 - NXB ĐHQG TP.HCM
+
+    "Giáo trình Các hệ cơ sở tri thức" là một trong những giáo trình chính yếu của chuyên ngành Công nghệ thông tin. Giáo trình được biên soạn dựa trên việc tham khảo nhiều tài liệu có giá trị của các tác giả trong - ngoài nước và nhiều ví dụ từ các ứng dụng thực tiễn. Giáo trình được chia thành hai phần.
+
+    pdf93p talata_8 27-01-2015 128 67
+      Download
+    Báo cáo nghiên cứu khoa học: Tối ưu hoá cấu trúc của mạng nơron mờ bằng giải thuật di truyền
+    Báo cáo nghiên cứu khoa học: Tối ưu hoá cấu trúc của mạng nơron mờ bằng giải thuật di truyền
+
+    Gần đây suy diễn mờ được ứng dụng trong rất nhiều các vấn đề khác nhau như: điều khiển máy móc hay trong các hệ thống sản xuất. Một trong những suy diễn mờ đó là mạng nơron mờ. Có lẽ mạng noron không chỉ hấp dẫn đối với những người yêu thích công nghệ thông tin bởi khả năng do con người huấn luyện, mà còn bởi những ứng dụng thực tiễn trong cuộc sống của nó.
+
+    pdf27p buddy8 13-07-2011 130 59
+      Download
+    Đề tài: "Phân tích nội dung qui luật từ những thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại. Việc nhận thức và vận dụng vào trong hoạt động thực tiễn của anh chị vào trong hoạt động thực tiễn"
+    Đề tài: "Phân tích nội dung qui luật từ những thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại. Việc nhận thức và vận dụng vào trong hoạt động thực tiễn của anh chị vào trong hoạt động thực tiễn"
+
+    Tham khảo luận văn - đề án 'đề tài: "phân tích nội dung qui luật từ những thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại. việc nhận thức và vận dụng vào trong hoạt động thực tiễn của anh chị vào trong hoạt động thực tiễn"', luận văn - báo cáo phục vụ nhu cầu học tập, nghiên cứu và làm việc hiệu quả
+
+    pdf11p carnation89 14-02-2012 139 38
+      Download
+    Công nghệ tri thức và ứng dụng (GS.TSKH. Hoàng Kiếm) - Chương 3. Bên trong một hệ Cơ sở tri thức
+    Công nghệ tri thức và ứng dụng (GS.TSKH. Hoàng Kiếm) - Chương 3. Bên trong một hệ Cơ sở tri thức
+
+    2. Suy diễn tiến : là quá trình suy luận xuất phát từ một số sự kiện ban đầu, xác định các sự kiện có thể được “sinh” ra từ sự kiện này. Ví dụ : Cho 1 cơ sở tri thức được xác định như sau : Các sự kiện : A, B, C, D, E, F, G, H, K
+
+    ppt39p online_12 08-11-2013 56 28
+      Download
+    Không lỗ van ba lá - BS Lê Kim Tuyến (Phần 2)
+    Không lỗ van ba lá - BS Lê Kim Tuyến (Phần 2)
+
+    Diễn tiến: 40% tử vong năm 1 tuổi. 50% tử vong từ 1 - 15 tuổi, tuỳ thuộc tuần hoàn phổi. Biến chứng thần kinh: cơn ngất, abces. Biến chứng VNTM 7%. Loạn nhịp như rung nhĩ, cuồng nhĩ. Suy tim
+
+    pdf28p bigbaby87 01-09-2010 91 18
+      Download
+    Luận văn:Điều khiển nhiệt độ trong lò điện trở sử dụng thuật toán mờ nơ ron
+    Luận văn:Điều khiển nhiệt độ trong lò điện trở sử dụng thuật toán mờ nơ ron
+
+    Lý do chọn đề tài: Gần đây suy diễn mờ được ứng dụng trong rất nhiều các vấn đề khác nhau như: điều khiển máy móc hay trong các hệ thống sản xuất. Một trong những suy diễn mờ đó là mạng nơron mờ. Có lẽ mạng noron không chỉ hấp dẫn đối với những người yêu thích công nghệ thông tin bởi khả năng do con người huấn luyện, mà còn bởi những ứng dụng thực tiễn trong cuộc sống của nó. ...
+
+    pdf21p and_12 08-08-2013 46 17
+      Download
+    Bài giảng Cập nhật điều trị tăng huyết áp ở bệnh nhân bệnh mạch vành - BS. Nguyễn Thanh Hiền
+    Bài giảng Cập nhật điều trị tăng huyết áp ở bệnh nhân bệnh mạch vành - BS. Nguyễn Thanh Hiền
+
+    Bài giảng Cập nhật điều trị tăng huyết áp ở bệnh nhân bệnh mạch vành do BS. Nguyễn Thanh Hiền biên soạn nhằm trang bị cho các bạn những kiến thức về chuỗi diễn tiến bệnh tim mạch; tăng huyết áp dự phòng tiên phát BMV; tăng huyết áp/bệnh mạch vành mạn; tăng huyết áp/suy tim do bệnh mạch vành và một số kiến thức khác. Mời các bạn tham khảo.
+
+     
+
+    ppt41p thuytrang_7 27-08-2015 44 16
+      Download
+    HỘI CHỨNG SUY GIÁP (Kỳ 4)
+    HỘI CHỨNG SUY GIÁP (Kỳ 4)
+
+    MỘT SỐ NGUYÊN NHÂN SUY GIÁP: 1- Suy giáp vô căn: thường được coi như hậu quả do viêm tự miễn dạng teo. 2- Viêm giáp Hashimoto: Suy giáp có tuyên giáp to, chắc như cao su, không đau. Kháng thể kháng giáp tăng cao trong máu. Có thể kèm bệnh tự miễn khác. - Rất ít trường hợp viêm giáp hạt bán cấp , hay viêm giáp lympho bào bán cấp diễn tiến đến suy giáp vĩnh viễn, có thể chỉ suy giáp thoáng qua, tự giới hạn.
+
+    pdf6p thaythuocnhumehien 01-10-2010 51 13
+      Download
+    SUY GIÁP (Kỳ 3)
+    SUY GIÁP (Kỳ 3)
+
+    Chẩn đoán xác định: Không khó đối với những trường hợp điển hình. Cần nghĩ đến suy giáp trước tất cả những trường hợp có biểu hiện nghi ngờ như tuyến giáp lớn hoặc có điều trị iode phóng xạ hoặc phẫu thuật giáp. 1.1. Nếu nghi ngờ suy giáp tiên phát: TSH là xét nghiêm tốt nhất giúp chẩn đoán xác định. TSH bình thường, loại trừ suy giáp tiên phát. TSH tăng rõ ( 20 U/ml), xác định chẩn đoán. Nếu TSH tăng nhẹ (...
+
+    pdf6p thaythuocnhumehien 01-10-2010 42 5
+      Download
+    Một phương pháp giải bài toán suy diễn mờ tổng quát thông qua nội suy mờ và tích hợp mờ
+    Một phương pháp giải bài toán suy diễn mờ tổng quát thông qua nội suy mờ và tích hợp mờ
+
+    Một phương pháp giải bài toán suy diễn mờ tổng quát thông qua nội suy mờ và tích hợp mờ Lần đầu tiên xây dựng và sử dụng hệ đo tương quan huỳnh quang tại Việt nam. - Đây là đề tài đầu tiên trình bày các kết quả đo đạc đơn phân tử/đơn hạt tại Việt nam
+
+    pdf7p butmaucam 27-08-2013 38 5
+      Download
+    Phác đồ chẩn đoán suy dinh dưỡng và điều trị - TS.BS. Lưu Ngân Tâm
+    Phác đồ chẩn đoán suy dinh dưỡng và điều trị - TS.BS. Lưu Ngân Tâm
+
+    Suy dinh dưỡng bệnh nhân là thường gặp trong bệnh viện, chiếm tỉ lệ 30 đến 50% bệnh nhân nằm viện, trong đó suy dinh dưỡng vừa và nặng chiếm 50%. Suy dinh dưỡng ảnh hưởng đáng kể đến diễn tiến lâm sàng và kết quả điều trị và làm suy giảm chức năng miễn dịch, giảm sức cơ như cơ hô hấp, chậm lành vết thương, góp phần làm tăng tỉ lệ nhiễm trùng... Mời các bạn tham khảo để nắm bắt nội dung chi tiết.
+
+    pdf11p thaodien102 06-11-2015 38 5
+      Download
+    Bài giảng Cơ sở dữ liệu - Chương 3: Phụ thuộc hàm
+    Bài giảng Cơ sở dữ liệu - Chương 3: Phụ thuộc hàm
+
+    Bài giảng Cơ sở dữ liệu - Chương 3: Phụ thuộc hàm trình bày định nghĩa, biểu diễn Pth bằng đồ thị, suy diễn logic các phụ thuộc hàm, hệ tiên đề Amstrong, bao đóng, bao đóng của tập thuộc tính, khóa - thuật toán tìm khóa.
+
+    pdf45p maiyeumaiyeu28 13-01-2017 11 5
+      Download
+
++Xem thêm 374 Suy diễn tiến khác
+
+boolean | true

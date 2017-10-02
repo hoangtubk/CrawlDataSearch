@@ -1,0 +1,43 @@
+URL | https://vi.wikipedia.org/wiki/Suy_di%E1%BB%85n_logic
+Title |
+Suy diễn logic
+Content |Suy diễn lôgic, lập luận bằng suy diễn hay suy diễn là lập luận mà trong đó kết luận được rút ra từ các sự kiện được biết trước theo kiểu: nếu các tiền đề là đúng thì kết luận phải đúng. Nghĩa là các sự kiện cho trước đòi hỏi rằng kết luận là đúng.
+
+Kiểu lập luận này khác với lập luận loại suy và lập luận quy nạp, trong đó các tiền đề có thể tiên đoán một xác suất cao của kết luận nhưng không đảm bảo kết luận là đúng.
+
+Suy diễn còn được định nghĩa là kiểu suy luận từ trường hợp tổng quát hơn tới trường hợp cụ thể hơn, hay là suy luận mà trong đó kết luận có độ xác tính ngang bằng với các tiền đề.
+
+Mục lục
+
+    1 Ví dụ
+    2 Tính hiệu lực và tính có cơ sở
+    3 Tham khảo
+    4 Xem thêm
+
+Ví dụ
+
+Người ta có thể nói rằng: "Vì trời mưa nên chắc chắn đường ướt". Tuy nhiên, có một luận cứ ẩn trong câu này: "Nếu trời mưa thì đường ướt.". Sử dụng tiền đề "Nếu trời mưa thì đường ướt.", ta có thể tranh luận rằng "Vì trời mưa nên chắc chắn đường ướt", mà không thể rằng "đường ướt cho nên chắc chắn trời đang mưa". Hoặc ta có thể nói: "Đường không ướt, do đó trời không mưa", nhưng không thể "Trời không mưa, do đó đường không ướt.
+
+Đó là vì đường ướt là một kết quả không tránh khỏi của mưa, nhưng đường ướt không nhất thiết phải do mưa.
+Tính hiệu lực và tính có cơ sở
+
+Các luận cứ suy diễn có thể có hiệu lực hoặc không có hiệu lực. Các luận cứ có hiệu lực tuân theo các quy tắc đã định trước. Đối với tính hiệu lực, việc các quy tắc định trước đúng hay sai không được xét đến. Do đó, các kết luận có hiệu lực không nhất thiết là kết luận đúng, và các kết luận không có hiệu lực có thể không sai.
+
+Khi một luận cứ vừa có hiệu lực vừa đúng, nó được coi là có cơ sở (sound). Khi nó có hiệu lực, nhưng không đúng, nó được coi là không có cơ sở.
+
+Ví dụ:
+
+Suy diễn có hiệu lực:
+
+    Do Socrates là một người,
+    và do tất cả mọi người đều không bất tử,
+    do đó Socrates cũng không bất tử.
+
+Suy diễn trên còn được coi là có cơ sở, do hai tiền đề "Socrates là người" và "tất cả mọi người đều không bất tử" là đúng.
+
+Suy diễn không có hiệu lực:
+
+    Tất cả các thí sinh thi trượt đều không được học bổng,
+    tất cả các thí sinh đỗ vớt đều không được học bổng,
+    do đó tất cả các thí sinh đỗ vớt đều thi trượt. 
+boolean | false

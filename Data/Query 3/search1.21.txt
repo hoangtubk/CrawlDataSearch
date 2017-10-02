@@ -1,0 +1,74 @@
+URL | https://tusach.thuvienkhoahoc.com/wiki/T%C3%ADnh_to%C3%A1n_ti%E1%BA%BFn_ho%C3%A1_s%E1%BB%AD_d%E1%BB%A5ng_gi%E1%BA%A3i_th%E1%BA%ADt_di_truy%E1%BB%81n
+Title | Tính toán tiến hoá sử dụng giải thật di truyền
+Content | 
+    1 LỜI NÓI ĐẦU
+    2 Chương 1: Tổng quan về giải thuật di truyền
+    3 1.1. Giải thuật di truyền đơn giản
+    4 1.1.1. Mã hoá
+    5 1.1.2. Các toán tử di truyền
+    6 1.2. Nền tảng toán học của giải thuật di truyền
+    7 1.3. Giải thuật di truyền mã hoá số thực
+    8 1.3.1. Toán tử chọn lọc
+    9 1.3.2. Toán tử lai ghép
+    10 1.3.3. Toán tử đột biến
+    11 1.3.4. Toán tử tái tạo
+    12 1.1.3. Sơ đồ chung cho giải thuật di truyền
+    13 Chương 2. Tính toán tiến hoá
+    14 2.1. Sự thích nghi trong tính toán tiến hoá
+    15 2.2. Tác động của kích cỡ quần thể trong giải thuật di truyền mã hoá số thực
+    16 2.2.1. Kích cỡ quần thể và số lần lặp
+    17 2.3. Điều chỉnh tham số của toán tử lai ghép
+    18 2.3.1. Phân tích các dạng lai ghép kinh điển
+    19 2.3.2. Toán tử lai ghép SBX
+    20 2.3.3. Điều kiện thành công của toán tử lai ghép
+    21 2.4. Cơ cấu lựa chọn thích nghi toán tử lai ghép
+    22 Chương 3. Một số ứng dụng tính toán tiến hoá
+    23 3.1. Bài toán đa mục tiêu
+    24 3.2. Bài toán tìm đường đi cho Robot
+    25 TÀI LIỆU THAM KHẢO
+    26 Bài liên quan
+    27 Liên kết đến đây
+
+LỜI NÓI ĐẦU
+
+Tính toán tiến hóa (Evolutionary computation): ứng dụng các khái niệm sinh học như quần thể, biến dị và đấu tranh sinh tồn để sinh các lời giải ngày càng tốt hơn cho bài toán. Các phương pháp này thường được chia thành các thuật toán tiến hóa (ví dụ thuật toán gien) và trí tuệ bầy đàn (swarm intelligence) (chẳng hạn hệ kiến).
+Giải thuật di truyền là một kỹ thuật của khoa học máy tính nhằm tìm kiếm giải pháp thích hợp cho các bài toán tối ưu tổ hợp (combinatorial optimization). Giải thuật di truyền là một phân ngành của giải thuật tiến hóa vận dụng các nguyên lý của tiến hóa như di truyền, đột biến, chọn lọc tự nhiên, và trao đổi chéo.
+Giải thuật di truyền thường được ứng dụng nhằm sử dụng ngôn ngữ máy tính để mô phỏng quá trình tiến hoá của một tập hợp những đại diện trừu tượng (gọi là những nhiễm sắc thể) của các giải pháp có thể (gọi là những cá thể) cho bài toán tối ưu hóa vấn đề. Tập hợp này sẽ tiến triển theo hướng chọn lọc những giải pháp tốt hơn.
+Thông thường, những giải pháp được thể hiện dưới dạng nhị phân với những chuỗi 0 và 1, nhưng lại mang nhiều thông tin mã hóa khác nhau. Quá trình tiến hóa xảy ra từ một tập hợp những cá thể hoàn toàn ngẫu nhiên ở tất cả các thế hệ. Trong từng thế hệ, tính thích nghi của tập hợp này được ước lượng, nhiều cá thể được chọn lọc định hướng từ tập hợp hiện thời (dựa vào thể trạng), được sửa đổi (bằng đột biến hoặc tổ hợp lại) để hình thành một tập hợp mới. Tập hợp này sẽ tiếp tục được chọn lọc lặp đi lặp lại trong các thế hệ kế tiếp của giải thuật. Sự tính toán tiến hoá sử dụng giải thuật di truyền sẽ đem lại một số điều mới, dựa vào máy tính, dự vào cơ chế chọn lọc và sinh sản tự nhiên mà chúng ta có thể phát triển tính toán mềm hay trí tuệ tính toán nhằm nghiên cứu mô hình tính toán mô phỏng hoạt động của con người hay sự tiến hoá tự nhiên. Sự tính toán này dựa trên các kỹ thuật cơ bản: logic mờ (Fuzzy Logic), mạng nơron nhân tạo (Neural Network), giải thuật di truyền (Genetic Algorithm) và mô phỏng tôi luyện (Simulated Annealing).
+Chương 1: Tổng quan về giải thuật di truyền
+1.1. Giải thuật di truyền đơn giản
+1.1.1. Mã hoá
+1.1.2. Các toán tử di truyền
+1.2. Nền tảng toán học của giải thuật di truyền
+1.3. Giải thuật di truyền mã hoá số thực
+1.3.1. Toán tử chọn lọc
+1.3.2. Toán tử lai ghép
+1.3.3. Toán tử đột biến
+1.3.4. Toán tử tái tạo
+1.1.3. Sơ đồ chung cho giải thuật di truyền
+Chương 2. Tính toán tiến hoá
+2.1. Sự thích nghi trong tính toán tiến hoá
+2.2. Tác động của kích cỡ quần thể trong giải thuật di truyền mã hoá số thực
+2.2.1. Kích cỡ quần thể và số lần lặp
+2.3. Điều chỉnh tham số của toán tử lai ghép
+2.3.1. Phân tích các dạng lai ghép kinh điển
+2.3.2. Toán tử lai ghép SBX
+2.3.3. Điều kiện thành công của toán tử lai ghép
+2.4. Cơ cấu lựa chọn thích nghi toán tử lai ghép
+Chương 3. Một số ứng dụng tính toán tiến hoá
+3.1. Bài toán đa mục tiêu
+3.2. Bài toán tìm đường đi cho Robot
+TÀI LIỆU THAM KHẢO
+
+Tiếng Việt
+[1]. Nguyễn Đình Phúc, Lập trình tiến hoá, NXB Giáo dục, 2001.
+[2]. Bùi Công Cường, Nguyễn Doãn Phước, Hệ mờ mạng nơron và ứng dụng, NXB Khoa học và kỹ thuật, 2001.
+[3]. Hoàn Kiếm, Lê Hoàng Thái, Giải thuật di truyền, cách giải tự nhiên các bài toán trên máy tính, NXB Giáo dục, 2000.
+[4]. Vũ Xuân Mạnh, Phát triển một số kỹ thuật trong tính toán mềm, Luận án Tiến sĩ, Viện công nghệ thông tin - Hà Nội, 2006.
+[5]. Bách khoa toàn thư mở, Http://vi.wikipedia.org, 2006.
+
+Tiếng Anh
+[6]. John H. Holland, Computer programs that "evolve" in ways that resemble natural selection can solve complex problems even their creators do not fully understand, http://www.econ.iastate.edu/tesfatsi/holland.GAIntro.htm, 2006.
+[7]. Jean-Philippe Rennard, Ph.D. Genetic Algorithm Viewer: Demonstration of a Genetic Algorithm. http://www.rennard.org/alife/english/gavintrgb.html, May 2000.
+[8]. Adam Marczyk, Genetic Algorithms and Evolutionary Computation, 2004.
+boolean | true

@@ -1,0 +1,26 @@
+URL | http://elib.ictu.edu.vn/Opacdigital/wpDetail.aspx?Id=2643
+Title | Ứng dụng giải thuật di truyền vào phân loại tài liệu dạng văn bản
+Content | Đơn vị: 	Đại học Công nghệ thông tin và Truyền thông Thái nguyên
+	Tiêu đề: 	Ứng dụng giải thuật di truyền vào phân loại tài liệu dạng văn bản
+	Tác giả: 	Trần Thị Thanh
+	Từ khóa/ Chủ đề: 	Khai phá dữ liệu, Giải thuật di truyền, Phân loại văn bản
+	Tóm tắt: 	Tìm hiểu về khai phá dữ liệu, giải thuật di truyền. Nghiên cứu ứng dụng giải thuật di truyền vào phân loại tài liệu dạng văn bản
+	Loại tài liệu: 	Điện tử
+	Nguồn gốc: 	Nộp lưu chiểu
+	Ngôn ngữ: 	Tiếng Việt
+	Người hướng dẫn: 	Bùi Thế Hồng
+	Năm bảo vệ: 	2012
+	Số trang: 	74
+	Nơi bảo vệ: 	Trường ĐH Công nghệ Thông tin và Truyền thông
+	Chuyên ngành: 	Khoa học máy tính
+.
+Giá tiền: 	Miễn phí 	  	Bình chọn: 	
+1
+2
+3
+4
+5
+Ngày tạo: 	09/09/2016 		Điểm bình chọn: 	
+0
+Chuyên đề: 	- Khoa học máy tính
+boolean | f

@@ -1,0 +1,22 @@
+URL | https://sj.ctu.edu.vn/ql/docgia/tacgia-1134/baibao-5029.html
+Title | TốI ƯU HóA Bộ ĐIềU KHIểN PID BằNG GIảI THUậT DI TRUYềN
+Content |  TốI ƯU HóA Bộ ĐIềU KHIểN PID BằNG GIảI THUậT DI TRUYềN
+Số tạp chí 09(2008) Trang: 241-248
+Tác giả: Nguyễn Chí Ngôn
+Tóm tắt
+Tải về
+
+Abstract
+
+PID controller is a very popular controller in industry, that is commonly designed by the Ziegler-Nichols tuning method. However, due to the effect of noise and the errors of measuring devices, it is difficult to obtain the optimal values of Kp, Kd and Ki of the PID controller. In that case, the designer needs an experimental process for fine tuning the controller, which is unreliable to reach the optimum parameters. In order to improve the fine tuning process, the paper presents a solution of using Genetic Algorithm to achieve the optimum PID controller around the operating point of the Ziegler-Nichols algorithm. The results getting from simulations on DC motor speed control system indicates that using Genetic Algorithm can improve the quality of the PID controller. The system response has no overshoot. The rising time is reduced up to 98±0.24%. And the steady-state time is decreased up to 97±0.33%. 
+
+Keywords: PID controller, Ziegler-Nichols tuning method, genetic algorithm
+
+Title: PID Controller Optimization using Genetic Algorithm
+
+Tóm tắt
+
+Bộ điều khiển PID là một bộ điều khiển rất phổ biến trong công nghiệp. Phương pháp thông dụng để chỉnh định bộ điều khiển này là giải thuật Ziegler-Nichols. Tuy nhiên, do ảnh hưởng của nhiễu và sai số của thiết bị đo mà phương pháp này khó có thể đạt được giá trị tối ưu cho các hệ số Kp, Kd và Ki của bộ điều khiển PID. Trong trường hợp đó, người thiết kế phải thực hiện một quá trình tinh chỉnh các tham số của bộ điều khiển. Điều đó đòi hỏi kinh nghiệm, cũng như không có cơ sở để xác định giá trị tối ưu cho các tham số cần tinh chỉnh. Nhằm hổ trợ cho quá trình này, bài báo trình bày một kỹ thuật ứng dụng giải thuật di truyền để tìm kiếm giá trị tối ưu của bộ điều khiển PID xung quanh điểm điều hành của giải thuật Ziegler-Nichols. Kết quả mô phỏng trên bài toán điều khiển tốc độ động cơ điện một chiều cho thấy, chất lượng bộ điều khiển được cải thiện rõ rệt. Đáp ứng của hệ thống không bị vọt lố đáng kể. Thời gian tăng của đáp ứng được rút ngắn 98±0,24%. Thời gian xác lập của hệ thống được rút ngắn đến 97±0,33%.
+
+Từ khóa:  Bộ điều khiển PID, phương pháp Ziegler-Nichols, giải thuật di truyền
+boolean | false

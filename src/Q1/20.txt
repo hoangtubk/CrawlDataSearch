@@ -1,0 +1,188 @@
+https://kipalog.com/posts/Xay-dung-he-thong--Goi-y----Phan-2
+
+Xây dựng hệ thống “Gợi ý…” (Phần 2)
+
+
+
+
+
+ 
+            Minh Thành viết ngày 12/08/2016
+          
+
+
+
+        Xây dựng hệ thống “Gợi ý…” (Phần 2)
+    
+    
+ 
+              Đăng nhập
+ 
+              Đăng ký
+ 
+    Chú ý
+  
+      Ok
+    
+      xfbml      : true,
+      version    : 'v2.3'
+  
+      
+      Không
+    
+      Có
+    
+  
+      
+      Không
+    
+      Có
+    
+    Chào bạn! Hãy đăng ký hoặc đăng nhập để tiếp tục nhé!
+  
+  
+ 
+          or
+        
+          or
+        
+ 
+            twitter
+ 
+            github
+ 
+      
+Xây dựng hệ thống “Gợi ý…” (Phần 2)
+ 
+          
+Tiếp tục loạt bài nào…
+Phần 1
+Ý tưởng
+Ví dụ
+Giáo sư X thích Mystique và bác Sói.
+Ví dụ 2
+Thuật toán
+Gọi tập hợp những người hợp tính với người thứ 1 là U1, người thứ 2 là U2
+Ví dụ
+Những người cả U1 và U2 đều thích sẽ là U1 ∩ U2
+Tất cả những người cả 2 đều thích sẽ là U1 ∪ U2
+Ví dụ
+Ví dụ
+Ví dụ
+Tính xem Bác X có hợp với Scott không bằng công thức trên
+Kết luận
+      
+        
+          google plus
+        
+          twitter
+        
+        Bình luận
+      
+                  Xoá bình luận
+                
+            
+Hủy
+               
+            
+Hiển thị thử
+ 
+ 
+          Minh Thành
+        
+ 
+5
+            bài viết.
+          
+30
+            người follow
+          
+        Cùng một tác giả
+      
+            20
+            
+            0
+            
+Xây dựng hệ thống “Gợi ý…” (Phần 1)
+                  nodejs
+                
+                  express
+                
+                  coffeescript
+                
+                
+                  Gợi ý
+                
+            
+                Minh Thành
+              
+              viết
+              1 năm
+              trước
+            
+              20
+              
+              0
+              
+            17
+            
+            6
+            
+Khởi nghiệp? Xem film này đi!
+                
+                  film
+                
+            
+                Minh Thành
+              
+              viết
+              1 năm
+              trước
+            
+              17
+              
+              6
+              
+            6
+            
+            0
+            
+Xây dựng hệ thống “Gợi ý…” (Phần 3)
+            
+                Minh Thành
+              
+              viết
+              1 năm
+              trước
+            
+              6
+              
+              0
+              
+bình luận
+ 
+              Minh Thành
+              
+ 
+5
+            bài viết.
+            
+30
+            người follow
+          
+           Đầu mục bài viết
+        
+          x
+        
+          Khám phá
+        
+          Đăng nhập
+        
+          Điều khoản
+        
+          Phản hồi
+        
+          Yêu cầu
+        
+        
+        

@@ -1,0 +1,90 @@
+URL | http://doc.edu.vn/tai-lieu/do-an-tim-hieu-giai-thuat-di-truyen-ung-dung-giai-bai-toan-lap-lich-6257/
+Title | Đồ án Tìm hiểu giải thuật di truyền ứng dụng giải bài toán lập lịch
+Content | MUC LUC
+
+LỜI MỞ ĐẦU 4
+
+CHƯƠNG I- TÌM HIỂU VỀ BÀI TOÁN LẬP LỊCH 5
+
+1.1 Tìm hiểu chung 5
+
+1.2 Các đặc tính của bài toán lập lịch 6
+
+1.3 Bài Toán Lập Lịch Thời Khoá Biểu 6
+
+1.3.1 Giới thiệu bài toán 6
+
+1.3.2 Dữ liệu bài toán 6
+
+1.4 Một số bước cơ bản để giải quyết bài toán lập lịch thời khoá biếu 7
+
+CHƯƠNG II-GIẢI THUẬT DI TRUYỀN (GAs) 8
+
+2.1 Tìm hiểu chung về Gas 8
+
+2.2. Các toán tử của giải thuật di truyền 12
+
+2.3 Các tham số của giải thuật di truyền. 13
+
+2.4. Công thức của Giải thuật Di Truyền 14
+
+2.5. Các thành phần của thuật giải di truyền 15
+
+2.5.1 Khởi động quần thể ban đầu 15
+
+2.5.2 Đánh giá cá thể 15
+
+2.5.3 Toán tử lai ghép 16
+
+2.5.4 Toán tử đột biến 16
+
+2.5.5 Điều kiện kết thúc 17
+
+CHƯƠNG III- ỨNG DỤNG GIẢI THUẬT DI TRUYỀN VÀO BÀI TOÁN XẾP LỊCH THỜI KHOÁ BIỂU 17
+
+3.1 Giai đoạn 1 - xếp lịch học các lớp 18
+
+3.1.1 Chọn mô hình cá thể 18
+
+3.1.2 Tạo quần thể ban đầu 21
+
+3.1.3 Độ thích nghi - chọn cá thể 22
+
+3.1.4 Thuật toán lai ghép và đột biến 23
+
+3.2 Giai đoạn 2 - xếp lịch học cho toàn bộ cơ sở 23
+
+3.2.1 Chọn mô hình cá thể 23
+
+3.2.2 Tạo quần thể ban đầu 25
+
+3.2.3 Độ thích nghi - chọn cá thể 25
+
+3.2.4 Thuật toán lai ghép và đột biến 26
+
+3.2.5 Chọn điểm dừng thuật toán 26
+
+CHƯƠNG 4- THIẾT KẾ HỆ THỐNG LẬP LỊCH THỜI KHÓA BIỂU 27
+
+4.1 Thiết kế cơ sở dữ liệu bài toán 27
+
+4.2 Các đối tượng của lịch học 28
+
+4.3 Biểu diễn nhiễm sắc thể 28
+
+4.4 Các tham số của giải thuật di truyền 30
+
+4.4.1 Phép lai ghép 30
+
+4.4.2 Phép đột biến 33
+
+4.6 Độ thích nghi 34
+
+4.7 Chương trình thực nghiệm 37
+
+Kết luận và hướng phát triển 40
+
+Tài Liệu Tham Khảo 41
+
+ 
+boolean | true

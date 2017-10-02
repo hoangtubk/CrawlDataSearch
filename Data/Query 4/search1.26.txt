@@ -1,0 +1,174 @@
+URL | http://www.eudict.com/?lang=vieeng&word=Tr%C3%ACnh%20%C4%91%E1%BB%99%202:%20ph%C3%A2n%20t%C3%ADch,%20so%20s%C3%A1nh,%20t%C6%B0%C6%A1ng%20ph%E1%BA%A3n,%20ph%C3%A2n%20nh%C3%B3m,%20suy%20di%E1%BB%85n,%20di%E1%BB%85n%20ti%E1%BA%BFn,%20t%E1%BB%95ng%20h%E1%BB%A3p
+Title | Trình độ 2: phân tích, so sánh, tương phản, phân nhóm, suy diễn, diễn tiến, tổng hợp
+Content | 
+EUdict dictionary: Vietnamese - English
+Results for: Trình độ 2: phân tích, so sánh, tương phản, phân nhóm, suy diễn, diễn tiến, tổng hợp
+
+    Next
+
+Vietnamese	English
+Trình độ 2: phân tích, so sánh, tương phản, phân nhóm, suy diễn, diễn tiến, tổng hợp
+	
+Level Two: analyze, compare, contrast, group, infer, sequence, synthesize
+... là tạo một môi trường học vấn đa văn hoá, đa ngôn ngữ với nhiều cơ hội lâu dài bằng những chương trình phù hợp với nhu cầu của từng cá nhân cùng những chuyên môn mà họ cần cho tương lai để đáp ứng với sự thay đổi không ngừng của một xã hội đa dạng.
+	
+... is to provide its multicultural, multilingual community with life-long educational opportunities needed to fulfill personal and professional goals for the future, and to facilitate full participation in an evolving diversified society.
+âm rung (âm bị cản bởi một trong những bộ phận phát âm trong người do đó hơi thoát ra rất yếu), như [b, d, g, z, m, n] trong boy, do, get, zone, mom, nine
+	
+voiced
+Án khuyết tịch
+	
+Default judgment
+Án lệnh trả tiền
+	
+Assignment order (Also called promissory notes or judgments)
+ấn tượng
+	
+impression
+Anh diễn dịch thái độ của anh ta thế nào?
+	
+How do you interpret his attitude?
+ánh sáng phản chiếu
+	
+reflex
+anh ta tự nhận mình là thành viên của nhóm tác giả thượng thặng
+	
+he identifies himself as a member of an elite group of authors
+ảo tưởng
+	
+delusion
+áp dụng mọi môn trong học trình; Xem Universal Access Time sinh hoạt theo nhóm
+	
+all curricular areas
+bà ta sửa lại lời tuyên bố để làm giảm bớt vẻ trịnh trọng
+	
+she rephrased the statement to give it less formality
+Bác bỏ sự khẳng định (gọi là trách nhiệm trưng bằng chứng). So với bản phản biện
+	
+Affirmation defense (called burden of proof).Compare to answer
+bách phân, C
+	
+Celsius
+bài thi tổng kết (Xem formative assessment)
+	
+summative assessment
+bài trắc nghiệm toàn diện về trí thông mình ngoại lời
+	
+comprehensive test of nonverbal intelligence (CTONI)
+ban hành chánh, nhân viên văn phòng (phân loại theo ngạch trật)
+	
+classified
+bản lượng định mức độ nội tưởng thời trẻ thơ
+	
+childhood autism rating scale
+Bản phân tích Gap
+	
+gap analysis
+bản thống kê thành phần học sinh; thành phần dân cư
+	
+demograph
+Bản tường trình này thuộc về loại bảo mật, trong đó có nhiều từ ngữ chuyên môn cần đến người thông dịch đã qua huấn luyện và nhiều kinh nghiệm.
+	
+This report contains confident information, much of which is of a technical nature requiring interpretation by trained and experienced personnel.
+băng nhau, tương đương
+	
+equal
+Bằng sự đầu tư may mắn ông ta đã lấy lại được số tiền đã mất recoup bồi hoàn.
+	
+He recouped his losses by a lucky investment.
+bằng đồ thị, bằng đường biểu diễn
+	
+graphically
+Báo cáo tiến độ
+	
+Appearance progress report
+
+    Next 
+
+Translations: 1 – 25 / 1482
+    
+
+EUdict (European dictionary) is a collection of online dictionaries for the languages spoken mostly in Europe.	These dictionaries are the result of the work of many authors who worked very hard and finally offered their product free of charge on the internet thus making it easier to all of us to communicate with each other. Some of the dictionaries have only a few thousand words, others have more than 320,000. Some of the words may be incorrectly translated or mistyped.
+
+Some languages (Esperanto, Macedonian, Portuguese and Russian) are only partially translated.
+Please help us improve this site by translating its interface.
+
+Total number of language pairs: 440
+Total number of translations (in millions): 12.8
+
+New: Russian<>Romanian
+Improved: English<>Russian, English<>Romanian, English<>Icelandic
+Options
+
+There are several ways to use this dictionary. The most common way is by word input (you must know which language the word is in) but you can also use your browser's search box and bookmarklets (or favelets).
+
+Look at the complete list of languages: Available language pairs
+
+There are two Japanese-English (and Japanese-French) dictionaries and one contains Kanji and Kana (Kana in English and French pair due to improved searching). For the same reason the Chinese dictionary contains traditional and simplified Chinese terms on one side and Pinyin and English terms on the other.
+Browser integration (Search plugins)
+
+Perhaps the best way to enable dictionary search is through integration into the search field of your browser. To add EUdict alongside Google, Yahoo!, Amazon and other search engines in Mozilla Firefox or Internet Explorer, simply click on link after the title Browser integration, select appropriate language pair and confirm your decision. And you're ready to go; select EUdict from the drop-down list in search field (Firefox) or address bar (IE), input a word and press Enter. In Chrome, first click on a language pair and change the search keyword in the field 'Keyword' to a keyword (eg: 'eudict'). Afterwards, you simply type the chosen keyword in the address bar to start the search in the chosen dictionary.
+Bookmarklets
+
+There is a way to enable word translation from any page: Bookmarklets. A bookmarklet is a small JavaScript code stored as a bookmark in you browser.
+Tips and tricks
+
+If you want to type a character which isn't on your keyboard, simply pick it from a list of special characters. If you are unable to add a bookmarklet in Mozilla Firefox according to the instructions above, there is another way; right click on a link and select Bookmark this link… Now you can drag this link from Bookmarks to the Bookmarks Toolbar.
+
+Instead of clicking the Search button, just press Enter. Although EUdict can't translate complete sentences, it can translate several words at once if you separate them with spaces or commas. Sometimes you can find translation results directly from Google by typing: eudict word. If you are searching for a word in Japanese (Kanji) dictionary and not receiving any results, try without Kana (term in brackets). If you are searching for a word in the Chinese dictionary and not receiving any results, try without Pinyin (term in brackets). Disable spellchecking in Firefox by going to Tools → Options → Advanced → Check my spelling as I type. Why not add a EUdict search form to your web site? Form
+Credits
+
+My name is Tomislav Kuzmic, I live in Croatia and this site is my personal project. I am responsible for the concept, design, programming and development. I do this in my spare time. To contact me for any reason please send me an email to tkuzmic at gmail dot com. Let me take this chance to thank all who contributed to the making of these dictionaries and improving the site's quality:
+
+    Goran Igaly – author of the initial English-Croatian database
+    Natali Kralj – author of the Dutch-Croatian dictionary
+    Jim Breen – author of the Japanese-English dictionary
+    Besiki Sisauri – author of the English-Georgian dictionary
+    Giorgi Chavchanidze – author of the several Georgian dictionaries
+    Authors of the Chinese-English dictionary
+    Authors of the French-Japanese dictionary
+    Authors of the German-Japanese dictionary
+    Jerzy Kazojć – for excellent dictionaries collection
+    Rajesh – for help with English-Tamil and German-Tamil dictionary
+    Chinese-German dictionary adapted from: "The free Chinese-German dictionary"
+    Grazio Falzon – author of the English-Maltese dictionary
+    András Tuna – for smart suggestions about improving this site
+    Interface translation: Tomislav Kuzmić (Croatian), Vasudevan Tirumurti, Fahim Razick (Tamil), Matti Tapanainen (Finnish), Ebru Bağlan (Turkish), Arsene Ionuț, Cristina Crisan (Romanian), Daiva Macijauskė (Lithuanian), Tetiana M. (Ukrainian), András Tuna (Hungarian), Jakob Lautrup Nysom (Danish), Andre Abdullin (Russian), Catherine Györvàry (French), Gab M. (Portuguese), Marcin Orzełek (Polish), Stefanija Madzoska (Macedonian), Selina Lüdecke, P. H. Claus (German), Vangelis Katsoulas (Greek), Roberto Marchesi (Italian), Robin van der Vliet (Esperanto), Reno Rake (Indonesian), Nahuel Rodríguez (Spanish), Gao Pan (Chinese), Hoài Sang Lăng (Vietnamese)
+
+EUdict is online since May 9, 2005 and English<>Croatian dictionary on tkuzmic.com since June 16, 2003.
+Alphabetic List
+
+triều đại
+triệu hồi, hủy bỏ, rút lại
+triệu tập
+triều xuống
+trình
+trình bày bằng đồ thị, tọa độ
+Trình bày chi tiết một cách rõ ràng và mạch lạc
+trình bày sự vật bằng đồ hình (giải mã bằng thị giác)
+trình diễn đầu tiên
+Trình độ 1: định nghĩa, mô tả, nhận diện, liệt kê, đặt tên, quan sát, nhắc lại, dò tìm
+Trình độ 2: phân tích, so sánh, tương phản, phân nhóm, suy diễn, diễn tiến, tổng hợp
+Trình độ 3: ứng dụng, đánh giá, giả thiết, hình dung, phán đoán, tiên đoán, suy nghiệm
+trình độ bài thi CELDT (California English Learner Development Test - Bài khảo sát khả năng Anh ngữ California)
+trình độ học tập: advanced ‘xuất sắc’,proficient ‘giỏi’, basic ‘trung bình’, below basic ‘kém’, far below basic ‘quá kém’
+trình độ theo bài thi tiêu chuẩn California
+trình độ thực hành, thao tác
+trình độ uyên bác
+trình độ và khả năng của giáo viên
+trình tự
+trìu mến
+tro
+
+
+Your Recent Searches
+Trình độ 2
+
+Recent searches
+trap sebe பச்சை நிறப் பாசி exchange, conversion, replacement, switching (to), switchover mag sólo extra-marital intercourse 據悉 kieliszek (n.) baštinjenje family planning center volume name swimming one here and another there in a vast abyss (i.e., good ideas drowning in an ocean of poorly chosen words) (Virgil) to join up with sigurnost (n.) berg female first name, male and female first name; American corporation headquartered in Ohio, manufacturer of automotive parts and provider of automobile leasing services služitelj danak oţel rezistent la agenţi chimici / inoxidabil Adposition (eine Wortart) (u.E.) (S, Sprachw) process of thinning Privatively துணை வடக்கட்டு அமைப்பு British national library 肅 umělec مجدی precursory (adj.) Javelins Montana بشكل مغازل Trình độ 2: phân tích, so sánh, tương phản, phân nhóm, suy diễn, diễn tiến, tổng hợp cyclamen apagador 公價 公价 defekt oprogramowania full of secrecy ubezpieczalnia awaken toucheren masticatore szokás szerint குருட்டுக் குதிரை set up, to stand bato balanì enigi draperija law dealing with company bankruptcies urednik
+
+© 2017 EUdict.com by Tomislav Kuzmić   Privacy policy
+This site uses the EDICT dictionary file (property of the EDRDG), in conformance with the EDRDG's licence.
+We use cookies on this website. Read our privacy policy. To use the website as intended please ACCEPT COOKIES
+
+boolean | false

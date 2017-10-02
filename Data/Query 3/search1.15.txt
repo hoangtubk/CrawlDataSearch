@@ -1,0 +1,19 @@
+URL | https://books.google.com.vn/books/about/%E1%BB%A9ng_d%E1%BB%A5ng_gi%E1%BA%A3i_thu%E1%BA%ADt_di_truy%E1%BB%81n.html?id=64VrAQAACAAJ&redir_esc=y
+Title | ứng dụng giải thuật di truyền trong xử lý ảnh
+Content | ứng dụng giải thuật di truyền trong xử lý ảnh: Luận văn thạc sĩ chuyên ngành Công nghệ thông tin
+Bìa trước
+Oanh Trần Thị Kim
+Trường ĐHBK Hà Nội, 2001
+0 Bài đánh giá
+Giới thiệu về giải thuật di truyền, ứng dụng giải thuật di truyền trong việc dò tìm và tách biên ảnh bằng phương pháp Hough, nén ảnh Fractal.
+Nội dung mọi người đang nói đến - Viết bài đánh giá
+Chúng tôi không tìm thấy bài đánh giá nào ở các vị trí thông thường.
+Thông tin thư mục
+QR code for ứng dụng giải thuật di truyền trong xử lý ảnh
+Tiêu đề	ứng dụng giải thuật di truyền trong xử lý ảnh: Luận văn thạc sĩ chuyên ngành Công nghệ thông tin
+Tác giả	Oanh Trần Thị Kim
+Nhà xuất bản	Trường ĐHBK Hà Nội, 2001
+ 	 
+Xuất lời trích dẫn	
+  
+boolean |true

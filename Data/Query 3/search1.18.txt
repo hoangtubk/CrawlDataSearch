@@ -1,0 +1,304 @@
+URL | http://www.isem.edu.vn/web/index.php/van-tru/van-tru-mem/giai-thuat-di-truyen.html
+Title | Giải thuật di truyền
+Content | Genetic Algorithm Approach For Reorder Cycle Time Determination In Multi-Stage Systems.
+
+Genetic Algorithm Approach For Reorder Cycle Time Determination In Multi-Stage Systems.
+
+Heidi Lízabeth Romero Encarnación
+
+ABSTRACT
+
+ 
+
+The objective of this research is to provide a genetic algorithm to determine
+
+the reorder cycle time for multi-stage serial and assembly systems. Demand for end item is assumed to occur at a constant and continuous rate. Production is instantaneous and no backorders are allowed. Both setup and echelon holding costs are charged at each stage. The attention is on nested and stationary policies.
+
+Furthermore, the reorder interval for each echelon is restricted to be not only integer, but also a power of two times a base planning period. The performance of the genetic algorithm is valuated in comparison with an optimal approach proposed by Maxwell and Muckstadt (1985), obtaining solutions from zero to five percent from the optimum for small problems. Experimentation is conducted to determine the genetic algorithm parameters and in addition to evaluate the robustness of the proposed methodology.  
+
+ QUY TRÌNH GIẢI THUẬT DI TRUYỀN
+
+Nguyễn Như Phong
+
+Kỹ thuật Hệ thống Công nghiệp
+
+Đại học Bách Khoa, ĐHQG TPHCM
+
+ 
+
+ 
+
+Giải thuật di truyền tìm kiếm phương án tốt nhất qua sự tiến hoá của các nhiễm sắc thể. Đầu tiên là quá trình mã hoá để tạo ra các nhiễm sắc thể từ các gien. Tiếp đến một quần thể nhiễm sắc thể được chọn ngẫu nhiên, các nhiễm sắc thể trong quần thể ban đầu này được đánh giá độ thích hợp qua hàm thích hợp. Tiếp theo một quần thể mới được chọn từ quần thể ban đầu bằng quá trình chọn lọc tự nhiên, bằng cách chọn các nhiễm sắc thể có độ phù hợp cao.
+ 
+Quần thể mới có thể chứa nhiều bản sao của một nhiễm sắc thể. Khi luật dừng (chẳng hạn như không có sự thay đổi giữa quần thể cũ và quần thể mới, hết thời gian tính toán, …) không thỏa, các toán tử di truyền được thực hiện trên các nhiễm sắc thể của quần thể mới để tạo các nhiễm sắc thể mới được gọi là các nhiễm sắc thể thế hệ mới hay đơn giản là nhiễm sắc thể con.
+ 
+Các bước tương tự, đánh giá và chọn lọc tự nhiên, được áp dụng cho quần thể các nhiễm sắc thể con vừa tìm được để tạo quần thể mới tiếp theo. Toàn bộ quá trình được lập lại cho đến khi thoả luật dừng. Phương án chọn lựa tương ứng với nhiễm sắc thể có độ phù hợp cao nhất trong quần thể tìm được cuối cùng .
+
+ 
+
+Có nhiều cách thực hiện giải thuật di truyền cơ bản nêu trên. Nhằm làm rõ giải thuật, ta dùng các ký hiệu sau :
+
+G – tập gien
+
+n – Kích thước nhiễm sắc thể
+
+Gn – tập nhiễm sắc thể
+
+m – Kích thước quần thể
+
+f – Hàm phù hợp
+
+e – hàm chọn lọc
+
+Tập gien chứa các gien trong nhiễm sắc thể. Tập gien thường dùng là tập nhị phân với 2 gien được mã là các số nhị phân 0 và 1 :
+
+            G = {0,1}
+
+Với kích thước nhiễm sắc thể hay số lượng gien trong nhiễm sắc thể là n, tập tổng của nhiễm sắc thể là tập tích Gn. Nhiễm sắc thể với gien nhị phân là chuỗi n bít nhị phân nên tập nhiễm sắc thể Gn có kích thước là 2n. Kích thước quần thể hay số lượng nhiễm sắc thể trong một quần thể là m được giữ không đổi trong quá trình thực hiện giải thuật. Khi thêm một số phần tử mới có độ thích hợp cao vào quần thể, để tạo thế hệ mới, một số tương ứng các phần tử cũ có độ thích hợp thấp phải bị loại khỏi quần thể. Mỗi quần thể là một tập con của tập tổng Gn. Các bước giải thuật :
+
+ 
+
+Bước 1: Mã hoá tạo tập nhiễm sắc thể Gn
+
+ 
+
+Xem biến quyết định X có miền giá trị trong khoảng [a,b], việc mã hoá biến X với bộ mã nhị phân n bít tương đương việc rời rạc hoá khoảng [a,b] bởi 2n điểm, mỗi điểm sẽ tương ứng với một bộ mã nhị phân. Việc mã hoá chuyển giá trị thập phân của biến thành một bộ mã nhị phân tương ứng. Việc giải mã chuyển bộ mã nhị phân thành một giá trị thập phân của biến tương ứng. Quan hệ giữa giá trị thập phân tương ứng của biến x với bộ mã nhị phân định bởi :
+
+           
+
+d : giá trị thập phân tương ứng với bộ mã nhị phân.
+
+Với các bài toán có nhiều biến, mỗi biến sẽ được mã hoá bởi một bộ mã nhị phân với kích thước riêng, nhiễm sắc thể mã hoá cho lời giải bài toán sẽ là bộ mã tổng hợp các bộ mã thành phần của các biến.
+
+ 
+
+Bước 2: Chọn lựa quần thể thế hệ ban đầu p(k), k=1
+
+ 
+
+Quần thể thế hệ ban đầu được chọn lựa ngẫu nhiên từ tập tổng các nhiễm sắc thể Gn. Kích thước quần thể là một tham số quan trọng, nếu chọn m quá lớn, giải thuật di truyền chẳng khác gì giải thuật tìm kiếm theo phương pháp liệt kê, tốn nhiều thời gian và công sức.  Nếu chọn m quá nhỏ thì có thể không tìm được phương án tối ưu. 
+
+ 
+
+Bước 3: Đánh giá các nhiễm sắc thể trong quần thể thế hệ k, p(k)
+
+ 
+
+Mỗi nhiễm sắc thể x trong quần thể sẽ có một độ thích hợp tương ứng được xác định bằng hàm thích hợp f(x) .
+
+ 
+
+Bước 4: Chọn lọc , tạo quần thể mới của thế hệ k, pn(k)
+
+ 
+
+Từ quần thể thế hệ k – p(k) ta tạo quần thể mới của thế hệ k – pn(k) bằng quá trình chọn lọc tự nhiên nhằm loại những nhiễm sắc thể có độ phù hợp thấp, giữ lại và sao chép các nhiễm sắc thể có độ phù hợp cao. Có nhiều quá trình chọn lọc tự nhiên, ở đây ta giới thiệu một quá trình hay dùng là quá trình lấy mẫu xác định:
+
+-         Với mỗi nhiễm sắc thể xÎp(k) , xác định độ phù hợp tương đối g(x) :
+
+-         Từ đó ta xây dựng hàm chọn lọc từ độ phù hợp tương đối
+
+e(x) = mg(x)
+
+-         Số lượng bản sao của nhiễm sắc thể xÎ p(k) trong quần thể mới nx định bởi :
+
+nx = int[e(x)]
+
+int : hàm nguyên
+
+-         Nếu số nhiễm sắc thể trong quần thể mới là không đủ, ta chọn các nhiễm sắc thể thiếu theo hàm e(x) theo trình tự từ giá trị cao xuống thấp.
+
+ 
+
+Bước 5: Kiểm tra tiêu chuẩn dừng
+
+ 
+
+Các tiêu chuẩn dừng có thể là :
+
+-         Quần thể mới không khác gì quần thể cũ, hay
+
+-         Đã hết thời gian cho giải thuật
+
+Nếu thoả tiêu chuẩn thì dừng lại, lời giải tối ưu ứng với nhiễm sắc thể có độ thích hợp cao nhất trong quần thể cuối cùng tìm được. Nếu không thoả tiêu chuẩn dừng thì chuyển sang bước 6.
+
+ 
+
+Bước 6: Tạo quần thể thế hệ k+1, p(k+1)
+
+ 
+
+Quần thể thế hệ k+1, p(k+1) được tạo thành từ các nhiễm sắc thể trong quần thể  mới của thế hệ k – pn(k) bằng các toán tử di truyền. Các toán tử di truyền mô phỏng các tác vụ di truyền trong các hệ sinh học bao gồm các toán tử sau :
+
+-         Lai ghép đơn
+
+-         Lai ghép bội
+
+-         Đột biến
+
+-         Đảo ngược
+
+Ở toán tử lai ghép đơn, xem 2 nhiễm sắc thể  giao phối x và y
+
+x = <x1, x2, …, xn>                                                                 
+
+y = <y1, y2, …, yn>                                                                 
+
+Với vị trí lai ghép i Î Nn-1 , các nhiễm sắc thể x và y giao phối qua phép lai ghép đơn tạo nhiễm sắc thể con thay thế x’ và y’ như sau :
+
+x' = <x1, x2, …, xi, yi+1, xi+2, …, xn>                                      
+
+y' = <y1, y2, …, yi, xi+1, yi+2, …, yn>                                      
+
+Ở toán tử lai ghép bội, xem 2 nhiễm sắc thể  giao phối x và y
+
+x = <x1, x2, …, xn>                                                                 
+
+y = <y1, y2, …, yn>                                                                 
+
+Với các vị trí lai ghép i, j , i, j ÎNn-1, i<j, các nhiễm sắc thể x và y giao phối qua phép lai ghép bội tạo nhiễm sắc thể con thay thế x’ và y’ như sau :
+
+x' = <x1, x2, …, xi, yi+1, …, yj, xj+1, …, xn>                            
+
+y' = <y1, y2, …, yi, xi+1, …, xj, yj+1, …, yn>                            
+
+Ở toán tử đột biến, xem nhiễm sắc thể  x 
+
+x = <x1, x2, …, xn>                                                                 
+
+                                                                                                           
+
+Với vị trí đột biến i , i ÎNn, nhiễm sắc thể x qua  phép đột biến tạo nhiễm sắc thể con thay thế x’ như sau :
+
+x' = <x1, …, xi-1, z, xi+1, …, xn>
+
+Trong đó z là gien đột biến được chọn ngẫu nhiên từ tập gien G.
+
+ 
+
+Ở toán tử đảo ngược , xem nhiễm sắc thể  x 
+
+x = <x1, x2, …, xn>                                                                 
+
+Với các vị trí đảo ngược i, j , i, j ÎNn-1, i<j, nhiễm sắc thể x qua  phép đảo ngược tạo nhiễm sắc thể con thay thế x’ như sau :
+
+x' = <x1, x2, …, xi, xj, xj-1, …, xi+1, xj+1, …, xn>                     
+
+ 
+
+Toán tử lai ghép được dùng cho mọi loại giải thuật di truyền, các toán tử đột biến và đảo ngược đôi khi không sử dụng. Các toán tử đột biến và đảo ngược có vai trò tạo ra các nhiễm sắc thể con mới không phải dựa trên hàm thích hợp mà nhằm mục đích tránh cực tiểu cục bộ. Nếu các toán tử này được dùng , chúng sẽ được chọn với xác suất thấp. Khi dùng các toán tử lai ghép, các nhiễm sắc thể phối ngẫu và các vị trí lai ghép được chọn ngẫu nhiên.
+
+ 
+
+Bước 7: Thay quần thể thế hệ k – p(k) bởi quần thể thế hệ k+1 – p(k+1) , tăng k lên 1 và quay về bước 3.
+
+ 
+
+Giải thuật được minh hoạ qua ví dụ sau, với việc sử dụng tiêu chuẩn dừng là quần thể không thay đổi, toán tử di truyền sử dụng là toán tử lai ghép đơn.
+
+ 
+
+ 
+
+ 1. HỆ MỜ & GIẢI THUẬT DI TRUYỀN
+
+ 
+
+Hệ mờ là hệ thống có cấu trúc hay tham số sử dụng lý thuyết mờ. Quan hệ giữa hệ mờ và giải thuật di truyền là 2 chiều:
+
+-         Tối ưu hóa hệ mờ bằng giải thuật di truyền.
+
+-         Mờ hóa giải thuật di truyền bằng lý thuyết mờ.
+
+Ở một chiều, giải thuật di truyền dùng trong các vấn đề tối ưu hoá trong hệ mờ chẳng hạn như việc dùng giải thuật di truyền để các tối ưu hóa các luật suy diễn mờ trong bộ điều khiển mờ hay việc dùng giải thuật di truyền để xây dựng hàm thành viên tập mờ.
+
+ 
+
+Ở chiều khác, lý thuyết mờ có thể dùng để mờ hoá giải thuật di truyền để có giải thuật di truyền mờ, là giải thuật hiệu quả hơn, phù hợp hơn giải thuật di truyền cổ điển trong một số áp dụng.
+
+ 
+
+ 
+
+2. GIẢI THUẬT DI TRUYỀN MỜ
+
+ 
+
+Giải thuật di truyền mờ là giải thuật di truyền đã được mờ hoá. Có 2 phương pháp cơ bản để mờ hoá giải thuật di truyền
+
+-                  Mờ hóa tập gien và việc mã hoá nhiễm sắc thể
+
+-                  Mờ hoá toán tử di truyền
+
+ 
+
+a. Mờ hoá tập gien
+
+ 
+
+Trong giải thuật di truyền kinh điển, các nhiễm sắc thể thường được mã hoá bở các số nhị phân, tập gien là tập nhị phân :
+
+G = {0,1}
+
+Giải thuật di truyền mờ mờ hoá tập gien bằng cách mở rộng tập gien trên toàn khoảng đơn vị :
+
+            G = [0,1]
+
+Khi mở rộng tập gien trên toàn khoảng đơn vị [0,1], ta không cần phải rời rạc hoá tập phương án như ở giải thuật kinh điển, điều này dẫn đến kết quả là giải thuật sẽ hội tụ nhanh hơn và tin cậy hơn trong việc tìm kiếm lời giải tối ưu mong muốn. Tuy nhiên cần tìm phương pháp thích hợp để mã hoá phương án bởi các nhiễm sắc thể có gien lấy từ tập gien là khoảng đơn vị.
+
+ 
+
+Ví dụ:                                                                                                 
+
+Xem lại ví dụ trên : Max f(x) = 2x-x2/16 , xÎ [0,31]
+
+Sử dụng tập gien G=[0,1], ta không cần rời rạc hóa khoảng [0,31]. Một số bất kỳ trong khoảng [0,31] có thể được mã hoá bởi một nhiễm sắc thể có gien lấy từ tập gien G. Chẳng hạn như với nhiễm sắc thể <0,1; 0,5; 0; 1; 0,9> sẽ là mã tương ứng của một số trong khoảng [0,31] được tính như sau :
+
+ 
+
+Ví dụ :                                                                                      
+
+Xem bài toán tìm đường đi của người bán hàng với 4 thành phố C1, C2, C3, C4 . Đường đi của người bán hàng có thể được mã hoá bởi nhiễm sắc thể C = <x1, x2, x3, x4> trong đó gien xi (i=1÷4) , tương ứng với thành phố Ci, lấy trị trong tập gien G=[0,1] , biễu thị mức độ thành phố được viếng sớm. Chẳng hạn với nhiễm sắc thể <0,1; 0,5; 1; 0,9> là mã của đường đi C3àC4à C2 à C1 à C3
+
+ 
+
+b. Mờ hoá toán tử di truyền
+
+ 
+
+Việc mở rộng tập gien G từ tập nhị phân {0,1} thành khoảng đơn vị [0,1] trong giải thuật được xem là mờ hoá giải thuật. Tuy nhiên để tăng tính xác thực trong việc mờ hoá giải thuật, ta thường mờ hoá toán tử di truyền
+
+ 
+
+Thực tế giải thuật di truyền mờ không chỉ mờ hoá tập gien G, mà còn yêu cầu mờ hoá cả toán tử di truyền. Sanchez [1993] đề nghị một phương pháp mờ hoá toán tử lai ghép. Toán tử lai ghép kinh điển lai ghép các nhiễm sắc thể phối ngẫu x và y của tập Gn:
+
+,
+
+Nhằm lai ghép ở vị trí lai ghép i, iÎNn-1, có thể dùng khuông t:
+
+Các nhiễm sắc thể con sau lai ghép x’ và y’ định bởi khuông t như sau :
+
+            x' = ( x Ù t ) Ú ( y Ù`t  )
+
+            y' = (x Ù`t ) Ú ( y Ù t )
+
+Trong đó:         Ù - toán tử min
+
+Ú - toán tử max
+
+`t   = <`tj ½`tj  =1-tj >
+
+Toán tử lai ghép kinh điển ở trên tạo sự thay đổi đột ngột ở vị trí lai ghép i của nhiễm sắc thể. Việc thay đổi có thể thức hiện dần dần với điểm lai ghép mờ bằng cách dùng khuôn mờ. Khuôn mờ f  cùng các nhiễm sắc thể con x’ và y’, lai ghép từ cặp nhiễm sắc thể phối ngẫu x và y được xác định như sau :
+
+Hay chi tiết hơn :
+
+ 
+
+ 
+
+ 
+
+ 
+
+TLTK
+boolean | true

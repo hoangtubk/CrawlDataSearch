@@ -1,0 +1,20 @@
+URL |https://sachviet.edu.vn/threads/cac-ky-thuat-lai-ghep-trong-giai-thuat-di-truyen.56985/
+Title | các kĩ thuật lai ghép trong giải thuật di truyền
+Content | Các Kỹ Thuật Lai Ghép Trong Giải Thuật Di Truyền ​
+Hơn hai thập kỷ trở lại đây, lượng thông tin được lưu trữ trên các thiết bị điện tử không ngừng tăng lên. Do các ưu điểm khi lưu trữ tài liệu số như cách lưu trữ gọn nhẹ, thời gian lưu trữ lâu dài, tiện dụng trong trao đổi, dễ dàng sửa đổi… nên các phương thức sử dụng giấy tờ trong công việc và trong giao dịch đã dần được số hoá chuyển sang các dạng văn bản lưu trữ trên máy tính hoặc truyền tải trên mạng. Điều đó đã làm số lượng văn bản số tăng lên nhanh chóng. Cùng với sự gia tăng về số lượng văn bản, nhu cầu tìm kiếm văn bản cũng tăng theo. Với lượng văn bản đồ sộ thì việc phân loại văn bản tự động phục vụ quá trình tìm kiếm thông tin dễ dàng, nhanh chóng là cần thiết. Đồng thời, việc phân loại văn bản tự động sẽ giúp con người tiết kiệm được rất nhiều thời gian và công sức. Theo [29], “Việc phân loại văn bản tự động là việc gán các nhãn phân loại lên một văn bản mới dựa trên mức độ tương tự của văn bản đó so với các văn bản đã được gán nhãn trong tập huấn luyện”.
+
+    Luận văn thạc sĩ
+    Chuyên ngành Công nghệ thông tin
+    Người hướng dẫn khoa học: PGS. TSKH. Nguyễn Xuân Huy
+    Tác giả: Nguyễn Xuân Toàn
+    Số trang: 71
+    Kiểu file: PDF
+    Ngôn ngữ: Tiếng Việt
+    Đại học Quốc gia Hà Nội 2007
+
+    DVD eBook Luận Văn Chuyên Ngành Công Nghệ Thông Tin https://goo.gl/x1tmxP
+    Hỗ trợ gửi trực tiếp qua email HOẶC copy USB/HDD/DVD, liên hệ: buihuuhanh@gmail.com
+
+Link Download
+http://dlib.vnu.edu.vn/iii/cpro/DigitalItemViewPage.external?lang=vie&sp=1007898
+boolean | tr

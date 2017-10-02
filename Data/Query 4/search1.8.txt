@@ -1,0 +1,52 @@
+URL |https://www.wattpad.com/8953802-%C4%91%E1%BA%B7c-tr%C6%B0ng-v%C3%A0-%C6%B0u-%C4%91i%E1%BB%83m-c%E1%BB%A7a-h%E1%BB%87-chuy%C3%AAn-gia-suy-di%E1%BB%85n
+Title |Đặc trưng và ưu điểm của hệ chuyên gia - suy diễn tiến , suy diễn lùi
+Content | Đặc trưng và ưu điểm của hệ chuyên gia - suy diễn tiến , suy diễn lùi
+
+Suy diễn tiến ( forward charning) là lập luận từ các sự kiện, sự việc để rút ra các kết luận.
+Ví dụ : Nếu thấy trời mưa trước khi ra khỏi nhà (sự kiện) thì phải lấy áo mưa (kết luận).
+Trong phương pháp này, người sử dụng cung cấp các sự kiện cho hệ chuyên gia để hệ
+thống (máy suy diễn) tìm cách rút ra các kết luận có thể. Kết luận được xem là những thuộc
+tính có thể được gán giá trị. Trong số những kết luận này, có thể có những kết luận làm người
+sử dụng quan tâm, một số khác không nói lên điều gì, một số khác có thể vắng mặt.
+Các sự kiện thường có dạng :
+Atthibute = value
+Lần lượt các sự kiện trong cơ sở tri thức được chọn và hệ thống xem xét tất cả các luật mà
+các sự kiện này xuất hiện như là tiền đề. Theo nguyên tắc lập luận trên, hệ thống sẽ lấy ra
+những luật thoã mãn. Sau khi gán giá trị cho các thuộc tính thuộc kết luận tương ứng, người
+ta nói rằng các sự kiện đã được thoã mãn. Các thuộc tính được gán giá trị sẽ là một phần của
+kết quả chuyên gia. Sau khi mọi sự kiện đã được xem xét, kết quả được xuất ra cho người sử
+dụng.
+
+
+Phương pháp suy diễn lùi tiến hành các lập luận theo chiều ngược lại (đối với phương
+pháp suy diễn tiến). Từ một giả thuyết (như là một kết luận), hệ thống đưa ra một tình huống
+trả lời gồm các sự kiện là cơ sở của giả thuyết đã cho này.
+Ví dụ nếu ai đó vào nhà mà cầm áo mưa và áo quần bị ướt thì giả thuyết này là trời mưa.
+Để củng cố giả thuyết này, ta sẽ hỏi người đó xem có phải trời mưa không ? Nếu người đó trả
+lời có thì giả thuyết trời mưa đúng và trở thành một sự kiện. Nghĩa là trời mưa nên phải cầm
+áo mưa và áo quần bị ướt.
+Suy diễn lùi là cho phép nhận được giá trị của một thuộc tính. Đó là câu trả lời cho câu
+hỏi « giá trị của thuộc tính A là bao nhiêu ? » với A là một đích (goal)
+
+Để xác định giá trị của A, cần có các nguồn thông tin. Những nguồn này có thể là những
+câu hỏi hoặc có thể là những luật. Căn cứ vào các câu hỏi, hệ thống nhận được một cách trực
+tiếp từ người sử dụng những giá trị của thuộc tính liên quan. Căn cứ vào các luật, hệ thống
+suy diễn có thể tìm ra giá trị sẽ là kết luận của một trong số các kết luận có thể của thuộc tính
+liên quan, v.v...
+Ý tưởng của thuật toán suy diễn lùi như sau. Với mỗi thuộc tính đã cho, người ta định
+nghĩa nguồn của nó:
+
++ Nếu thuộc tính xuất hiện như là tiền đề của một luật (phần đầu của luật), thì nguồn sẽ
+thu gọn thành một câu hỏi.
+
++Nếu thuộc tính xuất hiện như là hậu quả của một luật (phần cuối của luật), thì nguồn
+sẽ là các luật mà trong đó, thuộc tính là kết luận.
+
++Nếu thuộc tính là trung gian, xuất hiện đồng thời như là tiền đề và như là kết luận, khi
+đó nguồn có thể là các luật, hoặc có thể là các câu hỏi mà chưa được nêu ra.
+
+Nếu mỗi lần với câu hỏi đã cho, người sử dụng trả lời hợp lệ, giá trị trả lời này sẽ được
+gán cho thuộc tính và xem như thành công. Nếu nguồn là các luật, hệ thống sẽ lấy lần lượt
+các luật mà thuộc tính đích xuất hiện như kết luận, để có thể tìm giá trị các thuộc tính thuộc
+tiền đề. Nếu các luật thoã mãn, thuộc tính kết luận sẽ được ghi nhận.
+boolean | true

@@ -1,0 +1,171 @@
+https://blog.topdev.vn/mot-so-loi-khuyen-nhanh-de-tiep-can-tri-tue-nhan-tao/
+Một số lời khuyên nhanh để tiếp cận Trí tuệ nhân tạo
+ 
+		
+img.wp-smiley,
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+ 
+Hot Jobs
+AMA
+Event
+HR
+Lập Trình
+Phỏng vấn
+Công nghệ
+Design
+ 
+ 
+TopDev Jobs
+Devvui
+TopDev Onsite
+Sign in
+TopDev Blog
+Hot Jobs
+AMA
+Event
+HR
+Lập Trình
+Phỏng vấn
+Công nghệ
+Design
+ 
+ 
+Home  
+Lập Trình
+2089 
+Tweet on Twitter
+Để tiếp cận được trí tuệ nhân tạo nên bắt đầu như thế nào?
+Cuối cùng là áp dụng thử vào các bài toán thực tế, như phân loại dữ liệu, nhận dạng số, khuôn mặt..v.v
+ 
+SHARE
+Twitter
+ 
+RELATED ARTICLESMORE FROM AUTHOR
+ 
+ 
+ 
+ 
+ 
+  
+Follow Us 
+		
+October 2, 2017 
+
+                    Tôi thường tự hỏi liệu tôi có bị đuối việc khi quyết định như vậy không.
+
+ 
+October 2, 2017 
+
+                    Không chỉ nổi tiếng và tài năng, ở những người này còn có một điểm chung khác: Họ đều từng đi thực tập rất...                
+ 
+October 1, 2017 
+
+ 
+October 1, 2017 
+
+ 
+September 30, 2017 
+
+Hot Event
+  
+ 
+ 
+ 
+ 
+TopDev Jobs
+Devvui
+TopDev Onsite
+ 
+
+ 
+MORE STORIES
+October 2, 2017 
+Đi thực tập vất vả và thậm chí không có lương:... 
+October 2, 2017 
+October 1, 2017 
+    
+
+            
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+    
+    .woocommerce-checkout .woocommerce input.button:hover,
+    #bbpress-forums button:hover,
+    .bbp_widget_login .button:hover,
+    .woocommerce .product #respond input#submit:hover,
+    .woocommerce .woocommerce.widget .button:hover,
+    .td-scroll-up,
+
+    .woocommerce .woocommerce-error .button:hover,
+
+
+
+    .td-post-content blockquote p,
+    .mce-content-body blockquote p,
+    .comment-content blockquote p,
+    .wpb_text_column blockquote p,
+    .td_block_text_with_title blockquote p,
+    .td_quote_on_blocks,
+    .comment-reply-link:hover,
+    #bbpress-forums .bbp-forum-title:hover,
+
+
+    .post .td_quote_box,
+
+
+
+    .widgettitle,
+    .td-trending-now-title,
+    .woocommerce .product .products h2,
+
+
+    .block-title,
+
+
+    
+    .td-grid-style-4 .entry-title
+
+
+            limit: 3,
+

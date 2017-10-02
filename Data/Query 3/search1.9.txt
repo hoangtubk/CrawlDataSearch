@@ -1,0 +1,7 @@
+URL | http://luanvan.co/luan-van/nghien-cuu-giai-thuat-di-truyen-ung-dung-vao-giai-mot-so-bai-toan-thong-ke-49429/
+Title | Nghiên cứu giải thuật di truyền ứng dụng vào giải một số bài toán thống kê
+Content | 
+
+Mục tiêu của luận văn là giải hai lớp bài toán thuộc lĩnh vực thống kê đã nêu. Kết quả của các bài toán mang lại vừa có tính năng của một hệ thống máy học, giúp dựbáo, tính toán, phân lớp các dữliệu không được học vừa có ý nghĩa đề xuất và đạt được kết quả khả quan vềmột phương pháp phân lớp dữ liệu cũng như việc thiết lập các mô hình toán học. Bài toán phân lớp dựliệu dựa trên tập các hàm phân biệt tuyến tính thực chất là tìm cách phân chia tập dữ liệu ban đầu (có kích thước lớn) thành những tập dữ liệu nhỏ hơn mà mỗi tập dữ liệu con này thỏa một số tính chất đặc thù nào đó, tạo điều kiện thuận lợi cho quá trình phân tích dữ liệu, nghiên cứu dữ liệu sau này nhẹ nhàng hơn, ít tốn công sức hơn nhưng vẫn có thể đạt được hiệu quả cao.
+
+boolean | false

@@ -1,0 +1,81 @@
+https://machinelearningcoban.com/2017/05/17/contentbasedrecommendersys/
+Bài 23: Content-based Recommendation Systems
+ 
+30. Ôn tập Xác Suất
+Q1. Quick Notes 1
+21. Kernel SVM
+16. Convex sets và convex functions
+15. Overfitting
+10. Logistic Regression
+ About
+Index
+Archive
+Copyrights
+ebook
+            
+1. Giới thiệu
+3.1. Item profiles
+3.2. Xây dựng hàm mất mát
+3.3. Ví dụ về hàm mất mát cho user E
+4. Bài toán với cơ sở dữ liệu MovieLens 100k
+4.1. Cơ sở dữ liệu MovieLens 100k
+4.2. Xây dựng item profiles
+4.3. Tìm mô hình cho mỗi user
+4.4. Đánh giá mô hình
+5. Thảo luận
+1. Giới thiệu
+Các bạn có lẽ đã gặp những hiện tượng này nhiều lần:
+Netflix tự động gợi ý phim cho người dùng.
+        
+3.1. Item profiles
+3.2. Xây dựng hàm mất mát
+Mô hình tuyến tính:
+3.3. Ví dụ về hàm mất mát cho user E
+0.99 & 0.02 \\
+0.91 & 0.11 \\
+0.95 & 0.05 \\
+0.01 & 0.99 \\
+0.03 & 0.98
+0.99 & 0.02 \\
+0.01 & 0.99
+1 \\
+4 
+1 \\
+1 
+Khi đó, hàm mất mát cho hệ số tương ứng với user E là: 
+0.99 & 0.02 \\
+0.01 & 0.99
+1 \\
+1
+1 \\
+4
+4. Bài toán với cơ sở dữ liệu MovieLens 100k
+4.1. Cơ sở dữ liệu MovieLens 100k
+print 'Number of users:', n_users
+Number of users: 943
+4.2. Xây dựng item profiles
+print 'Number of items:', n_items
+Number of items: 1682
+#tfidf
+    """
+    """
+    return (item_ids, scores)
+4.3. Tìm mô hình cho mỗi user
+    
+# predicted scores
+Dưới đây là một ví dụ với user có id là 100.
+4.4. Đánh giá mô hình
+RMSE for test    : 1.27032827004
+5. Thảo luận
+Source code
+Nếu có câu hỏi, Bạn có thể để lại comment bên dưới hoặc trên Forum để nhận được câu trả lời sớm hơn.
+Cảm ơn bạn.
+scJsHost+
+ 
+ 
+Forum
+ 
+Recommended books
+Recommended courses
+Others
+ Blog này được tạo như thế nào?

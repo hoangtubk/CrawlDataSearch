@@ -1,0 +1,20 @@
+URL | http://vjs.ac.vn/index.php/jcc/article/view/7749
+Title | Giải thuật di truyền: Kỹ thuật và ứng dụng
+Content | Giải thuật di truyền: Kỹ thuật và ứng dụng
+Nguyễn Thanh Thủy, Lê Hoàng Thái
+
+Abstract
+
+In this paper we shall present genetic algorithm technique that seems to be effective for solving optimization problems with non-linear target function constraints. The main idea here is simulating random search in the space of parameters, although it is not possible to prove the convergence and the convergence speed of the searching process. We propose a combination of genetic algorithm with mathematical modeling in data analysis for minimizing the error function. This solution is shown promising for solving liquid - liquid extraction problem in chemical technology.
+
+[berita teknologi] [Jual Beli Online Dan Pasang Iklan Gratis] [www.gosipmurahan.com] [www.harianregional.com]
+Refbacks
+
+    There are currently no refbacks.
+
+
+
+Journal of Computer Science and Cybernetics ISSN: 1813-9663
+
+Published by Vietnam Academy of Science and Technology
+boolean | false

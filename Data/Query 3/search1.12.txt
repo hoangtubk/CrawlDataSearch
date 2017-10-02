@@ -1,0 +1,18 @@
+URL | http://sami.hust.edu.vn/lich-seminar/giai-thuat-di-truyen-va-mang-neural/
+Title | Giải thuật di truyền và mạng Neural
+Content | Giải thuật di truyền và mạng Neural
+
+Thời gian: 10h00, ngày 10/04/2017 (Thứ Hai)
+
+Địa điểm: 104 D3, ĐH BKHN
+
+Tên seminar: Hệ mờ, mạng Neural và ứng dụng
+
+Người báo cáo: Phạm Thanh Sơn
+
+Đơn vị: K58 Toán Tin, ĐH BKHN
+Tóm tắt báo cáo
+
+Báo cáo trình bày về một phương pháp sử dụng ý tưởng của giải thuật di truyền trong việc luyện mạng Neural ứng dụng trong điều khiển Robot di chuyển.
+
+boolean | false

@@ -1,0 +1,95 @@
+https://bienuit.wordpress.com/tag/suy-dien-tien/
+Van Bien 's Blog
+	
+		
+img.wp-smiley,
+		
+		
+		
+Tìm kiếm
+  Bài viết mới 
+Hive là gì?
+ Lưu trữ 
+Tháng Một 2016 (1)
+Tháng Tám 2014 (1)
+Tháng Bảy 2014 (5)
+Tháng Mười Một 2013 (1)
+Tháng Chín 2013 (4)
+Tháng Tám 2013 (6)
+Chuyên mục 
+.NET (1)
+It's me (3)
+	
+PHP – Beginer (6)
+Đăng ký Đăng nhập
+RSS cho bài viết
+Dòng thông tin các phản hồi.
+WordPress.com 
+Lịch
+Tháng Mười 2017
+H
+B
+T
+N
+S
+B
+C
+« Th1
+ 
+ 
+ 1
+2345678
+9101112131415
+16171819202122
+23242526272829
+3031
+ 
+ 
+						Thẻ:AI, Hệ luật dẫn, Suy diễn lùi, Suy diễn tiến, Trí tuệ nhân tạo 
+2
+(tiếp)
+4. Tính toán và trình bày kết quả
+4.1.     Tính toán
+–       Nếu là toán tử:
+4.2.   Trình bày kết quả
+Demo và Sourcode
+–         Giải bài toán với Suy diễn tiến:
+–         Giải bài toán với Suy diễn lùi:
+–         Khi không đủ giả thiết để giải bài toán:
+Demo + Source code
+Advertisements
+			
+		 
+		
+ 
+0
+–         B: Số đo góc đối diện cạnh b
+–         C: Số đo góc đối diện cạnh c
+–         b: độ dài cạnh b
+–         c: độ dài cạnh c
+2.1.      Xác định bài toán cần giải
+2.2.      Biểu diễn tri thức
+                        …
+Begin
+…
+End.
+Begin
+End.
+Cấu trúc file Rules.txt :
+…
+Khởi tạo mảng sẽ là một mảng 11 phần tử, mỗi phần tử mặc định là số -1. Mảng này dùng để đánh dấu các biến trong luật.
+Mỗi sự kiện trong mệnh đề IF sẽ được đánh dấu là 0, trong mệnh đề THEN là 1.
+0, 0, 1, -1, -1, -1, -1, -1, -1, -1, -1.
+-1, -1, -1, 0, 0, 0, -1, -1, -1, 1, -1.
+Tạo một website miễn phí hoặc 1 blog với WordPress.com. 
+	
+Post to
+Hủy bỏ
+ 
+ 
+	
+	
+	
+	
+	
+	

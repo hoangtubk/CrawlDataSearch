@@ -1,0 +1,62 @@
+URL | http://qlkh.tnu.edu.vn/theme/details/1592/nghien-cuu-cai-tien-giai-thuat-di-truyen-cho-van-de-tong-hop-phat-sinh-cac-dac-trung-anh
+Title | Nghiên cứu cải tiến giải thuật di truyền cho vấn đề tổng hợp phát sinh các đặc trưng ảnh 
+Content |Thông tin chung
+Tên đề tài (*) 	Nghiên cứu cải tiến giải thuật di truyền cho vấn đề tổng hợp phát sinh các đặc trưng ảnh
+Cơ quan chủ trì 	Đại học Công nghệ thông tin và Truyền thông
+Cơ quan thực hiện 	Đại học Công nghệ thông tin và Truyền thông
+Loại đề tài 	Đề tài cấp cơ sở
+Lĩnh vực nghiên cứu 	Tin học
+Chủ nhiệm(*) 	Phạm Thị Thương
+Ngày bắt đầu 	01/2011
+Ngày kết thúc 	12/2011
+
+Tổng quan
+
+Vấn đề phát hiện và nhận dạng ảnh là lĩnh vực nghiên cứu quan trọng nhất trong nhận dạng mẫu và đồ họa MT, được ứng dụng rộng rãi trong Giám sát, chuyển động tự trị, cảm quan từ xa, tự động hóa sản xuất, nhận dạng mục tiêu và đối tượng....
+
+Tự động hóa việc phát hiện và nhận dạng các đối tượng không phải là nhiệm vụ dễ. Chất lượng của hoạt động này phụ thuộc nhiều vào loại và chất lượng của các đặc trưng được trích rút từ ảnh. Vấn đề đặt ra là những đặc trưng nào phù hợp với nhiệm vụ nhận dạng và phát hiện hiện thời? Làm thế nào để tổng hợp các đặc trưng đa hợp từ các đặc nguyên thủy của ảnh mà có ích cho việc nhận dạng và phát hiện? Có thể tìm kiếm tự động, nhanh chóng các đặc trưng trên không gian lớn, nhiều hình thái,  ...?
+=> Nhận dạng&phát hiện đối tượng trong các ứng dụng thực tế vẫn đang là vấn đề thách thức và cần nghiên cứu trong tương lai. Đã có nhiều nghiên cứu trong nước về vấn đề này, tuy nhiên kết quả nghiên cứu còn rất hạn chế
+
+Tính cấp thiết
+
+Việc tổng hợp các đặc trưng mới từ các đặc trưng nguyên thủy của ảnh tương đương việc tìm các ảnh trong không gian kết hợp các đặc trưng, nơi mà mỗi điểm biểu diễn một sự kết hợp của các đặc trưng nguyên thủy. Tương tự, việc lựa chọn một tập con các đặc trưng hiệu quả tương đương việc tìm các điểm tốt trong không gian tập con đặc trưng, nơi mà mỗi điểm biểu diễn một tập con các đặt trưng. Không gian kết hợp đặc trưng và không gian các tập con đặc trưng rất lớn và phức tạp trừ khi sử dụng giải thuật tìm kiếm hiệu quả:
+
+            Các giải thuật leo đồi, giảm Gradient, và tôi luyện là những giải thuật được sử dụng rộng rãi. Tuy nhiên chúng đều có hạn chế nhất định. Leo đồi và giảm Gradient hiệu quả khi tìm kiếm trong một không gian duy nhất một hình thái, nếu không gian đa hình thái sẽ gặp phải vấn đề tối ưu cục bộ. Giải thuật tôi luyện có khả năng nhảy qua các điểm tối ưu cục bộ nhưng phụ thuộc nhiều vào điểm bắt đầu, nếu điểm này không phù hợp có thể dẫn đến tốn thời gian, thậm chí không thể luyện để chạm đến điểm tốt, hơn nữa rất khó cho việc xác định các điểm láng riềng của một điểm trong các không gian kết hợp đặc trưng phức tạp và lớn.
+
+
+Điều này tạo động cơ thúc đẩy nghiên cứu các tính toán cải tiến cho các giải thuật di truyền và lập trình di truyền, vì GA và GP rất có khả năng trong việc khảo sát các không gian lớn và phức tạp, nhiều hình thái và không có cấu trúc. GA và GP ít khả năng bị kẹt tại các điểm cục bộ
+
+Đề tài nhằm nghiên cứu, tìm hiểu các kỹ thuật tính toán cải tiến như Genetic programming (GP), Coevolutionary Genetic Programming (CGP), Linear Genetic Programming (LGP), và Genetic Algorithm (GA) để tự động hóa việc tổng hợp và phân tích cho các hệ thống nhận dạng và phát hiện đối tượng   
+
+Mục tiêu
+
+Đề tài nhằm nghiên cứu và tìm hiểu các kỹ thuật tính toán cải tiến trong GA và GP đã nêu. Từ đó giúp cho việc tự động hóa việc tổng hợp và phân tích trong các hệ thống nhận  dạng và phát hiện các đối tượng/ảnh.
+
+Nội dung
+
+Chỉ ra hiệu quả của GP và GA trong việc tổng hợp các thao tác đa hợp từ các thao tác xử lý ảnh gốc độc lập với miền và và tổng hợp các đặc trưng đa hợp từ các đặc trưng gốc phục vụ cho việc nhận dạng và phát hiện đối tương
+
+Thiết kế hàm khớp dựa trên nguyên tắc chiều dài cực tiếu các thao tác di truyền, đột biến để cải tiến tính hiệu quả của lập trình di truyền
+
+Tìm hiểu các kỹ thuật LGP, CGP, …để phát sinh các đặc trưng phục vụ cho nhận dạng đối tượng
+
+Tải file Nghiên cứu cải tiến giải thuật di truyền cho vấn đề tổng hợp phát sinh các đặc trưng ảnh tại đây
+
+PP nghiên cứu
+
+(1)    Sử dụng các kiến thức đã tìm hiểu, tiến hành phân tích, tổng hợp, đánh giá các tính toán cải tiến
+
+(2)    Sử dụng máy tính điện tử để mô phỏng và kiểm tra tính hiệu quả của các tính toán cải tiến
+
+Hiệu quả KTXH
+
+Tài liệu tham khảo cho lĩnh vực nghiên cứu về:
+
+- xử lý ảnh
+
+- Giải thuật di truyền
+
+ĐV sử dụng
+
+Đối tượng bạn đọc quan tâm
+boolean | true

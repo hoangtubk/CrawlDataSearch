@@ -1,0 +1,169 @@
+http://diendan.congdongcviet.com/threads/t208614::thuat-toan-suy-dien-tien-trong-he-chuyen-gia-tri-tue-nhan-tao-trong-csharp.cpp
+Đề tài: Thuật toán suy diễn tiến trong hệ chuyên gia/trí tuệ nhân tạo trong C#
+
+		cms   : "",
+		blog  : ""
+ 
+Help
+Đăng ký
+ Nhớ tôi vào?
+					
+
+	
+
+	
+		
+
+		
+	
+
+				
+Tất cả diễn đàn
+Các bài viết mới
+Lịch
+Forum Actions
+Đánh dấu các diễn đàn là đã đọc
+Quick Links
+Lập trình cho người mới
+Diễn đàn
+LẬP TRÌNH VISUAL C#
+
+				
+
+            
+            
+                $Cols: 1,
+                $Align: 0,
+            
+    
+
+	
+Từ 1 tới 3 trên tổng số 3 kết quả
+Các công cụ đề tài
+Theo dõi đề tài này…
+Chế độ tuyến tính
+18-06-2014, 05:57 AM
+#1
+Xem hồ sơ
+View Forum Posts
+
+				Tin nhắn
+			
+
+						Thành viên tích cực
+					
+Bài viết 120
+				
+			
+1. Suy dien tien
+*Suy dien tien voi logic menh de
+-Output: Return “true” neu GT  KL
+*Method
+If (KL Є TD) then return “true”
+Thứ 2: Về code
+
+Đã mất công nghĩ thì nghĩ mẹ cái thật lớn vào !
+  Trả lời cùng với trích dẫn
+24-07-2014, 07:18 AM
+#2
+Xem hồ sơ
+View Forum Posts
+
+				Tin nhắn
+			
+
+						Thành viên chính thức
+					
+Bài viết 78
+Mình rất thích học về mấy cái này. Bạn làm luôn một cái tut về ứng dụng luôn đi 
+  Trả lời cùng với trích dẫn
+08-06-2017, 07:42 AM
+#3
+ntrinh96
+Xem hồ sơ
+View Forum Posts
+
+				Tin nhắn
+			
+
+						Thành viên mới
+					
+Bài viết 1
+bác có thể cho em cả project được không ạ?
+c.ơn bác nhiều lắm 
+
+  Trả lời cùng với trích dẫn
+Top
+Settings
+Tin nhắn
+Các theo dõi
+Ai online
+Tìm kiếm các diễn đàn
+Các diễn đàn
+CỘNG ĐỒNG C VIỆT
+Thông báo chung
+Ý kiến, đề xuất và khiếu nại
+ĐỊNH HƯỚNG, ĐÀO TẠO & VIỆC LÀM NGÀNH CNTT
+Đào tạo CNTT
+Kinh nghiệm CNTT
+Hội thảo, Chuyên đề và Các cuộc thi CNTT
+Tuyển dụng - Việc làm CNTT
+Việc làm IT(tự do)
+LẬP TRÌNH VISUAL C#
+Thắc mắc lập trình C#
+Thắc mắc lập trình ASP.NET
+Lập trình Windows Mobile bằng C#
+Dự án & Source code C#, ASP.NET
+Công cụ, ebooks C#, ASP.NET, và Windows Mobile
+LẬP TRÌNH OBJECTIVE-C
+Nhập môn lập trình Objective-C
+Thắc mắc lập trình Objective-C
+Công cụ, Tài liệu lập trình Objective-C
+LẬP TRÌNH JAVA
+LẬP TRÌNH VISUAL C++ | LẬP TRÌNH VISUAL C++.NET
+Lập trình Virus & Anti-Virus
+Dự án & Source code VC++
+Công cụ, ebooks VC++
+LẬP TRÌNH C++ | LẬP TRÌNH C | LẬP TRÌNH C++0X
+Thắc mắc CTDL & Giải thuật
+Tài liệu, ebooks và công cụ
+LẬP TRÌNH TRÊN LINUX | LINUX PROGRAMMING
+Thắc mắc  lập trình shell Linux
+Công cụ, Tài liệu lập trình trên Linux
+DATABASE & REPORTING | CÁC HỆ QUẢN TRỊ DATABASE
+Thắc mắc Microsoft SQL Server & Microsoft Access
+Thắc mắc MySQL và SQLite
+Tài liệu, ebooks DB
+THÀNH VIÊN CỘNG ĐỒNG C VIỆT
+Hình tượng thành viên
+THẢO LUẬN CHUNG
+Thắc mắc chung
+CHUYÊN MỤC GIẢI TRÍ
+Giải trí - Thư giãn
+«
+Đề tài liền trước |
+»
+
+			
+Bạn không thể gửi đề tài mới
+Bạn không thể gửi bài trả lời
+Bạn không thể gửi các đính kèm
+BB code: On
+Mặt cười: On
+HTML code: Off
+
+-- Computer Style
+-- Mobile Style
+Liên hệ chúng tôi
+Cộng đồng C Việt
+Archive
+Top
+
+	
+
+	
+ 
+
+	
+
+	- Sử dụng và phát triển bởi Cộng đồng C Việt®: 2006 - 2014

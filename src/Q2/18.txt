@@ -1,0 +1,101 @@
+http://www.archives.gov.vn/Pages/Tin%20chi%20ti%E1%BA%BFt.aspx?itemid=141&listId=64c127ef-bb13-4c45-820f-d765e28eb7cc
+None
+
+	
+	
+
+
+
+
+
+.siteActionMenu
+
+
+
+.console
+
+
+
+
+		
+
+		
+
+		
+
+
+		
+
+		
+
+
+
+
+
+
+.documentActions,
+
+Sign In
+
+
+
+
+
+
+
+
+Tin tức
+Diễn đàn
+Từ điển
+Từ điển chuyên ngành
+Tải tệp
+Sơ đồ web site
+English
+Giới thiệu chung
+Tiêu điểm
+Hợp tác quốc tế
+Xin ý kiến dự thảo văn bản
+Công bố giới thiệu tài liệu
+Văn bản quy phạm pháp luật và hướng dẫn nghiệp vụ
+Ấn phẩm điện tử
+Lưu trữ các nước
+Dịch vụ hỗ trợ
+Tin tức
+RSS NEWS
+Thảo luận
+50 năm Cục Văn thư và Lưu trữ Nhà nước
+Liên kết website
+Đặc biệt với tiếng Việt – loại hình ngôn ngữ có “dấu” (sắc, huyền, hỏi, ngã, nặng), các giải pháp OCR hiện tại bộc lộ rất nhiều hạn chế, cụ thể: 
+Giải pháp QHOCR 1.0 có một số kỹ thuật tiêu biểu như: 
+Các kỹ thuật xử lý ảnh căn bản
+    Ảnh gốc
+    
+  
+ Trong ví dụ: Từ ảnh gốc các mảng, khối sẽ được phân cụm, nhận diện
+  
+ 
+ Xử lý ảnh trong văn bản
+Xác định dòng
+ 
+Trong ví dụ: các dòng văn bản sẽ được nhận diện dù trong file ảnh chúng bị bẻ cong.
+ 
+ 
+Trong ví dụ:
+ 
+ 
+  
+ 
+Ví dụ về các mẫu mà QHOCR1.0 đã giải quyết. 
+ 
+ 
+3. Áp dụng QHOCR 1.0 vào quy trình biên mục tài liệu lưu trữ 
+Khi ứng dụng QHOCR 1.0 với việc rút trích thông tin từ file ảnh thành các dữ liệu dạng text phù hợp các trường thông tin trong biên mục tài liệu lưu trữ sẽ tạo bước đi mới đối với việc ứng dụng công nghệ thông tin vào công tác biên mục tài liệu. QHOCR 1.0 có khả năng nhận dạng ký tự và rút trích thông tin với độ chính xác đạt xấp xỉ 97% trên cả các file ảnh có chất lượng trung bình.
+  
+  
+ Kết luận
+Chú thích:
+ 
+
+										                                 © Trung tâm Tin học - Cục Văn thư và Lưu trữ 
+
+else
