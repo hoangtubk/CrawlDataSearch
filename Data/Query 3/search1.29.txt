@@ -53,4 +53,4 @@ New Member
 chienhd93, 14/11/13
 #6
 
-boolean | f
+boolean | false

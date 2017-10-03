@@ -118,14 +118,24 @@ if __name__ == "__main__":
     cat = EncodeJson()
     query1 = 'Xây dựng hệ thống recommendation'
     des1 = 'Tìm hiểu được cách thức xây dựng một hệ thống gợi ý cơ bản sử dụng các phương pháp học máy đã được ứng dụng trong các hệ thống thực tế'
-    path1 = '/home/tuhoangbk/20171/TK&TDTT/Data/Query 1'
+    path1 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 1'
 
     query2 = 'học deeplearning cơ bản'
     des2 = 'Tìm hiểu các tài liệu hoặc khóa học về deeplearning cơ bản'
-    path2 = '/home/tuhoangbk/20171/TK&TDTT/Data/Query 2'
+    path2 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 2'
+
+    query3 = 'Giải thuật di truyền'
+    des3 = 'Tìm hiểu về giải thuật di truyền và các bài toán liên quan đến giải thuật di truyền'
+    path3 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 3'
+
+    query4 = 'suy diễn tiến'
+    des4 = 'Tìm hiểu về suy diễn tiến và các bài toán về suy diễn tiến'
+    path4 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 4'
 
     json1 = cat.creat_file_json(query1, des1, path1)
     json2 = cat.creat_file_json(query2, des2, path2)
+    json3 = cat.creat_file_json(query3, des3, path3)
+    json4 = cat.creat_file_json(query4, des4, path4)
 
     print(json1)
     j1 = open('./json/query1.json', 'w')
@@ -135,3 +145,11 @@ if __name__ == "__main__":
     j2 = open('./json/query2.json', 'w')
     j2.write(json2)
     j2.close()
+    print(json3)
+    j1 = open('./json/query3.json', 'w')
+    j1.write(json3)
+    j1.close()
+    print(json4)
+    j1 = open('./json/query4.json', 'w')
+    j1.write(json4)
+    j1.close()

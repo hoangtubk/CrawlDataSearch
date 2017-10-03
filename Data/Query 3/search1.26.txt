@@ -23,4 +23,4 @@ Giá tiền: 	Miễn phí 	  	Bình chọn:
 Ngày tạo: 	09/09/2016 		Điểm bình chọn: 	
 0
 Chuyên đề: 	- Khoa học máy tính
-boolean | f
+boolean | false

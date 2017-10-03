@@ -1,6 +1,5 @@
 URL | https://vi.wikipedia.org/wiki/Suy_di%E1%BB%85n_logic
-Title |
-Suy diễn logic
+Title |Suy diễn logic
 Content |Suy diễn lôgic, lập luận bằng suy diễn hay suy diễn là lập luận mà trong đó kết luận được rút ra từ các sự kiện được biết trước theo kiểu: nếu các tiền đề là đúng thì kết luận phải đúng. Nghĩa là các sự kiện cho trước đòi hỏi rằng kết luận là đúng.
 
 Kiểu lập luận này khác với lập luận loại suy và lập luận quy nạp, trong đó các tiền đề có thể tiên đoán một xác suất cao của kết luận nhưng không đảm bảo kết luận là đúng.

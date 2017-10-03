@@ -67,10 +67,10 @@ if __name__ == "__main__":
     print ("Hello World")
     list_link = []
     for i in range(0, 3):
-        # temp = get_content('https://www.bing.com/search?q=xây+dựng+hệ+thống+recommendation&first=' + (str)(i) + '1&FORM=PERE')
+        temp = get_content('https://www.bing.com/search?q=xây+dựng+hệ+thống+recommendation&first=' + (str)(i) + '1&FORM=PERE')
         # temp = get_content('https://www.bing.com/search?q=học+deeplearning+cơ+bản&first=' + (str)(i) + '1&FORM=PERE')
         # temp = get_content('https://www.bing.com/search?q=giải+thuật+di+truyền&first=' + (str)(i) + '1&FORM=PERE')
-        temp = get_content('https://www.bing.com/search?q=suy+diễn+tiến&first=' + (str)(i) + '1&FORM=PERE')
+        # temp = get_content('https://www.bing.com/search?q=suy+diễn+tiến&first=' + (str)(i) + '1&FORM=PERE')
         soup = BeautifulSoup(temp, 'html.parser')
         # Doi voi moi trang, tinh
         for i in soup.find_all('h2'):

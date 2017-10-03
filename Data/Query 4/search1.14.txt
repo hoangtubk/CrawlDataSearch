@@ -1,4 +1,4 @@
 URL | http://englishteststore.net/index.php?option=com_communityanswers&view=question&id=292547:suy-dien-tien-tieng-anh-la-gi&catid=579:dich-viet-anh&Itemid=238
-Title | "suy diễn tiến" tiếng anh là gì? 
+Title | suy diễn tiến tiếng anh là gì?
 Content |Suy diễn tiến dịch sang tiếng anh là: forward reasoning
 boolean | false

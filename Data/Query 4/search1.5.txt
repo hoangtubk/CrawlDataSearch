@@ -368,4 +368,4 @@ Bài gửi  admin on Fri Jun 10, 2011 9:14 am
 
 
 Em đọc trong vòng while khi hiểu thì em sẽ xuất kết quả từng bước làm ra là được.
-boolean | tr
+boolean | true

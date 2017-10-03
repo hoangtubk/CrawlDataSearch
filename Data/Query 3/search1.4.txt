@@ -49,4 +49,4 @@ Nếu đủ 100 views (câu view tí hehe), phần tiếp theo mình sẽ show f
 Tham khảo:
 http://www.epu.edu.vn/
 https://vi.wikipedia.org
-boolean | tr
+boolean | true

@@ -17,4 +17,4 @@ Hơn hai thập kỷ trở lại đây, lượng thông tin được lưu trữ 
 
 Link Download
 http://dlib.vnu.edu.vn/iii/cpro/DigitalItemViewPage.external?lang=vie&sp=1007898
-boolean | tr
+boolean | true
