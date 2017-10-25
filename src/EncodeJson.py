@@ -27,23 +27,30 @@ class EncodeJson():
                 continue
             if(line.find('|') != -1):
                 X = line.split('|')
-                if X[0].strip() == 'url' or X[0].strip() == 'URL':
+                if X[0].lower().find('url') != -1:
                     url_ = X[1].strip()
                     have_content == False
-                if X[0].strip() == 'title' or X[0].strip() == 'Title':
+                if X[0].strip().lower() == 'title':
                     title_ = X[1].strip()
                     have_content == False
-                if X[0].strip() == 'Content' or X[0].strip() =='content':
+                if X[0].strip().lower() == 'content':
                     content_ = X[1].strip()
                     have_content = True
-                if X[0].strip() == 'boolean' or X[0].strip() == 'Boolean':
+                if X[0].strip().lower() == 'boolean':
                     relevance_ = X[1].strip()
                     have_content == False
             else:
                 if(have_content):
-                    content_ = content_ + '\n' + line.strip()
+                    content_ = content_ + '...' + line.strip()
         site.append(url_)
+        title_ = title_.replace("\"", "")
+        title_ = title_.replace("\'", "")
+        # title_ = title_.replace("\\", "")
+
         site.append(title_)
+        content_ = content_.replace("\"", "")
+        content_ = content_.replace("\'", "")
+        # content_ = content_.replace("\\", "")
         site.append(content_)
         if relevance_ == 'true' or "True" or 'TRUE':
             site.append('1')
@@ -97,7 +104,10 @@ class EncodeJson():
                     + ',"sites": ['
         list_site = []
         for i in range(0, len(data[2])):
-            content = base64.b64encode(bytes(data[2][i][2], 'utf-8'))
+            #don't use base64
+            content = data[2][i][2]
+            #use base64
+            # content = base64.b64encode(bytes(data[2][i][2], 'utf-8'))
             site = ''
             if i != 0:
                 site = site + ','
@@ -118,38 +128,56 @@ if __name__ == "__main__":
     cat = EncodeJson()
     query1 = 'Xây dựng hệ thống recommendation'
     des1 = 'Tìm hiểu được cách thức xây dựng một hệ thống gợi ý cơ bản sử dụng các phương pháp học máy đã được ứng dụng trong các hệ thống thực tế'
-    path1 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 1'
+    path1 = '../Data/Query 1'
 
     query2 = 'học deeplearning cơ bản'
     des2 = 'Tìm hiểu các tài liệu hoặc khóa học về deeplearning cơ bản'
-    path2 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 2'
+    path2 = '../Data/Query 2'
 
     query3 = 'Giải thuật di truyền'
     des3 = 'Tìm hiểu về giải thuật di truyền và các bài toán liên quan đến giải thuật di truyền'
-    path3 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 3'
+    path3 = '../Data/Query 3'
 
     query4 = 'suy diễn tiến'
     des4 = 'Tìm hiểu về suy diễn tiến và các bài toán về suy diễn tiến'
-    path4 = '/home/tuhoangbk/20171/TK&TDTT/CrawlDataSearch/Data/Query 4'
+    path4 = '../Data/Query 4'
+
+    query5 = 'giải thuật SVM'
+    des5 = 'Tìm hiểu về phương pháp học máy SVM và các bài toán ứng dụng của nó'
+    path5 = '../Data/Query 5'
+
+    query6 = 'phương pháp trọng số tf-idf'
+    des6 = 'Tìm hiểu về phương pháp đánh trọng số tf-idf cho văn bản'
+    path6 = '../Data/Query 6'
 
     json1 = cat.creat_file_json(query1, des1, path1)
     json2 = cat.creat_file_json(query2, des2, path2)
     json3 = cat.creat_file_json(query3, des3, path3)
     json4 = cat.creat_file_json(query4, des4, path4)
+    json5 = cat.creat_file_json(query5, des5, path5)
+    json6 = cat.creat_file_json(query6, des6, path6)
 
     print(json1)
     j1 = open('./json/query1.json', 'w')
     j1.write(json1)
     j1.close()
-    print(json2)
+    # print(json2)
     j2 = open('./json/query2.json', 'w')
     j2.write(json2)
     j2.close()
-    print(json3)
-    j1 = open('./json/query3.json', 'w')
-    j1.write(json3)
-    j1.close()
-    print(json4)
-    j1 = open('./json/query4.json', 'w')
-    j1.write(json4)
-    j1.close()
+    # print(json3)
+    j3 = open('./json/query3.json', 'w')
+    j3.write(json3)
+    j3.close()
+    # print(json4)
+    j4 = open('./json/query4.json', 'w')
+    j4.write(json4)
+    j4.close()
+    # print(json5)
+    j5 = open('./json/query5.json', 'w')
+    j5.write(json5)
+    j5.close()
+    # print(json6)
+    j6 = open('./json/query6.json', 'w')
+    j6.write(json6)
+    j6.close()
